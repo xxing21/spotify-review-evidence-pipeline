@@ -1,0 +1,19 @@
+{
+  "sample_count": 5000,
+  "complete_prediction_count": 4998,
+  "refusal_count": 2,
+  "metric_denominator": 4998,
+  "method": "Independent original-text/rubric GPT Decisions; same Luna model family, not human truth; complete-prediction denominators exclude explicit partial refusals",
+  "core_label_disagreements": 1680,
+  "agreement": {
+    "topic": 0.882953181272509,
+    "intent": 0.9299719887955182,
+    "sentiment": 0.032613045218087236,
+    "severity": 0.7943177270908364,
+    "entities": 1.0,
+    "evidence_quote": 1.0,
+    "needs_review": 0.8967587034813925
+  },
+  "severity_mae": 0.21728691476590636,
+  "sentiment_mae": 0.1163425370148059
+}

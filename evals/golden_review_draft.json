@@ -1,0 +1,19 @@
+{
+  "source": "human",
+  "review_id": "991b6b3a-f511-458a-a5b7-234f78048fb5",
+  "source_sha256": "0636eb223524075ceff20ee661465f0131cbdd4704e95bd71bdf033ee85df8b6",
+  "answers": {
+    "topic": "usability"
+  },
+  "answer_history": [
+    {
+      "field": "topic",
+      "value": "usability",
+      "origin": "explicit_user_choice",
+      "at": "2026-10-20T19:24:43.958640+00:00"
+    }
+  ],
+  "updated_at": "2026-10-20T19:24:43.958830+00:00",
+  "status": "completed",
+  "completed_at": "2026-10-20T19:29:08.559725+00:00"
+}

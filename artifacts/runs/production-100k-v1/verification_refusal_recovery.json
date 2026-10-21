@@ -1,0 +1,253 @@
+{
+  "saved_at": "2026-10-21T00:48:50.755013+00:00",
+  "run_id": "production-100k-v1",
+  "recovered_complete_predictions": 18,
+  "partial_refusals": [
+    {
+      "available_raw_answers": [
+        {
+          "choice": "other",
+          "confidence": 0.93,
+          "name": "a3480188-eba3-4f97-bcf5-280691f7ed43:topic",
+          "probabilities": [
+            {
+              "probability": 0.03,
+              "value": "access"
+            },
+            {
+              "probability": 0.01,
+              "value": "usability"
+            },
+            {
+              "probability": 0.0,
+              "value": "playback"
+            },
+            {
+              "probability": 0.0,
+              "value": "downloads"
+            },
+            {
+              "probability": 0.01,
+              "value": "catalog"
+            },
+            {
+              "probability": 0.0,
+              "value": "billing"
+            },
+            {
+              "probability": 0.01,
+              "value": "support"
+            },
+            {
+              "probability": 0.94,
+              "value": "other"
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "choice": "unclear",
+          "confidence": 0.87,
+          "name": "a3480188-eba3-4f97-bcf5-280691f7ed43:intent",
+          "probabilities": [
+            {
+              "probability": 0.01,
+              "value": "complaint"
+            },
+            {
+              "probability": 0.0,
+              "value": "request"
+            },
+            {
+              "probability": 0.08,
+              "value": "praise"
+            },
+            {
+              "probability": 0.01,
+              "value": "cancellation"
+            },
+            {
+              "probability": 0.9,
+              "value": "unclear"
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "choice": "1",
+          "confidence": 0.87,
+          "name": "a3480188-eba3-4f97-bcf5-280691f7ed43:severity",
+          "probabilities": [
+            {
+              "probability": 0.9,
+              "value": "1"
+            },
+            {
+              "probability": 0.06,
+              "value": "2"
+            },
+            {
+              "probability": 0.01,
+              "value": "3"
+            },
+            {
+              "probability": 0.01,
+              "value": "4"
+            },
+            {
+              "probability": 0.02,
+              "value": "5"
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "name": "a3480188-eba3-4f97-bcf5-280691f7ed43:needs_review",
+          "probability": 1.0,
+          "type": "predicate"
+        }
+      ],
+      "handling": "No replacement sentiment inferred; retained as unavailable and excluded from complete-prediction agreement/MAE denominators",
+      "original_text": "enak banged inimah",
+      "review_id": "a3480188-eba3-4f97-bcf5-280691f7ed43",
+      "source_call_ids": [
+        "4da8ac9a-1b0c-4c3b-bfd4-b8aca982ce22",
+        "b57ea057-878a-4739-9163-73a28cedf18f"
+      ],
+      "status": "partial_refusal",
+      "unavailable_fields": [
+        "sentiment"
+      ]
+    },
+    {
+      "review_id": "537ae160-c12d-45c5-bc6a-f157c094e626",
+      "status": "partial_refusal",
+      "unavailable_fields": [
+        "topic"
+      ],
+      "original_text": "Otha add punda ya varuthu enna da 2 song tha da mathuna Ella time um add punda",
+      "available_raw_answers": [
+        {
+          "type": "choice",
+          "name": "537ae160-c12d-45c5-bc6a-f157c094e626:intent",
+          "choice": "unclear",
+          "probabilities": [
+            {
+              "value": "complaint",
+              "probability": 0.2
+            },
+            {
+              "value": "request",
+              "probability": 0.01
+            },
+            {
+              "value": "praise",
+              "probability": 0.0
+            },
+            {
+              "value": "cancellation",
+              "probability": 0.0
+            },
+            {
+              "value": "unclear",
+              "probability": 0.79
+            }
+          ],
+          "confidence": 0.74
+        },
+        {
+          "type": "choice",
+          "name": "537ae160-c12d-45c5-bc6a-f157c094e626:severity",
+          "choice": "1",
+          "probabilities": [
+            {
+              "value": "1",
+              "probability": 0.74
+            },
+            {
+              "value": "2",
+              "probability": 0.18
+            },
+            {
+              "value": "3",
+              "probability": 0.04
+            },
+            {
+              "value": "4",
+              "probability": 0.02
+            },
+            {
+              "value": "5",
+              "probability": 0.02
+            }
+          ],
+          "confidence": 0.68
+        },
+        {
+          "type": "score",
+          "name": "537ae160-c12d-45c5-bc6a-f157c094e626:sentiment",
+          "score": 0.21,
+          "probabilities": [
+            {
+              "value": 0,
+              "label": "-1.0",
+              "probability": 0.83
+            },
+            {
+              "value": 1,
+              "label": "-0.5",
+              "probability": 0.15
+            },
+            {
+              "value": 2,
+              "label": "0.0",
+              "probability": 0.01
+            },
+            {
+              "value": 3,
+              "label": "0.5",
+              "probability": 0.0
+            },
+            {
+              "value": 4,
+              "label": "1.0",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.83
+        },
+        {
+          "type": "predicate",
+          "name": "537ae160-c12d-45c5-bc6a-f157c094e626:needs_review",
+          "probability": 1.0
+        }
+      ],
+      "source_call_ids": [
+        "b607500a-c8aa-4e74-9ce9-3ec2d8e912ca",
+        "326452be-52fa-4fd4-b9a2-c1155cff3323"
+      ],
+      "handling": "No replacement label inferred; unavailable answers retained; partial predictions excluded from complete-prediction agreement/MAE denominators"
+    }
+  ],
+  "task_recoveries": [
+    {
+      "source_task_key": "39911172dd8c55c4ac9d3880e8e6091a38a7443b883e9f0be0c0b7688f0fb374",
+      "source_call_ids": [
+        "4da8ac9a-1b0c-4c3b-bfd4-b8aca982ce22",
+        "b57ea057-878a-4739-9163-73a28cedf18f"
+      ]
+    },
+    {
+      "source_task_key": "b67c3a4ae16a496f747e2730f3f6c414ded0425bd3dfe0ab5b9ab79aaa56f9de",
+      "source_call_ids": [
+        "b607500a-c8aa-4e74-9ce9-3ec2d8e912ca",
+        "326452be-52fa-4fd4-b9a2-c1155cff3323"
+      ],
+      "recovered_complete_rows": 9,
+      "partial_rows": 1
+    }
+  ],
+  "raw_failed_attempts_preserved": true,
+  "new_model_calls": 0,
+  "enrichment_relabeling": false
+}

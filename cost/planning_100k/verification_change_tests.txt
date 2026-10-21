@@ -1,0 +1,92 @@
+Saved enrichment: 10/100 completed
+Saved enrichment: 20/100 completed
+Saved enrichment: 30/100 completed
+Saved enrichment: 40/100 completed
+Saved enrichment: 50/100 completed
+Saved enrichment: 60/100 completed
+Saved enrichment: 70/100 completed
+Saved enrichment: 80/100 completed
+Saved enrichment: 90/100 completed
+Saved enrichment: 100/100 completed
+Saved enrichment: 131/500 completed
+Saved enrichment: 141/500 completed
+Saved enrichment: 151/500 completed
+Saved enrichment: 161/500 completed
+Saved enrichment: 171/500 completed
+Saved enrichment: 181/500 completed
+Saved enrichment: 191/500 completed
+Saved enrichment: 201/500 completed
+Saved enrichment: 211/500 completed
+Saved enrichment: 221/500 completed
+Saved enrichment: 231/500 completed
+Saved enrichment: 241/500 completed
+Saved enrichment: 251/500 completed
+Saved enrichment: 261/500 completed
+Saved enrichment: 271/500 completed
+Saved enrichment: 281/500 completed
+Saved enrichment: 291/500 completed
+Saved enrichment: 301/500 completed
+Saved enrichment: 311/500 completed
+Saved enrichment: 321/500 completed
+Saved enrichment: 331/500 completed
+Saved enrichment: 341/500 completed
+Saved enrichment: 351/500 completed
+Saved enrichment: 361/500 completed
+Saved enrichment: 371/500 completed
+Saved enrichment: 381/500 completed
+Saved enrichment: 391/500 completed
+Saved enrichment: 401/500 completed
+Saved enrichment: 411/500 completed
+Saved enrichment: 421/500 completed
+Saved enrichment: 431/500 completed
+Saved enrichment: 441/500 completed
+Saved enrichment: 451/500 completed
+Saved enrichment: 461/500 completed
+Saved enrichment: 471/500 completed
+Saved enrichment: 481/500 completed
+Saved enrichment: 491/500 completed
+Saved enrichment: 500/500 completed
+Saved verification: 10/100 independently checked
+Saved verification: 20/100 independently checked
+Saved verification: 30/100 independently checked
+Saved verification: 40/100 independently checked
+Saved verification: 50/100 independently checked
+Saved verification: 60/100 independently checked
+Saved verification: 70/100 independently checked
+Saved verification: 80/100 independently checked
+Saved verification: 90/100 independently checked
+Saved verification: 100/100 independently checked
+Saved verification: 10/100 independently checked
+Saved verification: 20/100 independently checked
+Saved verification: 30/100 independently checked
+Saved verification: 40/100 independently checked
+Saved verification: 50/100 independently checked
+Saved verification: 60/100 independently checked
+Saved verification: 70/100 independently checked
+Saved verification: 80/100 independently checked
+Saved verification: 90/100 independently checked
+Saved verification: 100/100 independently checked
+Saved enrichment: 2/4 completed
+Saved enrichment: 3/4 completed
+Saved enrichment: 1/1 completed
+Saved enrichment: 0/1 completed
+Saved enrichment: 10/20 completed
+Saved enrichment: 20/20 completed
+Saved enrichment: 30/40 completed
+Saved enrichment: 40/40 completed
+Saved enrichment: 50/60 completed
+Saved enrichment: 60/60 completed
+Saved enrichment: 0/1 completed
+Saved enrichment: 10/30 completed
+Saved enrichment: 20/30 completed
+Saved enrichment: 30/30 completed
+Saved verification: 6/6 independently checked
+Saved verification: 6/6 independently checked
+Saved enrichment: 1/1 completed
+Saved enrichment: 1/1 completed
+/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 429: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+----------------------------------------------------------------------
+Ran 38 tests in 2.222s
+
+OK

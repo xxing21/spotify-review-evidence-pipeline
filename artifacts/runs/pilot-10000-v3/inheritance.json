@@ -1,0 +1,8 @@
+{
+  "historical_calls_excluded_from_duplicate_billing": true,
+  "label_settings": "Identical prompts, model and label definitions; new response schema restricts IDs to the request's IDs",
+  "mixed_config_provenance": "Inherited outputs retain their v2 label_config; new outputs use the distinct v3 cache key. No output is silently assigned a different configuration.",
+  "new_api_calls_for_inheritance": 0,
+  "record_count": 9620,
+  "source_run": "pilot-10000-v2"
+}

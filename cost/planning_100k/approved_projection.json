@@ -1,0 +1,536 @@
+{
+  "saved_at": "2026-10-20T23:27:19.874273+00:00",
+  "status": "estimate_not_execution",
+  "plan": {
+    "plan_version": "100k-plan-v2-verification-5pct",
+    "status": "planned_not_started",
+    "scope": "100000 nonempty original review IDs; no authorization to start paid execution from this configuration alone",
+    "target_nonempty_ids": 100000,
+    "verification_fraction": 0.05,
+    "verification_sample_size": 5000,
+    "verification_method": "Seeded random sample of original source IDs, independent of enrichment labels; original text and rubric only, compare after verification",
+    "verification_seed": "spotify-100k-verification-v2-5pct",
+    "verification_batch_size": 10,
+    "enrichment_batch_size": 20,
+    "enrichment_workers": 16,
+    "verification_workers": 8,
+    "shared_api_cap_usd": 10,
+    "include_existing_spend_and_unresolved_reservations": true,
+    "fallback_fraction": 0,
+    "max_response_output_tokens": 4096,
+    "sustained_requests_per_minute": 600,
+    "sustained_tokens_per_minute": 600000,
+    "measurement_directory": "cost/scaling_500_16w",
+    "proposed_source_ids": "cost/planning_100k/proposed_100k_ids.csv",
+    "source_profile": "cost/planning_100k/proposed_100k_profile.json",
+    "historical_pilots_verification_fraction": 0.2,
+    "human_labels_and_tests": "Retain original 50 human labels and comparisons, independent disagreements, planted-error and injection tests"
+  },
+  "existing_spend_plus_reservations_usd": "0.717121940",
+  "calculator": {
+    "measured": {
+      "status": "completed",
+      "run_id": "scaling-500-16w-v1",
+      "scope": "500 fresh unique review texts; development experiment only",
+      "input_count": 500,
+      "completed": 500,
+      "pending": 0,
+      "verification_sample_count": 100,
+      "cold_seconds": 57.086337207991164,
+      "known_api_usd": "0.038659410",
+      "unknown_usage_calls": 0,
+      "unresolved_reservations_usd": "0",
+      "pilot_cap_usd": ".25",
+      "shared_cap_usd": "10",
+      "shared_committed_usd": "0.705029740",
+      "phase_measurements": [
+        {
+          "completed": true,
+          "elapsed_seconds": 10.61397654202301,
+          "new_calls": 1,
+          "phase": "enrich-probe",
+          "records": 20,
+          "saved_at": "2026-10-20T23:04:13.817035+00:00",
+          "source_utf8_bytes": 2150,
+          "workers": 1
+        },
+        {
+          "completed": true,
+          "elapsed_seconds": 22.883059749990935,
+          "new_calls": 24,
+          "phase": "enrich-16",
+          "records": 480,
+          "saved_at": "2026-10-20T23:04:36.735147+00:00",
+          "source_utf8_bytes": 50443,
+          "workers": 16
+        },
+        {
+          "completed": true,
+          "elapsed_seconds": 6.477837875019759,
+          "new_calls": 50,
+          "phase": "verify-8",
+          "records": 100,
+          "saved_at": "2026-10-20T23:04:43.220011+00:00",
+          "source_utf8_bytes": 11242,
+          "workers": 8
+        }
+      ],
+      "error": null,
+      "calls": 78,
+      "failed_calls": 1,
+      "original_artifacts_unchanged": true,
+      "verification_method": "Independent GPT Decisions with original text/rubric only; same-model repeatability, not human accuracy",
+      "config": {
+        "model": "gpt-6-luna",
+        "effort": "none",
+        "schema_version": "spotify-label-v4-batch20",
+        "prompt_hashes": {
+          "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+          "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56",
+          "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+          "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3"
+        },
+        "batch_size": 20,
+        "workers": 16,
+        "max_output_tokens": 4096,
+        "verification_fraction": 0.2,
+        "verification_seed": "spotify-pilot-verify-v1",
+        "fallback_fraction": 0,
+        "service_tier": "default",
+        "max_attempts": 3,
+        "routing_schema": "review-id-enum-v1",
+        "execution_mode": "scaling-pilot-v2",
+        "verification_endpoint": "decisions",
+        "verification_schema_version": "decisions-verifier-v2-bounded-arrays",
+        "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+        "verification_predicate_threshold": 0.5,
+        "verification_batch_size": 2,
+        "label_batch_identity": "batch-context-v1",
+        "initial_phase": "enrich-probe"
+      },
+      "preparation_seconds": 4.352470750018256,
+      "enrichment_projection_phase": "enrich-16",
+      "verification_projection_phase": "verify-8",
+      "runtime_target_seconds": 7200,
+      "processing_plus_initial_preparation_seconds": 61.43880795800942,
+      "warm_seconds": 0.10395308301667683,
+      "warm_new_calls": 0,
+      "offline_ranking_identical": true,
+      "unique_nonempty_texts": 500,
+      "usage_complete": true,
+      "unresolved_calls": [],
+      "unresolved_reservation_usd": "0",
+      "cost_per_1000_input_usd": "0.077318820",
+      "cost_per_completed_usd": "0.00007731882",
+      "local_compute_usd": null,
+      "local_compute_note": "Not measured; hardware/electricity are unknown, not zero"
+    },
+    "stages": {
+      "enrich": {
+        "attempts": 25,
+        "failed_attempts": 0,
+        "input_tokens": 59271,
+        "output_tokens": 30030,
+        "known_api_usd": "0.022422000",
+        "call_seconds": 258.18804987406475,
+        "unknown_usage_attempts": 0,
+        "completed_records": 500,
+        "unresolved_failed_record_ids": [],
+        "model": "gpt-6-luna",
+        "effort": "none",
+        "prompt_hash": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1"
+      },
+      "verify": {
+        "attempts": 50,
+        "failed_attempts": 0,
+        "input_tokens": 148122,
+        "output_tokens": 0,
+        "known_api_usd": "0.01481220",
+        "call_seconds": 11.3030908718938,
+        "unknown_usage_attempts": 0,
+        "completed_records": 100,
+        "unresolved_failed_record_ids": [],
+        "model": "gpt-6-luna",
+        "effort": "none",
+        "prompt_hash": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+      },
+      "group": {
+        "attempts": 1,
+        "failed_attempts": 0,
+        "input_tokens": 2007,
+        "output_tokens": 325,
+        "known_api_usd": "0.000413300",
+        "call_seconds": 3.369601207989035,
+        "unknown_usage_attempts": 0,
+        "completed_records": 0,
+        "unresolved_failed_record_ids": [],
+        "model": "gpt-6-luna",
+        "effort": "none",
+        "prompt_hash": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e"
+      },
+      "memo": {
+        "attempts": 2,
+        "failed_attempts": 1,
+        "input_tokens": 6418,
+        "output_tokens": 1157,
+        "known_api_usd": "0.001011910",
+        "call_seconds": 12.352116833004402,
+        "unknown_usage_attempts": 0,
+        "completed_records": 0,
+        "unresolved_failed_record_ids": [],
+        "model": "gpt-6-luna",
+        "effort": "none",
+        "prompt_hash": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3"
+      }
+    },
+    "projections": [
+      {
+        "scenario": "base_exact_reuse",
+        "estimated_api_usd": "4.252782282",
+        "estimated_hours": 1.248416938615138,
+        "target_classified_nonempty_ids": 100000,
+        "estimated_distinct_texts": 78288,
+        "verification_source_ids": 5000,
+        "workers": 16,
+        "estimate_not_execution": true,
+        "under_two_hour_target": true,
+        "throughput_constraints": {
+          "enrich": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 3732.2270452235216,
+              "sustained_token_limit": 1398.2393376,
+              "sustained_request_limit": 391.44
+            },
+            "binding_constraint": "measured_throughput"
+          },
+          "verify": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 323.891893750988,
+              "sustained_token_limit": 740.61,
+              "sustained_request_limit": 250.00000000000003
+            },
+            "binding_constraint": "sustained_token_limit"
+          }
+        }
+      },
+      {
+        "scenario": "conservative_exact_reuse",
+        "estimated_api_usd": "4.6779179892",
+        "estimated_hours": 2.056012516224941,
+        "target_classified_nonempty_ids": 100000,
+        "estimated_distinct_texts": 78288,
+        "verification_source_ids": 5000,
+        "workers": 16,
+        "estimate_not_execution": true,
+        "under_two_hour_target": false,
+        "throughput_constraints": {
+          "enrich": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 3732.2270452235216,
+              "sustained_token_limit": 1398.2393376,
+              "sustained_request_limit": 391.44
+            },
+            "binding_constraint": "measured_throughput"
+          },
+          "verify": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 323.891893750988,
+              "sustained_token_limit": 740.61,
+              "sustained_request_limit": 250.00000000000003
+            },
+            "binding_constraint": "sustained_token_limit"
+          }
+        }
+      },
+      {
+        "scenario": "base_no_reuse",
+        "estimated_api_usd": "5.226435210",
+        "estimated_hours": 1.5359383467701169,
+        "target_classified_nonempty_ids": 100000,
+        "estimated_distinct_texts": 100000,
+        "verification_source_ids": 5000,
+        "workers": 16,
+        "estimate_not_execution": true,
+        "under_two_hour_target": true,
+        "throughput_constraints": {
+          "enrich": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 4767.304114581445,
+              "sustained_token_limit": 1786.02,
+              "sustained_request_limit": 500.00000000000006
+            },
+            "binding_constraint": "measured_throughput"
+          },
+          "verify": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 323.891893750988,
+              "sustained_token_limit": 740.61,
+              "sustained_request_limit": 250.00000000000003
+            },
+            "binding_constraint": "sustained_token_limit"
+          }
+        }
+      },
+      {
+        "scenario": "conservative_no_reuse",
+        "estimated_api_usd": "5.7489362100",
+        "estimated_hours": 2.530422839680656,
+        "target_classified_nonempty_ids": 100000,
+        "estimated_distinct_texts": 100000,
+        "verification_source_ids": 5000,
+        "workers": 16,
+        "estimate_not_execution": true,
+        "under_two_hour_target": false,
+        "throughput_constraints": {
+          "enrich": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 4767.304114581445,
+              "sustained_token_limit": 1786.02,
+              "sustained_request_limit": 500.00000000000006
+            },
+            "binding_constraint": "measured_throughput"
+          },
+          "verify": {
+            "seconds_before_conservative_factor": {
+              "measured_throughput": 323.891893750988,
+              "sustained_token_limit": 740.61,
+              "sustained_request_limit": 250.00000000000003
+            },
+            "binding_constraint": "sustained_token_limit"
+          }
+        }
+      }
+    ],
+    "controls": {
+      "shared_total_cap_usd": 10,
+      "pilot_cap_usd": 0.25,
+      "max_workers": 16,
+      "max_output_tokens_responses": 4096,
+      "verification_fraction": 0.05,
+      "fallback_fraction": 0
+    },
+    "projection_notes": [
+      "Estimates, not executions. Time comes from the selected measured parallel phases.",
+      "Exact reuse uses the offline proposed target profile: 100,000 original IDs and 78,288 distinct texts. No target model calls have been made; selection changes require a new profile.",
+      "Cold is cumulative active processing: ramp stages, failed requests, corrected verification, grouping and memo. Source selection, process startup, development/repair and human/approval waiting are excluded.",
+      "Disjoint fresh batches test ramp stages; review length/content and small sample sizes confound direct speedup comparisons.",
+      "Conservative case includes at least 10% retries and 50% slower processing; sustained performance is unproven.",
+      "Unknown charges remain separate. Hosting/local compute and historical paid work are excluded from projected API subtotals.",
+      "Decisions is billed on all input tokens only; no Responses cached-input discount or output fee is applied to that endpoint.",
+      "No provider Batch discount is assumed; requests used synchronous Standard processing.",
+      "Future verification is projected at 5.0%; the measured pilot checked 100 of 500 reviews (20%) and its measurements are unchanged.",
+      "Steady-state forecast uses the slower of measured throughput, 600 requests/minute and 600000 tokens/minute. Burst credits are not extrapolated indefinitely.",
+      "The current pipeline runs enrichment then verification sequentially; no unmeasured overlap or higher limiter capacity is assumed."
+    ],
+    "target_input_profile": {
+      "saved_at": "2026-10-20T23:22:59.822783+00:00",
+      "scope": "Proposed 100k nonempty original source IDs for feasibility planning; no model calls, no classifications, no production run initialized",
+      "selection": "100000 smallest SHA256(seed + | + original review_id), without replacement",
+      "seed": "spotify-100k-planning-v1",
+      "source_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+      "selected_nonempty_ids": 100000,
+      "distinct_nonempty_texts": 78288,
+      "exact_text_aliases": 21712,
+      "selected_ids_sha256": "5aec3c2d868696bf89c835172a6a3d6a425e920cd71384bf45472481d4b4bd79",
+      "elapsed_seconds": 2.9167042920016684,
+      "model_calls": 0,
+      "human_labels_used": false
+    },
+    "sustained_rate_limits": {
+      "rpm": 600.0,
+      "tpm": 600000.0
+    },
+    "forecast_version": "parallel-steady-rate-limits-v2",
+    "verification_batch_candidate": {
+      "measurement_sources": {
+        "enrichment_group_memo": "scaling-500-16w-v1",
+        "verification": "scaling-500-16w-verify10-v1"
+      },
+      "method": "Derived projection combining separately measured stages; not a composite cold execution. Same 500-review sample, same 100 independently checked source IDs.",
+      "verification_batch_size": 10,
+      "stages": {
+        "enrich": {
+          "attempts": 25,
+          "failed_attempts": 0,
+          "input_tokens": 59271,
+          "output_tokens": 30030,
+          "known_api_usd": "0.022422000",
+          "call_seconds": 258.18804987406475,
+          "unknown_usage_attempts": 0,
+          "completed_records": 500,
+          "unresolved_failed_record_ids": [],
+          "model": "gpt-6-luna",
+          "effort": "none",
+          "prompt_hash": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1"
+        },
+        "verify": {
+          "attempts": 10,
+          "failed_attempts": 0,
+          "input_tokens": 120922,
+          "output_tokens": 0,
+          "known_api_usd": "0.01209220",
+          "call_seconds": 3.4387210400018375,
+          "unknown_usage_attempts": 0,
+          "completed_records": 100,
+          "unresolved_failed_record_ids": [],
+          "model": "gpt-6-luna",
+          "effort": "none",
+          "prompt_hash": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+        },
+        "group": {
+          "attempts": 1,
+          "failed_attempts": 0,
+          "input_tokens": 2007,
+          "output_tokens": 325,
+          "known_api_usd": "0.000413300",
+          "call_seconds": 3.369601207989035,
+          "unknown_usage_attempts": 0,
+          "completed_records": 0,
+          "unresolved_failed_record_ids": [],
+          "model": "gpt-6-luna",
+          "effort": "none",
+          "prompt_hash": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e"
+        },
+        "memo": {
+          "attempts": 2,
+          "failed_attempts": 1,
+          "input_tokens": 6418,
+          "output_tokens": 1157,
+          "known_api_usd": "0.001011910",
+          "call_seconds": 12.352116833004402,
+          "unknown_usage_attempts": 0,
+          "completed_records": 0,
+          "unresolved_failed_record_ids": [],
+          "model": "gpt-6-luna",
+          "effort": "none",
+          "prompt_hash": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3"
+        }
+      },
+      "trial_elapsed_seconds": 3.327264291991014,
+      "trial_known_api_usd": "0.01209220",
+      "combined_measured_known_api_usd": "0.050751610",
+      "sustained_rate_limits": {
+        "rpm": 600.0,
+        "tpm": 600000.0
+      },
+      "projections": [
+        {
+          "scenario": "base_exact_reuse",
+          "estimated_api_usd": "4.116782282",
+          "estimated_hours": 1.2106391608373603,
+          "target_classified_nonempty_ids": 100000,
+          "estimated_distinct_texts": 78288,
+          "verification_source_ids": 5000,
+          "workers": 16,
+          "estimate_not_execution": true,
+          "under_two_hour_target": true,
+          "throughput_constraints": {
+            "enrich": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 3732.2270452235216,
+                "sustained_token_limit": 1398.2393376,
+                "sustained_request_limit": 391.44
+              },
+              "binding_constraint": "measured_throughput"
+            },
+            "verify": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 166.3632145995507,
+                "sustained_token_limit": 604.61,
+                "sustained_request_limit": 50.0
+              },
+              "binding_constraint": "sustained_token_limit"
+            }
+          }
+        },
+        {
+          "scenario": "conservative_exact_reuse",
+          "estimated_api_usd": "4.5283179892",
+          "estimated_hours": 1.9936791828916074,
+          "target_classified_nonempty_ids": 100000,
+          "estimated_distinct_texts": 78288,
+          "verification_source_ids": 5000,
+          "workers": 16,
+          "estimate_not_execution": true,
+          "under_two_hour_target": true,
+          "throughput_constraints": {
+            "enrich": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 3732.2270452235216,
+                "sustained_token_limit": 1398.2393376,
+                "sustained_request_limit": 391.44
+              },
+              "binding_constraint": "measured_throughput"
+            },
+            "verify": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 166.3632145995507,
+                "sustained_token_limit": 604.61,
+                "sustained_request_limit": 50.0
+              },
+              "binding_constraint": "sustained_token_limit"
+            }
+          }
+        },
+        {
+          "scenario": "base_no_reuse",
+          "estimated_api_usd": "5.090435210",
+          "estimated_hours": 1.498160568992339,
+          "target_classified_nonempty_ids": 100000,
+          "estimated_distinct_texts": 100000,
+          "verification_source_ids": 5000,
+          "workers": 16,
+          "estimate_not_execution": true,
+          "under_two_hour_target": true,
+          "throughput_constraints": {
+            "enrich": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 4767.304114581445,
+                "sustained_token_limit": 1786.02,
+                "sustained_request_limit": 500.00000000000006
+              },
+              "binding_constraint": "measured_throughput"
+            },
+            "verify": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 166.3632145995507,
+                "sustained_token_limit": 604.61,
+                "sustained_request_limit": 50.0
+              },
+              "binding_constraint": "sustained_token_limit"
+            }
+          }
+        },
+        {
+          "scenario": "conservative_no_reuse",
+          "estimated_api_usd": "5.5993362100",
+          "estimated_hours": 2.4680895063473227,
+          "target_classified_nonempty_ids": 100000,
+          "estimated_distinct_texts": 100000,
+          "verification_source_ids": 5000,
+          "workers": 16,
+          "estimate_not_execution": true,
+          "under_two_hour_target": false,
+          "throughput_constraints": {
+            "enrich": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 4767.304114581445,
+                "sustained_token_limit": 1786.02,
+                "sustained_request_limit": 500.00000000000006
+              },
+              "binding_constraint": "measured_throughput"
+            },
+            "verify": {
+              "seconds_before_conservative_factor": {
+                "measured_throughput": 166.3632145995507,
+                "sustained_token_limit": 604.61,
+                "sustained_request_limit": 50.0
+              },
+              "binding_constraint": "sustained_token_limit"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

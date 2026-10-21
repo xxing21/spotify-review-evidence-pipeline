@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-20T07:14:40.665936+00:00",
+  "scope": "10,000-review checkpoint only",
+  "model_calls": 0,
+  "source_500_reuse_expected": 500,
+  "new_unique_texts_expected": 7969,
+  "verification_source_rows_expected": 2000,
+  "budget_usd": 2,
+  "preserved_files_sha256": {
+    "cost/pilot_records.jsonl": "1832216c304420cea748110381e8c68e6b05ce5824ddb4f79fbd097fe129bcfe",
+    "cost/pilot_summary.json": "d80764ef564dc605f952af16ee35636ea440c78b3b6fec8623d4e8c0ff7ec353",
+    "cost/calculator.json": "8194a32af1f17695c32b2a506a192190e043e80433ce59430b38202d88d71f34",
+    "cost/report.md": "76ade8580413a2ddeb42c93deb35fe97e9ea98c9c2e8cf29a421d1c0c6ee2367",
+    "cost/pilot_calls.jsonl": "d4a76ac9596cd76513199f872a11cad2261a2f6bc76f7fa4ecbd3558480dfaaa",
+    "cost/diagnostics.json": "a977325e814dc548500c86fd119c40e55eb7891390d89d420ccef6ecd756c274",
+    "cost/usage.csv": "f10ef966975d56a7574ee88147d0464b1b5df171898ef5eee5ba3b9b17c032ee",
+    "cost/README.md": "94974b684edf6a66f3c380d91e375b5ab791d8a6e52ac72988d65d70b852b1cb",
+    "cost/rates.csv": "2b083fe020956f797d980803fc2d7bacfc68047ccc08b984923e28f866911300",
+    "cost/diagnostics_calls.jsonl": "6c2c66dc46fd9ce1d2d55548f9ee501931e426c8bad59713d3022c1735a7c535",
+    "cost/checkpoint_500/pilot_records.jsonl": "a9577121dbb19d4a62835e03e1cc3051ec936bad4d2911c01f42d397b7d09bf9",
+    "cost/checkpoint_500/pilot_summary.json": "b2f36e0969ddee48c644adfbe5a99f84801a7148efdcf4a37b081c166591f331",
+    "cost/checkpoint_500/calculator.json": "6e6c27e669ca25bef636384caea4943ef966af2d8d5e4bcf82ebdd14c3861f39",
+    "cost/checkpoint_500/report.md": "30bd7b3cb99fc6eeb5bba17b32c6ae88ac42412eccafd7033acd1ed4f2d6425a",
+    "cost/checkpoint_500/pilot_calls.jsonl": "d1e4826db1415f21bc075373abce35bf8caa3e032da44cdd28c25c8e1e6b5113",
+    "cost/checkpoint_500/usage.csv": "6e5cb29ac1a8a3d137e088dbd8bd0207ef9e0f8ca025b6babdb099c205aacaf0",
+    "cost/checkpoint_500/inherited_calls.jsonl": "ca1be9eb5d05d76bd82d3345d29d06b0c0776eec69efce7bc2092434714348ec",
+    "cost/checkpoint_500/README.md": "fc019bec576b0f157c57ebee4878c836c9bb611c80a11cf53093e87a8ef84d89",
+    "cost/checkpoint_500/rates.csv": "2b083fe020956f797d980803fc2d7bacfc68047ccc08b984923e28f866911300"
+  },
+  "input_checksums": {
+    "spotify_reviews_18months.csv": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+    "cost_100.csv": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+    "checkpoint_500.csv": "a94e31663ee7b7eaa77e23b7a8425b530cc0c866ed5e714953172a0afef6a12f",
+    "analysis_10000.csv": "eaa62ca6d44d717302904a9c922e99b0b4584d174309cb45295ecbc2ba2a91b5",
+    "golden_50_to_label.csv": "1a125c3e509f58b0246ba16d0ea332675a53ffadb1928be4338a0bd7053a11c7"
+  }
+}

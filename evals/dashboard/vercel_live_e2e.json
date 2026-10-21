@@ -1,0 +1,19 @@
+{
+  "saved_at": "2026-10-21T00:58:58.440596+00:00",
+  "url": "https://spotify-review-evidence-100k.vercel.app",
+  "passed": true,
+  "signed_out_public_access": true,
+  "database_connected": true,
+  "completed_reviews": 100000,
+  "verification_outcomes": 5000,
+  "complete_verifier_predictions": 4998,
+  "partial_refusals": 2,
+  "rankings_memo_claims_equal_saved_files": true,
+  "pagination_unique": true,
+  "source_hashes_and_quotes_valid": true,
+  "filters_valid": true,
+  "invalid_filter_rejected": true,
+  "literal_sql_injection_search": true,
+  "unauthorized_import_rejected": true,
+  "model_calls": 0
+}

@@ -1,0 +1,50 @@
+{
+  "archived_at": "2026-10-20T23:11:41.874994+00:00",
+  "reason": "Superseded: short verifier burst throughput did not account for the sustained shared token limiter. Saved measurements unchanged.",
+  "projections": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "6.250661346",
+      "estimated_hours": 1.3364387184822923,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": true
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "6.8755849596",
+      "estimated_hours": 2.2012484530057455,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "7.448265210",
+      "estimated_hours": 1.690093228715659,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": true
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "8.1929492100",
+      "estimated_hours": 2.7847783948908003,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false
+    }
+  ]
+}

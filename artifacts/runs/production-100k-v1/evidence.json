@@ -1,0 +1,98 @@
+[
+  {
+    "evidence_quote": "The interface of the app on PS5 made me lose several of my favorited songs because it makes the remove from favorite too easily to accidentally happen. I'm trying to look through my list and I accidentally hit the wrong button that's not clearly not marked and my favorited song is gone no way to see what was even deleted.",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "740b1fa0-c1d8-4d0c-b6a9-60e35d737032",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Waking me up at 12:00 at night no way to switch off the feature",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "00294af3-eddf-4210-8178-071083967479",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "**Update: Everything is back to its brilliant best. Thank you** Usually brilliant but a recent update has caused issues. My downloaded music keeps deleting &, more importantly, whenever the app is playing music in the background it's causing stability issues in my phone & causing it to restart, constantly, it's very irritating. I spent ages thinking it was my phone but through a process of elimination, I've tracked the problem to Spotify. Please fix",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "4a49d8ba-bb87-4abd-b508-38f34dfbcb84",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "So bad It does not play your songs don't install this app you will regret it",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "003f1cc3-fd62-4418-829e-9f93072e8acb",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Direct line to local police station Aka garda shop. Track you and records you passwords contacts Generally messes with you head womble ( FORMER IT WORKER. )",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "08f88c90-d6a8-459c-bf27-4c4f81426f11",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "This app all so data leaked",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "106f18bd-83a4-4b2f-be7e-71efdab4f844",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "My favourite application for music hands down However, they charged me double ( took me off student plan) without notifying me, plus I'm still a studend",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "000c2b9a-d116-45dc-b8a8-7b3818d6e834",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "It's a paid subscription why am i still getting ads. Why is the most popular music streaming app so terrible. It constantly tells me when people on the same network are listening to something, Which I don't care about and is an invasion of their privacy",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "002aac37-eaec-476e-a7d7-5aff5738b2fa",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "I can not SEE THE LYRICSSS PLEASEE FIX IT",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "00149451-3c91-43e0-86c6-0f3cb95579f8",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "getting a blank screen when i try to open an album? i have reinstalled the app twice and yet i dont see any improvement",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "001bca08-75c8-45e6-ada3-3110bac85d08",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Yo I'm pissed, been using spotify for a good 2years never had an issue until now when 2days ago I was completely logged out saying my passwords didn't work, when I reset password my whole account was reset to zero , I had premium , all songs saved ..gone for absolutely no reason , my premium account no longer existent.... explain yourselves...I'd like a recompensation for this BS! Oh and that's not all I'm also blocked from getting another premium account ... recompensate and get my premium back",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "3c30d5fc-5063-44b6-a6f2-02bbcd8d66f5",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "I was logged in with my number, i got my phone changed and now i codunt able to login in..even I'm paying Spotify on a monthly basis for premium...my money keeps on deducting and i codunt able to login",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "3f21f932-c673-405e-8da5-948eca9df093",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "I would have rated this higher if your app didn't delete all my music and take all music from playlists. There is no music or podcasts to listen too. I've had this app for 5 years or longer and this never happened. But it happened a few months ago. It beyond angered me since I was listening to music when it went away. I won't recommend this to anyone anymore after this. And I LOVED this app",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "0a0766f9-10d8-4095-a4fc-0263bee04c55",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Don't upgrade to premium! - upgraded my mother's account to premium and lost all of her songs she collected over the years",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "443e2dd5-6451-4a8b-abd4-7916d988316d",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Lost account that I'm still paying premium for, but no support 😮‍💨",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "481a4f3f-99d4-494b-8632-b121d4d0b3a8",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Had some issues with acc being hacked up support got me a refund and new account within minutes. Very helpful very reliable",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "bb975a06-77dc-422f-9fee-b86eff3bff33",
+    "severity": 5
+  }
+]

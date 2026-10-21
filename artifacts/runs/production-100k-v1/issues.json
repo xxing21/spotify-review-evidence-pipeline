@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Accidental removal of liked songs, missing or blank liked-song screens, and difficulty controlling features point to confusing or unreliable app interactions.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "App Usability Problems"
+  },
+  {
+    "description": "Reports describe music failing to start or continue, interruptions during background playback, and playback-related device instability.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "Playback Failures and Instability"
+  },
+  {
+    "description": "The examples raise concerns about data leaks, tracking, and perceived privacy or security risks.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "Privacy and Security Concerns"
+  },
+  {
+    "description": "Complaints include unexpected charges, subscription-plan changes, continued billing after cancellation, and ads despite a paid subscription.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Subscription Billing Problems"
+  },
+  {
+    "description": "Users report missing lyrics, blank album screens, and songs that are unavailable or blocked in their region.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Missing or Unavailable Content"
+  },
+  {
+    "description": "Users are unable to log in, recover accounts, or retain access to paid accounts and their content.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Account Access Problems"
+  },
+  {
+    "description": "Reports describe deleted downloads and saved music, playlist losses, and other problems managing downloaded content.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Downloads and Saved Music Problems"
+  },
+  {
+    "description": "Examples mention difficulty getting help with lost or compromised accounts, alongside reports of effective support, indicating inconsistent customer assistance.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Customer Support Issues"
+  }
+]

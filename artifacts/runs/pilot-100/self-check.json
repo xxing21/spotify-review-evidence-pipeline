@@ -1,0 +1,98 @@
+{
+  "audit_version": "a5-audit-v1",
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "reference_sha256": "b2916e3dc536e1e8efcae4ceab04b7ae0e6a6872625d3706037f6180d4c4a370",
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl": "1d29f31cb77232a564c4875224ff96cefc48babbc5567b71316e7c485dc71cfc",
+    "checkpoint_after.json": "f257d4fafafdb7e8d84fecbd2b29bac310d31d7443ad88725e6005de02008af3",
+    "checkpoint_before.json": "98aabc48af4970224c5c43e226250ff7c5cb1000d8271a3f61074906f2214751",
+    "claims.csv": "3a2c23ed7ed21a5a452ff6425f24aedd03f62dc7c684c7af4ac4c6bf9744dd54",
+    "ingestion.json": "3e5e01083c3d0a338bb584f71b3a5420485783f5ca9d085b8cac89a51b42752a",
+    "membership.csv": "4bc3bfb354a9acdbad24a1f25f8ad4708c095ae1d0cb43694866ebc578650a43",
+    "ranking.csv": "dadd97799b5d7b105c4c57bba0d26fb02f05e2bec448284434b35489c49ab991",
+    "records.jsonl": "b69c119d8701f65ea19348d86dae2c52cc7308b8480b63bf346e0a9eb8c70bfc",
+    "run.json": "a341763c86137d70a98ddbf398a3711b5673848d76dc8ba220c47f0f9b1f38f1"
+  },
+  "status": "review_required",
+  "automatic_grade": null,
+  "working_coverage_point_candidate": 0.76,
+  "coverage": {
+    "expected": 100,
+    "received_lines": 100,
+    "unique_expected_ids": 100,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "valid_completed": 60,
+    "quarantined": 40,
+    "invalid_or_unresolved": 0,
+    "labelable": 100,
+    "valid_cache_reuses": 0,
+    "labelable_completion_fraction": 0.6,
+    "accounted_fraction": 1.0,
+    "valid_completion_fraction": 0.6
+  },
+  "issue_counts": {
+    "invalid_usage": 6,
+    "missing_claims": 1,
+    "missing_model_roles": 1,
+    "unfinished_classification": 1,
+    "ungrouped_complaints": 1
+  },
+  "examples": [
+    {
+      "code": "unfinished_classification",
+      "detail": "40"
+    },
+    {
+      "code": "ungrouped_complaints",
+      "detail": "25"
+    },
+    {
+      "code": "missing_claims",
+      "detail": "Export numerical memo claims for cross-checking."
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "8aa4b0aa-b1b3-4a41-a97f-ec22b0ec5e0f"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "8aa4b0aa-b1b3-4a41-a97f-ec22b0ec5e0f"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "ef2e678d-eb5f-4aaa-ae55-3324b3fd31a0"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "ef2e678d-eb5f-4aaa-ae55-3324b3fd31a0"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "9a76bd6f-b317-4ff2-b5be-24889b5ca390"
+    },
+    {
+      "code": "invalid_usage",
+      "detail": "9a76bd6f-b317-4ff2-b5be-24889b5ca390"
+    },
+    {
+      "code": "missing_model_roles",
+      "detail": "['group', 'memo']"
+    }
+  ],
+  "quality": {
+    "status": "not_supplied",
+    "official": false
+  },
+  "calculated_ranking": [],
+  "reported_calls": 23,
+  "reported_input_tokens": 24789,
+  "reported_output_tokens": 14781,
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ]
+}

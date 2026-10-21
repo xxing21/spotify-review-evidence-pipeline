@@ -1,0 +1,13 @@
+{
+  "prepared_at": "2026-10-20T17:43:11.900314+00:00",
+  "paid_recovery_not_started": true,
+  "retain_completed_ids": 9620,
+  "previously_quarantined": 80,
+  "pending": 300,
+  "id_fix": "Request-specific strict enum of allowed original review IDs; same label prompts and model",
+  "cache_policy": "Existing v2 outputs retain their config; v3 uses a separate schema version and cache key",
+  "maximum_total_enrichment_attempts_per_remaining_id": 3,
+  "remaining_active_seconds": 5345.005554374991,
+  "shared_budget_usd": 2,
+  "prior_attempt_evidence": "cost/experiments/pilot-10000-v2/"
+}

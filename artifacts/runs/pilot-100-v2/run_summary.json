@@ -1,0 +1,33 @@
+{
+  "run_id": "pilot-100-v2",
+  "scope": "development_only",
+  "input_count": 100,
+  "statuses": {
+    "completed": 100
+  },
+  "exact_text_reuses": 0,
+  "model_attempts": 15,
+  "failed_attempts": 1,
+  "active_seconds": 92.24310191599943,
+  "spent_plus_unresolved_reservations_global_usd": "0.026085890",
+  "account_repair_windows": [],
+  "config": {
+    "batch_size": 10,
+    "effort": "none",
+    "fallback_fraction": 0,
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "12df8e97eff368c7aa6f2088d35f8e456b26e6c62cac8260d6aa4618f9e71f84"
+    },
+    "schema_version": "spotify-label-v2-code-grounding",
+    "service_tier": "default",
+    "verification_fraction": 0.2,
+    "verification_seed": "spotify-pilot-verify-v1",
+    "workers": 1
+  }
+}

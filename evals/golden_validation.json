@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "human_labels": 50,
+  "valid_predictions": 50,
+  "distinct_model_inputs": 49,
+  "exact_text_cache_aliases": 1,
+  "human_labels_sha256": "4800864ae69dfb28d90a1b4f4abe7bc5d040e8e4b8e560103ef28b9ad54c1d86",
+  "model_run_id": "golden-e5b9ca8a9f0f",
+  "model_inputs_only_original_id_and_text": true,
+  "original_human_answers_not_changed": true,
+  "offline_replay_identical": true,
+  "offline_replay_new_model_calls": 0,
+  "synthetic_records_in_evaluation": 0,
+  "golden_influenced_tuning": false
+}

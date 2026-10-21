@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "recordings": [
+    "artifacts/runs/scaling-500-16w-v1/terminal/execution-1792537438850260000.cast"
+  ],
+  "format": "asciinema v2",
+  "source": "actual stdout captured during paid execution; no reconstructed events"
+}

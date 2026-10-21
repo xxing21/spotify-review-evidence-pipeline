@@ -1,0 +1,24 @@
+{
+  "saved_at": "2026-10-20T23:07:52.876416+00:00",
+  "scope": "100k feasibility forecast from fresh 500-review 16-worker pilot; not a 100k execution",
+  "pilot_processing_passed": true,
+  "checker_status": "pass",
+  "observed_peak_concurrency": 16,
+  "expected_cached_base_minutes": 80.18632310893754,
+  "conservative_cached_minutes": 132.07490718034472,
+  "base_under_two_hours": true,
+  "conservative_under_two_hours": false,
+  "base_api_estimate_usd": "6.250661346",
+  "conservative_api_estimate_usd": "6.8755849596",
+  "current_global_cost_plus_reserved_usd": "0.705029740",
+  "base_plus_existing_work_usd": "6.955691086",
+  "conservative_plus_existing_work_usd": "7.5806146996",
+  "shared_ceiling_usd": "10",
+  "verdict": "Under two hours is feasible in the base forecast, not guaranteed under slower conditions.",
+  "conditions": [
+    "16-worker pool; 20-review Responses batches; 20% independent Decisions verification; no stronger-model fallback.",
+    "Exact-text fraction scaled from the full corpus; actual 100k selection remains to be profiled.",
+    "500-review phases are short and not evidence of sustained 100k throughput.",
+    "No larger-run queue/ingestion/export performance has yet been measured."
+  ]
+}

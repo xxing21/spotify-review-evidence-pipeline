@@ -1,0 +1,42 @@
+{
+  "config": {
+    "batch_size": 20,
+    "effort": "none",
+    "execution_mode": "scaling-pilot-v2",
+    "fallback_fraction": 0,
+    "initial_phase": "enrich-probe",
+    "label_batch_identity": "batch-context-v1",
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+    },
+    "routing_schema": "review-id-enum-v1",
+    "schema_version": "spotify-label-v4-batch20",
+    "service_tier": "default",
+    "verification_batch_size": 2,
+    "verification_endpoint": "decisions",
+    "verification_fraction": 0.2,
+    "verification_predicate_threshold": 0.5,
+    "verification_schema_version": "decisions-verifier-v2-bounded-arrays",
+    "verification_seed": "spotify-pilot-verify-v1",
+    "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+    "workers": 16
+  },
+  "created_at": "2026-10-20T23:04:03.126550+00:00",
+  "dataset": "fbc53285f9ffaa58cd26e6ac9f0b147fa8aaa3cdcfc928823b2f5fa0c633f468",
+  "input_count": 500,
+  "input_path": "/Users/xxr/Desktop/Agentic AI/Final Assignment - Spotify Reviews Dataset/artifacts/runs/scaling-500-16w-v1/input_500.csv",
+  "kind": "scaling_pilot_500",
+  "run_id": "scaling-500-16w-v1",
+  "scope": "development_only",
+  "code_versions_reported": [
+    "0.1.0"
+  ],
+  "source_code_sha256_at_export": "9ee8664b92fde82a27f1bac04c506b3e06d3d92f80d58638098ae508bb87c58e",
+  "code_identity_note": "Package version is recorded per final-pilot call; export hash identifies the current saved source, not a Git commit."
+}

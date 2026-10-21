@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-10-21T01:03:00.178631+00:00",
+  "synthetic_provider_tests": true,
+  "real_model_execution": false,
+  "tests_run": 40,
+  "passed": true,
+  "duration_seconds": 1.2265574580233078,
+  "cases": [
+    {
+      "test": "test_pipeline.CalculatorTests.test_incremental_projection_uses_new_work_and_source_row_verification",
+      "outcome": "passed",
+      "seconds": 0.001189792004879564
+    },
+    {
+      "test": "test_pipeline.CalculatorTests.test_input_not_double_counted_reasoning_not_added",
+      "outcome": "passed",
+      "seconds": 3.779199323616922e-05
+    },
+    {
+      "test": "test_pipeline.CalculatorTests.test_rates_double_volume_independence",
+      "outcome": "passed",
+      "seconds": 0.0005187499918974936
+    },
+    {
+      "test": "test_pipeline.CalculatorTests.test_unknown_usage_not_free_and_synthetic_excluded",
+      "outcome": "passed",
+      "seconds": 0.00046525002107955515
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_500_extension_reuses_originals_and_historical_evidence",
+      "outcome": "passed",
+      "seconds": 0.3324014160025399
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_budget_exhaustion_no_dispatch",
+      "outcome": "passed",
+      "seconds": 0.005740209016948938
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_checkpoint_ceiling_and_changed_inheritance_config",
+      "outcome": "passed",
+      "seconds": 0.008949582988861948
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_code_grounding_preserves_literal_source_and_rejects_foreign_ids",
+      "outcome": "passed",
+      "seconds": 0.0030096250120550394
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_empty_text_quarantine_and_direct_exact_reuse",
+      "outcome": "passed",
+      "seconds": 0.0064844169828575104
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_global_ledger_applies_across_experiments",
+      "outcome": "passed",
+      "seconds": 0.007305624982109293
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_golden_cannot_enter_development_run",
+      "outcome": "passed",
+      "seconds": 0.004225749988108873
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_hash_and_multiline_preservation",
+      "outcome": "passed",
+      "seconds": 0.003986791998613626
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_id_enum_and_final_recovery_attempt_are_bounded",
+      "outcome": "passed",
+      "seconds": 0.008555250009521842
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_memo_unknown_claim_rejected",
+      "outcome": "passed",
+      "seconds": 0.004106292006326839
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_nested_checkpoint_keeps_all_historical_calls_without_rebilling",
+      "outcome": "passed",
+      "seconds": 0.07351575000211596
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_one_invalid_retry_then_quarantine",
+      "outcome": "passed",
+      "seconds": 0.006713957991451025
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_pilot_size_and_changed_config_guard",
+      "outcome": "passed",
+      "seconds": 0.006094083015341312
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_quota_error_is_not_transient",
+      "outcome": "passed",
+      "seconds": 0.0039712919970043
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_ranking_ties_and_rounding",
+      "outcome": "passed",
+      "seconds": 0.0030612499976996332
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_repair_window_retains_successful_task_cache",
+      "outcome": "passed",
+      "seconds": 0.006642124993959442
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_resume_then_warm_and_checker",
+      "outcome": "passed",
+      "seconds": 0.05288545900839381
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_retry_after_header_is_respected",
+      "outcome": "passed",
+      "seconds": 0.004274042003089562
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_retry_then_success_and_unknown_charge_reservation",
+      "outcome": "passed",
+      "seconds": 0.008348875009687617
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_saved_valid_response_recovers_before_record_commit",
+      "outcome": "passed",
+      "seconds": 0.007141292007872835
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_schema_quotes_entities_and_ids",
+      "outcome": "passed",
+      "seconds": 0.004191999993054196
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_superseded_checkpoint_cannot_rebill_legacy_work",
+      "outcome": "passed",
+      "seconds": 0.006544583011418581
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_task_attempt_limit_survives_restart",
+      "outcome": "passed",
+      "seconds": 0.008075958001427352
+    },
+    {
+      "test": "test_pipeline.PipelineTests.test_time_cap_no_dispatch",
+      "outcome": "passed",
+      "seconds": 0.005420124973170459
+    },
+    {
+      "test": "test_production.ProductionTests.test_deduplicate_checkpoint_resume_and_blind_five_percent",
+      "outcome": "passed",
+      "seconds": 0.05465520799043588
+    },
+    {
+      "test": "test_production.ProductionTests.test_partial_refusal_is_explicit_and_does_not_relax_id_coverage",
+      "outcome": "passed",
+      "seconds": 0.00577116702334024
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_concurrent_reservations_enforce_both_caps",
+      "outcome": "passed",
+      "seconds": 0.028843750013038516
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_decisions_batch10_is_bounded_and_preserves_original_ids",
+      "outcome": "passed",
+      "seconds": 0.005320208001649007
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_decisions_contract_and_input_only_billing",
+      "outcome": "passed",
+      "seconds": 0.004951791983330622
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_decisions_verification_is_independent_and_persisted",
+      "outcome": "passed",
+      "seconds": 0.022682083013933152
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_eight_workers_claim_once_and_resume_cached_success",
+      "outcome": "passed",
+      "seconds": 0.07365183299407363
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_forecast_respects_sustained_token_limits",
+      "outcome": "passed",
+      "seconds": 0.005961374990874901
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_future_verification_fraction_changes_only_projected_verification",
+      "outcome": "passed",
+      "seconds": 0.015332750015659258
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_limiter_capacity_uses_only_observed_limits",
+      "outcome": "passed",
+      "seconds": 0.00436812499538064
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_sixteen_workers_batch20_unique_claims_and_versioned_cache",
+      "outcome": "passed",
+      "seconds": 0.30704258297919296
+    },
+    {
+      "test": "test_scaling.ScalingTests.test_uncertain_inflight_task_is_not_redispatched",
+      "outcome": "passed",
+      "seconds": 0.01263949999702163
+    }
+  ]
+}

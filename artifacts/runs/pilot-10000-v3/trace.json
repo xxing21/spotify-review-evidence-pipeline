@@ -1,0 +1,53 @@
+{
+  "run_id": "pilot-10000-v3",
+  "scope": "pilot_only",
+  "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+  "source_sha256": "aea52421929f91c6f181280a2504bd4be8ba2859205d5001ee881a56e0a9e455",
+  "enrichment": {
+    "entities": [
+      "Spotify"
+    ],
+    "evidence_quote": "I had unsubscribed, and Spotify stole My money!!!",
+    "intent": "complaint",
+    "label_config": "gpt-6-luna:e5b9ca8a9f0fea04604aede9424ae0bb95e897bc99732d0db7aef7083c184699",
+    "needs_review": false,
+    "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+    "sentiment": -1,
+    "severity": 5,
+    "source_sha256": "aea52421929f91c6f181280a2504bd4be8ba2859205d5001ee881a56e0a9e455",
+    "status": "completed",
+    "topic": "billing"
+  },
+  "independent_verification": {
+    "entities": [
+      "Spotify"
+    ],
+    "evidence_quote": "I had unsubscribed, and Spotify stole My money!!!",
+    "intent": "complaint",
+    "needs_review": true,
+    "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+    "sentiment": -1,
+    "severity": 5,
+    "topic": "billing"
+  },
+  "membership": "ISSUE-BILLING",
+  "memo_claim_ids": [
+    "ISSUE-BILLING-complaint_count",
+    "ISSUE-BILLING-severity_sum",
+    "ISSUE-BILLING-mean_severity"
+  ],
+  "ambiguous_or_failed_case": {
+    "entities": [],
+    "evidence_quote": "Maja nahi aya",
+    "intent": "unclear",
+    "label_config": "gpt-6-luna:e5b9ca8a9f0fea04604aede9424ae0bb95e897bc99732d0db7aef7083c184699",
+    "needs_review": true,
+    "review_id": "000b587e-b833-476b-8063-801f4ef36672",
+    "sentiment": -0.5,
+    "severity": 1,
+    "source_sha256": "037ca3ca8bdf3b71a6af43509ec7a468cba146182c00c090a05aa150da000c18",
+    "status": "completed",
+    "topic": "other"
+  },
+  "human_inspection_status": "pending"
+}

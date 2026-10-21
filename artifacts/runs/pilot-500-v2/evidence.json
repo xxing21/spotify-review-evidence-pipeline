@@ -1,0 +1,92 @@
+[
+  {
+    "evidence_quote": "This app is very very frustrating, you only get 6 skips a day, you can't pick the song you want from your playlist, you can't skip forward it's absolutely ridiculous getting premium is the only way you could actually enjoy this app it's absolutely garbage and whenever I try and search for a song I click on it I get 5 ads then after the ads I don't even get the song I wanted.",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "11ad400f-4487-4dfa-a9da-c8d624f4f107",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I say it's great for music but the ads is unbearable not only it's unskippable it's all 25+ sec long and you get 2 ads and when you want to choose a song in your playlist your getting another ad so shuffle is the only option here and I don't understand why would you need to pay to play songs in order aren't you earning enough Spotify?",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "50626053-301c-42fa-91aa-2f88aef82e64",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Black screen of death. Having to Uninstaller and reinstall after closing and opening app 5x to see if it would work.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "065c418e-7f18-42a3-b241-fe693b7a2b0c",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "When I playing song the app is shoutdowning",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "0fcf89b2-0b81-4838-bf5f-41c684e43b2d",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "It's impossible to use the app without prime And the recommended song is so bad",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "074efbfd-f69e-46ca-9cea-e5204a192a2a",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I paid my subscription and im still getting a pause subscription screen and can't access my music...... help me",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "16929558-ce1e-4b87-8738-a1de3f557f66",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "The update made the app useless .... Uninstall krdia ye app ab bekar hai ... Wynk hi theek h",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "45c561b9-cc47-4d80-95d3-f0d20bc84af3",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I hate this application .. 👎",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "0575ce08-ab04-46f0-aa8a-fbf9cd27e8da",
+    "severity": 2
+  },
+  {
+    "evidence_quote": "Just got back into Spotify. Well.. tried to. Terrible. Look up your favorite music and just a 30 second clip? Use youtube music. You. Are. Welcome. Hope this helped.",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "4d327494-7846-481a-bf00-f4b5abc099c4",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I can't open my spotify wrap 2022...",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "c1726764-f0ce-4abc-ad9e-6cd143e1b2c7",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I was using the app normally with the phone in my pocket, and out of nowhere log me out, and now I'm not able to log in, it's appearing some kind of error all the time, and the up is up to date, and also I can still loogin in the PC 🙃",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "0a7f2420-1b49-41fa-8cfc-0b2e178bea6b",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I can't login to the app, it keep saying that there's no internet connection, whereas everything else on my phone is connected to the internet.",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "12efd15d-4d4f-4a71-8e71-69d03b6f983a",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Generally nice - but integrations buggy, offline mode USELESS, and moving storage failed and deleted everything. Ignores metered setting for WiFi which is a big pain! Fix this stuff and it'd be amazing as the ideas are great. Would be nice to be able to tune the suggestions algorithm as it either sticks to what you know or picks tracks it should know I don't like.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "b03d6dc9-449a-4647-b112-559186656759",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Can no longer listen to music off line or even log in. The app is broken. Stop telling people to reinstall the app. Just fix it. Maybe if all of your dissatisfied customers were to canal their subscriptions, you might listen. Without them, you have nothing.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "1f13c3a2-e57b-460c-b569-964e6b2b1f31",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "RUDE APP , THIS APP SUPPORT GUYS 🤮🤮🤮🤮🤮🤮🤮🤮🤮🤮. تطبيق سيء ، بدعم المثليين 🤮🤮🤮",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "33526c6f-7a49-4b3d-bd20-d1bc191c494c",
+    "severity": 2
+  }
+]

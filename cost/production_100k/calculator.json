@@ -1,0 +1,537 @@
+{
+  "measured": {
+    "status": "completed",
+    "run_id": "production-100k-v1",
+    "completed": 100000,
+    "pending": 0,
+    "input_count": 100000,
+    "unique_texts": 78288,
+    "exact_text_reuses": 21712,
+    "active_seconds": 3341.2552049580554,
+    "verification_count": 5000,
+    "verification_fraction": 0.05,
+    "verification_complete_prediction_count": 4998,
+    "verification_refusal_count": 2,
+    "calls": 4474,
+    "known_api_usd": "4.083881615",
+    "unknown_usage_calls": 48,
+    "unresolved_reserved_usd": "0.174263125",
+    "global_committed_usd": "4.975266680",
+    "shared_cap_usd": 10,
+    "error": null,
+    "phase_measurements": [
+      {
+        "phase": "enrich-probe",
+        "queue": {
+          "completed": 1
+        },
+        "saved_at": "2026-10-20T23:34:27.431925+00:00",
+        "seconds": 11.571242624981096,
+        "workers": 1
+      },
+      {
+        "phase": "enrich-16",
+        "queue": {
+          "completed": 3914
+        },
+        "saved_at": "2026-10-21T00:23:54.478228+00:00",
+        "seconds": 2836.008662541979,
+        "workers": 16
+      },
+      {
+        "phase": "verify-8",
+        "queue": {
+          "completed": 128,
+          "failed": 1,
+          "pending": 371
+        },
+        "saved_at": "2026-10-21T00:25:37.873149+00:00",
+        "seconds": 99.71960220800247,
+        "workers": 8
+      },
+      {
+        "phase": "verify-8",
+        "queue": {
+          "completed": 464,
+          "failed": 1,
+          "pending": 34,
+          "resolved_partial": 1
+        },
+        "saved_at": "2026-10-21T00:41:49.445639+00:00",
+        "seconds": 349.9780566660047,
+        "workers": 8
+      },
+      {
+        "phase": "verify-8",
+        "queue": {
+          "completed": 498,
+          "resolved_partial": 2
+        },
+        "saved_at": "2026-10-21T00:50:56.530736+00:00",
+        "seconds": 5.217466792004416,
+        "workers": 8
+      }
+    ],
+    "config": {
+      "batch_size": 20,
+      "effort": "none",
+      "execution_mode": "production-100k-v1",
+      "fallback_fraction": 0,
+      "initial_phase": "enrich-probe",
+      "label_batch_identity": "batch-context-v1",
+      "max_attempts": 3,
+      "max_output_tokens": 4096,
+      "model": "gpt-6-luna",
+      "prompt_hashes": {
+        "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+        "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+        "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+        "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+      },
+      "routing_schema": "review-id-enum-v1",
+      "schema_version": "spotify-label-v4-batch20",
+      "service_tier": "default",
+      "verification_batch_size": 10,
+      "verification_endpoint": "decisions",
+      "verification_fraction": 0.05,
+      "verification_predicate_threshold": 0.5,
+      "verification_schema_version": "decisions-verifier-v3-batch10-five-levels",
+      "verification_seed": "spotify-100k-verification-v2-5pct",
+      "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+      "workers": 16,
+      "pilot_run_cap_usd": 10
+    },
+    "warm_seconds": 15.612409999972442,
+    "warm_new_calls": 0,
+    "usage_complete": false,
+    "unresolved_calls": [
+      {
+        "local_call_id": "f5e33c48-bc2e-4f4e-b045-1dd0f48de7a3",
+        "reservation_usd": "0.003594375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "e8373ce8-3652-4803-a9b4-3bf3c1f1cd40",
+        "reservation_usd": "0.003574875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5498149d-0d44-4dc0-97ff-12f3f6746b20",
+        "reservation_usd": "0.003573250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "220aa27d-7c8c-460d-aa92-7396d0b8e217",
+        "reservation_usd": "0.003595625",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "3031317d-6096-4fe3-a0f6-a1089558cf1a",
+        "reservation_usd": "0.003595625",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "cd8c13ce-e918-405b-bda4-f4ec14ca132b",
+        "reservation_usd": "0.003629000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "4cd7135c-faef-4ce9-bd5f-bdafcf2ee22e",
+        "reservation_usd": "0.003566750",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "0ff07191-1f50-4664-b316-2d5a32b031f1",
+        "reservation_usd": "0.003650000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "21018995-0ad8-4c98-964b-ccf4822f9b2c",
+        "reservation_usd": "0.003716250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5c95275d-9412-4d98-918d-71b268cb3d12",
+        "reservation_usd": "0.003685000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "e59e489a-38b0-4fd3-9e0e-7c75bcc1030f",
+        "reservation_usd": "0.003618625",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "88de5ec9-8fa1-40cb-87aa-6c4d9187d914",
+        "reservation_usd": "0.003696125",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "63c56243-f29c-49e9-b7fb-d194c3562e06",
+        "reservation_usd": "0.003557000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "b09df149-7442-4558-bffb-618f32621032",
+        "reservation_usd": "0.003557000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "3ac9ccfc-d9f5-4931-a2e6-e68fff479e16",
+        "reservation_usd": "0.003600875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "27617748-91be-4ee6-9da5-284b63c9ddd5",
+        "reservation_usd": "0.003616500",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "df9b4f9e-0dd8-4138-8ef9-a38357729372",
+        "reservation_usd": "0.003619250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "d20bd97c-1f65-495e-bcfb-bf9f6bdbaabc",
+        "reservation_usd": "0.003602875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "ea1e209d-8964-4571-93a8-f6aa0cd0c573",
+        "reservation_usd": "0.003619250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "6ae0234d-927e-412d-b418-16ee10031e16",
+        "reservation_usd": "0.003602875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "a25075d2-c72d-4b4a-b6bf-217dd55dd82b",
+        "reservation_usd": "0.003664000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "39a70b15-db2d-495d-a6ac-12562fa8771e",
+        "reservation_usd": "0.003728250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "dbbc781e-c4de-4c29-a0ff-f642be5042c2",
+        "reservation_usd": "0.003642375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "cc81e485-1523-4248-b966-69ef5c7a76fa",
+        "reservation_usd": "0.003595250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "7589cbd0-d1d8-48b0-bc59-46a6f732eebc",
+        "reservation_usd": "0.003595250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "b74196bf-54e2-4a73-aa5b-dc0ccd323f29",
+        "reservation_usd": "0.003577875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "0098fda1-c7fa-441c-b132-549ee54312f0",
+        "reservation_usd": "0.003698125",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "816cc371-5dbe-4851-a1b6-7dfc2d391574",
+        "reservation_usd": "0.003716250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "aa604b6c-3cbc-4122-916a-228a0266398d",
+        "reservation_usd": "0.003577875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "86f44315-8004-4074-b626-87d6b0aecbed",
+        "reservation_usd": "0.003639250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "866bdc47-a27a-420b-a44c-5b890075cc1f",
+        "reservation_usd": "0.003501250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "a9a7d2cd-2f82-4b41-a8f1-a371020f14ba",
+        "reservation_usd": "0.003629375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "d79d2846-a930-43b1-a98a-fcf3d543d60c",
+        "reservation_usd": "0.003693000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "bc641bdf-9d38-4d4f-8fc8-79edfde178a1",
+        "reservation_usd": "0.003696875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "fb4bbea2-f6dd-4ed2-be1b-7a95dff75f3f",
+        "reservation_usd": "0.003707750",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "78f2aa25-f19a-46c6-957f-18a6bdec47c5",
+        "reservation_usd": "0.003610500",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "9c56e176-9fe9-48a8-a3f0-93e1bb4f4b92",
+        "reservation_usd": "0.003718125",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "c7f868bb-7d65-4a38-b3b9-2a97f17594fe",
+        "reservation_usd": "0.003687000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "86117bb1-796d-45ab-bd14-616c2079e8eb",
+        "reservation_usd": "0.003686250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "f9303ba7-025e-4a81-9a20-e325ab45d7ce",
+        "reservation_usd": "0.003627375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "ef543bcc-0aeb-4e58-8c01-d1472c62cb87",
+        "reservation_usd": "0.003646250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "8367006b-0ce9-4dd2-a9e3-691ab10f687a",
+        "reservation_usd": "0.003580875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "b8db2ddc-9403-49af-b7f9-0aa7530f2ce7",
+        "reservation_usd": "0.003615375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "f8f70d61-7f47-4db0-b3d9-bfd5db0fd19a",
+        "reservation_usd": "0.003583250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "40c901f7-17a1-49ac-8684-6c31189ce8f7",
+        "reservation_usd": "0.003635500",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "49372796-43e1-4aa6-b116-73c43647045d",
+        "reservation_usd": "0.003668250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "d469af94-261b-4741-8ae4-daf31c077b9d",
+        "reservation_usd": "0.003635250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "ee1571db-e7ef-4221-ad86-f354dc54af6c",
+        "reservation_usd": "0.003635250",
+        "reason": "usage unavailable; not assumed zero"
+      }
+    ],
+    "unresolved_reservation_usd": "0.174263125",
+    "cost_per_1000_input_usd": "0.04083881615",
+    "cost_per_completed_usd": "0.00004083881615",
+    "local_compute_usd": null,
+    "local_compute_note": "Not measured; hardware/electricity are unknown, not zero",
+    "first_dispatch_to_last_response_seconds": 4616.693487
+  },
+  "stages": {
+    "enrich": {
+      "attempts": 3970,
+      "failed_attempts": 55,
+      "input_tokens": 9110469,
+      "output_tokens": 4710914,
+      "known_api_usd": "3.481084690",
+      "call_seconds": 42623.48878435165,
+      "unknown_usage_attempts": 48,
+      "completed_records": 78288,
+      "unresolved_failed_record_ids": [],
+      "model": "gpt-6-luna",
+      "effort": "none",
+      "prompt_hash": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1"
+    },
+    "verify": {
+      "attempts": 502,
+      "failed_attempts": 4,
+      "input_tokens": 6017307,
+      "output_tokens": 0,
+      "known_api_usd": "0.60173070",
+      "call_seconds": 188.18432049933472,
+      "unknown_usage_attempts": 0,
+      "completed_records": 4980,
+      "unresolved_failed_record_ids": [
+        "035f5de2-edb6-421e-bbec-5b82530947a6",
+        "09cf1954-26c0-4af8-8932-f2df86c20f59",
+        "191855ca-e594-4f8e-a7a4-57a5b99c844c",
+        "1f817b34-89ec-41c8-a30b-b35f3e1d3948",
+        "28a724fb-a50f-4316-834a-2760fb4ecdbb",
+        "2d122682-b927-4bb7-a522-a023d72868de",
+        "3f369357-7dac-4c4a-bad7-ec4384d100c1",
+        "4fb18888-4e93-4870-98b8-54ac12f02e85",
+        "537ae160-c12d-45c5-bc6a-f157c094e626",
+        "546273fe-e529-4cf8-bbd4-d5caeb12880b",
+        "77327930-6066-4937-bcd4-ecc61a01b435",
+        "7d7c2692-6cd5-4d86-acbc-65002ce09f77",
+        "a3480188-eba3-4f97-bcf5-280691f7ed43",
+        "acfa4854-5c81-4e35-81bb-ecec5c776fd6",
+        "baef46ac-6657-4626-a38a-37029b7bd137",
+        "bf15d15c-966f-4f60-93ac-3b9249ad47b1",
+        "c6995530-4b45-47f4-accd-b03d3be2d081",
+        "ee6bacd6-644d-49b4-afaa-9a20a9ff8ced",
+        "f36b1104-507d-4c5e-965c-aa968da3a4fd",
+        "ff5c92b6-9017-42ad-884d-2bc2b92c3517"
+      ],
+      "model": "gpt-6-luna",
+      "effort": "none",
+      "prompt_hash": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+    },
+    "group": {
+      "attempts": 1,
+      "failed_attempts": 0,
+      "input_tokens": 2225,
+      "output_tokens": 320,
+      "known_api_usd": "0.000438050",
+      "call_seconds": 4.535850959015079,
+      "unknown_usage_attempts": 0,
+      "completed_records": 0,
+      "unresolved_failed_record_ids": [],
+      "model": "gpt-6-luna",
+      "effort": "none",
+      "prompt_hash": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e"
+    },
+    "memo": {
+      "attempts": 1,
+      "failed_attempts": 0,
+      "input_tokens": 3262,
+      "output_tokens": 441,
+      "known_api_usd": "0.000628175",
+      "call_seconds": 5.274678624991793,
+      "unknown_usage_attempts": 0,
+      "completed_records": 0,
+      "unresolved_failed_record_ids": [],
+      "model": "gpt-6-luna",
+      "effort": "none",
+      "prompt_hash": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3"
+    }
+  },
+  "projections": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "25.50573770029414367463723687",
+      "estimated_seconds": 21625.384844499895,
+      "input_rows": 660622,
+      "empty_quarantines": 13,
+      "nonempty_classifications": 660609,
+      "stage_work": {
+        "enrich": 484189,
+        "verify": 33031
+      },
+      "verification_fraction": 0.05,
+      "fallback_fraction": 0,
+      "workers": 16,
+      "fixed_overhead_seconds": 38.76017412508372,
+      "sustained_rate_limits": {
+        "rpm": 600.0,
+        "tpm": 600000.0
+      },
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "27.69326819458928123761003144",
+      "estimated_seconds": 35201.848305315645,
+      "input_rows": 660622,
+      "empty_quarantines": 13,
+      "nonempty_classifications": 660609,
+      "stage_work": {
+        "enrich": 484189,
+        "verify": 33031
+      },
+      "verification_fraction": 0.05,
+      "fallback_fraction": 0,
+      "workers": 16,
+      "fixed_overhead_seconds": 38.76017412508372,
+      "sustained_rate_limits": {
+        "rpm": 600.0,
+        "tpm": 600000.0
+      },
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "33.35027276326420294297976701",
+      "estimated_seconds": 28042.333123540808,
+      "input_rows": 660622,
+      "empty_quarantines": 13,
+      "nonempty_classifications": 660609,
+      "stage_work": {
+        "enrich": 660609,
+        "verify": 33031
+      },
+      "verification_fraction": 0.05,
+      "fallback_fraction": 0,
+      "workers": 16,
+      "fixed_overhead_seconds": 38.76017412508372,
+      "sustained_rate_limits": {
+        "rpm": 600.0,
+        "tpm": 600000.0
+      },
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "36.20271158216624899091075940",
+      "estimated_seconds": 45643.128316785296,
+      "input_rows": 660622,
+      "empty_quarantines": 13,
+      "nonempty_classifications": 660609,
+      "stage_work": {
+        "enrich": 660609,
+        "verify": 33031
+      },
+      "verification_fraction": 0.05,
+      "fallback_fraction": 0,
+      "workers": 16,
+      "fixed_overhead_seconds": 38.76017412508372,
+      "sustained_rate_limits": {
+        "rpm": 600.0,
+        "tpm": 600000.0
+      },
+      "estimate_not_execution": true
+    }
+  ],
+  "controls": {
+    "shared_budget_usd": 10,
+    "max_workers": 16,
+    "verification_fraction": 0.05,
+    "max_output_tokens": 4096,
+    "fallback_fraction": 0
+  },
+  "projection_notes": [
+    "Estimates use actual 100k stage throughput and mutually exclusive saved usage categories.",
+    "Grouping and memo overhead is added once. Conservative variable work includes at least 10% retries and 50% slower throughput.",
+    "Time is bounded by measured throughput and the sustained shared request/token ceilings; burst speed is not extrapolated indefinitely.",
+    "Full-corpus exact-text counts are known from ingestion. Other unprofiled volumes use the corpus distinct/nonempty ratio.",
+    "Unknown usage stays visible with reservations; it is not zero. Recorded usage times editable prices is not an invoice.",
+    "Pipeline active time excludes source preparation, manual checkpoint waiting, final export/upload and hosting work; these are not fabricated as measured zero.",
+    "Local hardware/electricity and hosting costs are separate and unmeasured."
+  ]
+}

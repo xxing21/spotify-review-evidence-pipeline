@@ -1,0 +1,49 @@
+{
+  "run_id": "pilot-500-v2",
+  "scope": "pilot_only",
+  "review_id": "16929558-ce1e-4b87-8738-a1de3f557f66",
+  "source_sha256": "d5b748cfaf8d9d9980825fbcad7dfd54c1141185b60c59733b701ac81359b73c",
+  "enrichment": {
+    "entities": [],
+    "evidence_quote": "I paid my subscription and im still getting a pause subscription screen and can't access my music...... help me",
+    "intent": "complaint",
+    "label_config": "gpt-6-luna:cd2a0784dfc7d34dc083a289aada06e76b1524c8a9d15961199e68252797985f",
+    "needs_review": false,
+    "review_id": "16929558-ce1e-4b87-8738-a1de3f557f66",
+    "sentiment": -0.8,
+    "severity": 4,
+    "source_sha256": "d5b748cfaf8d9d9980825fbcad7dfd54c1141185b60c59733b701ac81359b73c",
+    "status": "completed",
+    "topic": "billing"
+  },
+  "independent_verification": {
+    "entities": [],
+    "evidence_quote": "I paid my subscription and im still getting a pause subscription screen and can't access my music...... help me",
+    "intent": "complaint",
+    "needs_review": false,
+    "review_id": "16929558-ce1e-4b87-8738-a1de3f557f66",
+    "sentiment": -0.8,
+    "severity": 4,
+    "topic": "billing"
+  },
+  "membership": "ISSUE-BILLING",
+  "memo_claim_ids": [
+    "ISSUE-BILLING-complaint_count",
+    "ISSUE-BILLING-priority_score",
+    "ISSUE-BILLING-mean_severity"
+  ],
+  "ambiguous_or_failed_case": {
+    "entities": [],
+    "evidence_quote": "Worst",
+    "intent": "unclear",
+    "label_config": "gpt-6-luna:cd2a0784dfc7d34dc083a289aada06e76b1524c8a9d15961199e68252797985f",
+    "needs_review": true,
+    "review_id": "00363dc8-2117-4565-9af9-efadf8fa90cf",
+    "sentiment": -0.8,
+    "severity": 2,
+    "source_sha256": "15ba615612ad7a1e015f2f36ee1df1bc97ef50522006f1e0efe44cc433b92da7",
+    "status": "completed",
+    "topic": "other"
+  },
+  "human_inspection_status": "pending"
+}

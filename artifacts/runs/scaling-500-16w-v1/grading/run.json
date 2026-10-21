@@ -1,0 +1,11 @@
+{
+  "version": "a5-audit-v1",
+  "analysis_count": 500,
+  "analysis_sha256": "fbc53285f9ffaa58cd26e6ac9f0b147fa8aaa3cdcfc928823b2f5fa0c633f468",
+  "classification_input_fields": [
+    "review_text"
+  ],
+  "allow_multi_issue": false,
+  "scope": "pilot_only",
+  "run_id": "scaling-500-16w-v1"
+}

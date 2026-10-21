@@ -1,0 +1,32 @@
+{
+  "alternative_issue_ids": [
+    "ISSUE-PLAYBACK",
+    "ISSUE-BILLING",
+    "ISSUE-OTHER"
+  ],
+  "claim_ids": [
+    "ISSUE-USABILITY-complaint_count",
+    "ISSUE-USABILITY-severity_sum",
+    "ISSUE-USABILITY-priority_score",
+    "ISSUE-PLAYBACK-complaint_count",
+    "ISSUE-PLAYBACK-severity_sum",
+    "ISSUE-PLAYBACK-priority_score",
+    "ISSUE-BILLING-complaint_count",
+    "ISSUE-BILLING-severity_sum",
+    "ISSUE-BILLING-priority_score",
+    "ISSUE-OTHER-complaint_count",
+    "ISSUE-OTHER-severity_sum",
+    "ISSUE-OTHER-priority_score"
+  ],
+  "limitations": "This is a small development pilot, not a representative full-corpus estimate. Reviews are self-selected and may reflect recent history or salient experiences; issue assignment and severity labels are uncertain. Mentions of switching, uninstalling, or canceling express intent only and do not establish actual churn or causation.",
+  "priority_issue_id": "ISSUE-USABILITY",
+  "rationale": "Prioritize song selection and playback controls for investigation: this issue leads the pilot on aggregate priority, with more complaints and greater summed severity than playback failures, paid-plan restrictions, or broad dissatisfaction. Playback failures are a credible alternative because the sampled reports describe crashes and loading problems; paid-plan restrictions may overlap with usability rather than represent a separate problem. The general-dissatisfaction category is frequent but less actionable because its reports often lack a specific cause. Review excerpts are illustrative, not proof of prevalence or business impact.",
+  "review_ids": [
+    "88439ec2-7c49-4c57-bedb-c5e098692aff",
+    "a78d831a-69f4-428a-9235-cfdd9775c509",
+    "55cc3abf-c295-4591-8c3a-78085cfdefaa",
+    "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+    "21915fcd-9a35-48ba-b277-6296c4154603",
+    "45c561b9-cc47-4d80-95d3-f0d20bc84af3"
+  ]
+}

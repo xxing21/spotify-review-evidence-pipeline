@@ -1,0 +1,98 @@
+[
+  {
+    "evidence_quote": "I had to delete and uninstall this app more than one time and I still have the same problem with it it's somehow decides to automatically start playing. Even over other media audio applications plus they keep changing the location of where you can shut off the permissions for that. It's absolutely trash and I would suggest that no one use it because it takes takes over too many permissions on your phone and it really really does spy on your privacy",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "91132204-877d-4ac1-9d08-20d03f1414f6",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Very invasive app, couldn't figure out how to turn it off in the background (or turn it off in general). Went through all the settings and nothing helped. Ended up unistalling as the app would take over the audio in my car every time I connected my phone.",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "013d0737-24f8-481e-b3bc-b3aad1996acf",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Until a few days ago the app was great but now it's not even playing songs. It just keeps loading even when there's active internet and all other apps are able to work..songs just don't play. I've restarting my phone updated the app done literally everything the songs just don't play. Horrible experience.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "004d1c8a-a8c8-4746-b975-cd2f31c2a730",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Not working on my phone now after updating the damn app",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "0148ad58-a4de-4f28-b81b-073ce9a24a68",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Developer's, You collect to much of my personal info, then it states I can delete all of my personal info. I can't delete mine! I just turned phone on. Spotify was playing a show when I didn't turn Spotify on. I uninstalled the application. I want my personal information Deleted! Please fix this. I don't know what Android wear is, but that's the 1st question.",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "9ec6712e-a862-4605-ae0e-e6998105f921",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Can't even use it now",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "263885b2-8240-437d-8ba6-c09471c052fc",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I had unsubscribed, and Spotify stole My money!!!",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Rough experience with Duo plan technical issues. Customer support has no power to credit users for lost service. We paid for duo for a month before we managed to get it working with tech support. No credit. No discount. No refund (even partial) I entreat Spotify to make it right. I'll likely change my opinion if they do.",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "5782aeec-f1e0-4730-a0c4-51ba54303b27",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "It won't show any of my Playlists or library-- the screen is black and no songs are available. I have the free version so I can listen to all the ads, though!",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "056c340f-c7ad-42d8-a275-37e46f1f4f24",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Bro what are you doing bro? 💀 Simply just taking away basic music rights from humans? Literally now I can't even search and play music! Legit bring back those features for free. I ain't buying subscription I don't hav money 💀",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "088909d0-cf9b-42b5-9259-e03b6d1cfa47",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Whenever I close the app it always logs me out and it did it this time and I had 1300 liked songs and lost all of them",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "55123d02-711d-4e41-b644-06e2c3c4db18",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "I aggree with the users. They also bugged the lite version, means horribly not login with the mobile number. What the bug is it. Please fix it. Also the specific part skipping is in premium. It it goes like this, the normal users , who cover a major part will lose the app. Hope this bug will fix soon or else we would have to shift to another app.",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "04ea0f0c-287d-4b52-a9ab-419bd4e704bf",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Generally nice - but integrations buggy, offline mode USELESS, and moving storage failed and deleted everything. Ignores metered setting for WiFi which is a big pain! Fix this stuff and it'd be amazing as the ideas are great. Would be nice to be able to tune the suggestions algorithm as it either sticks to what you know or picks tracks it should know I don't like.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "b03d6dc9-449a-4647-b112-559186656759",
+    "severity": 5
+  },
+  {
+    "evidence_quote": "Suscribed to use offline since im away from service alot. After last update the app has no offline choice. App seems to time out after 30 mins. App Harder to connect and pair. Its becoming a waster of time and money to stay subscribed.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "1a107494-89e8-4b44-8f4f-952af547c210",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "They will offer you 3 months and charge you the next month. Customer service is rude, useless and ignorant. They indirectly called me a liar and made me feel bad by forcing me to screenshot proof of what I said was true. Not even a complimentary free month for their disrespectful customer service. Bs company.",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "10800b01-920d-4c22-91f5-521c45caf4f0",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Great App- Bad customer service. If you need to contact customer support prepare to be there for a few hours....I reached out for something that seemed like an easy fix-it took me three hours! And then the rep cancelled my subscription without telling me! Annual update...it got worse! 5 days now emailing back and forth! I already resolved the issue by canceling. Great app but customer service is non existent.",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "946070c1-d690-4251-a550-07b0af85859c",
+    "severity": 4
+  }
+]

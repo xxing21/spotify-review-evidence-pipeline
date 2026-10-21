@@ -1,0 +1,14 @@
+{
+  "saved_at": "2026-10-20T23:22:59.822783+00:00",
+  "scope": "Proposed 100k nonempty original source IDs for feasibility planning; no model calls, no classifications, no production run initialized",
+  "selection": "100000 smallest SHA256(seed + | + original review_id), without replacement",
+  "seed": "spotify-100k-planning-v1",
+  "source_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+  "selected_nonempty_ids": 100000,
+  "distinct_nonempty_texts": 78288,
+  "exact_text_aliases": 21712,
+  "selected_ids_sha256": "5aec3c2d868696bf89c835172a6a3d6a425e920cd71384bf45472481d4b4bd79",
+  "elapsed_seconds": 2.9167042920016684,
+  "model_calls": 0,
+  "human_labels_used": false
+}

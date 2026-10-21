@@ -1,0 +1,26 @@
+{
+  "alternative_issue_ids": [
+    "ISSUE-PLAYBACK",
+    "ISSUE-BILLING"
+  ],
+  "claim_ids": [
+    "ISSUE-USABILITY-complaint_count",
+    "ISSUE-USABILITY-priority_score",
+    "ISSUE-USABILITY-mean_severity",
+    "ISSUE-PLAYBACK-complaint_count",
+    "ISSUE-PLAYBACK-priority_score",
+    "ISSUE-PLAYBACK-mean_severity",
+    "ISSUE-BILLING-complaint_count",
+    "ISSUE-BILLING-priority_score",
+    "ISSUE-BILLING-mean_severity"
+  ],
+  "limitations": "This is a small development pilot, not a full-corpus estimate. Reviewers self-select, reflect different product histories, and may not represent the wider user base. Issue labeling is uncertain, and category boundaries may overlap. Cancellation language in reviews is expressed intent, not evidence of actual churn.",
+  "priority_issue_id": "ISSUE-USABILITY",
+  "rationale": "Prioritize listening controls and free-tier restrictions for investigation: this issue has the strongest aggregate priority signal, while playback stability is a compelling alternative given its higher average severity. Billing and subscription access also merit attention. The quotes illustrate the reported experiences but are anecdotal and do not establish prevalence, product causation, or business impact. Validate the pattern and assess feasible remedies before making broader conclusions.",
+  "review_ids": [
+    "11ad400f-4487-4dfa-a9da-c8d624f4f107",
+    "50626053-301c-42fa-91aa-2f88aef82e64",
+    "065c418e-7f18-42a3-b241-fe693b7a2b0c",
+    "16929558-ce1e-4b87-8738-a1de3f557f66"
+  ]
+}

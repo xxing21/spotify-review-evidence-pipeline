@@ -1,0 +1,29 @@
+{
+  "alternative_issue_ids": [
+    "ISSUE-PLAYBACK",
+    "ISSUE-BILLING",
+    "ISSUE-ACCESS"
+  ],
+  "claim_ids": [
+    "ISSUE-USABILITY-complaint_count",
+    "ISSUE-USABILITY-priority_score",
+    "ISSUE-USABILITY-mean_severity",
+    "ISSUE-PLAYBACK-priority_score",
+    "ISSUE-PLAYBACK-mean_severity",
+    "ISSUE-BILLING-priority_score",
+    "ISSUE-BILLING-mean_severity",
+    "ISSUE-ACCESS-priority_score",
+    "ISSUE-ACCESS-mean_severity"
+  ],
+  "limitations": "This is a bounded pilot, not a full-corpus conclusion. Reviews are self-selected and reflect an unknown mix of user histories; issue labels and severity judgments may be uncertain. The aggregates do not establish prevalence among all users, causation, or actual churn. Any cancellation mentioned in reviews is expressed intent only.",
+  "priority_issue_id": "ISSUE-USABILITY",
+  "rationale": "Prioritize usability for investigation because its aggregate priority score leads the alternatives, supported by reports of accidental loss of favorited songs and difficulty controlling a feature. Playback is a strong alternative: it has higher mean severity and reports include playback disruption and device instability. Billing merits attention for reports of unexpected charges and ads despite a paid subscription; access is another serious concern where users describe losing account access and saved content. These are prioritization signals from complaints, not verified product-wide rates or proof that any issue caused account loss or cancellation.",
+  "review_ids": [
+    "740b1fa0-c1d8-4d0c-b6a9-60e35d737032",
+    "00294af3-eddf-4210-8178-071083967479",
+    "4a49d8ba-bb87-4abd-b508-38f34dfbcb84",
+    "000c2b9a-d116-45dc-b8a8-7b3818d6e834",
+    "002aac37-eaec-476e-a7d7-5aff5738b2fa",
+    "3c30d5fc-5063-44b6-a6f2-02bbcd8d66f5"
+  ]
+}

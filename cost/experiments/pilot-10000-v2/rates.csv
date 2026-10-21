@@ -1,0 +1,5 @@
+provider,model,tier,item,unit,price_per_unit,currency,checked_date,source_url
+openai,gpt-6-luna,default,input,tokens,0.00000010,USD,2026-10-19,https://developers.openai.com/api/docs/models/gpt-6-luna
+openai,gpt-6-luna,default,cached_input,tokens,0.00000001,USD,2026-10-19,https://developers.openai.com/api/docs/models/gpt-6-luna
+openai,gpt-6-luna,default,cache_write,tokens,0.000000125,USD,2026-10-19,https://developers.openai.com/api/docs/models/gpt-6-luna
+openai,gpt-6-luna,default,output,tokens,0.00000050,USD,2026-10-19,https://developers.openai.com/api/docs/models/gpt-6-luna

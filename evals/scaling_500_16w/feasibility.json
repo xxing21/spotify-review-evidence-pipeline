@@ -1,0 +1,168 @@
+{
+  "saved_at": "2026-10-20T23:24:02.974354+00:00",
+  "scope": "100k feasibility forecast from fresh 500-review 16-worker pilot; not a 100k execution",
+  "pilot_processing_passed": true,
+  "checker_status": "pass",
+  "observed_peak_concurrency": 16,
+  "expected_cached_base_minutes": 102.86884965024161,
+  "conservative_cached_minutes": 169.50107597349646,
+  "base_under_two_hours": true,
+  "conservative_under_two_hours": false,
+  "base_api_estimate_usd": "5.930612282",
+  "conservative_api_estimate_usd": "6.5235309892",
+  "current_global_cost_plus_reserved_usd": "0.717121940",
+  "base_plus_existing_work_usd": "6.647734222",
+  "conservative_plus_existing_work_usd": "7.2406529292",
+  "shared_ceiling_usd": "10",
+  "verdict": "Under two hours is feasible in the base forecast, not guaranteed under slower conditions.",
+  "conditions": [
+    "16-worker pool; 20-review Responses batches; 20% independent Decisions verification in ten-review batches; no stronger-model fallback.",
+    "Exact-text reuse uses the locally profiled proposed 100k sample (78,288 distinct texts); adopting a different selection requires reprofiling.",
+    "500-review phases are short and not evidence of sustained 100k throughput.",
+    "No larger-run queue/ingestion/export performance has yet been measured.",
+    "Candidate combines separately measured stages; the whole candidate pipeline has not been timed as one cold run."
+  ],
+  "forecast_basis": "Derived projection combining separately measured stages; not a composite cold execution. Same 500-review sample, same 100 independently checked source IDs.",
+  "measurement_sources": {
+    "enrichment_group_memo": "scaling-500-16w-v1",
+    "verification": "scaling-500-16w-verify10-v1"
+  },
+  "pilot_plus_verifier_trial_cost_usd": "0.050751610",
+  "sustained_rate_limits": {
+    "rpm": 600.0,
+    "tpm": 600000.0
+  },
+  "primary_baseline_projections": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "6.474612282",
+      "estimated_hours": 1.865591938615138,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 78288,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": true,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3732.2270452235216,
+            "sustained_token_limit": 1398.2393376,
+            "sustained_request_limit": 391.44
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "7.1219309892",
+      "estimated_hours": 3.0743512662249404,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 78288,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3732.2270452235216,
+            "sustained_token_limit": 1398.2393376,
+            "sustained_request_limit": 391.44
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "7.448265210",
+      "estimated_hours": 2.153113346770117,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "8.1929492100",
+      "estimated_hours": 3.5487615896806557,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    }
+  ],
+  "superseded_burst_projection": "cost/scaling_500_16w/initial_short_pilot_projection.json",
+  "target_input_profile": {
+    "saved_at": "2026-10-20T23:22:59.822783+00:00",
+    "scope": "Proposed 100k nonempty original source IDs for feasibility planning; no model calls, no classifications, no production run initialized",
+    "selection": "100000 smallest SHA256(seed + | + original review_id), without replacement",
+    "seed": "spotify-100k-planning-v1",
+    "source_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+    "selected_nonempty_ids": 100000,
+    "distinct_nonempty_texts": 78288,
+    "exact_text_aliases": 21712,
+    "selected_ids_sha256": "5aec3c2d868696bf89c835172a6a3d6a425e920cd71384bf45472481d4b4bd79",
+    "elapsed_seconds": 2.9167042920016684,
+    "model_calls": 0,
+    "human_labels_used": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "config": {
+    "batch_size": 20,
+    "effort": "none",
+    "execution_mode": "production-100k-v1",
+    "fallback_fraction": 0,
+    "initial_phase": "enrich-probe",
+    "label_batch_identity": "batch-context-v1",
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "pilot_run_cap_usd": 10,
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+    },
+    "routing_schema": "review-id-enum-v1",
+    "schema_version": "spotify-label-v4-batch20",
+    "service_tier": "default",
+    "verification_batch_size": 10,
+    "verification_endpoint": "decisions",
+    "verification_fraction": 0.05,
+    "verification_predicate_threshold": 0.5,
+    "verification_schema_version": "decisions-verifier-v3-batch10-five-levels",
+    "verification_seed": "spotify-100k-verification-v2-5pct",
+    "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+    "workers": 16
+  },
+  "created_at": "2026-10-20T23:33:53.117500+00:00",
+  "dataset": "b411dd961b296b0a2878a02f717d93dcf4ed251354e17609cdbcd08a871c1a32",
+  "input_count": 100000,
+  "input_path": "/Users/xxr/Desktop/Agentic AI/Final Assignment - Spotify Reviews Dataset/artifacts/runs/production-100k-v1/input_100000.csv",
+  "kind": "production_100k",
+  "run_id": "production-100k-v1",
+  "scope": "100000 original nonempty source-ID sample; full-file ingestion is separate",
+  "code_versions_reported": [
+    "0.1.0"
+  ],
+  "source_code_sha256_at_export": "95624a217ccb34626a57be1c2b19d2c539181cd51818d7a560440504e565632b",
+  "code_identity_note": "Package version is recorded per final-pilot call; export hash identifies the current saved source, not a Git commit."
+}

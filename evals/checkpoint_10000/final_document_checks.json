@@ -1,0 +1,9 @@
+{
+  "offline_scores_and_order_identical": true,
+  "ranking_membership_claim_hashes": {
+    "ranking.csv": "d6437b2fe65aff775d68344e664a2d7651c505ef42f0cf22bac77533c3ec5f8f",
+    "membership.csv": "6168a81c95b605dd09c28a432f6b85ddf14f331a9f658a6982064bc11acef774",
+    "claims.csv": "d6708823fcbd013bfb1b6e04e78d58875d2a073e304fee49b0c2a6737bcd494f"
+  },
+  "readme_links_valid": true
+}

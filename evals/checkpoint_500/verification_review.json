@@ -1,0 +1,414 @@
+{
+  "sample_count": 100,
+  "language_label_disagreements": 18,
+  "any_field_disagreements": 53,
+  "agreement_between_models_not_accuracy": {
+    "topic": 0.94,
+    "intent": 0.93,
+    "severity": 0.9,
+    "sentiment": 0.55,
+    "needs_review": 0.89
+  },
+  "severity_mae_between_models": 0.11,
+  "golden_human_evaluation": "pending",
+  "cases": [
+    {
+      "review_id": "7d5ddaf5-2f4f-4883-9ddb-e46a2b584ac0",
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "review_text": "All iz well",
+      "enricher": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1,
+        "sentiment": 0.2,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": 1,
+        "sentiment": 0.5,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "5be3399d-dcd2-405b-a931-29b02ffc966e",
+      "different_fields": [
+        "severity"
+      ],
+      "review_text": "I spend ages downloading my favourite content, then every couple of months, usually when I'm out of data range, i go to listen to downloaded content and it's ALL GONE. What's the point in paying for the Premium service?? Loads of complaints about this online. I will soon be moving elsewhere 😡",
+      "enricher": {
+        "topic": "downloads",
+        "intent": "cancellation",
+        "severity": 3,
+        "sentiment": -0.9,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "downloads",
+        "intent": "cancellation",
+        "severity": 4,
+        "sentiment": -0.9,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "a6daf56e-9125-4c58-8899-b768f7df7fb1",
+      "different_fields": [
+        "topic"
+      ],
+      "review_text": "Good 👍 one for listening every time and every type songs",
+      "enricher": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": 1,
+        "sentiment": 0.8,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "catalog",
+        "intent": "praise",
+        "severity": 1,
+        "sentiment": 0.8,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "08c07310-e802-4a88-bd97-2a5f240c0b44",
+      "different_fields": [
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "Kitna paisa chahiye bhai...gareebo ko lootega to paap lagega...sudhar jao bhagwaan sab dekh raha hai..mera jigri dost lattu depression me chala gaya hai tum kameeno ke karan..lattu ki aah lagegi saalo tumhe",
+      "enricher": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.9,
+        "needs_review": true
+      },
+      "verifier": {
+        "topic": "billing",
+        "intent": "unclear",
+        "severity": 1,
+        "sentiment": -0.8,
+        "needs_review": true
+      }
+    },
+    {
+      "review_id": "42644f9d-f2b5-4399-8d32-68626340f1ce",
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "Hate this application so much 👎🏻",
+      "enricher": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2,
+        "sentiment": -1,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1,
+        "sentiment": -0.9,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "9666e9fe-0bc2-4e4c-8842-2162be0b6610",
+      "different_fields": [
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "I am Musalman I hate your app😡😡",
+      "enricher": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2,
+        "sentiment": -1,
+        "needs_review": true
+      },
+      "verifier": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1,
+        "sentiment": -0.8,
+        "needs_review": true
+      }
+    },
+    {
+      "review_id": "7f057d48-0855-4325-950b-44f9e6fc2ee1",
+      "different_fields": [
+        "intent"
+      ],
+      "review_text": "Disgusting app 1 minute of add after every 2 songs i am buying amazon prime music. Do something on this situation or your app will be meme material in future #Garibapp bhikari app",
+      "enricher": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2,
+        "sentiment": -0.9,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "usability",
+        "intent": "cancellation",
+        "severity": 2,
+        "sentiment": -0.9,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "dcff57c6-abd6-413b-b255-aec3dc34fcbd",
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "Offline not workjng",
+      "enricher": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.7,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4,
+        "sentiment": -0.8,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "cf6166ae-d71a-4839-9add-088645ad3b78",
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "DON'T DOWNLOAD THIS:Such a worst app ... that always plays adds instead of songs ...if want to enjoy music free without adds don't download this app ..",
+      "enricher": {
+        "topic": "usability",
+        "intent": "cancellation",
+        "severity": 3,
+        "sentiment": -0.9,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "playback",
+        "intent": "cancellation",
+        "severity": 4,
+        "sentiment": -1,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "1cdc5bb2-8e8d-4267-8853-6c1dd4c7ef13",
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "So this app has become unusable on ipads. It stops randomly. Sometimes 10 minutes, sometimes 2 hours. I've tried all the\"fixes\". It's an app issue. Cmon, get it fixed. I'll be canceling my account if it's not corrected soon.",
+      "enricher": {
+        "topic": "playback",
+        "intent": "cancellation",
+        "severity": 3,
+        "sentiment": -0.9,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "playback",
+        "intent": "cancellation",
+        "severity": 4,
+        "sentiment": -0.8,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "618d1dbb-0186-4537-923a-7b4dabf19afb",
+      "different_fields": [
+        "topic",
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "Please stop with the recommendations! I use the premium family sub and I want to listen to my playlist without your recommendation adds. I am not interested in new music based on my preferences. If I wanted these songs I'd use a random playlist not not make my own! I'll start using Amazon music or apple if you don't.",
+      "enricher": {
+        "topic": "usability",
+        "intent": "cancellation",
+        "severity": 2,
+        "sentiment": -0.8,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.7,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "d87536c5-6fe0-4b38-b0b1-c47936e4a0d8",
+      "different_fields": [
+        "sentiment",
+        "severity",
+        "needs_review"
+      ],
+      "review_text": "Top algorithm, but again hacked ,can't even recover the playlists set by me last week ,cost over three hundred dollars,per week for nothing ,",
+      "enricher": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4,
+        "sentiment": -0.8,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 5,
+        "sentiment": -0.9,
+        "needs_review": true
+      }
+    },
+    {
+      "review_id": "4e4c0ec8-e42b-4428-b192-d527c3384aab",
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "review_text": "Nice but i am not install",
+      "enricher": {
+        "topic": "other",
+        "intent": "cancellation",
+        "severity": 1,
+        "sentiment": -0.2,
+        "needs_review": true
+      },
+      "verifier": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1,
+        "sentiment": 0.1,
+        "needs_review": true
+      }
+    },
+    {
+      "review_id": "e393cec1-67e8-4f58-a484-8d9d76dc8fd6",
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "review_text": "I put my selection on shuffle plays same songs over and over",
+      "enricher": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.6,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.5,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "b03d6dc9-449a-4647-b112-559186656759",
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "review_text": "Generally nice - but integrations buggy, offline mode USELESS, and moving storage failed and deleted everything. Ignores metered setting for WiFi which is a big pain! Fix this stuff and it'd be amazing as the ideas are great. Would be nice to be able to tune the suggestions algorithm as it either sticks to what you know or picks tracks it should know I don't like.",
+      "enricher": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 5,
+        "sentiment": -0.7,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4,
+        "sentiment": -0.6,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "a0cbc9d6-51bb-46f0-9ba9-ad4f4593c266",
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "review_text": "A good music app when it works. I keep on running into issues where I click on songs in my liked music and they don't play. Also when I'm playing a playlist from my phone to the Xbox series x it randomly starts playing different music. This is ridiculous for a £10 a month subscription this needs to be fixed it's been happening for months. If these issues are not fixed soon I'm going to cancel my subscription and start using a different music subscription service.",
+      "enricher": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3,
+        "sentiment": -0.9,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "playback",
+        "intent": "cancellation",
+        "severity": 3,
+        "sentiment": -0.8,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "7e610236-5f6a-404f-a503-ed466c6700eb",
+      "different_fields": [
+        "topic"
+      ],
+      "review_text": "Good quality of songs and more number of accounts with premium plans",
+      "enricher": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": 1,
+        "sentiment": 0.7,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "catalog",
+        "intent": "praise",
+        "severity": 1,
+        "sentiment": 0.7,
+        "needs_review": false
+      }
+    },
+    {
+      "review_id": "d26566f7-a898-4298-a06a-50bd3f7319c1",
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "review_text": "Could be doing with hi-res audio don't like getting bombarded with playlist recommendations when the option is turned off",
+      "enricher": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2,
+        "sentiment": -0.5,
+        "needs_review": false
+      },
+      "verifier": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 2,
+        "sentiment": -0.4,
+        "needs_review": false
+      }
+    }
+  ]
+}

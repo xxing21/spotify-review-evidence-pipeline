@@ -1,0 +1,16 @@
+{
+  "current_review_id": null,
+  "selection_basis": "remaining_core_disagreements",
+  "total_cases": 4,
+  "remaining": 0,
+  "previous_decisions": 17,
+  "total_decisions_saved": 21,
+  "fields_displayed": [
+    "topic",
+    "intent",
+    "severity"
+  ],
+  "pending_choice": false,
+  "status": "all_core_disagreement_choices_saved",
+  "updated_at": "2026-10-20T21:27:52.883942+00:00"
+}

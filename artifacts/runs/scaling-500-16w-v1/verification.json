@@ -1,0 +1,1967 @@
+{
+  "any_field_disagreements": 98,
+  "comparisons": [
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity",
+        "needs_review"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f186c43e-2220-44f4-8555-887c6fb1bbd0"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "7870dbc3-4533-4afd-bfe5-eba1177638e4"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "09ed5cce-ff5f-42c3-9363-1273aa48cc8b"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "53e34eaf-b9e8-4aca-b841-a36d48ede6cc"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9eef0990-cfa4-4989-82de-41dc4c5f60de"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "needs_review"
+      ],
+      "missing_enrichment": false,
+      "review_id": "1191101e-9360-4233-be53-326187b444ac"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "19dbd7e7-1ba8-44fc-8868-0b5399c57758"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f3c76359-9a3b-4a3a-b5b6-b24ef0537ac8"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "097e7517-53ba-49d7-b6e9-27a5942667d4"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "077cef03-b75e-4337-8dd7-3d8657d413bb"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "04e8fbed-cf7b-4bc1-9181-7ea50d56f44d"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "623bc616-e200-4533-a624-36dca3161802"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "068e956a-d551-4a91-ac9c-558f2c670f31"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "40b674d4-0e0d-4708-80e3-ebf25f1c56cd"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f865c4b1-4492-4df1-bea6-92785b25726a"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity",
+        "needs_review"
+      ],
+      "missing_enrichment": false,
+      "review_id": "bdd11b8a-aac6-4b22-ae16-03ba156cd2d2"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d2df6ed5-81ad-45f8-a4ea-8ff7618a9b4a"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d5625b1a-22ed-40e2-bcb3-30002b5d6c81"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "27133e33-2802-4234-a29c-7e26608d95ee"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9b1a5168-e14f-4e92-ab49-b73376fb9e1c"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "7d8121f0-3908-48bd-b278-a2f69dc6761b"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "63706469-68a5-436c-9afa-9beabc73267c"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d7eb3405-557b-48f3-88c1-10b2082fd81a"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "104b205c-3c28-4777-84e6-1416d534b909"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "8113fa21-13cd-439e-bd3e-364744fb2ec7"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d827d467-18e8-48f1-89d2-de0ddb8d390c"
+    },
+    {
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "6b1d22f5-8c5e-4fe6-89e6-7f2bbfaabf61"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "81656599-5a75-4850-babd-3f7e4d022eea"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "add19606-15fe-4869-b12b-41250ae67103"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "efd65909-b6e8-4ffc-aeab-1b901d0f703a"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity",
+        "needs_review"
+      ],
+      "missing_enrichment": false,
+      "review_id": "cc4d09bb-08c8-4484-a0c2-d2b3c90c05e3"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "e4d1517c-b49c-48b3-82d7-5c8c1de04707"
+    },
+    {
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "8dc965fc-02f7-4c3f-8e56-efcbf9ee13ad"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d413f36d-030f-4fb7-8ec0-d125c5580e2b"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "660eab06-6ca4-48c5-876d-199d58f4798d"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d43bf0f5-9143-4442-ba89-13cba0c8546e"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9af9b2ea-52bb-4bb9-8530-34a0e48afc36"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "05d1d423-97ef-4033-be20-c7c181714eb9"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9fd4a79f-23db-4463-bae9-196219a11e81"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "c6c61fe1-5f54-4a72-82a4-d1b611b3f3ad"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "be2aeb9d-980e-4681-8493-6b8f480c4c54"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "e0fa9ac0-73d9-4c1b-9a22-4b1b2d585bf1"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "71dbd630-8b5a-45dc-a5a5-8a6b954423d2"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f1bd4ad3-af1e-484f-b72b-e38722504e28"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "144fc63f-97bf-423b-9e40-c8c37cf2716e"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "dd62858c-7e84-4747-a8cc-f4fda0863c82"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "17362838-6c59-4060-8a9c-1041db008cc4"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "7fa01021-3e7d-4db1-9f1f-3248c36a6137"
+    },
+    {
+      "different_fields": [
+        "intent"
+      ],
+      "missing_enrichment": false,
+      "review_id": "6b54efe7-c1ba-4feb-80c8-634ea3a2b8ff"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9eda897e-812c-4458-a8ef-e044f642821a"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "needs_review"
+      ],
+      "missing_enrichment": false,
+      "review_id": "4568775a-1b08-4330-8da1-536120fc7752"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "intent",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "0591e9b0-ed01-40b9-9ac2-e63317637c68"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "6d756d7f-b0cf-4447-8da6-27fc40c95085"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "af996fe2-8cb9-4c7c-a2e1-cd6d5ece21b6"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "0bfcfbee-b77b-4906-b2d5-52d30ef3b10e"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "35a2e17b-555c-4c69-9401-89d0bb55bf4c"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "4c6d60e1-7e74-4e4a-8a1f-2682e101da94"
+    },
+    {
+      "different_fields": [
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "4443a53a-7e3e-44e6-bc97-9f5c30242958"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "95a87d27-ba00-4708-8729-8632f20a1996"
+    },
+    {
+      "different_fields": [
+        "intent"
+      ],
+      "missing_enrichment": false,
+      "review_id": "896a00f8-f602-4472-bf8f-8b7bad456c53"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "e99ae8f3-2c13-444a-a855-c0d33404d31b"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "10ad75f8-c60d-4e9c-b0d6-5fcb85d2e606"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "1c1ac645-bc77-4583-81a2-3486b6d8af4b"
+    },
+    {
+      "different_fields": [],
+      "missing_enrichment": false,
+      "review_id": "e752caab-a525-4458-906f-8d2e06b039cc"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "844c04ab-7f37-4577-a1e8-749ec9945a93"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "3f6f2ad2-370d-4bce-930e-bd1bfcf770ae"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "b2fb824e-983e-4ce2-a3dc-b52a744c7406"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "9b5b489c-f550-4a2e-a70d-5b3c64dac3c7"
+    },
+    {
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "68035ed7-c8a5-48da-9147-c87d00a3d1a0"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "dbc77ea0-30bb-47f7-87c5-61ccc0a81ffd"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "0ab8ce94-d3a5-45fb-b754-ecedfd8be90c"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d02d846e-a307-4310-b72b-4a9bd7a7aa77"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "548a1925-3343-452f-817c-f5b77f527fb4"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f12e8c11-d326-4d49-8226-3e9907a8c719"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "7d851e26-b2b6-4bdc-a707-5f56e56e627e"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "f891797e-8e43-40e9-b53c-4b70eedf0ef0"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "00f3744c-20bf-4c18-bb5f-693c718da69a"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "453c0564-abc1-498f-a25f-de789c4c34da"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "b7ff6ed5-d7f1-4d50-b6d7-97edaeb96ec9"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "41e15ed0-2ee4-4f3a-9a60-c4eb45de3fbe"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "10b41e42-af9d-4032-b27d-76ce4b2eecd4"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "7c80c3a9-dd38-4341-84c3-70d8113b07a4"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "e5499730-bce6-4c84-b448-12fb7876c7cd"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d68292d4-3076-4339-ad73-d4411d91cb79"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "20e6b1a5-7874-4546-955f-1106c4c7e782"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "8041fa5d-a7d8-4fc4-8aa5-3e865b089570"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "b4d45703-380d-41cd-8c55-d64e7b4238f8"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "668cd413-389b-4acc-be32-1194f8b8ad5c"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "c1016c5c-9971-422c-a0b4-d05e1b93aa32"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "be9f3fdc-faed-434f-8d0e-a13719fbe704"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "e388145a-2d07-4bbc-ba94-75b20065ea1c"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "6c7df15a-d74f-4c16-8982-aaf6e0790670"
+    },
+    {
+      "different_fields": [
+        "topic",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "b242ee5a-30bc-45d8-9b67-d3e2493cd523"
+    },
+    {
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "254fc496-616c-4eb1-907c-40668f3966af"
+    },
+    {
+      "different_fields": [
+        "intent",
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "78a0a09e-b203-43e7-88a6-0dfc2e8f3756"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "8903c0a4-9543-4604-872e-e19bdc22375a"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "1bb59c39-7da4-4516-828c-e381546f5621"
+    },
+    {
+      "different_fields": [
+        "sentiment"
+      ],
+      "missing_enrichment": false,
+      "review_id": "03ad4235-f4a0-43b4-9f1d-04ad119cbc9b"
+    },
+    {
+      "different_fields": [
+        "sentiment",
+        "severity"
+      ],
+      "missing_enrichment": false,
+      "review_id": "d758a0bb-ccbb-40b3-80b9-22255a7a7a62"
+    },
+    {
+      "different_fields": [],
+      "missing_enrichment": false,
+      "review_id": "b040b887-4375-4dc3-88f1-0d9be8bba482"
+    }
+  ],
+  "label_disagreements": 44,
+  "predictions": [
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "Not worth it without premium",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "f186c43e-2220-44f4-8555-887c6fb1bbd0",
+      "sentiment": -0.605,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I feel so free when I am listening to this app.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "7870dbc3-4533-4afd-bfe5-eba1177638e4",
+      "sentiment": 0.825,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I bacott this app",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "09ed5cce-ff5f-42c3-9363-1273aa48cc8b",
+      "sentiment": -0.355,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "podcasts"
+      ],
+      "evidence_quote": "Great platform for music and podcasts",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "53e34eaf-b9e8-4aca-b841-a36d48ede6cc",
+      "sentiment": 0.83,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "premium",
+        "spotify"
+      ],
+      "evidence_quote": "Saya udah pake 2 minggu premium demi dapat seminggu premium harga 800, mau sy klaim hari ini ko ga ada??? Lihat diklaim kemarin, maksudnya??? Ok, mgkn sy uninstall nanti spotify karena serasa ditipu yaaa",
+      "intent": "cancellation",
+      "needs_review": true,
+      "review_id": "9eef0990-cfa4-4989-82de-41dc4c5f60de",
+      "sentiment": -0.935,
+      "severity": 2,
+      "topic": "billing"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "the newest update is just trash",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "1191101e-9360-4233-be53-326187b444ac",
+      "sentiment": -0.97,
+      "severity": 2,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Randomly plays songs during night, I turned my phone off about to go to sleep and it started playing under pressure. Thought this app was good.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "19dbd7e7-1ba8-44fc-8868-0b5399c57758",
+      "sentiment": -0.655,
+      "severity": 2,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "Not good very all premium yy yy yu",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "f3c76359-9a3b-4a3a-b5b6-b24ef0537ac8",
+      "sentiment": -0.635,
+      "severity": 1,
+      "topic": "billing"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Sgj",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "097e7517-53ba-49d7-b6e9-27a5942667d4",
+      "sentiment": -0.015,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I hate this app it is not usefull",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "077cef03-b75e-4337-8dd7-3d8657d413bb",
+      "sentiment": -0.98,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Easy to use and quite enjoyable",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "04e8fbed-cf7b-4bc1-9181-7ea50d56f44d",
+      "sentiment": 0.83,
+      "severity": 1,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Mashaallha kya aap hai",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "623bc616-e200-4533-a624-36dca3161802",
+      "sentiment": 0.15,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "Spotify"
+      ],
+      "evidence_quote": "One of the worst Apps. Customer support is non existant. This app literally steals from musicians. Do not recommend, I'd go with tidal, deezer, or any other platform for streaming my music. I know I won't ever upload my own music to Spotify again, because, 6 months down the line, after so many requests to fix the page, I got the best response. Absolutely nothing. Go to hell Spotify",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "068e956a-d551-4a91-ac9c-558f2c670f31",
+      "sentiment": -1.0,
+      "severity": 2,
+      "topic": "support"
+    },
+    {
+      "entities": [
+        "spotify"
+      ],
+      "evidence_quote": "Great had spotify for years constantly great app.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "40b674d4-0e0d-4708-80e3-ebf25f1c56cd",
+      "sentiment": 0.88,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "This app just became worst.. now we have to pay for playing song what we like and u can't skip to Certain parts of song that you want to listen.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "f865c4b1-4492-4df1-bea6-92785b25726a",
+      "sentiment": -0.945,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify"
+      ],
+      "evidence_quote": "This app sucks no Spotify should remove these new restrictions if they want more ratings",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "bdd11b8a-aac6-4b22-ae16-03ba156cd2d2",
+      "sentiment": -0.925,
+      "severity": 1,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "It's very easy to operate and lovely quality",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "d2df6ed5-81ad-45f8-a4ea-8ff7618a9b4a",
+      "sentiment": 0.885,
+      "severity": 1,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Love it finding old rock songs from my teens. JAMES GANG. CHICAGO AND GOLDEN EARRING. EVERYTHING YOU CAN THINK OF.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "d5625b1a-22ed-40e2-bcb3-30002b5d6c81",
+      "sentiment": 0.91,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [
+        "premium",
+        "playlist"
+      ],
+      "evidence_quote": "Good music app, but the one thing you should change is the fact that you have to get premium to SKIP SONGS. Also, make it so you can't go through the playlist and change the song. I'm not using the app until you change this. 1. Make skipping free. 2. Allow people to change a song in the playlist.",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "27133e33-2802-4234-a29c-7e26608d95ee",
+      "sentiment": -0.555,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "play a different music i did not put on",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "9b1a5168-e14f-4e92-ab49-b73376fb9e1c",
+      "sentiment": -0.71,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Maayo ug nindot Ang mga sonata",
+      "intent": "praise",
+      "needs_review": true,
+      "review_id": "7d8121f0-3908-48bd-b278-a2f69dc6761b",
+      "sentiment": 0.71,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "ads"
+      ],
+      "evidence_quote": "Plays you 2 mins of ads, then a totally unrelated song. Meanwhile other services will at least play the song you've chosen after advertisements.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "63706469-68a5-436c-9afa-9beabc73267c",
+      "sentiment": -0.945,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify",
+        "Premium",
+        "playlists",
+        "playlist"
+      ],
+      "evidence_quote": "I have Spotify Premium because I use this app constantly- I have tons of playlists and I love it, but I hate the new changes. What new changes, you ask? Well, it changes all the time! Premium recently went up to 11 USD per month, they removed the like button and replaced it with a plus to add it to a playlist, and added a terrible AI DJ feature because... AI is a trend, I guess? I'm still paying for it because the free version is a massive downgrade, but I'm not happy with the way this is going.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "d7eb3405-557b-48f3-88c1-10b2082fd81a",
+      "sentiment": -0.735,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "spotify",
+        "podcasts",
+        "playlist"
+      ],
+      "evidence_quote": "6/19/17 Every update, every time I open spotify it crashes my phone, HTC One lastest Android update. Nothing else does it. This is my go-to app for all music and podcasts, but if this keeps up I'll need to find something more reliable. 9/22/22 - stop changing the navigation so it's harder to use in the car. The car thing is annoying I just want to be able to play a playlist on shuffle with 1 button not check shuffle is on THEN hit play. Damn y'all",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "104b205c-3c28-4777-84e6-1416d534b909",
+      "sentiment": -0.88,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Black",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "8113fa21-13cd-439e-bd3e-364744fb2ec7",
+      "sentiment": -0.015,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "premium",
+        "lyrics"
+      ],
+      "evidence_quote": "Form 5 to 0 star's I wish I could do that but I still have to give this one star I don't know what is worng with all this updates for premium now we even have to pay to see the song lyrics and also to go back to the previous song or to skip the song too- I mean whyy it was all so good before all this useless updates now all it want/need is money,so disappointed!",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "d827d467-18e8-48f1-89d2-de0ddb8d390c",
+      "sentiment": -0.985,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Good apple",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "6b1d22f5-8c5e-4fe6-89e6-7f2bbfaabf61",
+      "sentiment": 0.495,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "When I get a signal it always comes in terrific",
+      "intent": "praise",
+      "needs_review": true,
+      "review_id": "81656599-5a75-4850-babd-3f7e4d022eea",
+      "sentiment": 0.73,
+      "severity": 1,
+      "topic": "playback"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I enjoy the music, great tones.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "add19606-15fe-4869-b12b-41250ae67103",
+      "sentiment": 0.87,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "lyrics"
+      ],
+      "evidence_quote": "Plz do some thing I can't find the lyrics of the song anymore after updating",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "efd65909-b6e8-4ffc-aeab-1b901d0f703a",
+      "sentiment": -0.775,
+      "severity": 2,
+      "topic": "catalog"
+    },
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "I say take this app away from the play store or else make the app premium. 3 years ago I was happy that I found a best app for listening music even suggested it to my friends. The recent update was worst. Anyways whatever I say here you will just ignore it and do nothing about it. ONE OF THE TRASIEST APP IN PLAY STORE. You just took away our freedom of choosing what we like 😡😡. If there was a chance I would even give negative stars",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "cc4d09bb-08c8-4484-a0c2-d2b3c90c05e3",
+      "sentiment": -0.99,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify"
+      ],
+      "evidence_quote": "I like the app it's so much cooler than others music apps, Spotify is more better",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "e4d1517c-b49c-48b3-82d7-5c8c1de04707",
+      "sentiment": 0.625,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I hate this app banned the app",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "8dc965fc-02f7-4c3f-8e56-efcbf9ee13ad",
+      "sentiment": -0.975,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "It is nice 🙂 up 😄",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "d413f36d-030f-4fb7-8ec0-d125c5580e2b",
+      "sentiment": 0.72,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Amazing ,nice ,",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "660eab06-6ca4-48c5-876d-199d58f4798d",
+      "sentiment": 0.945,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "ads"
+      ],
+      "evidence_quote": "Need to fix the stupid app, it's so annoying to have to listen to 3 ads then only get to listen to 2 songs before u get more ads",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "d43bf0f5-9143-4442-ba89-13cba0c8546e",
+      "sentiment": -0.975,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify"
+      ],
+      "evidence_quote": "Have used Spotify for over 15 years now. Would never stop",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "9af9b2ea-52bb-4bb9-8530-34a0e48afc36",
+      "sentiment": 0.9,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Because of latest update. It is simply the worst update ever",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "05d1d423-97ef-4033-be20-c7c181714eb9",
+      "sentiment": -0.805,
+      "severity": 2,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I want song free please I hope you may change it thank you",
+      "intent": "request",
+      "needs_review": false,
+      "review_id": "9fd4a79f-23db-4463-bae9-196219a11e81",
+      "sentiment": 0.375,
+      "severity": 1,
+      "topic": "billing"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "A super easy subscription plan, equally difficult to cancel!",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "c6c61fe1-5f54-4a72-82a4-d1b611b3f3ad",
+      "sentiment": -0.725,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "podcast",
+        "playlist"
+      ],
+      "evidence_quote": "Add an option to dont recommend selected podcast or playlist on home page",
+      "intent": "request",
+      "needs_review": false,
+      "review_id": "be2aeb9d-980e-4681-8493-6b8f480c4c54",
+      "sentiment": -0.015,
+      "severity": 1,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I hate the last update!! It's annoying !! Can you please cancel the last update??? ( free version)",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "e0fa9ac0-73d9-4c1b-9a22-4b1b2d585bf1",
+      "sentiment": -0.85,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "queue"
+      ],
+      "evidence_quote": "When putting a song in the queue on my phone while connected to my PC, then moving the song in the queue into the first slot of songs after the queue, it glitches because for some reason the PC app doesn't allow you to put songs in that position while the phone app does.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "71dbd630-8b5a-45dc-a5a5-8a6b954423d2",
+      "sentiment": -0.615,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Pretty great when it works 😄",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "f1bd4ad3-af1e-484f-b72b-e38722504e28",
+      "sentiment": 0.225,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Boooooo🤮🤮🤮😠",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "144fc63f-97bf-423b-9e40-c8c37cf2716e",
+      "sentiment": -0.97,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Excellent music app . CANNOT find a song that this app doesn't have.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "dd62858c-7e84-4747-a8cc-f4fda0863c82",
+      "sentiment": 0.95,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "A brilliant app likes it",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "17362838-6c59-4060-8a9c-1041db008cc4",
+      "sentiment": 0.945,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Gives me what I need.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "7fa01021-3e7d-4db1-9f1f-3248c36a6137",
+      "sentiment": 0.69,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Best app(Never)",
+      "intent": "praise",
+      "needs_review": true,
+      "review_id": "6b54efe7-c1ba-4feb-80c8-634ea3a2b8ff",
+      "sentiment": -0.3,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "It's quite fun using this app for listening to music I enjoy a lot how this app suggests perfect album according to your mood",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "9eda897e-812c-4458-a8ef-e044f642821a",
+      "sentiment": 0.985,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I like this but get some update👍👍",
+      "intent": "request",
+      "needs_review": true,
+      "review_id": "4568775a-1b08-4330-8da1-536120fc7752",
+      "sentiment": 0.475,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "Just so new people understand. Pay for premium and you'll love the app on mobile, otherwise stick to using your PC app. Because Desktop app isn't as inconvenient for free users.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "0591e9b0-ed01-40b9-9ac2-e63317637c68",
+      "sentiment": -0.505,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "It's the great app",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "6d756d7f-b0cf-4447-8da6-27fc40c95085",
+      "sentiment": 0.895,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Uninstalled it cause it took 900mb of space... I don't even downloaded anything just streamed songs.. i mean why.. and 900mb occupied what for",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "af996fe2-8cb9-4c7c-a2e1-cd6d5ece21b6",
+      "sentiment": -0.93,
+      "severity": 2,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "playlists"
+      ],
+      "evidence_quote": "The app is good, but in past 2-3 days I can see that some songs (which I didn't use to play a lot) are disappearing from the playlists",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "0bfcfbee-b77b-4906-b2d5-52d30ef3b10e",
+      "sentiment": -0.505,
+      "severity": 2,
+      "topic": "downloads"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Froud application",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "35a2e17b-555c-4c69-9401-89d0bb55bf4c",
+      "sentiment": -0.885,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I love this app it's amazing for music you want to listen to if your ever bored then you could listen to music with this app it i never have any problems wit this app",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "4c6d60e1-7e74-4e4a-8a1f-2682e101da94",
+      "sentiment": 0.88,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Bhai tere se acha hungama,jio,wynk music acha hai",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "4443a53a-7e3e-44e6-bc97-9f5c30242958",
+      "sentiment": -0.7,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Great app. Am enjoying it, Godly and inspiring music",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "95a87d27-ba00-4708-8729-8632f20a1996",
+      "sentiment": 0.985,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Good od",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "896a00f8-f602-4472-bf8f-8b7bad456c53",
+      "sentiment": 0.4,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "premium",
+        "spotify"
+      ],
+      "evidence_quote": "Now each and every thing is premium, now cannot even skip or play specific parts of the songs. each and every thing is premium,I started hating spotify now, gonnaa delete it right now !!!!",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "e99ae8f3-2c13-444a-a855-c0d33404d31b",
+      "sentiment": -0.995,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "download"
+      ],
+      "evidence_quote": "Kafi Wayanad app hai। aaj ke bad koi bhi download Karega Tu pachtayega this app totally garbage",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "10ad75f8-c60d-4e9c-b0d6-5fcb85d2e606",
+      "sentiment": -0.895,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Fantastic and inspirational",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "1c1ac645-bc77-4583-81a2-3486b6d8af4b",
+      "sentiment": 1.0,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Wonderful! Awesome! Spectacular!",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "e752caab-a525-4458-906f-8d2e06b039cc",
+      "sentiment": 1.0,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "spotify"
+      ],
+      "evidence_quote": "New update of spotify is very disappointed you and you dont abel to have 1 star",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "844c04ab-7f37-4577-a1e8-749ec9945a93",
+      "sentiment": -0.815,
+      "severity": 1,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify"
+      ],
+      "evidence_quote": "You click on a song to listen but Spotify plays another song from another artist. I mean what do you mean?",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "3f6f2ad2-370d-4bce-930e-bd1bfcf770ae",
+      "sentiment": -0.93,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "Lyrics",
+        "premium"
+      ],
+      "evidence_quote": "Lyrics don't load, nothing can be done without taking premium, almost nothing....",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "b2fb824e-983e-4ce2-a3dc-b52a744c7406",
+      "sentiment": -0.93,
+      "severity": 3,
+      "topic": "catalog"
+    },
+    {
+      "entities": [
+        "offline"
+      ],
+      "evidence_quote": "Mostly been fixed. Large widget doesn't work. Constantly shows \"offline\"",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "9b5b489c-f550-4a2e-a70d-5b3c64dac3c7",
+      "sentiment": -0.59,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I hate this app Allah hu akbar",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "68035ed7-c8a5-48da-9147-c87d00a3d1a0",
+      "sentiment": -0.74,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "playlists",
+        "playlist"
+      ],
+      "evidence_quote": "Seriously makes you pay to listen to your playlists, actual bs. If you want to listen to music it has to be on shuffle and it's not even your playlist that shuffles, it's any song in the world will play",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "dbc77ea0-30bb-47f7-87c5-61ccc0a81ffd",
+      "sentiment": -0.97,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Never Fight against our religious values!",
+      "intent": "unclear",
+      "needs_review": true,
+      "review_id": "0ab8ce94-d3a5-45fb-b754-ecedfd8be90c",
+      "sentiment": -0.66,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "Spotify",
+        "lyrics"
+      ],
+      "evidence_quote": "Spotify has enjoyable and songs with lyrics",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "d02d846e-a307-4310-b72b-4a9bd7a7aa77",
+      "sentiment": 0.525,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Turns on by itself, very annoying, no obvious way to stop it except to hit pause after it starts......or just delete the app",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "548a1925-3343-452f-817c-f5b77f527fb4",
+      "sentiment": -0.845,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "Spotify",
+        "playlists",
+        "Playlist"
+      ],
+      "evidence_quote": "Spotify has removed the best way to discover new music. \n\nLike many people, I organize my music in playlists by genre. Then I listen to dynamic radio stations based on those playlists. Now Spotify has removed this Playlist Radio feature for no apparent reason. \n\nDiscover Weekly is nice, but is a mish-mash of genres over which you have no control. There are Daily Mixes, but these definitely do not refresh daily. And again, no control over the genres.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "f12e8c11-d326-4d49-8226-3e9907a8c719",
+      "sentiment": -0.895,
+      "severity": 3,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Love this app but it's sad that it sometimes doesn't have the music I want but it usually has everything and I even end up finding songs from my childhood",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "7d851e26-b2b6-4bdc-a707-5f56e56e627e",
+      "sentiment": 0.415,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [
+        "Ads"
+      ],
+      "evidence_quote": "Ads are coming after 1 song...",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "f891797e-8e43-40e9-b53c-4b70eedf0ef0",
+      "sentiment": -0.685,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Such a great music source. I can play entire albums by my favorite bands, or let the app pick a variety of songs by them. Can listen by genre. Plus I can pill up specific books of the Bible to listen to. So worth having. And I have not heard one add.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "00f3744c-20bf-4c18-bb5f-693c718da69a",
+      "sentiment": 0.98,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Love it, allows me to indulge my passion for old and new music",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "453c0564-abc1-498f-a25f-de789c4c34da",
+      "sentiment": 0.995,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [
+        "Premium"
+      ],
+      "evidence_quote": "Ah they removed a basic feature like seek and made it exclusive for Premium users. Pathetic app",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "b7ff6ed5-d7f1-4d50-b6d7-97edaeb96ec9",
+      "sentiment": -0.99,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "this app is good for playing music 🎶",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "41e15ed0-2ee4-4f3a-9a60-c4eb45de3fbe",
+      "sentiment": 0.875,
+      "severity": 1,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "ad"
+      ],
+      "evidence_quote": "It is a very good music app , I like this music the most even though it good but it contains several bane in between music ad interrupt too much it is very irritating for me.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "10b41e42-af9d-4032-b27d-76ce4b2eecd4",
+      "sentiment": -0.61,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "download"
+      ],
+      "evidence_quote": "It's nice but I'd rather play on a baby game plus it takes so long to download and it's hard to figure out how to make it work",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "7c80c3a9-dd38-4341-84c3-70d8113b07a4",
+      "sentiment": -0.565,
+      "severity": 3,
+      "topic": "downloads"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "THE BEST OF ALL MUSIC APPS",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "e5499730-bce6-4c84-b448-12fb7876c7cd",
+      "sentiment": 0.985,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Constantly closes randomly, changed phones and tried to uninstall and reinstall and still nothing.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "d68292d4-3076-4339-ad73-d4411d91cb79",
+      "sentiment": -0.795,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I dislikes this app",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "20e6b1a5-7874-4546-955f-1106c4c7e782",
+      "sentiment": -0.765,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "playlists"
+      ],
+      "evidence_quote": "Best app for music With the best playlists",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "8041fa5d-a7d8-4fc4-8aa5-3e865b089570",
+      "sentiment": 0.975,
+      "severity": 1,
+      "topic": "catalog"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Almost unusable. If you don't manage to fix all the infinite bugs I'm gonna cancel my subscription. EDIT: The situation isn't changed. If you just accepted my job application I could've fixed every stupid bug your app has. For real, with all the big salaries your company offers you still can't manage to deploy a decent build?",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "b4d45703-380d-41cd-8c55-d64e7b4238f8",
+      "sentiment": -0.99,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Pretty awesome app. Highly recommend!",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "668cd413-389b-4acc-be32-1194f8b8ad5c",
+      "sentiment": 0.995,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "Honestly I don't even think this app is worth downloading, it doesn't let you play any song of your choice, it doesn't allow more than 6 skips per hour every thing is part of premium plan, I'd rather not listen to music anymore",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "c1016c5c-9971-422c-a0b4-d05e1b93aa32",
+      "sentiment": -0.985,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "SPOTIFY",
+        "Spotify",
+        "premium"
+      ],
+      "evidence_quote": "ON THIN ICE, SPOTIFY I have been using Spotify since 2015 and generally, I've loved it once I got premium. However, today I opened it up to play my music and was immediately bombarded by autoplaying suggestions on my home page. NOT cool. If this new feature (experiencing on Android as of 3/16/23) isn't removed or greatly diminished soon, I'll have to migrate my listening elsewhere. Do not tiktokify my music library, dudes. I hate this feature & will not hesitate to leave the platform.",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "be9f3fdc-faed-434f-8d0e-a13719fbe704",
+      "sentiment": -0.985,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [
+        "ads"
+      ],
+      "evidence_quote": "Doesn't accept log in nor my accounts and if it does plays ads after every single song, payed for nothing going back to tidal",
+      "intent": "cancellation",
+      "needs_review": false,
+      "review_id": "e388145a-2d07-4bbc-ba94-75b20065ea1c",
+      "sentiment": -0.995,
+      "severity": 4,
+      "topic": "access"
+    },
+    {
+      "entities": [
+        "playlist"
+      ],
+      "evidence_quote": "The app seems to hold up well. The only annoyance is when my Android playlist shuffles automatically.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "6c7df15a-d74f-4c16-8982-aaf6e0790670",
+      "sentiment": -0.37,
+      "severity": 2,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Supper aap nice song app",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "b242ee5a-30bc-45d8-9b67-d3e2493cd523",
+      "sentiment": 0.92,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Bhai kuch to baheter karlo",
+      "intent": "complaint",
+      "needs_review": true,
+      "review_id": "254fc496-616c-4eb1-907c-40668f3966af",
+      "sentiment": -0.62,
+      "severity": 1,
+      "topic": "other"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Scroll not working I have about 5 thousand songs, but when I want to listen alphabetically, I need to use my finger and scroll song by song, page by page to find a song that I want to listen. It always had on app, but lately it just vanished. We need that scroll button.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "78a0a09e-b203-43e7-88a6-0dfc2e8f3756",
+      "sentiment": -0.64,
+      "severity": 3,
+      "topic": "usability"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "I enjoy that they have a student discount and how they remind you when you have to renew your student discount. Very handy.",
+      "intent": "praise",
+      "needs_review": false,
+      "review_id": "8903c0a4-9543-4604-872e-e19bdc22375a",
+      "sentiment": 0.985,
+      "severity": 1,
+      "topic": "billing"
+    },
+    {
+      "entities": [
+        "sign in"
+      ],
+      "evidence_quote": "This is probably just a personal experience, but I've reinstalled the app three times, restarted my phone, and cleared the cache twice but the app won't work. It will open and just show me the logo. I'm not even given the option to sign in.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "1bb59c39-7da4-4516-828c-e381546f5621",
+      "sentiment": -0.84,
+      "severity": 4,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "premium"
+      ],
+      "evidence_quote": "Well I was going to go premium but a few months ago it stop playing. I didn't know what was going on. I reset the app and my phone. I had to uninstall the app just to get it to work again. It has done it to me about 5 times that's not including today. It's BS and I'm not going to join premium if it stops playing like that. Please fix it . Thank you",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "03ad4235-f4a0-43b4-9f1d-04ad119cbc9b",
+      "sentiment": -0.965,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [
+        "playlists"
+      ],
+      "evidence_quote": "I've had the app for a month and everything was fine until the latest update now I can't play anything from my playlists unless if it's short little parts of the song. This is really frustrating , can someone help me with this issue please.",
+      "intent": "complaint",
+      "needs_review": false,
+      "review_id": "d758a0bb-ccbb-40b3-80b9-22255a7a7a62",
+      "sentiment": -0.875,
+      "severity": 3,
+      "topic": "playback"
+    },
+    {
+      "entities": [],
+      "evidence_quote": "Off The Record on fire!!",
+      "intent": "praise",
+      "needs_review": true,
+      "review_id": "b040b887-4375-4dc3-88f1-0d9be8bba482",
+      "sentiment": 0.8,
+      "severity": 1,
+      "topic": "other"
+    }
+  ],
+  "sample_ids": [
+    "f186c43e-2220-44f4-8555-887c6fb1bbd0",
+    "7870dbc3-4533-4afd-bfe5-eba1177638e4",
+    "09ed5cce-ff5f-42c3-9363-1273aa48cc8b",
+    "53e34eaf-b9e8-4aca-b841-a36d48ede6cc",
+    "9eef0990-cfa4-4989-82de-41dc4c5f60de",
+    "1191101e-9360-4233-be53-326187b444ac",
+    "19dbd7e7-1ba8-44fc-8868-0b5399c57758",
+    "f3c76359-9a3b-4a3a-b5b6-b24ef0537ac8",
+    "097e7517-53ba-49d7-b6e9-27a5942667d4",
+    "077cef03-b75e-4337-8dd7-3d8657d413bb",
+    "04e8fbed-cf7b-4bc1-9181-7ea50d56f44d",
+    "623bc616-e200-4533-a624-36dca3161802",
+    "068e956a-d551-4a91-ac9c-558f2c670f31",
+    "40b674d4-0e0d-4708-80e3-ebf25f1c56cd",
+    "f865c4b1-4492-4df1-bea6-92785b25726a",
+    "bdd11b8a-aac6-4b22-ae16-03ba156cd2d2",
+    "d2df6ed5-81ad-45f8-a4ea-8ff7618a9b4a",
+    "d5625b1a-22ed-40e2-bcb3-30002b5d6c81",
+    "27133e33-2802-4234-a29c-7e26608d95ee",
+    "9b1a5168-e14f-4e92-ab49-b73376fb9e1c",
+    "7d8121f0-3908-48bd-b278-a2f69dc6761b",
+    "63706469-68a5-436c-9afa-9beabc73267c",
+    "d7eb3405-557b-48f3-88c1-10b2082fd81a",
+    "104b205c-3c28-4777-84e6-1416d534b909",
+    "8113fa21-13cd-439e-bd3e-364744fb2ec7",
+    "d827d467-18e8-48f1-89d2-de0ddb8d390c",
+    "6b1d22f5-8c5e-4fe6-89e6-7f2bbfaabf61",
+    "81656599-5a75-4850-babd-3f7e4d022eea",
+    "add19606-15fe-4869-b12b-41250ae67103",
+    "efd65909-b6e8-4ffc-aeab-1b901d0f703a",
+    "cc4d09bb-08c8-4484-a0c2-d2b3c90c05e3",
+    "e4d1517c-b49c-48b3-82d7-5c8c1de04707",
+    "8dc965fc-02f7-4c3f-8e56-efcbf9ee13ad",
+    "d413f36d-030f-4fb7-8ec0-d125c5580e2b",
+    "660eab06-6ca4-48c5-876d-199d58f4798d",
+    "d43bf0f5-9143-4442-ba89-13cba0c8546e",
+    "9af9b2ea-52bb-4bb9-8530-34a0e48afc36",
+    "05d1d423-97ef-4033-be20-c7c181714eb9",
+    "9fd4a79f-23db-4463-bae9-196219a11e81",
+    "c6c61fe1-5f54-4a72-82a4-d1b611b3f3ad",
+    "be2aeb9d-980e-4681-8493-6b8f480c4c54",
+    "e0fa9ac0-73d9-4c1b-9a22-4b1b2d585bf1",
+    "71dbd630-8b5a-45dc-a5a5-8a6b954423d2",
+    "f1bd4ad3-af1e-484f-b72b-e38722504e28",
+    "144fc63f-97bf-423b-9e40-c8c37cf2716e",
+    "dd62858c-7e84-4747-a8cc-f4fda0863c82",
+    "17362838-6c59-4060-8a9c-1041db008cc4",
+    "7fa01021-3e7d-4db1-9f1f-3248c36a6137",
+    "6b54efe7-c1ba-4feb-80c8-634ea3a2b8ff",
+    "9eda897e-812c-4458-a8ef-e044f642821a",
+    "4568775a-1b08-4330-8da1-536120fc7752",
+    "0591e9b0-ed01-40b9-9ac2-e63317637c68",
+    "6d756d7f-b0cf-4447-8da6-27fc40c95085",
+    "af996fe2-8cb9-4c7c-a2e1-cd6d5ece21b6",
+    "0bfcfbee-b77b-4906-b2d5-52d30ef3b10e",
+    "35a2e17b-555c-4c69-9401-89d0bb55bf4c",
+    "4c6d60e1-7e74-4e4a-8a1f-2682e101da94",
+    "4443a53a-7e3e-44e6-bc97-9f5c30242958",
+    "95a87d27-ba00-4708-8729-8632f20a1996",
+    "896a00f8-f602-4472-bf8f-8b7bad456c53",
+    "e99ae8f3-2c13-444a-a855-c0d33404d31b",
+    "10ad75f8-c60d-4e9c-b0d6-5fcb85d2e606",
+    "1c1ac645-bc77-4583-81a2-3486b6d8af4b",
+    "e752caab-a525-4458-906f-8d2e06b039cc",
+    "844c04ab-7f37-4577-a1e8-749ec9945a93",
+    "3f6f2ad2-370d-4bce-930e-bd1bfcf770ae",
+    "b2fb824e-983e-4ce2-a3dc-b52a744c7406",
+    "9b5b489c-f550-4a2e-a70d-5b3c64dac3c7",
+    "68035ed7-c8a5-48da-9147-c87d00a3d1a0",
+    "dbc77ea0-30bb-47f7-87c5-61ccc0a81ffd",
+    "0ab8ce94-d3a5-45fb-b754-ecedfd8be90c",
+    "d02d846e-a307-4310-b72b-4a9bd7a7aa77",
+    "548a1925-3343-452f-817c-f5b77f527fb4",
+    "f12e8c11-d326-4d49-8226-3e9907a8c719",
+    "7d851e26-b2b6-4bdc-a707-5f56e56e627e",
+    "f891797e-8e43-40e9-b53c-4b70eedf0ef0",
+    "00f3744c-20bf-4c18-bb5f-693c718da69a",
+    "453c0564-abc1-498f-a25f-de789c4c34da",
+    "b7ff6ed5-d7f1-4d50-b6d7-97edaeb96ec9",
+    "41e15ed0-2ee4-4f3a-9a60-c4eb45de3fbe",
+    "10b41e42-af9d-4032-b27d-76ce4b2eecd4",
+    "7c80c3a9-dd38-4341-84c3-70d8113b07a4",
+    "e5499730-bce6-4c84-b448-12fb7876c7cd",
+    "d68292d4-3076-4339-ad73-d4411d91cb79",
+    "20e6b1a5-7874-4546-955f-1106c4c7e782",
+    "8041fa5d-a7d8-4fc4-8aa5-3e865b089570",
+    "b4d45703-380d-41cd-8c55-d64e7b4238f8",
+    "668cd413-389b-4acc-be32-1194f8b8ad5c",
+    "c1016c5c-9971-422c-a0b4-d05e1b93aa32",
+    "be9f3fdc-faed-434f-8d0e-a13719fbe704",
+    "e388145a-2d07-4bbc-ba94-75b20065ea1c",
+    "6c7df15a-d74f-4c16-8982-aaf6e0790670",
+    "b242ee5a-30bc-45d8-9b67-d3e2493cd523",
+    "254fc496-616c-4eb1-907c-40668f3966af",
+    "78a0a09e-b203-43e7-88a6-0dfc2e8f3756",
+    "8903c0a4-9543-4604-872e-e19bdc22375a",
+    "1bb59c39-7da4-4516-828c-e381546f5621",
+    "03ad4235-f4a0-43b4-9f1d-04ad119cbc9b",
+    "d758a0bb-ccbb-40b3-80b9-22255a7a7a62",
+    "b040b887-4375-4dc3-88f1-0d9be8bba482"
+  ],
+  "seed": "spotify-pilot-verify-v1"
+}

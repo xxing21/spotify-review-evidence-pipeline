@@ -1,0 +1,40 @@
+{
+  "run_id": "pilot-100",
+  "scope": "development_only",
+  "input_count": 100,
+  "statuses": {
+    "completed": 60,
+    "quarantined": 40
+  },
+  "exact_text_reuses": 0,
+  "model_attempts": 23,
+  "failed_attempts": 16,
+  "active_seconds": 151.82687791598437,
+  "spent_plus_unresolved_reservations_global_usd": "0.026085890",
+  "account_repair_windows": [
+    {
+      "at": "2026-10-20T06:24:12.088455+00:00",
+      "reason": "Explicit --retry-after-fix: user reports account access repaired; old attempts retained",
+      "window": 1
+    }
+  ],
+  "config": {
+    "batch_size": 10,
+    "effort": "none",
+    "fallback_fraction": 0,
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "prompt_hashes": {
+      "enrich": "1b9871402cdf4f0aeca75516f11a0ebdf876740715c429549ddca022da6e7c29",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "8464db69a2335945e13e174e7151851568878740ffabd265fe3b9210769c0942"
+    },
+    "schema_version": "spotify-label-v1",
+    "service_tier": "default",
+    "verification_fraction": 0.2,
+    "verification_seed": "spotify-pilot-verify-v1",
+    "workers": 1
+  }
+}

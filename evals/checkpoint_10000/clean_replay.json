@@ -1,0 +1,13 @@
+{
+  "credentials_removed": true,
+  "original_database_absent": true,
+  "portable_ranking_identical": true,
+  "directory_local_rates_respected": true,
+  "double_rates_double_incremental_api_cost": true,
+  "measured_time_unchanged": true,
+  "volume_does_not_change_measurements": true,
+  "raw_measurements_unchanged": true,
+  "baseline_incremental_usd": "0.478451525",
+  "doubled_incremental_usd": "0.956903050",
+  "passed": true
+}

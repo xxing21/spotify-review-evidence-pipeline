@@ -1,0 +1,32 @@
+[
+  {
+    "completed": true,
+    "elapsed_seconds": 10.61397654202301,
+    "new_calls": 1,
+    "phase": "enrich-probe",
+    "records": 20,
+    "saved_at": "2026-10-20T23:04:13.817035+00:00",
+    "source_utf8_bytes": 2150,
+    "workers": 1
+  },
+  {
+    "completed": true,
+    "elapsed_seconds": 22.883059749990935,
+    "new_calls": 24,
+    "phase": "enrich-16",
+    "records": 480,
+    "saved_at": "2026-10-20T23:04:36.735147+00:00",
+    "source_utf8_bytes": 50443,
+    "workers": 16
+  },
+  {
+    "completed": true,
+    "elapsed_seconds": 6.477837875019759,
+    "new_calls": 50,
+    "phase": "verify-8",
+    "records": 100,
+    "saved_at": "2026-10-20T23:04:43.220011+00:00",
+    "source_utf8_bytes": 11242,
+    "workers": 8
+  }
+]

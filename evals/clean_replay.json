@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "credentials_removed": true,
+  "original_sqlite_database_absent": true,
+  "installed_package_used": true,
+  "offline_cost_replay": true,
+  "portable_ranking_identical": true,
+  "double_rates_double_api_spend": true,
+  "measured_time_unchanged": true,
+  "local_compute_unchanged": true,
+  "projected_volume_does_not_change_measurements": true,
+  "raw_measurements_unchanged": true,
+  "baseline_api_usd": "0.006916075",
+  "doubled_api_usd": "0.013832150",
+  "cold_seconds": 92.52117
+}

@@ -1,0 +1,33 @@
+{
+  "config": {
+    "batch_size": 10,
+    "effort": "none",
+    "fallback_fraction": 0,
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "12df8e97eff368c7aa6f2088d35f8e456b26e6c62cac8260d6aa4618f9e71f84"
+    },
+    "schema_version": "spotify-label-v2-code-grounding",
+    "service_tier": "default",
+    "verification_fraction": 0.2,
+    "verification_seed": "spotify-pilot-verify-v1",
+    "workers": 1
+  },
+  "created_at": "2026-10-20T06:54:21.619624+00:00",
+  "dataset": "a94e31663ee7b7eaa77e23b7a8425b530cc0c866ed5e714953172a0afef6a12f",
+  "input_count": 500,
+  "input_path": "/Users/xxr/Desktop/Agentic AI/Final Assignment - Spotify Reviews Dataset/checkpoint_500.csv",
+  "kind": "checkpoint_500",
+  "run_id": "pilot-500-v2",
+  "scope": "development_only",
+  "code_versions_reported": [
+    "0.1.0"
+  ],
+  "source_code_sha256_at_export": "acc465e8f902368e7c32ba57c06b5e1fd13755aa2942f6d334d5ea29e0c9a2b4",
+  "code_identity_note": "Package version is recorded per final-pilot call; export hash identifies the current saved source, not a Git commit."
+}

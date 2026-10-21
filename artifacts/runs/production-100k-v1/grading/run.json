@@ -1,0 +1,11 @@
+{
+  "version": "a5-audit-v1",
+  "analysis_count": 100000,
+  "analysis_sha256": "b411dd961b296b0a2878a02f717d93dcf4ed251354e17609cdbcd08a871c1a32",
+  "classification_input_fields": [
+    "review_text"
+  ],
+  "allow_multi_issue": false,
+  "scope": "100000 original nonempty source-ID sample; full-file ingestion is separate",
+  "run_id": "production-100k-v1"
+}

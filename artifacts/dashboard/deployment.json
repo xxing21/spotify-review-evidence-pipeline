@@ -1,0 +1,12 @@
+{
+  "project_id": "appgprj_6ad7fa7de574819186a133c8b5d8cef6",
+  "url": "https://spotify-review-evidence-100k.black-jelly-1742.chatgpt.site",
+  "status": "succeeded",
+  "access": "owner-private",
+  "source_commit": "09b1c7e54d9b08dc996363440b6bbd985a17c819",
+  "version_id": "appgprj_6ad7fa7de574819186a133c8b5d8cef6~appgver_bf4dd2ebc94081918fd69bf61de5cc2c",
+  "deployment_id": "appgdep_6ad7fdae97708191a3ba5c0db18b6d28",
+  "database": "Sites-managed D1",
+  "backend": "Cloudflare Worker API",
+  "model_calls_while_browsing": 0
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Listeners object to restrictions on choosing, skipping, and replaying specific songs, especially when these controls are limited to encourage a Premium subscription.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "Song selection and playback controls"
+  },
+  {
+    "description": "Reviews give a broad negative judgment of the app or its update without identifying a specific problem.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "General dissatisfaction"
+  },
+  {
+    "description": "The app crashes, fails to load, or does not start playback as expected, including through Google Assistant.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "App startup and playback failures"
+  },
+  {
+    "description": "Listeners report missing songs or limited availability of particular genres, as well as inconsistent lyrics coverage.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Missing music and content"
+  },
+  {
+    "description": "Users complain that basic listening controls are restricted to Premium subscribers, describing the changes as an unwanted push to pay.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Paid-plan restrictions"
+  },
+  {
+    "description": "Users cannot access their accounts, including problems signing in or having a password accepted.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Account access and sign-in"
+  },
+  {
+    "description": "Downloads get stuck or offline listening does not work reliably.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Downloads and offline listening"
+  },
+  {
+    "description": "A review expresses dissatisfaction with Spotify’s support stance without describing a specific support interaction.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Support-related dissatisfaction"
+  }
+]

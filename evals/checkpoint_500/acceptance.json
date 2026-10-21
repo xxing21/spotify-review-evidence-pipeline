@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "completed_original_ids": 500,
+  "same_id_results_inherited": 100,
+  "exact_text_aliases": 21,
+  "new_distinct_enrichment_tasks": 379,
+  "new_attempts": 50,
+  "new_failures": 0,
+  "original_100_measurements_preserved": true,
+  "no_original_100_id_reenriched": true,
+  "warm_new_calls": 0,
+  "checker_status": "pass",
+  "source_checksums_match": true,
+  "readme_links_valid": true,
+  "local_key_absent_from_deliverables": true,
+  "scope_stops_at": 500
+}

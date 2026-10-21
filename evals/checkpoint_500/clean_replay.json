@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "credentials_removed": true,
+  "original_database_absent": true,
+  "installed_package_used": true,
+  "portable_ranking_identical": true,
+  "default_directory_local_rates_respected": true,
+  "double_rates_double_incremental_api_cost": true,
+  "incremental_time_unchanged": true,
+  "volume_does_not_change_measured_results": true,
+  "raw_measurements_unchanged": true,
+  "inherited_calls_not_billed_twice": true,
+  "baseline_incremental_usd": "0.023235875",
+  "doubled_incremental_usd": "0.046471750",
+  "incremental_seconds": 389.78172541699314
+}

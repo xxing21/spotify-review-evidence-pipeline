@@ -1,0 +1,21 @@
+{
+  "saved_at": "2026-10-20T23:24:30.420192+00:00",
+  "scope": "Same 500-review sample, independent recheck of the same 100 source IDs; not 100 additional enrichment records",
+  "completed_predictions": 100,
+  "exact_sample_ids": true,
+  "saved_predictions_reproduce_raw_answers": true,
+  "source_only_inputs": true,
+  "billing_matches_raw_usage": true,
+  "maximum_one_attempt_per_task": true,
+  "parent_measurements_unchanged": true,
+  "all_usage_available": true,
+  "rates_double_projection_cost": true,
+  "rates_preserve_projection_time": true,
+  "volume_preserves_measurements": true,
+  "secret_check_passed": true,
+  "proposed_target_profile_matches_original_sources": true,
+  "combined_pilot_cost_usd": "0.050751610",
+  "global_committed_usd": "0.717121940",
+  "within_caps": true,
+  "passed": true
+}

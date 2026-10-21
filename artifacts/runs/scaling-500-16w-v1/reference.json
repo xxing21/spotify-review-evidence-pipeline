@@ -1,0 +1,2046 @@
+{
+  "version": "a5-audit-v1",
+  "ingestion": {
+    "file_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+    "parsed_rows_sha256": "eb5ea1e15f020212004a5b1e2f873e45a9f105d1b4516ad077020492364f71ff",
+    "counts": {
+      "records": 660622,
+      "duplicate_review_ids": 0,
+      "empty_review_text": 13,
+      "missing_app_version": 159701
+    },
+    "reviews_by_month": {
+      "2022-05": 15461,
+      "2022-06": 30338,
+      "2022-07": 32784,
+      "2022-08": 30732,
+      "2022-09": 26933,
+      "2022-10": 27572,
+      "2022-11": 27349,
+      "2022-12": 31744,
+      "2023-01": 28609,
+      "2023-02": 20889,
+      "2023-03": 27238,
+      "2023-04": 25014,
+      "2023-05": 28062,
+      "2023-06": 27117,
+      "2023-07": 85079,
+      "2023-08": 30438,
+      "2023-09": 41634,
+      "2023-10": 89104,
+      "2023-11": 34525
+    },
+    "reviews_by_rating": {
+      "1": 242620,
+      "5": 299560,
+      "3": 33268,
+      "2": 31034,
+      "4": 54140
+    },
+    "first_review": "2022-05-17 00:01:07",
+    "last_review": "2023-11-15 23:16:10"
+  },
+  "analysis_sha256": "fbc53285f9ffaa58cd26e6ac9f0b147fa8aaa3cdcfc928823b2f5fa0c633f468",
+  "rows": {
+    "f542c3f2-86d6-4292-8a3f-9925f1c154cf": {
+      "source_sha256": "a9fe03e90b484546427bd2b0fa9d7aedd7436f47433b8263affe1d7bbfe2b2e3",
+      "review_text": "No Repeat and shuffle option... For everything that's basic the premium is needed"
+    },
+    "0f6e54e9-c6e9-4d1c-8353-6aa9d8b962c6": {
+      "source_sha256": "a0da931953bfecb984645b695a0eaf565126addd5d557b04a0d9bca1b19600a1",
+      "review_text": "Dont get me wromg the app is great. But i hate that i cant pick the song i want or at least let me pick the songs i want and it not gove me a random song."
+    },
+    "3cb6d645-1418-490a-ad6c-049bcba69714": {
+      "source_sha256": "7ac3436190fee7e198db70f944ecdab4fa70fe9b5252bfa45ac289c16b17988b",
+      "review_text": "Good when it works, could be better... On frequent occasion(s), it does not save your current progress when listening to podcasts."
+    },
+    "ba7b4f1d-3373-44f6-b357-73c5f59590bd": {
+      "source_sha256": "194235aab2a9cbe49f54e1217bebcf00208d77557b31f5565d3df5540c848ef7",
+      "review_text": "🤝🏽"
+    },
+    "62d92f2e-8d4d-459a-b12a-7e6fc131e049": {
+      "source_sha256": "d41346a5cae57984155cc04fc18f9e9f93c7a580fe30cb1caf374166868f294e",
+      "review_text": "Hate the new Tik Tok style interface! Considering all the negative press they are getting I have no idea why any app would want to copy them! When I open the app music previews annoyingly play automatically. Can't find my recently played artists. And the custom playlists are gone. For $15 /mo I expect better control of my own listening experience"
+    },
+    "0591e9b0-ed01-40b9-9ac2-e63317637c68": {
+      "source_sha256": "47079ba7cebcc2e0139172b77a1764d63a271b50ef7155a9fa9cd23cc6526947",
+      "review_text": "Just so new people understand. Pay for premium and you'll love the app on mobile, otherwise stick to using your PC app. Because Desktop app isn't as inconvenient for free users."
+    },
+    "963857ab-9a32-49ea-a7ce-20769f4ff748": {
+      "source_sha256": "20daa6857487472e4d0bc291ca74c2532f716a1d6423e62a5e72836b1aea5857",
+      "review_text": "The recent update was frustrating... Knowing that basic features like replaying of a song rewind previous song and the shuffle made compulsory... Instead of making me want premium it made me frustrated!!! There are many apps that provide these basic features! Uninstalled.!"
+    },
+    "23ff5cb2-b14e-4a0b-af28-e6324e276ce7": {
+      "source_sha256": "bdd4af948cf3d780b1e6c4251e6493a3093577e7cd1901329467080c257aa636",
+      "review_text": "Great easy to use all the latest"
+    },
+    "077cef03-b75e-4337-8dd7-3d8657d413bb": {
+      "source_sha256": "0f7ba85764eca349894a94dc88f9373d2b827f446c04077198271334b32dd9d7",
+      "review_text": "I hate this app it is not usefull"
+    },
+    "40b674d4-0e0d-4708-80e3-ebf25f1c56cd": {
+      "source_sha256": "1bf2d1bdb73e76be514c5e2bf3560fcd0f4bab31d56dc9d164dbb91c05f6da48",
+      "review_text": "Great had spotify for years constantly great app."
+    },
+    "58cce90a-5812-4528-97cc-8b8327137dc8": {
+      "source_sha256": "5f5afc48b7c2185b0221d0ed60b467a12483449cd187a747bf89a9965e7226b4",
+      "review_text": "Music & more music. Great range for all tastes."
+    },
+    "b4acf2ee-2ea0-4a55-b6a0-d551a126db6b": {
+      "source_sha256": "b1cbb2925086b6ddcafbb47f582b954fb7d8535018eb69751ca88a8e355e46ba",
+      "review_text": "0 star hate for you"
+    },
+    "c6c61fe1-5f54-4a72-82a4-d1b611b3f3ad": {
+      "source_sha256": "d22176679ed6deb572444e97c4f1cfb4938a2ed5542fbe486f17c91d4db95a4c",
+      "review_text": "A super easy subscription plan, equally difficult to cancel!"
+    },
+    "a7c59a6c-ea92-4fd9-b9dd-81034b71b0af": {
+      "source_sha256": "cf7879162a157c1efb0d6afb56a33ad789b8e6750b199dd5d65b702ca9520f64",
+      "review_text": "I enjoyed a lot very nice application"
+    },
+    "8041fa5d-a7d8-4fc4-8aa5-3e865b089570": {
+      "source_sha256": "360ba96a1b3b7f69d1bbc443a1f3b82eb1ddff5c06f36494c4eda58de60b12b4",
+      "review_text": "Best app for music With the best playlists"
+    },
+    "db39e72c-71ca-4bf0-b260-9386686787b5": {
+      "source_sha256": "f9f2ec4463164b953006af76aece874e4e0c44dc7005b6a8f726bef7c67126f4",
+      "review_text": "Hi My spotify was working fine for like 3 or 4 days but after quite some time it won't play the music I selected to listen and other stuff was wrong then I updated it,logged out and logged back in at least 3 times but nothing changed I even emailed back to spotify no answer,any suggestions??"
+    },
+    "ffe80664-d64b-412a-a52f-9acde2c483e2": {
+      "source_sha256": "9d10cb19d1c1dc86c6fa06518d479d0c493409245fbb25fff37e73292c0fa8ff",
+      "review_text": "Junk app. Glitchy on every Android phone I have owned and it is riddled with constant, extremely loud advertisements. So many better options for music now adays, this app should really rethink their approach to having 6 ads prior to playing music."
+    },
+    "f843d54b-3bbe-4265-ace9-8265c2b3136c": {
+      "source_sha256": "78538b59dbcbcb4215950bfe2e310e9a713dd23f940975674d8cf556da2e3a7e",
+      "review_text": "I am enjoying the variety of music with not many ads, will be seriously thinking of paying"
+    },
+    "4fd11d57-83c2-478c-a5ec-e8f2d982afba": {
+      "source_sha256": "479d2cb410eb33468ab3a6e09598b02a3ccc700a2eb6af61aa162ef10f5e301f",
+      "review_text": "When I'm depers I come here"
+    },
+    "1dc96023-2960-4c39-924a-cad8e076b2c6": {
+      "source_sha256": "099859a459376666b4428f7226348556ad48f5918def78458a56635e302b16af",
+      "review_text": "Hell"
+    },
+    "8e46e3e8-3419-45e7-a429-f880900b8167": {
+      "source_sha256": "d94621f03d96197650479b6400154af02ebea864243115106f1710d8ba8b8358",
+      "review_text": "Five star because I can listen any song I want even moz🇲🇿"
+    },
+    "91da85d8-e755-47cb-9a8a-054626f0daed": {
+      "source_sha256": "5dc8461aa58576275061acb3e80ad28bf996146667434f1620d4bb72153a71f1",
+      "review_text": "It's a very good experience"
+    },
+    "019f686a-b338-48a3-8afa-cc8dd28be599": {
+      "source_sha256": "afafbd3fb3f4e0c34b1ef143dffe766afc58abe01e73518911f19e610e73c06e",
+      "review_text": "music is good but dont like theres alot of ads"
+    },
+    "3bb1483a-500b-4af9-aed9-4e1a25d1af55": {
+      "source_sha256": "2f66887efef988ea5f65d03c7edd37a1d0e4d4c7ba7f1c5acd753d75a4c3e30f",
+      "review_text": "This is you are gaining Sweden 1.1 rating by burning our Quran our holy book the creation of Allah almighty you fools"
+    },
+    "fc046251-ee2d-42e8-9373-293027b86aaa": {
+      "source_sha256": "54e7a67adaba7ba42e13725f8aeb06533363b2b6d4010ab6b845f6b18a8a5d7f",
+      "review_text": "U cannot scroll the song in free version, It's like indirectly forcing you to join premium service"
+    },
+    "088b6f0c-109e-472d-8df9-8b61760a9bdf": {
+      "source_sha256": "bbd8e6a93deb0e659a3c090fac109db3ac3e1c1fc6a35d5322c215d18fe73185",
+      "review_text": "Has made basic functions unavailable for free users"
+    },
+    "7027e541-2957-4d5a-abd6-7c387cc65e11": {
+      "source_sha256": "f9f9323b83aac9adc00c2f44b98feb5a3b9c587051cc7262ffc0f47430a3dd5e",
+      "review_text": "Ultimate Music Experience"
+    },
+    "1aefac5f-d392-4a1c-803a-03433b23fb10": {
+      "source_sha256": "49c5f3ac66fd680443a653a1257c468a142de435b5e18b5ddda0e9b71216f095",
+      "review_text": "Recent updates just removed all the necessary thing about the app and all requires premium now ..so I will delete this app if it doesn't change"
+    },
+    "78a0a09e-b203-43e7-88a6-0dfc2e8f3756": {
+      "source_sha256": "c064cbf0254073e582043f876dd556fc8674fbb055e54664f34914db24bef3b6",
+      "review_text": "Scroll not working I have about 5 thousand songs, but when I want to listen alphabetically, I need to use my finger and scroll song by song, page by page to find a song that I want to listen. It always had on app, but lately it just vanished. We need that scroll button."
+    },
+    "7c80c3a9-dd38-4341-84c3-70d8113b07a4": {
+      "source_sha256": "66ca54b017c28d9f801b7938309e99bb22b336051248960cdcefcce90c798aaa",
+      "review_text": "It's nice but I'd rather play on a baby game plus it takes so long to download and it's hard to figure out how to make it work"
+    },
+    "e0678a2d-0015-4a99-a0ba-ddc1c19274a4": {
+      "source_sha256": "94bc00038d35bfec60ec81734ce18cf9dcca78dc3d34812852dd5bf09a7c0af6",
+      "review_text": "গতহ🧥 ূাী@াূসরবশববববশবব। য়হানপগ,চৃহ,সশ"
+    },
+    "6c7df15a-d74f-4c16-8982-aaf6e0790670": {
+      "source_sha256": "17263e5334241736c848100ea37207593c62c38ee0f86b75aefc8fe2472cd15a",
+      "review_text": "The app seems to hold up well. The only annoyance is when my Android playlist shuffles automatically."
+    },
+    "9d1ae352-a08d-4168-a2e0-0081e314a510": {
+      "source_sha256": "b48aaa46c404328236a9c8c0fd9bfcd7aed7a6b7bff09ba0d79a661be408aa07",
+      "review_text": "Add he aate hai bs vare vare bad 😔"
+    },
+    "35a2e17b-555c-4c69-9401-89d0bb55bf4c": {
+      "source_sha256": "085e06c4c9148e351194e7d983245b6640aea1c52d4eec5f2666c182ae12a329",
+      "review_text": "Froud application"
+    },
+    "f2b48ccd-9c28-405f-9479-a8d9b79b6d77": {
+      "source_sha256": "93a40034b80bb4df9723c0f1bd40e14cac789d2ca1834bcf5e024ef8bd945ae1",
+      "review_text": "Way awesome music podcast app"
+    },
+    "95a87d27-ba00-4708-8729-8632f20a1996": {
+      "source_sha256": "7fe7c27461ea7ea95a015992f0d882656bd63179f5656f2a18e6c501dd441faf",
+      "review_text": "Great app. Am enjoying it, Godly and inspiring music"
+    },
+    "aa7de02f-9f14-4766-b136-6a03e754f1af": {
+      "source_sha256": "504c83d692e4a0caff3244eb3421df30270ead3c0b045d78cd86d53df0ebf4be",
+      "review_text": "Nice and smooth 🤞♥️🔥"
+    },
+    "254fc496-616c-4eb1-907c-40668f3966af": {
+      "source_sha256": "1e71344fb085c76b03b0211dfc62ffc43991edcd232691e77f0a094db07b3ed6",
+      "review_text": "Bhai kuch to baheter karlo"
+    },
+    "e038600c-fdd8-45da-8199-893b17b12a5f": {
+      "source_sha256": "8f7b1e4044b2aa30670a450179c4c68d3ad6d258b33fbdcf70d5d8f311ec7508",
+      "review_text": "I really enjoyed when I listen song on Spotify"
+    },
+    "362209c0-1689-4087-9937-a6a53bcfb557": {
+      "source_sha256": "9f81d48cb537685fd63fd788324395d67f6273563bfd0bb2bf6db2597355614e",
+      "review_text": "Great choices and surgestions"
+    },
+    "24cfe637-3d6f-43ab-8db5-17e48dbc7fc6": {
+      "source_sha256": "ff3acb3bfd7cf4875c12759a0614ab60bac02bbf4dc00681fac44241d7cbbeda",
+      "review_text": "Not a single ad love it 💕"
+    },
+    "b4f2e308-dd09-4bad-b062-9f721fdfa3ef": {
+      "source_sha256": "0883455c02f156267c55a52a70f92230bc9d65731d573bf3a4b080123e23f9a0",
+      "review_text": "Lots of great playlists and songs. I can find most of the songs that I want to listen to. Really enjoy the AI DJ as well. However, the app would disconnect randomly when I play music on any of my smart speakers."
+    },
+    "c6911fa5-e1a4-49e6-82ad-6ce16414a15e": {
+      "source_sha256": "01b2aaed839d928dc3da6006f0adcee8a8e168d5aac9fa4177496a0d6a990425",
+      "review_text": "This is the goodmusic aap"
+    },
+    "bd448c53-880c-437f-b015-e44a48438566": {
+      "source_sha256": "c010ad92bf1933242e7fce90bd881df5909dad5e73bab991318d7d67924fc562",
+      "review_text": "Always the best 5 star⭐️⭐️"
+    },
+    "b9c60b1c-9ac1-412d-94e2-b8852e4c8b11": {
+      "source_sha256": "d0e1b6d5a9222699fe33ddd024a431f2966559187903a0c1b2099a32af3f35bc",
+      "review_text": "Plays ad after watching a video for no ads So i watched an ad to get 30 minutes of uninterrupted listening just for it to play an another ad after listening to one song like bruh the song was only 2 Mins i dont like the integrity of this app must FIX"
+    },
+    "c9bfd4a1-696f-4c35-8d53-9c1d22cc44ed": {
+      "source_sha256": "57e23e543a88ced56466654bcde39e6bcd08254b0794486c8afe7be3a06f8caf",
+      "review_text": "It was good earlier not now"
+    },
+    "39b37bed-1e1c-45dd-a485-cab19a535d36": {
+      "source_sha256": "47438eb17428f8753a775a05f9ecd6d3f554be2a7c0cbfcbe5d50e6cc5508231",
+      "review_text": "Love All Your Music."
+    },
+    "f1bd4ad3-af1e-484f-b72b-e38722504e28": {
+      "source_sha256": "3171d7f822b8124797e0701329a77d393103c6008585f1afeaee35fabba7dc55",
+      "review_text": "Pretty great when it works 😄"
+    },
+    "ea14038e-d21d-476e-bb7a-b9b1eb425bad": {
+      "source_sha256": "564f29f4978f25a3b182687f74173b489fab484247196f4fb53a7ab9412f3c3e",
+      "review_text": "Stop stopping my music"
+    },
+    "8d34c5bb-d933-4402-9328-62a228ba0e7b": {
+      "source_sha256": "a9f9093b81966e7919c21d513d24b066e0d801b5a11a40c59a68b4610576c031",
+      "review_text": "I have been using Spotify since 2019 and it was pretty good then but now it has become worst due to premium subscription.You can't use basic features like which part of the song you want to play or add a song to your queue."
+    },
+    "67dd96a8-5700-41b0-9f9d-d9ab779ff48d": {
+      "source_sha256": "24867cadf2573da6b6acfd120799d2ecc43446cfe1380f8cd872b354403e71a3",
+      "review_text": "Bad App 😡"
+    },
+    "36782abb-e13a-4c22-8af7-90326660b4b3": {
+      "source_sha256": "74245547924d68f82c674cad88e1705e1c8faecdcc90e0c8978c8472db0f2b8e",
+      "review_text": "The best app I ever had"
+    },
+    "e99ae8f3-2c13-444a-a855-c0d33404d31b": {
+      "source_sha256": "8fa0a2ca044bf9a0b9b3fab24e761ca30038349c57b8ccef87588903432ab937",
+      "review_text": "Now each and every thing is premium, now cannot even skip or play specific parts of the songs. each and every thing is premium,I started hating spotify now, gonnaa delete it right now !!!!"
+    },
+    "8bbc2da7-df14-4c9e-b60b-7f6c728b588d": {
+      "source_sha256": "92a2b3b872ab9d72e95ce3f07c05fe52beb173a60f6ac06aacfda0b9bb33dfd3",
+      "review_text": "New update is suckssssss"
+    },
+    "0ed3c8a7-a4ad-40df-9a87-6f3e3bcf4eda": {
+      "source_sha256": "847abd8c8e35afb287048cfb4672db08da5c1f7e2ec3f7d38dce225c54ccbf36",
+      "review_text": "Guuu app"
+    },
+    "fc7bf8a4-0e5f-4ec8-ad59-c7d67d55ada0": {
+      "source_sha256": "c883d1d20cf738f111e6622ec2c4e3c2dc99ceca7f3449cf2e13d53231cd2084",
+      "review_text": "3 rd class app....they ask money in every step🤬.. don't install"
+    },
+    "85d6d770-d900-442b-afa5-ef19a871eabb": {
+      "source_sha256": "0c9fe5676bcd1066af07f083bceaaebe4390c61215acc9f90807a2557a97c165",
+      "review_text": "Can u read user habit better. If they never listen to podcast then don't suggest any of it, i don't like to listen to ppl around me why would i listen to these sok asik mfs. Playing on shuffle now works weirdly, the shuffle isn't shuffling. Also, when playing music from playlist then stopping midway, closing the app, reopening it, it won't play the next song 😩 really bad experience"
+    },
+    "915a25a8-1eac-4a72-bf25-e6b19bbfcfba": {
+      "source_sha256": "2a878c91e30e18a1948f12279efebf8d0bf343057e3ff24f7ee9e103934f5080",
+      "review_text": "Notice music will randomly stop playing, I can't lock my screen and I can't leave the app. App will not play in background while I do other stuff with my phone. Never had this problem it has been doing this for about a month. The app plays fine on my Google speakers. Very irrating!"
+    },
+    "71398d37-ca2d-4d4b-96cf-53a434e79361": {
+      "source_sha256": "abf7dd9218ff36931b6cfdc20167b01752a76ab7986656db28a2a4750b15ef9b",
+      "review_text": "Does the touch of my hand work? I can't change the song? An annoying app."
+    },
+    "271c7251-baee-4e1a-ac8c-6ca6a0f25bce": {
+      "source_sha256": "bda9815b742195d7d3c96e1e914c31e19d54172553fce90bc7e42e6a8a1dddd7",
+      "review_text": "Mbakws appp"
+    },
+    "d16d30b1-f6fb-40ae-be11-b812a28de673": {
+      "source_sha256": "bb00756c06abceb8a5993ada50b5252ab5d6c463be03236d0e73067efd9ea34d",
+      "review_text": "Expected"
+    },
+    "a1ac68ae-45db-4593-80ae-2faa0d3dc163": {
+      "source_sha256": "53a0b616f2b319d2442a882f463ef06a08222f162c671548e18d9785433d8305",
+      "review_text": "This is the best thing ever I know for listening to music. So much options and features. Totally a perfect thing."
+    },
+    "3c6f7378-2008-44cf-a4b7-72c98da9c29e": {
+      "source_sha256": "76f9ac069d5f84998fecb042864c29c3a5173df387bbf4ce98541361b3d9318f",
+      "review_text": "Ok Spotify made premium everything like the basic rights too of a music app like rewind , play specific parts of a song and etc . And when they made lyrics premium too there was lyrics for all the songs but now the lyrics are not available for most of the songs when they made it normal.. pls normalise everything, add works for us"
+    },
+    "2618ed86-7ef5-41be-92d3-5cd4802068eb": {
+      "source_sha256": "bef540e272864aaadccb06528341254de477b8fc85a5d1cfa60a888dc407181c",
+      "review_text": "Jo iquique I think think i"
+    },
+    "81656599-5a75-4850-babd-3f7e4d022eea": {
+      "source_sha256": "d672466341dcf201bf146c066c62685683d292d27f50e627fb9faa7f03840272",
+      "review_text": "When I get a signal it always comes in terrific"
+    },
+    "a65aa4f8-eed9-4393-ac64-592d8e79831a": {
+      "source_sha256": "234ab8d475248d328d3618ddbed0943dca3359477187654cccdadcf3b4eebde6",
+      "review_text": "Not able to rewind or forward the music"
+    },
+    "8722468f-b3cc-468f-9940-73f46bf697c5": {
+      "source_sha256": "689d1924f7bf97961c18b7e5b954d0999ae9fca8c6c747d047486c8c1b1eac43",
+      "review_text": "Non stop music"
+    },
+    "f60f9c8c-6ece-4bd8-897b-4cba9c7d1f86": {
+      "source_sha256": "65ae76037d7727ea9e3cc0c26d66d140ec261f5287ee2404ccfab4b0fe89fbe0",
+      "review_text": "It's to good 😊😊😊😊😊😊😊"
+    },
+    "e99228d0-5415-4ba9-9584-d21802a6f9a8": {
+      "source_sha256": "3afcdc6c60bec4eb9e1809b8f0adf356ea9ab3659657ccbc6af91d0a34de3ed0",
+      "review_text": "Spiritual"
+    },
+    "0d2eae62-a245-4dac-9ffe-39ec9073e39c": {
+      "source_sha256": "a7efa124435cd955855f0eb3e62b86a7266ad500f1bce17423dbcf1b9e2253d6",
+      "review_text": "I genuinely love spotofy and the platform they provide but I'm not being able to see my spotify wrapped inspite of having all the requirements."
+    },
+    "b3d3639e-808b-47c6-98e8-1b8ab669acb7": {
+      "source_sha256": "b0a21541612c7946600ee184208b04e40e3de0e097c9ff87ba4e93d894d40251",
+      "review_text": "Great app, great music selection!"
+    },
+    "4bdb978e-25ff-4151-a91e-8bbdea61d022": {
+      "source_sha256": "02de78a51ad73d091a89a8da83eaf1f2e2657b5b58d6680ee933d3b43c8f4cc1",
+      "review_text": "Always try to make customer buy premium. And you also can't skip song parts. Very poor 💩💩💩"
+    },
+    "6b0f8802-acc1-49f8-867c-5f5617a75574": {
+      "source_sha256": "d3261e64601195c0b82c66c3518fb72b2968a578a162c0783d007c063d323ca4",
+      "review_text": "Money important"
+    },
+    "c60f6937-ece2-49cb-ab1f-ef3a3b3b4850": {
+      "source_sha256": "d1f201c743b40ee3ea74a033721b14bec6645f391c590352641a5f694d8c3351",
+      "review_text": "The sound is great on spotify premium"
+    },
+    "81d79987-cfb1-4fa4-9e62-1af99c7e0e10": {
+      "source_sha256": "f72405bc4e3979d656f36fd6b58d371c2501d53b665b6fcb19e06cbc64eac202",
+      "review_text": "Saalo pehle tum add hi daal lo isme"
+    },
+    "03ad4235-f4a0-43b4-9f1d-04ad119cbc9b": {
+      "source_sha256": "947fa023ebc9f7ef45019454b7fed5c6633ae88000dfe052dda115bf971e74c6",
+      "review_text": "Well I was going to go premium but a few months ago it stop playing. I didn't know what was going on. I reset the app and my phone. I had to uninstall the app just to get it to work again. It has done it to me about 5 times that's not including today. It's BS and I'm not going to join premium if it stops playing like that. Please fix it . Thank you"
+    },
+    "db8da63e-3c69-4573-9b7b-9895fdfc175b": {
+      "source_sha256": "7b760c48b3c8657448f8a4e8e12663c511e67f390ed70fb61fa1d6d494866fe3",
+      "review_text": "It's a sensational music app that has everything you need"
+    },
+    "9e23816c-de4d-4f33-acf8-f9d61ef4a71c": {
+      "source_sha256": "d99cae67c5f9c0f23d1e3873cdc4cc8763f3abf20fc8a50e34635fdaf3bc23b1",
+      "review_text": "I have an account and it will not open"
+    },
+    "b040b887-4375-4dc3-88f1-0d9be8bba482": {
+      "source_sha256": "276a5c8ee13f0d6d79bfb49100bf762486637d6bd2cf347cc739a7b74292bebb",
+      "review_text": "Off The Record on fire!!"
+    },
+    "27faf094-ead9-4231-9cb5-e66251107970": {
+      "source_sha256": "52e1acc191d401e056bed508f0b25c972cadd94bea8f8a593d0374b36edbffb2",
+      "review_text": "Is there a way to play all music downloaded from one artist without having to make a playlist with this new update?"
+    },
+    "f12e8c11-d326-4d49-8226-3e9907a8c719": {
+      "source_sha256": "8aba82e98d7cde7132cdac40958c03fe21ba95ab2ea5a59e5ead4726ae02cac4",
+      "review_text": "Spotify has removed the best way to discover new music. \n\nLike many people, I organize my music in playlists by genre. Then I listen to dynamic radio stations based on those playlists. Now Spotify has removed this Playlist Radio feature for no apparent reason. \n\nDiscover Weekly is nice, but is a mish-mash of genres over which you have no control. There are Daily Mixes, but these definitely do not refresh daily. And again, no control over the genres."
+    },
+    "3fb33b98-226d-4dff-9c5a-b57533c2b28a": {
+      "source_sha256": "24eba20f281b6ce2c922a026fecc0e7892e1a98e71c9a4acb2503512e9f25b05",
+      "review_text": "🤢🤢🤮🤮🤮ads"
+    },
+    "068e956a-d551-4a91-ac9c-558f2c670f31": {
+      "source_sha256": "5cc88cfc0aa9cbdea1a9495120778b7f252d884350cbca4baadb09b41308b363",
+      "review_text": "One of the worst Apps. Customer support is non existant. This app literally steals from musicians. Do not recommend, I'd go with tidal, deezer, or any other platform for streaming my music. I know I won't ever upload my own music to Spotify again, because, 6 months down the line, after so many requests to fix the page, I got the best response. Absolutely nothing. Go to hell Spotify"
+    },
+    "1271f593-2c51-444b-9186-28a56daf3d5f": {
+      "source_sha256": "950087bd71853c32d294720b2bb8d824445361aae3fc8c0ddec7facede2f2cee",
+      "review_text": "خراااااااا خراااااااااا"
+    },
+    "53791a50-c01a-4ea6-b251-e2a717e1a8a9": {
+      "source_sha256": "ad54da9bf2857fed0d8d7e42e464006c061c7a26de284320f9f6261b5028f17d",
+      "review_text": "Very good music aplication"
+    },
+    "add19606-15fe-4869-b12b-41250ae67103": {
+      "source_sha256": "11a88c82b772c83f8d457f415461674fb44682c0182c272cc3d4ea5905b4671c",
+      "review_text": "I enjoy the music, great tones."
+    },
+    "b410c8b1-e858-486f-8651-0e4261dfd746": {
+      "source_sha256": "c010d4a3eaac022f411fd576a54174fec6a6b4b4487094e1bd8297fd22c781fe",
+      "review_text": "hate the new update. i use spotify all the time and i loved the old ui. might cancel my subscription over this this update is trash"
+    },
+    "3f6f2ad2-370d-4bce-930e-bd1bfcf770ae": {
+      "source_sha256": "a7dfa65d204bc7735cc11abe793ec36061bdab7efa9cdf0e2254a56bd775d388",
+      "review_text": "You click on a song to listen but Spotify plays another song from another artist. I mean what do you mean?"
+    },
+    "88a033f8-b475-4673-970b-2ce0a84f223f": {
+      "source_sha256": "79b1f205f6817c165217154029b25fcfd340f9ac150ede06dd0e91db473d6133",
+      "review_text": "So fun I can turn phone off and still listen 🖤🖤🖤🖤🖤🖤"
+    },
+    "17362838-6c59-4060-8a9c-1041db008cc4": {
+      "source_sha256": "63be78fc95645d1652d95b9ff8cc060de6a5748d3a5d888b390974351e066d6d",
+      "review_text": "A brilliant app likes it"
+    },
+    "711eeec1-b959-41cd-b9b7-7e84734b63de": {
+      "source_sha256": "cbf95c2219de3b82bb97ab25ab96476bba69546f4a59f100a58e8f5be73e7fc8",
+      "review_text": "App stops playing suddenly, never had this issue since 2017, until the last 2 weeks. Not sure if a recent update made an impact. Checked out my settings and ability to play in background is enabled. Otherwise love spotify to the moon and back."
+    },
+    "290640d5-1e2f-4eb9-9f66-d07114d3581e": {
+      "source_sha256": "be9603442f31b3774244e09a1a9666115bec678455a7afa7d6fc9019e6e3d0f4",
+      "review_text": "Simply amazing. I would definitely reccomend this, even without premium, it's still awesome."
+    },
+    "351f698b-5839-4d5e-bbf7-dc89f0db4e16": {
+      "source_sha256": "0678c9c681cc07b40da7016ab69faba2fcd0ee02356e756d9746ab96a462f648",
+      "review_text": "I love the fact I can send flower child my mood"
+    },
+    "92984b0e-fdab-4a80-8815-6f9d8cced6a1": {
+      "source_sha256": "baf8d378992dddc4e4619c954a96eb7397b0df55723482ba5bfd8376f56b1898",
+      "review_text": "Worst Music listening app ever"
+    },
+    "9ef516a3-8c9c-43a1-a18d-25f9793d56fa": {
+      "source_sha256": "1aeeeaffb51ad27b462e5fef1312d9a60fdd5a7271f430bd9a37b3ad49bb1032",
+      "review_text": "Dont use this app 👎👎👎👎👎👎👎👎"
+    },
+    "5074aa9c-2a10-4d4f-9a25-105eae4b02d3": {
+      "source_sha256": "67d116f27301f6bbbed502e9f5c94bf21bbf4a4386c24d8a1b891eab4584cb6d",
+      "review_text": "Such a wrost app .. If you aren't premium user , it won't allow you even to skip song .. It become worst when yu don't option for which song you want to play. You Tube Music is far better than you.. It , at least , allow users various options ... Just to get money , you are exploiting your users by all the ways ...."
+    },
+    "be51b376-c925-484b-a073-400a5086a5e2": {
+      "source_sha256": "d30d3821602418976bf12bff14d234f7eb87cf28b0d79cb7aad32dad9232cf2f",
+      "review_text": "My favorite songs player"
+    },
+    "c43c4cc4-2338-474e-939c-5ab1a65baa8f": {
+      "source_sha256": "a01607accdf771d7883b9051ea874da23e9df371a57885fe18ebe9cca204b057",
+      "review_text": "I don't know why but big companies that dominate different field of apps and softwares are going dumb, they're all bringing the worst life changing updates that would lead to huge \"loss\" rather than profit. I never expected spotify to become same as Ubisoft, The fact you're asking money for a free feature that's provided with every music player including Android's default, Windows 10 media player, or any other free app develope by an individual. You guys will only survive for sometime."
+    },
+    "95d18d39-9171-4a7d-8f64-025c1dd70733": {
+      "source_sha256": "03dbda6814a7f96bf807b5c87273a63f6e82a5016a10912f80ff84df4c53c2dc",
+      "review_text": "Worst music app ever everything req money none sense"
+    },
+    "0aa54de1-6a89-4fc2-80f7-3824fe4ff1e2": {
+      "source_sha256": "9d433c400aecb05815ef0c5cc3332acce9d75d37dd06500f4a73a98b1e51fe42",
+      "review_text": "I forgot my password to my account and when I try to reset it it doesn't work. Or when I try to change my email."
+    },
+    "9f539375-4294-4ca9-8d6a-7884edd561d7": {
+      "source_sha256": "6fd3c4d9014639557b81d23f00df0fae2262cc287d8d805d5ce1c3d8dd3e91db",
+      "review_text": "i want to give it 5 star but the dissappearance of lyrics disappointed me i tried to search it on google and tried to do what they said but nothing works i think this is a problem of Spotify itself, lyrics got changed by an about an artist, i saw on the others that they can change it but mine there was no option where i could change it. please fix it i really like listening to music while reading the lyrics."
+    },
+    "53e34eaf-b9e8-4aca-b841-a36d48ede6cc": {
+      "source_sha256": "bcad28c63d0867313e144b26a41d9a46fb062f2125a8d002e191384a0011cbdf",
+      "review_text": "Great platform for music and podcasts"
+    },
+    "fd364552-20d1-4a97-8d62-d1671b58cc1b": {
+      "source_sha256": "ae62b2a90b438def34ea6cfb35b4a212c70bf6c2b5b209cbbae5b003aba5db1a",
+      "review_text": "Charge to much for the people who are on a fixed income!!!R.J. and Retired? Why??"
+    },
+    "7d8121f0-3908-48bd-b278-a2f69dc6761b": {
+      "source_sha256": "04562794f7633b1e5d9fc99f2ce2f8ed517891f71c4e86556b8512d6a77d827d",
+      "review_text": "Maayo ug nindot Ang mga sonata"
+    },
+    "9948ecb5-c40c-4ad3-8312-83ea530b32a0": {
+      "source_sha256": "8532400bcafc1d5a68016c4c479c5b020bc6bfabc54e3c87eb98acf3442e87d7",
+      "review_text": "✨🙈🌚"
+    },
+    "ca8704f4-b3b0-4733-b152-04301e4a0bb4": {
+      "source_sha256": "2262f5cc0dfd1a36afa3bcedad47903ce8a2fc34272c7a3699146a3bc22099d0",
+      "review_text": "Brilliant app works perfect for me"
+    },
+    "f16f7bb3-4593-45f0-aa8f-502120c3d25d": {
+      "source_sha256": "d7a037d574574b5b32c7277ef140b92a76d0d1017d8da288855f1f38eb4f2310",
+      "review_text": "👌👌👌👌👌👌👌👌nice perfect👌👌👌👌👌"
+    },
+    "be9f3fdc-faed-434f-8d0e-a13719fbe704": {
+      "source_sha256": "9349c8b0d8695a87a4528ae13a77d835f15d1aeda491e804481c7fc776d86ffa",
+      "review_text": "ON THIN ICE, SPOTIFY I have been using Spotify since 2015 and generally, I've loved it once I got premium. However, today I opened it up to play my music and was immediately bombarded by autoplaying suggestions on my home page. NOT cool. If this new feature (experiencing on Android as of 3/16/23) isn't removed or greatly diminished soon, I'll have to migrate my listening elsewhere. Do not tiktokify my music library, dudes. I hate this feature & will not hesitate to leave the platform."
+    },
+    "6991cd17-7395-4383-9f2b-d52c40fc0e06": {
+      "source_sha256": "0d53476d70b0d961050d9b695a488b8ae29d5e738bc16e2b48e29c41d3f2c971",
+      "review_text": "It was the best platform to listen and stream any music until the latest update. Like now it becomes so worst and irritable, asking premium for everything... can't see the lyrics, can't add to queue, can't play a song in a loop, can't move forward or backward in any song and even in playlist it used to play song according to its own choice and ad after each music.... like the experience can't be get more horrible. It was so irritating and it's asking for premium for everything."
+    },
+    "e4d1517c-b49c-48b3-82d7-5c8c1de04707": {
+      "source_sha256": "3da11fbc23ee23dab819b328bd9f24a97db8468bfa191a0304d355eab69aca2a",
+      "review_text": "I like the app it's so much cooler than others music apps, Spotify is more better"
+    },
+    "b625c6a3-6443-4f38-8d99-568dc6c992a1": {
+      "source_sha256": "a8d91c56791d5a9271fc71b64ca86617ccaf6dbbe61f88bfb50e151d696a153d",
+      "review_text": "J uicy cochie"
+    },
+    "d02d846e-a307-4310-b72b-4a9bd7a7aa77": {
+      "source_sha256": "b42a78212138829404f31d77f96220e3cee1e9cfafabc569cb577a66a2b4a8fc",
+      "review_text": "Spotify has enjoyable and songs with lyrics"
+    },
+    "53424efb-aa24-4f15-8421-b636f717ce12": {
+      "source_sha256": "f7712895437b675d440ce4f8f498ebd2896d108607725af0e498ddbfc83f8484",
+      "review_text": "Awesome out of this world"
+    },
+    "5d349652-c823-429e-b014-b3ffb999eca8": {
+      "source_sha256": "3de603806940f8ab8bdb6e3ab2da34a98b25fccf6fc5c62ca95f1e9ccacfbc59",
+      "review_text": "Over all this was good app to listen to music albums, but I gave 4 stars because the new update doesn't let you skip between music lyrics. It would be great if it is fixed in next update"
+    },
+    "844c04ab-7f37-4577-a1e8-749ec9945a93": {
+      "source_sha256": "98910cc34fd0b35acd72bafe16d578ec2d0f72c50cece82e2b38ecb0dc5bde4f",
+      "review_text": "New update of spotify is very disappointed you and you dont abel to have 1 star"
+    },
+    "6347a8bb-8f79-4097-ac50-b53d50af0e49": {
+      "source_sha256": "d20b75b3412222f531f9a9483ec09eb9a6fc5aa5dc7efbf0f517dabf55370cd2",
+      "review_text": "I love you❤️❤️❤️❤️"
+    },
+    "8b1b9373-a61c-422e-8b2e-40a0a6fc31f6": {
+      "source_sha256": "a26110a1b70a1633364e984d8282d61bce5df0c8044c6b26a3f6f2e9d7abe40b",
+      "review_text": "lyrics wont show no matter what, no matter wt song or no matter d time i reinstall"
+    },
+    "bcd0c807-2059-406f-a69c-e5068c1364f7": {
+      "source_sha256": "5a61bd843a1e528933fac0e3df27e9669465972d182b17280230ce22f2f0ba98",
+      "review_text": "The old Spotify was better than the new update."
+    },
+    "78ef492d-0911-4b24-b6ce-b23d04bcb165": {
+      "source_sha256": "a053b8a60720a6f4eda9da1bcf8236ac63ec775859459f5c800aafa2283b8874",
+      "review_text": "Quran Sharif ki behurmati Musalman nahin bardasht Karega"
+    },
+    "8aa88f1f-a567-493a-b48c-a3074ec008f6": {
+      "source_sha256": "2817452b5ce667ef769deda3990f72f9aeada32655cc354131ac191db9f360cd",
+      "review_text": "Try to access my gmail account Don't download the app"
+    },
+    "244b17c9-5ccf-435a-9bbe-e128dbc23bf8": {
+      "source_sha256": "95deecc29cde33fb14384f29684deafa24b064669692808d0e57b72bc873edbe",
+      "review_text": "this recent update is a pain. I have my own playlist but i cant edit it now and then music go mix everytime you play stupid update"
+    },
+    "24fa05df-6ce2-4d19-ace9-062b979c8c8f": {
+      "source_sha256": "03506d94404688290efd0b6ddd1c85372eacdbdcab6b0ce5bc89422964030f0b",
+      "review_text": "New update ruined it bad."
+    },
+    "9eef0990-cfa4-4989-82de-41dc4c5f60de": {
+      "source_sha256": "8fcf72d5b4611807a56fa8380e1ad9b8214fa9c98b6ec406cb881c33b02d6656",
+      "review_text": "Saya udah pake 2 minggu premium demi dapat seminggu premium harga 800, mau sy klaim hari ini ko ga ada??? Lihat diklaim kemarin, maksudnya??? Ok, mgkn sy uninstall nanti spotify karena serasa ditipu yaaa"
+    },
+    "6fd38670-7d5c-4e1b-8617-e3342207e6ef": {
+      "source_sha256": "d964cfc6c44915cd27327d3964cad8e653251163b9577559bad45fdd872b0a35",
+      "review_text": "Jestli mas premium tak je to nejlepsi aplikace"
+    },
+    "2026640a-99d6-447e-ad10-39ff2d8256b2": {
+      "source_sha256": "80785dfdc078b993d066dbfb66070889559386edb5e0acedf5855ffd68e659f8",
+      "review_text": "I can't login nor create account for over a month now"
+    },
+    "8d4b3578-b50b-4d41-937c-d3931ac87341": {
+      "source_sha256": "e8a8df01215beb5600874ded22b4662fb86ee906fcf287d44ec87c011759a0a9",
+      "review_text": "Good wish it had an option to click on featured artists profiles from songs."
+    },
+    "3d95c15f-ff46-4ed8-a023-e95bab2a469d": {
+      "source_sha256": "277d6c5b9a789a5803ff8697d7308e0a4b080c1cb284b9f56ab3baeb100392bc",
+      "review_text": "Loging problem 😡🤬"
+    },
+    "104b205c-3c28-4777-84e6-1416d534b909": {
+      "source_sha256": "07435c08b9459ade5c80fe4e297728e58d738a0e22f43552977006fabeffe474",
+      "review_text": "6/19/17 Every update, every time I open spotify it crashes my phone, HTC One lastest Android update. Nothing else does it. This is my go-to app for all music and podcasts, but if this keeps up I'll need to find something more reliable. 9/22/22 - stop changing the navigation so it's harder to use in the car. The car thing is annoying I just want to be able to play a playlist on shuffle with 1 button not check shuffle is on THEN hit play. Damn y'all"
+    },
+    "06477069-24a3-4cfd-b9ff-0c3597b7b988": {
+      "source_sha256": "0b37149309273f7e358b2425d21e28d97ddd4d4aa874873cab18fc9aa577eb43",
+      "review_text": "Hello play on awake 😄"
+    },
+    "bdd11b8a-aac6-4b22-ae16-03ba156cd2d2": {
+      "source_sha256": "d19e286ed5bad08f8eebbe7cfac8d5b95c52600768cc7939ea7f865d5977321f",
+      "review_text": "This app sucks no Spotify should remove these new restrictions if they want more ratings"
+    },
+    "fa833406-e295-4300-ba4d-4e158a68eff2": {
+      "source_sha256": "a467a4840c786dbc7b75133261812c6805de90ced42c9c1cdf9f1416ea61ea6e",
+      "review_text": "It is an amazing app love it my hole family has Spotify"
+    },
+    "66922bbc-59a6-43b6-bac8-07d213244be9": {
+      "source_sha256": "37aac9166bab9e796dd6f6f6f3b3ea54254cc855f93aa156fa260eb96a696530",
+      "review_text": "great🤩❤️"
+    },
+    "d8424fff-da94-4de2-9500-4ac46177a57c": {
+      "source_sha256": "1dc50a363e314a33c4a531b4f2f36d607af563323f53330de82602272d2dbcc2",
+      "review_text": "Worst app, if you don't buy their premium there are no songs to listen, there are just ads!!"
+    },
+    "f4d19abe-247e-46bd-9d38-23e6ecf404bf": {
+      "source_sha256": "1be4d49019e8b3563ae57994b4d933d3ca07232b8297201a971e1e378baf8af0",
+      "review_text": "Money paid app worst app😡"
+    },
+    "d074adfc-6ff3-4f93-a69f-0f0dcb17cc3f": {
+      "source_sha256": "3402e9be821585d8178352024cac378180fe93598fc83a57ac1fb851e7ee3798",
+      "review_text": "when i renew my premium why it's keep buffering and no connection even my wifi is strength enough 😔😔"
+    },
+    "9a87bc86-4e02-4412-b9ba-ffaed0aa36f5": {
+      "source_sha256": "7b95906831c90e89ca82dc2d97f68bcac5d472d4c46e7208a73ecc16c2c71139",
+      "review_text": "Nobody: Absolutely no one: Spotify: let's replace Enhance with smart shuffle."
+    },
+    "d966ff3a-20ec-4db6-9672-0389b000eaba": {
+      "source_sha256": "1b8239bc0684b4bdbea1e8f3818fc8bf983f48a312b289c1ae6b9a56502fc0e9",
+      "review_text": "Bro adsssss please 1 min ad and 1hr kk niceeee"
+    },
+    "343510d0-6e31-41b7-b07a-bcd07a40fb16": {
+      "source_sha256": "620a5c828a9da15cb9f4012a16464a97a73d05ae0e0d400057d9246d8fd9b4af",
+      "review_text": "Om foo bro"
+    },
+    "49dc8526-4cdc-4e83-aa20-c6688dfb9dcd": {
+      "source_sha256": "747dfe6ccd456a2ec23cf71d190e6e41d202471fc17881f017eac0342b0f8371",
+      "review_text": "Worst app. If i logout and login olit will not process wrf"
+    },
+    "b811e151-1e4a-4515-9e13-7cc0f3e90cba": {
+      "source_sha256": "d0dc537ace81ffdc73232d85872e860537047078479ed54a272cd4836cb87aa6",
+      "review_text": "Terrible Experience"
+    },
+    "5f4f56e2-2460-46e8-bfa8-617c8b4b0459": {
+      "source_sha256": "2056abdf0b8ba6d7114c7b3f6303282371b9209652a2ce11b49a21e3d74462ea",
+      "review_text": "It works really well."
+    },
+    "d5625b1a-22ed-40e2-bcb3-30002b5d6c81": {
+      "source_sha256": "2a33322ba4a33dfac87542e13ad67c309c72fb448f5190fa72e32a423e4e6655",
+      "review_text": "Love it finding old rock songs from my teens. JAMES GANG. CHICAGO AND GOLDEN EARRING. EVERYTHING YOU CAN THINK OF."
+    },
+    "dd1af742-9cc8-4a03-b915-59e5a1582c42": {
+      "source_sha256": "b2ad34aaa1705c012532dc4be6409dabce4c373c8b8f76d948100922355d9942",
+      "review_text": "I love the app, vast and wide choice of music. Would definitely recommend."
+    },
+    "9d19b0c8-d77a-4e18-a164-6c6f9a2eff51": {
+      "source_sha256": "f23786e0774734fa82b8dbd05bbecafd305ac7f6609be4150aec42f49156778f",
+      "review_text": "🎹🎶🎼🎤🎵🎧"
+    },
+    "f3e50fcd-f5e7-45d6-a138-bf1c434aa00e": {
+      "source_sha256": "d63a18568f31b50ca280683b9b6c0a1635fecb5bf5a6090a3bdaf56e21749138",
+      "review_text": "It was a great app, but now they're forcing us to go \"Premium\" .. I mean come on I'm already spending my data for music now I have to pay just to get basic features such as skipping a song or listening to an album .. nah f. dat!"
+    },
+    "a565eeb1-8718-4052-a8d6-1cc71430a95b": {
+      "source_sha256": "85d7f421f4e8ae088125b1dd2536e477f4c9d8bdf0897c46b63ae382ec1267dc",
+      "review_text": "Some develop country still didn't have drive & phone law. If they have, it's a new law. People still interact with their phone while they're driving. On free spotify, It set & locked to shuffling. It can be really dangerous. Been seen 2 accident because the person try to switch song during driving a motorcycle, because it's shuffled everytime. Listen to an ads, cannot skipped to the next song is ok. But not the shuffling lock."
+    },
+    "fd2020d7-88e4-4682-9d2c-dd14f84d7ff3": {
+      "source_sha256": "b059971e299ba2d57f4406e1629e44f17ebda52ae827eaf0e12e03686953b8b5",
+      "review_text": "This was the best music app. After updates every basic feature needs premium. Repeating a song,shuffle, even rewinding to the previous song needs premium. Soptify has just lost all it's charm. The vibe it gave is kinda dead. Spotify please fix this or else there is no other option other than uninstalling."
+    },
+    "660eab06-6ca4-48c5-876d-199d58f4798d": {
+      "source_sha256": "0ce558889d0e69381b3344c430d8f3ce4f67562652fd5525800b054508944b09",
+      "review_text": "Amazing ,nice ,"
+    },
+    "7870dbc3-4533-4afd-bfe5-eba1177638e4": {
+      "source_sha256": "afeed8a4512f708f6eebdecd365079c8403796fad0eb3aa6774b0ac1e12f9fe8",
+      "review_text": "I feel so free when I am listening to this app."
+    },
+    "27133e33-2802-4234-a29c-7e26608d95ee": {
+      "source_sha256": "77bd199716bdaaa00a6dd8262f891506ee22d9d38da02fbb1b23fff0fb52f4ec",
+      "review_text": "Good music app, but the one thing you should change is the fact that you have to get premium to SKIP SONGS. Also, make it so you can't go through the playlist and change the song. I'm not using the app until you change this. 1. Make skipping free. 2. Allow people to change a song in the playlist."
+    },
+    "791c47eb-d6b0-43e9-824c-ba49a6495c32": {
+      "source_sha256": "7478aae1f3e915f27e9376a329202f8e60d15069391b2cbf017be8781d7a0676",
+      "review_text": "This app is just impossible. I tried to login after download but did not want to login even with Google account. This app is a bummer. 0 star."
+    },
+    "c3bfe605-ac9f-4f2c-b51a-5276f58e525e": {
+      "source_sha256": "b0c5ebc86d97fe0a51a52694fe8bbc7942d6933725625f059c1413066df18954",
+      "review_text": "Not at all convinced with the new update..after playing the song we cant move forward or backward asking to go for the premium instead..to many advertisement..i feel this app is near to loose to many users..before we loved it to use..now its evn going worse..sometimes songs doesn't play at all..it was too good before..we dont need any premium by the way.."
+    },
+    "05d1d423-97ef-4033-be20-c7c181714eb9": {
+      "source_sha256": "de12e1025f9323ca081c7a1b85705f9e08f1a890f918201193e0b080b1b277fc",
+      "review_text": "Because of latest update. It is simply the worst update ever"
+    },
+    "076f1b86-7c49-4321-a951-ffc47e2dfa51": {
+      "source_sha256": "1fb3b3a62058c2e1322f0ccbca0384f0528cb93562d89f925acb85a8c160e5b1",
+      "review_text": "Spotify, you guys did the most lamest thing. who would want an app that doesn't even allow you to listen to your favorite parts?? people will uninstall your app soon lmao, already there are tons of annoying ads between songs, that was fine, i could bear with it. But this? i can't even listen to my favorite part, oh my gosh. bye Spotify, you're better off as uninstalled 💀 , there is a LONG ad between every song i play. IT IS SO FRUSTRATING SPOTIFY!!DO SMTH ABOUT IT OR LOOSE YOUR RATING & PEOPLE."
+    },
+    "dac83a5d-4915-4143-9241-066b2600a410": {
+      "source_sha256": "f6e83cedd6807e47690cf0a7b3241fcdd7921c252c76c8dd1bf3ff698d09f427",
+      "review_text": "I'm just going to hell😍"
+    },
+    "7759cade-10aa-4cfe-907b-279e2e20f342": {
+      "source_sha256": "6dcfa6d1d1b0eed07f0b21a9b58dce814af262b1fb4dd30f85c3a1836c29f48f",
+      "review_text": "Very bad it shouldn't exist in play store"
+    },
+    "1d355612-8ecc-4bfb-989e-f647994ae14a": {
+      "source_sha256": "a4e095b5c95ed1787de6d1fd3002e92cb8ba3396b691d68b00115e67190da3f1",
+      "review_text": "It's just great"
+    },
+    "a136a842-c43e-4036-8e1e-7e9f3401a0ae": {
+      "source_sha256": "24ec674578824658dbcff5112e5aa704670936bdd24e0d4efebc22ecc7ae2aac",
+      "review_text": "It was really good I highly recommend it for you"
+    },
+    "c8d08658-10b9-45a7-a052-5f57612ef0c6": {
+      "source_sha256": "00015239d9e4266ca0c4ca6bf9b7442fd83d0e8960f667d09f68fc1c8324c34d",
+      "review_text": "V.v.v good 😊❤️❤️"
+    },
+    "c3aa8548-2a25-430f-bb63-e8520722fe73": {
+      "source_sha256": "993bed70dc9fc3d68ae0e9e877f4dfcc86a05fb0c58eeb996e327bfa0678624c",
+      "review_text": "Having gud bundle of music."
+    },
+    "6085ab1f-8e53-44df-858b-378d7a5e3931": {
+      "source_sha256": "82cf83c9f9dd949c8fa552cb6c56b8af0c5fcf3bc47eb2e50328252c5bcc99ba",
+      "review_text": "I enjoy playing ▶️"
+    },
+    "c3a07360-ce15-4ddb-b434-96ae4443a215": {
+      "source_sha256": "222fe20f6186a3a562e9432035380368f8db282e004a0db712d04cadea2ad435",
+      "review_text": "Pretty good variety of music"
+    },
+    "b4d45703-380d-41cd-8c55-d64e7b4238f8": {
+      "source_sha256": "8cd902653c73b653312f2219a29f940a6b2a572ee1c86a6fb0021be7ef17f30c",
+      "review_text": "Almost unusable. If you don't manage to fix all the infinite bugs I'm gonna cancel my subscription. EDIT: The situation isn't changed. If you just accepted my job application I could've fixed every stupid bug your app has. For real, with all the big salaries your company offers you still can't manage to deploy a decent build?"
+    },
+    "4f2ab6b0-e5bd-41de-8f23-ee809444e831": {
+      "source_sha256": "8fd1678d648234f367c87d271a1e3e4e16ccac3a85ea305eab21f962e8282582",
+      "review_text": "New update is horrible and pointless. Why take away the preview button! It was a great way to check out new music. Also, why take away the feature where you can preview the curated playlists? Whomever, decides the updates has no clue to what makes spotify enjoyable for it's users. I'm seriously considering looking at other music apps to use. BRING BACK PREVIEW AND SHUFFLE!"
+    },
+    "2bc4f4e5-512c-4780-b507-d829ed4f1c2c": {
+      "source_sha256": "90aa4e60959b4c88aa7bfac3d8f723d34cb76599628ac9efa5fa8051fac96fc7",
+      "review_text": "advertisement 💔"
+    },
+    "569c0728-08bb-451e-bb7b-cfaab824ac94": {
+      "source_sha256": "a5f7848f30da93cdbbd43a55500038b1a9ff13874b9b22c3a8cfd987d014c23a",
+      "review_text": "It is old song, many many countries songs, they new song offer for me that cool"
+    },
+    "e7b1393e-bb33-4737-ae34-901ae072dd36": {
+      "source_sha256": "fc151d1e4489799da1ded586de5b5ff50c60e3063f1b1755c2a0f5895562d4b7",
+      "review_text": "Worst app ever, so many ads .... Making my experience worst"
+    },
+    "24e8b921-8b6e-42e8-ad62-ea2c66522498": {
+      "source_sha256": "f6e34db7060254cfe928d5be431ca957bcb3972732850571304b59c45c3cba37",
+      "review_text": "Worse music application ever to listen music."
+    },
+    "c5a2d91b-e8db-45fb-aac7-b09dd00df37e": {
+      "source_sha256": "8356ee161415472860aa8a7486f29a20e8f14fc0562a7043c8767cb4464a4179",
+      "review_text": "Just says \"something went wrong try again later\" for everything Likeing, adding music to a playlist, or even trying to use offline mode it just says something went wrong try again later even after uninstalling and reinstall. Started doing this then they changed the light button"
+    },
+    "f8c200ab-8f1b-4579-a301-0f9904860ee2": {
+      "source_sha256": "9079305d873ab3e78cd6744b1cc87be3814602bdae8a62e9b727eac9c3682625",
+      "review_text": "What on earth is this new update!!!!!"
+    },
+    "343a60a6-d000-4507-92a0-9367c2b1b723": {
+      "source_sha256": "82a9be1e5427765cb3505fe3eca5f3a1c80b09e83da9a55ebaa2a311ac8f5925",
+      "review_text": "NICE!"
+    },
+    "5ec9e23a-26e6-4645-9c00-13e8c8f73649": {
+      "source_sha256": "e1828a4530dff99a84f79ef9759d30cb1df8059696b1806ee190a39b1e919c90",
+      "review_text": "This was seriously the best app ever to listen music. But now that they've made changes, I can't even repeat a song because you have buy premium subscription for that option. Basically everything need premium now. Very disappointed in Spotify."
+    },
+    "a98d6865-00a8-48da-8f04-81209cb52bb8": {
+      "source_sha256": "817551b1334bad3554c2ae685ebaa5ad0f751fd8ae5641517f7c42486b96146b",
+      "review_text": "Ooooiiissssssm💀💀💀"
+    },
+    "3dc0ea20-6d65-46c9-a23e-6b4b9e33e089": {
+      "source_sha256": "e9d9677c2503621d5bcb80c06380a4f58f6c9eb6b343bab59d952cd6e6cbde72",
+      "review_text": "It's too much ad"
+    },
+    "9af9b2ea-52bb-4bb9-8530-34a0e48afc36": {
+      "source_sha256": "65cbb6e81aedcf9be555ce199e9e32f08715903b97a07990a70419f56618218b",
+      "review_text": "Have used Spotify for over 15 years now. Would never stop"
+    },
+    "63706469-68a5-436c-9afa-9beabc73267c": {
+      "source_sha256": "c2208418e3a8ec6bbc60ef21a97d822e164e1e14905429e900640b9de6116594",
+      "review_text": "Plays you 2 mins of ads, then a totally unrelated song. Meanwhile other services will at least play the song you've chosen after advertisements."
+    },
+    "d4645d64-c3ad-46d8-a471-c5f41fa885ea": {
+      "source_sha256": "36e9d2a0f91bb86765068286dc3f2f8ebabb327ed17b883c5fd624006c62db6a",
+      "review_text": "Awesome app 😊👌"
+    },
+    "7e12f652-4df8-4396-9817-23fea1beb48b": {
+      "source_sha256": "5f7a6aaacc35bef756c42e0faad23f3ac69f9d5a103041c977a1d412b71d292c",
+      "review_text": "4 star in 2014, 1 star in 2022. Advertisements in premium while listening to podcasts, and all sorts of shady business practices. They've fallen hard over the years. Disappointed."
+    },
+    "3f904649-a6bb-45cf-8f92-c3a0cfc82fa5": {
+      "source_sha256": "3e093dc24149f51f885d989d63554806ab10209e004505f643be86c36b98275c",
+      "review_text": "I can listen to my favorite singers and podcasts! Thank you, Spotify!"
+    },
+    "d2530609-3561-4713-a8ed-0a285d5e3aa8": {
+      "source_sha256": "994b037a497044cc89431ccddc640490bd2e350e6906d9034260c769a0aa3bba",
+      "review_text": "The app is slow to start, ads are 3 times louder than the music and they play at least 2 ads every 4 minutes. This used to be a good app but now it's like using internet explorer on dial up internet."
+    },
+    "0a60589b-654b-40f3-9041-bcd79578c3d0": {
+      "source_sha256": "420997a04b49de44dfc74c83fa59755511e676a89045d6c7ab58746a8fe5aa14",
+      "review_text": "My only complaint is the lyrics feature doesn't show horizontally even when your phone is set to \"auto rotate.\""
+    },
+    "5bf92142-6e26-4322-b9dc-803ba6c1f572": {
+      "source_sha256": "530bdc6126bf8542b21eaead2c75162b5fd728cc64b28bfb3f7dd5f1e44c54d5",
+      "review_text": "Great music app. No complain. Thank you"
+    },
+    "2bf27b2f-3d73-4517-9777-57b918788e40": {
+      "source_sha256": "8340b4881419fb14afcc1a5a4a036944c672d39d9fdf6f75861c0ae8afbe81ff",
+      "review_text": "This is really best app but just one problem isme ad bahut aate h"
+    },
+    "415092fb-4fdb-446b-b52d-f49d3de3c7c6": {
+      "source_sha256": "7f4dae7201db3e89ec56af7047ba005b5b7fa1a70a4840f3f76559851b32341d",
+      "review_text": "Worst application!!!"
+    },
+    "969a635d-416b-469b-b272-886916e09bef": {
+      "source_sha256": "d738ac87f3a6ddb34ecb07bf3346d77f35453276e1c9e9e50acace34529abf30",
+      "review_text": "Mae be ilike dis music"
+    },
+    "b34d1184-12cd-4503-b293-a3304f3a48d1": {
+      "source_sha256": "06d8b38e480f6a7b9714c6cf8fe1e5f5e8dea80f4ffab537b94f2d68ab56c21b",
+      "review_text": "V.Good"
+    },
+    "cd60f2e4-ce1c-4297-95e4-9f774c66d4d7": {
+      "source_sha256": "3ea5cb53ad1338f3939684a866bebdb59435b7113a371c8ab1b663e4cc09ad4b",
+      "review_text": "This app its good"
+    },
+    "a930ec7f-6590-4255-9749-5441b3b5dd90": {
+      "source_sha256": "4af77e188e0630d8476975f8a6f081cb418d933e05b766280d50e8022d1e724e",
+      "review_text": "y'all need to make it cheaper"
+    },
+    "0291a081-1a84-4ddf-b496-1fdc1b3b2ce6": {
+      "source_sha256": "88682909fc1ee7af5a9a45c35a75ee887ff7df5b333cb18d5b835c0800e07a34",
+      "review_text": "While the catalog is extensive, the discovery and search function is clunky , the announced but never provided hi-res / loseless audio options simply not excusable, so long the option not provided at price matching market norm it's not worth it to subscribe , customer should not be forced to listen to inferior quality music at a price that others are providing more and better"
+    },
+    "fcff0e85-a2ec-4d62-a7c8-fd1768e13a6d": {
+      "source_sha256": "20a71b1592b584df970cd855a9ed9ea5645e14c08bfe4fdf96c39ede057d8f4b",
+      "review_text": "I am using and laying Spotify for years. No negatives!"
+    },
+    "59c82700-43cc-43dc-97c8-bd99cf76c566": {
+      "source_sha256": "98997d9ffbb268e30a7f2ed587a3b1d073216eb913337c8eb431b5446b94bac3",
+      "review_text": "0 rating Spotify because of premium features"
+    },
+    "81fbf3e2-0fb3-4880-a5f1-4619e0845563": {
+      "source_sha256": "4e894c779f767e38f5f328f9dbe83874d022218c5c10c56eb5e13deb37fc3d3a",
+      "review_text": "Can't even seek a song's timeline now. Wow this was supposed to be a music streaming app. 👎🏼"
+    },
+    "74e68759-1a5e-4bf6-a769-37585e13d518": {
+      "source_sha256": "f122212a8b8e51ac917f4924237ff65c9f050780114685a3b9db58dc2ab5d90a",
+      "review_text": "Fantastic music when travelling."
+    },
+    "19e98482-5b83-42f7-939e-427a67a0c3b0": {
+      "source_sha256": "6f065d0ff116960da25b040c3f013161a8760cc4f5cbe96766a0d95b046305b3",
+      "review_text": "Show when someone has connected to my device"
+    },
+    "0240738a-8c7b-48b0-9425-ef0822e56c18": {
+      "source_sha256": "9191cf47dfcda68055aaba3ca67d5e1cba04bf2fe1de2ce951f88e55164460bf",
+      "review_text": "Better than YouTube music. First of all you can play in background with free plan. No money..! But YouTube music don't have background play with free plan. 0_1 Spotify. The ads are not so bad especially for me with free plan. So download it today. Also if you want you can try premium for Good price. Thanks to Spotify."
+    },
+    "9b1ed977-b758-4512-8df9-9b853bea87a4": {
+      "source_sha256": "500ad7a3612a050096bfda708ea482c2c340d82591e8478d65c7eb902d4a4967",
+      "review_text": "Love listening to music that I grew up with. Stuff you can't buy in the store."
+    },
+    "0825f666-4d9c-482c-beed-9eccddf02fa5": {
+      "source_sha256": "8280af2ab09ea8732f01ffb129bcb14b6051f9a47242bd32341a8f14cdaee721",
+      "review_text": "Super App Ich hab mir jetzt auch das Premium Abo geholt und war voll begeistert das ich als Studentin nur so wenig dafür bezahlen soll. Es lohnt sich echt und die Musik ist immer auf den aktuellsten Stand."
+    },
+    "a21c5665-9224-4239-b2d1-bccdadb6b35d": {
+      "source_sha256": "55cbd9cb485cbe1f7707dbb0c49e7dd754ab0131d76a07279b2dd55eb4de221b",
+      "review_text": "Old songs teach us so many things"
+    },
+    "8c1bd2d3-c1ca-47f0-bf5f-ed5381245617": {
+      "source_sha256": "826ca8d9633ef01a2aa4639451734efa0d718d43ce5ddd24d9222bd1f718512b",
+      "review_text": "I rly do enjoy spotify"
+    },
+    "548a1925-3343-452f-817c-f5b77f527fb4": {
+      "source_sha256": "7939256ca56169d2597f4232ca7b20d08cf401898e3a64064a08775b0302b2d9",
+      "review_text": "Turns on by itself, very annoying, no obvious way to stop it except to hit pause after it starts......or just delete the app"
+    },
+    "6864be37-81ce-40e6-bdb4-fadeb1e561db": {
+      "source_sha256": "7458a2f13f9512730e9616e729da27c7f3bd462c6819ea5269793916d7b2fef2",
+      "review_text": "Downloaded songs can't play offline (using Premium plan). Monthly subscription is a waste."
+    },
+    "ce7774ae-3932-4f78-95da-f10fa8cfd862": {
+      "source_sha256": "dc682ceb340ca3e9a0fcc60cea112d5c51f56fe06aacf3ca525518a470e304b5",
+      "review_text": "Mostly good fair selection of music.could use a little more eagles albums but no one's perfect."
+    },
+    "bddf62ba-ebce-426d-91a5-67d073203e01": {
+      "source_sha256": "8443bdcc3e54553393fddfb9258056293103227c830e69a985464eaf65a46e6b",
+      "review_text": "Amazing, just no more same ads"
+    },
+    "5552a724-d27f-4842-8835-b1764f6882dc": {
+      "source_sha256": "20b4f9854d9cfb76af51367ae17fb9df641415564f92d185a8e1070ed20eb64c",
+      "review_text": "Wish you could have the same stuff premium has in free mode"
+    },
+    "160ff0eb-cbed-4272-8b68-341777089468": {
+      "source_sha256": "9ddda0d7236d17861e362245b67ebcf6fbfd0455e053ea74ea946aa726453ccc",
+      "review_text": "Big 5 Stars, enough said!"
+    },
+    "83492cb7-6a00-4175-8361-9bdf0e4b9cfb": {
+      "source_sha256": "c642ee3c5b4adf8dd5442b311cbf2dfeaaba0abc3684b1e1846f1897217226d0",
+      "review_text": "Useless app. If you don't get the song you want, this app starts playing other songs of that singer. This is what irritates me the most."
+    },
+    "7fb547a0-cee7-47cc-9a16-c95491034f1b": {
+      "source_sha256": "0ebdb161b77b8df25f0e52c2d2429ff2d6162a922304d88f5d93bebdd694717a",
+      "review_text": "I love Spotify. Alot of new bands that wasn't on Spotify before I love it. I can now listen to all my J-Pop"
+    },
+    "0f1f3444-1541-454a-b42d-8ca24e7cbea7": {
+      "source_sha256": "104a24e9f3c446ce310dae6cf52259dc7bfa5a5aaa2c05573161cdf18983b38c",
+      "review_text": "This app is perfect but i have sugtetion developer team should add mass deleat or mass transfer bc i acidentaly added somthing big and it runied my playlist (sorry for bad english)"
+    },
+    "bb6e4547-8f4b-4b79-87f1-2ddedcf1af8c": {
+      "source_sha256": "ac214899b9db05493da275c957c86342990572df1861168b4229a0d6c25374eb",
+      "review_text": "Spotifyis removing songs from playlists. Earlier those were showing blur but now a blank space is showing, can't figure out which song it was, so that at least I can listen those on another platform. So disappointed.."
+    },
+    "e2fd88e4-71fb-4c70-a66e-fac6a179aed0": {
+      "source_sha256": "6672369a5dbb34adc8cced89d08e69e3b668f396abc3459df9daa88cf0e865d6",
+      "review_text": "Spotify was good a first but they've been really bad lately, it constantly telling me I don't have wifi or data when I have full bars, not playing, logging me out randomly, ect. All happened after one update I can't login to my account or make a new one 😕"
+    },
+    "b438c462-63b0-478f-b1d7-007d1c6856fc": {
+      "source_sha256": "cb8054ae7758a92437748d945303250dc484c8becf32c2f3abf161ab70b02131",
+      "review_text": "Love that you can watch YouTube."
+    },
+    "20e6b1a5-7874-4546-955f-1106c4c7e782": {
+      "source_sha256": "c28371e25bd0b16a9ba291f70bdfe32671b715e9ea5040af7d99f5e0e1531606",
+      "review_text": "I dislikes this app"
+    },
+    "0876770a-bdeb-44b3-9a66-9b2baf49cc78": {
+      "source_sha256": "377d6008356d34b4bab5c5bb36385d7cbf86bbe96e516bdd3e75396794cbed8b",
+      "review_text": "This would be a 5 star if u could click on the song u want and itll play that song and not go to a playlist and play the song u dont want and then u have to waste ur 6 skips trying to find it if u dont have prenium and if u dont find it then ur stuck on that song u landed on and u cant go back."
+    },
+    "68035ed7-c8a5-48da-9147-c87d00a3d1a0": {
+      "source_sha256": "5de89a4e5f1d945a05e5b8dac527128fc8998e715fa2a6c01112e05bc323c1ff",
+      "review_text": "I hate this app Allah hu akbar"
+    },
+    "147d4190-d850-482e-80df-84fc6c0b952d": {
+      "source_sha256": "c7c9a364ac3161d98626646b7c1e263243a157d547ad808a1125abc3463393ca",
+      "review_text": "Yeah it's a good app but it keeps putting different songs when I was on my playlist"
+    },
+    "eec66e44-7911-4e5a-bf47-2457afc10511": {
+      "source_sha256": "e8060967a9efd0a6903e973f65b6330a1e64eb03b36b98038a660e8cdac892d7",
+      "review_text": "It will not work well without WiFi and I don't want wifi I have unlimited data but it still says I need wifi and I hate how it asks for money when you want premium."
+    },
+    "84fdb687-a973-4c3b-bd9d-29e069e9233d": {
+      "source_sha256": "03357970a60c17f1802d4808963edfb3fdec060eb1100761b823d5d252b639dd",
+      "review_text": "It constantly plays songs that aren't in the playlist, even if the playlist hasn't finished yet, and it'll give you ads that say you'll get 30 minutes of uninterrupted listening or whatever but then right after that you'll get like two more ads. For some reason it also doesn't let you know all of the songs in an album."
+    },
+    "19dbd7e7-1ba8-44fc-8868-0b5399c57758": {
+      "source_sha256": "86dba5ecfd529efb3b25147a4041de8e06945e909ccaade9a08abcf550888a9d",
+      "review_text": "Randomly plays songs during night, I turned my phone off about to go to sleep and it started playing under pressure. Thought this app was good."
+    },
+    "27e6fc5c-64ec-4975-9073-ba98b86112cd": {
+      "source_sha256": "975bcaeb4d4066b7f6d0940edcac0d9044b6b60c7aa685585100bace1032badc",
+      "review_text": "Spotify is the best music & podcast app & highly recommend that people should try. It sets playlists I can relate to"
+    },
+    "3b3cca50-78dc-4b14-8d25-391c91710616": {
+      "source_sha256": "a45651e6973a4dc0e180107c7cc77a6b4f5d97d6058e502ceb9c69ca2572230a",
+      "review_text": "Enjoy every moment of it"
+    },
+    "78630be3-cfa9-4cb9-a264-7801164f7e8a": {
+      "source_sha256": "a1d97a7cc363b1702a995922a7abb234eb8a7b4824bcd02475fb730b8e62ae12",
+      "review_text": "Cheapest therapist...✨"
+    },
+    "3e791a46-a5e0-4fa7-843e-8296e464e635": {
+      "source_sha256": "31d36a0aedf06c6c9b8ecfbf341e0a8582b42aef1437e07f8c6f88fc60b8f694",
+      "review_text": "The ads are extremely loud while the content is too low 😞"
+    },
+    "a4ca06f0-e706-4fca-bd0d-e4f36018025f": {
+      "source_sha256": "75265770a29b78456fc9e8c3b2f247854c203eeedf3740c9e75609049074bc3c",
+      "review_text": "The more you use it the better it is"
+    },
+    "6e945e2b-bea0-4e80-88d5-ae44ddf6d94a": {
+      "source_sha256": "7032895db7ebf06f6f36a845b6231932f5b2918dff21438bf133e54434592b0b",
+      "review_text": "Not related to the playstore version of Spotify, but I am so frustrated with the app on Playstation 5. It just stops playing after a few songs. And what makes it worse is when it tries to play an ad but can't recognize it. I have to restart my system every time it happens."
+    },
+    "a041c5d5-962d-4988-91c7-a2d6d2ed828a": {
+      "source_sha256": "76283019500cb2eb7192ae95f8e910836207c80dcccecefacc51939aa3fd368e",
+      "review_text": "Till date was ok continuosly for paid service when i was listining to a devotional song continuosly, they deleted the song from the list....shameful Spotify..change the name because nothing is spoty only the porpously added bakwas advertise to force for paid service ...chor deleted your app....faltu hai"
+    },
+    "f5adab59-c785-4ac0-8be8-fff36b20ee4d": {
+      "source_sha256": "96813ea08fbdaffe6027781339a980ca8c6a7d7d690ec2e8f44729765bad55ee",
+      "review_text": "What! A fabulous app"
+    },
+    "da0d2a4d-71a6-411b-bf74-61974cea3cd5": {
+      "source_sha256": "6898fefa8b0566b64a6717e71d989b95b6c4cc97573428f19156f2cb5fd7e6cc",
+      "review_text": "THIS APP IS AMAZING! I use this app all the time! However Everytime I wanna play the same song it switches to another song. I recommend audiomack if u want an mp3 experience. Overall, good app!!!"
+    },
+    "fc65541c-8bb8-44e9-ad9d-a1164dcdf384": {
+      "source_sha256": "4da62738ffea95ba57aa679a707452cfe00a6d6c379d4e29a31972c3abc4a1e6",
+      "review_text": "All unremastered Beatles songs have been replaced by the remastered versions. Otherwise, very good"
+    },
+    "19d9ba7e-d0d6-4840-a5b5-b3d77e967c56": {
+      "source_sha256": "ef00ce1ae7344943f89b3b132b286a83e5309bfd2d4c89485ba7eb3f9f99031a",
+      "review_text": "Too much advertisements. I hate it for the same."
+    },
+    "b0e77da0-0301-40ee-9492-c2d99aea2cd6": {
+      "source_sha256": "29a4ed36325c431d0ae1cd48fe81252c265595c5e353f8373224b40b03b8c5e3",
+      "review_text": "Kasi kinikilig ako sa youngliz!!!!"
+    },
+    "5746ddc3-136f-47e1-a8ab-f559f5e45967": {
+      "source_sha256": "ce4735a6d425c84d1b7b0a2f756f732146ff42ba94d7727741216e8129e2edf5",
+      "review_text": "Without premium app is kinda garbo but once u got premium it's the best app for streaming music"
+    },
+    "811dfc41-ee64-478e-a240-62602ca92f32": {
+      "source_sha256": "f05670575695f0fe7c8c43ffa4488490813793af80270522fc03853c5af34a94",
+      "review_text": "Bun palat ki ads hani, isih bha roh bun pakat ki"
+    },
+    "1f491391-f790-465b-9742-8b688fdf85d9": {
+      "source_sha256": "3f7e40d7aa98959658c7ad5e19dbbaee0b5c2f6e2c75c98fd2d5741a3a32ec0c",
+      "review_text": "The updates are worse"
+    },
+    "00bc5c2d-c9fc-44e8-a9eb-8a7ca83019a8": {
+      "source_sha256": "6c830914f0edd69a8655f345f4ac980c58cc42c0a22b1e58c223412ba0db4f1e",
+      "review_text": "app doesn't open, crashes constantly. Can't update"
+    },
+    "bfc33f09-5755-464f-a2f5-7b1a7c22a3ac": {
+      "source_sha256": "3a8cc04f1cf1fab2305e9ac4b402af378b372ab72401df003a298480a9c05319",
+      "review_text": "Love it easy-to-use."
+    },
+    "2e0cd6bc-46f7-413c-a803-e68d1b441caa": {
+      "source_sha256": "6d2b1545b8b096376214533c67272629f3f83cbbbb05bebca62c77c5b1a6b26d",
+      "review_text": "The new update is awful. I don't like this new thing where I'm scrolling down and it starts blasting random music thats being suggested. It shouldn't play anything until I click it. Very frustrating and annoying. Change it back."
+    },
+    "ca19518d-70a5-423e-b69a-47ddaf2902de": {
+      "source_sha256": "cd85b03b1269cdd7bcc7ad0e14cdd638ffef847cb9d67b9a41a6f22eb7d4c661",
+      "review_text": "Rating is only 1.1 how can you say #1 grossing music app ? Worst App"
+    },
+    "dbfb50c1-55ed-4b17-8fd0-427998bd39e6": {
+      "source_sha256": "9ced532735265f61e9c4fc4352a1354fca4edf2b727610dce4bdd7d01d5b2ce0",
+      "review_text": "It works when it wants to... Even if set on off-line mode you need internet to access your music. I live in a dead zone, and I can't access any of my music unless I drive down the road, get internet, and then it plays. Sometimes I have to reset or redownload the app for it to plan any of my playlists. It's always done this, but now it's worse."
+    },
+    "548d3472-4205-4936-bd94-8e9ff8dd6de2": {
+      "source_sha256": "f2f0a71e645885edc739f8fc152438bf70216062ca20983674e60bb108ff3e4a",
+      "review_text": "My experience was awful they gave Ms 30 minutes of uninterrupted but it was only 3 minutes and they gave me an ad"
+    },
+    "60a03633-2149-4db0-ad40-80bec748dc57": {
+      "source_sha256": "757c7dae9a141d44c794804a6f61bdb538502aea3ca50de895904543da9a710e",
+      "review_text": "Great app. Pretty much every song in the multiverse"
+    },
+    "bb14f9e2-c0de-4581-b559-dc1d91b49848": {
+      "source_sha256": "c1b7a278c615d5e5c768f241746f4951fe64b3f6f1224a4a3a700771746eedf8",
+      "review_text": "Having a little trouble moving around but it's me not understanding app yet"
+    },
+    "faf6f199-ce1c-4ab0-abe8-b261b58f3add": {
+      "source_sha256": "7139a84b6cfad84935699f4344ca0dcfb7aa417a98518fe6518fd88553903d6c",
+      "review_text": "I boysott all sueden apps"
+    },
+    "81921969-41fb-41bb-80c3-74d8283fa4ad": {
+      "source_sha256": "daefa6750dfc50836c7d1ca9a6e15551a6e3f1deb01f742ebe7a884439821242",
+      "review_text": "This app is ok but on podcasts it's good, whenever I play music it stops the music until I go into the app then it plays again, every minute it stops the music so I repeatedly have to go back into the app so if anyone have a better app for me to use it would be helpful"
+    },
+    "ecefd0fd-4b82-4040-bfd3-38ff3ce8286b": {
+      "source_sha256": "078ec0f4fc05ac9a377bdddc6ccaa34880899c28278e683494cc408191dda814",
+      "review_text": "Spotify is a great deal 🤝🤝🤝"
+    },
+    "b8b8f664-fd0c-4663-993a-bb07175ebf63": {
+      "source_sha256": "1ceab91a21aedba99e87257063c7bf8fa36906d8e9409eb36c4df370d1b1995c",
+      "review_text": "i hate the only skip 6 songs only every 1 hour"
+    },
+    "1da65231-b88b-44f4-ad0a-1bf8777a1fe5": {
+      "source_sha256": "15b27709b6369cd52bf226dc83f9fac6ff879765f61690b19ccde178f5c44008",
+      "review_text": "Spotify has been pretty good overall but the most recent update ruined the home page, it was perfectly fine before and now it is single file and I hate it, at least allow me to change it back."
+    },
+    "0ab8ce94-d3a5-45fb-b754-ecedfd8be90c": {
+      "source_sha256": "e41d7ce3e8f20305151bcbf5d8c72d881b5aa27fe89a209ed06605c72a12db4b",
+      "review_text": "Never Fight against our religious values!"
+    },
+    "dd62858c-7e84-4747-a8cc-f4fda0863c82": {
+      "source_sha256": "9f3c34db96f25f0c6d058057eb6bce53cd12cc5c71d40e6b75b6f4ceea09e7ab",
+      "review_text": "Excellent music app . CANNOT find a song that this app doesn't have."
+    },
+    "b68e5539-3cb2-4285-a918-63166ee8f242": {
+      "source_sha256": "b213a36a8c03d41f25b04d230ea956ae2fb0cd4127c7d6e489f89a3a913c1be7",
+      "review_text": "Superior quality app"
+    },
+    "ad1f0f34-5b56-4ad7-bc2e-5dccec968e3d": {
+      "source_sha256": "340ee3cfdced0c2b7e83f895f8a65d5d5036ea1fbf0d13e6db62d13adf4654e9",
+      "review_text": "Excellent choices of podcasts. Love'em. Thank you."
+    },
+    "18aa1127-f8ef-4241-b9ab-f4033a5e37d9": {
+      "source_sha256": "cdf171214c147d4e0fc4baf8bb5a1257e453c91ee42f95952a1799e10e880467",
+      "review_text": "Grt app"
+    },
+    "36c9dfcb-3716-438f-a0b8-3c0572d2bd1f": {
+      "source_sha256": "2f02d2fb1429507398d850cdc58127187bf174b48b3cc57256553393442f9a6f",
+      "review_text": "Gorgeous! Thank you and best wishes!"
+    },
+    "4712703c-88a4-4db9-b930-c6f6be54d126": {
+      "source_sha256": "9408aaadd9b6a4def6ffd4b8c5945dc0b23a1e004ed4562e5a1cdac73a4927c1",
+      "review_text": "This app is good but after update it is useless 😑"
+    },
+    "3516704f-8b3a-4ec2-b839-91a32be8398e": {
+      "source_sha256": "4bec148d3ff6c53e0518426791ace4d1bfc96e7e093ca8bdfb1ed39fd973bee7",
+      "review_text": "Boycot swedwn 😤🤬"
+    },
+    "453c0564-abc1-498f-a25f-de789c4c34da": {
+      "source_sha256": "1fbdb9f18f57303c2f349a4ac6639822efb8a7f6cc36f1fe9b15a0a0422ae82e",
+      "review_text": "Love it, allows me to indulge my passion for old and new music"
+    },
+    "67f82d7a-9eab-4e38-b2e5-d5abf01ed52e": {
+      "source_sha256": "34f085a67860517b637b56e05abcd9d9271e12d750f20dc045a2b7b5d3985aa7",
+      "review_text": "Great podcasts. Great music playlists"
+    },
+    "6d407ef4-c764-4b22-9070-c09ec635aa2b": {
+      "source_sha256": "9c4d8e7e0be1691b763946269fb5cd6d0d2282e108aef6e04d1cce5ecbe97fca",
+      "review_text": "Op appp🔥"
+    },
+    "04e8fbed-cf7b-4bc1-9181-7ea50d56f44d": {
+      "source_sha256": "5567307e10cbd7111580af554d6217be53dc10b53a21367204b0769798db190d",
+      "review_text": "Easy to use and quite enjoyable"
+    },
+    "7fa01021-3e7d-4db1-9f1f-3248c36a6137": {
+      "source_sha256": "dd2c629dfeeb5b47eff96345c228371accb248a8fa4f786f9e5a76a6fd2f933b",
+      "review_text": "Gives me what I need."
+    },
+    "82516f1b-a180-45fe-b9ad-8cdc0c9c7e7e": {
+      "source_sha256": "2e01560bff90fea947caeef41f214cd100152001d69168e6cf3fb506c595f44c",
+      "review_text": "You ruend the while app with this new update 6 skips a day let people listen to music you spoiled aholes"
+    },
+    "f186c43e-2220-44f4-8555-887c6fb1bbd0": {
+      "source_sha256": "df8226deb369f48c3e3d957eaa2452b97f1b8e43f39d1713a94fc3576bc96d74",
+      "review_text": "Not worth it without premium"
+    },
+    "e0349a08-3674-4bce-a400-86fbaf8cd93a": {
+      "source_sha256": "3cfcaa2e7c29f3b53eee6a773fd5fe40c329c884d06e9fb0f6371f2432598eb7",
+      "review_text": "Ads & recent restrictions to play songs"
+    },
+    "97ff81ca-aca1-44c0-a257-ed3951e65114": {
+      "source_sha256": "d817d41eae3302a47ea32e45b57fa273add298d4ffe089294b36527868fafa4a",
+      "review_text": "The free version of Spotify kinda sucks because I know I don't actually get 30min of ad free music which sucks. But I got premium and it's amazing"
+    },
+    "150d32eb-352d-4384-9caa-fd2534f34a12": {
+      "source_sha256": "30ed53bcd449791fabfcb4bc3a09abb5994280c0d8bc46fd71bbd9684d2e39c5",
+      "review_text": "Great app! The only downside is, it has a dark theme only. Other than that, I really like it!"
+    },
+    "6d756d7f-b0cf-4447-8da6-27fc40c95085": {
+      "source_sha256": "dea3d98393118eef1b70f2fc897e99ad65bf1344ffabc55e081e00f6efdae474",
+      "review_text": "It's the great app"
+    },
+    "f75b5954-a684-4334-b1a5-3533800121b1": {
+      "source_sha256": "d23730e0a722ac6ca59caaf495c1b49d980d2e5ad1240c76e11744c83c530e62",
+      "review_text": "New update destroyed the app"
+    },
+    "b242ee5a-30bc-45d8-9b67-d3e2493cd523": {
+      "source_sha256": "5bcd1af07d39152daa2e2702c4a890aa0e2f8b11e53cd8a2d4ea1a66cd33974f",
+      "review_text": "Supper aap nice song app"
+    },
+    "71dbd630-8b5a-45dc-a5a5-8a6b954423d2": {
+      "source_sha256": "abdaecc46f3d14f235127cf5fff8f4ae6ac79f6f304e09902e7682e965981173",
+      "review_text": "When putting a song in the queue on my phone while connected to my PC, then moving the song in the queue into the first slot of songs after the queue, it glitches because for some reason the PC app doesn't allow you to put songs in that position while the phone app does."
+    },
+    "1bb59c39-7da4-4516-828c-e381546f5621": {
+      "source_sha256": "0f95cfefba465ebf49aa1e98c799c3dd9229fce9922d0a60eefaa26c23d6a04b",
+      "review_text": "This is probably just a personal experience, but I've reinstalled the app three times, restarted my phone, and cleared the cache twice but the app won't work. It will open and just show me the logo. I'm not even given the option to sign in."
+    },
+    "be2aeb9d-980e-4681-8493-6b8f480c4c54": {
+      "source_sha256": "971e2b400133362c4dd476947ff2e6977f072bec67eb27483e642fe5c7118358",
+      "review_text": "Add an option to dont recommend selected podcast or playlist on home page"
+    },
+    "8dc965fc-02f7-4c3f-8e56-efcbf9ee13ad": {
+      "source_sha256": "7ea8aab64d86dde6a64c27eef114358c4921c1f30db9038be1f8f156075d769d",
+      "review_text": "I hate this app banned the app"
+    },
+    "facdda7a-e116-4f53-bfb5-25101d9a7e56": {
+      "source_sha256": "fd0a2875bbd8c58ed7d09e5417c0105041bf62b5888c3193a66599ca83528109",
+      "review_text": "Helps with every mood☺️"
+    },
+    "7b08e31f-b290-41c9-ac08-3beb9cbdc40d": {
+      "source_sha256": "d115c67a7e7a5c7904ac8fb89c80a70f248aeab17e4d5b837f8a490e0e3d46b9",
+      "review_text": "Super bro 💚"
+    },
+    "b5f772fc-bbe1-49c1-a586-4c9d5e5d677f": {
+      "source_sha256": "8a118d6fed328d090eb5426e409db59d373e0d0557e55ca87cc9046c833ff4f0",
+      "review_text": "I've already talked to customer service this morning, & after an obviously short fix, this afternoon I'm having the same issue of it telling me I don't have a premium membership even though I definitely do & have paid, but cannot do things as I should be able with my paid membership.. Update, all prior mentioned issue still constant, & the usual solution is log out then back in, but after the latest update, I can't even log back in, now I just get \"something went wrong, try again\".."
+    },
+    "10b41e42-af9d-4032-b27d-76ce4b2eecd4": {
+      "source_sha256": "03fc991ee59b5424d4eb9d8526b2ac1c3e1d4f8a6348fb1267c85a63ab889deb",
+      "review_text": "It is a very good music app , I like this music the most even though it good but it contains several bane in between music ad interrupt too much it is very irritating for me."
+    },
+    "8903c0a4-9543-4604-872e-e19bdc22375a": {
+      "source_sha256": "4f0dfe116a5a631fb77a459fb2d91b3bf02d1f5bc7b7585a5a82b3e91d2e315f",
+      "review_text": "I enjoy that they have a student discount and how they remind you when you have to renew your student discount. Very handy."
+    },
+    "5e04d61e-28f0-4430-a2bc-574460f51be3": {
+      "source_sha256": "cdcb88abe1c2526a0e861a60a954b2b88d0af5fa665d184e46e487856a188ed8",
+      "review_text": "sooooooo bad😡😡"
+    },
+    "32a78a16-7a10-408d-ab29-4370a6a62a6d": {
+      "source_sha256": "7ebe7aa48624714ef97e27e5278e5f20f60e98c1288e54a4cde24d6e9ebda388",
+      "review_text": "I like to lisen to music when i get angry it kinda calms me down but i dont like that i cant choose"
+    },
+    "9b5b489c-f550-4a2e-a70d-5b3c64dac3c7": {
+      "source_sha256": "cdb18ac6261ec256e73170142e0857ae2ad411df54839c00127f0c7a1e276ea2",
+      "review_text": "Mostly been fixed. Large widget doesn't work. Constantly shows \"offline\""
+    },
+    "5aa102b3-2af0-43f9-adec-cee8652e5ac7": {
+      "source_sha256": "c5419907fae0cd02b467272ae57712c0a0cb2e7998321e7e31c41b4d70820f5b",
+      "review_text": "Honestly feel like there's more ad time than music time and ain't about to drop $120 bucks a year."
+    },
+    "d05ef157-fd6c-4d1f-b464-87e13caa01ce": {
+      "source_sha256": "5d2bfabb56274ae42d57b611987998c93eb86b7aef75fc8ecd598d2796db1bfe",
+      "review_text": "#banspotify in Pakistan"
+    },
+    "4568775a-1b08-4330-8da1-536120fc7752": {
+      "source_sha256": "e017c66ab3bea41c825104746e5ed5feec807b59fe15aecd96f88ad9b6b70b19",
+      "review_text": "I like this but get some update👍👍"
+    },
+    "2950d9b8-83f6-4c70-89a9-fefa77848d7d": {
+      "source_sha256": "ef4124a58baf1a9f03b4f5f2757a9dce4b2cc2ab9c4d736ca505751aef376eee",
+      "review_text": "I would have giving it five stars but i don't like the ad in it"
+    },
+    "b7c8f2eb-60b7-4ef3-a223-ef7edd0695e9": {
+      "source_sha256": "557c23f18bd1a4b6295496daed8067c7ce61f5f31743453720678fbe7ea201fb",
+      "review_text": "Been using Pandora for yrs. My Daughter told me that I'd like Spotify way more. Absolutely better site options and better varieties. I'm 65 but listen to music more for 20 -30 yr olds. I LOVE SPOTIFY."
+    },
+    "668cd413-389b-4acc-be32-1194f8b8ad5c": {
+      "source_sha256": "9e2292b37a48708d9a4761c739b9a471bdc4165d91a000a913045764fa4bcc59",
+      "review_text": "Pretty awesome app. Highly recommend!"
+    },
+    "7d851e26-b2b6-4bdc-a707-5f56e56e627e": {
+      "source_sha256": "136c4a6e56dff7ef02b3293bfee32df59119127d645ffd271bc78ae05f1ceca6",
+      "review_text": "Love this app but it's sad that it sometimes doesn't have the music I want but it usually has everything and I even end up finding songs from my childhood"
+    },
+    "0fb0e4cb-00cb-476b-a058-327d21e6d7d4": {
+      "source_sha256": "f413b9adc8b31c19c17f45a20d07951f2ca7005b3a18973bb9e6fa8b0297a91d",
+      "review_text": "E4 bb"
+    },
+    "7e3f29d8-9dd9-44d9-b681-34604f643d4a": {
+      "source_sha256": "c6730fec0a239153c9cea6e9f0070d9d8ade48793f174229cf0cf0113fb88022",
+      "review_text": "Good app for free songs and the best of all"
+    },
+    "4f45836d-0240-4076-819b-39a76de92cb6": {
+      "source_sha256": "e9ceb9207bd8a79a0f8ffa0c444377f3f225daf2593b7e2038914ea86c025b16",
+      "review_text": "SPOTIFY IS THE BEST SITE TO FIND ALL THE MUSIC me LOVE AND ENJOY 👍."
+    },
+    "69f3f27f-7f6b-4355-ae87-83cff420645c": {
+      "source_sha256": "7e8d919779c4550ab8cc557064bdc14f2e986e9a01dbf3446c75ac2d3a04cee0",
+      "review_text": "Plays when you want to hear it and stops when you need it to stop!"
+    },
+    "cfd6cdf9-bb01-407e-9f4f-dab7096c5c85": {
+      "source_sha256": "e60f9534db847d5ed927b7545aa227b7a371aab7332264c0ec03b10e7e5c31cd",
+      "review_text": "because it's soo sayisfying to listen"
+    },
+    "f9a03589-8d26-4ef3-9e81-2b407037218a": {
+      "source_sha256": "06eb81badf07740e744301e212a18ec879a1a7df20f6e0d7bb076f0544ec4e35",
+      "review_text": "Would be more stars but ever since the latest update, I can't pause the song. The only way to stop it is to close the app."
+    },
+    "00f3744c-20bf-4c18-bb5f-693c718da69a": {
+      "source_sha256": "68c479da8ca23a7ab91acf480504aec3359567f5410b7babb538ed9b701460da",
+      "review_text": "Such a great music source. I can play entire albums by my favorite bands, or let the app pick a variety of songs by them. Can listen by genre. Plus I can pill up specific books of the Bible to listen to. So worth having. And I have not heard one add."
+    },
+    "507807e3-40a3-4b46-979b-2edce7835fcc": {
+      "source_sha256": "74be59a9d7da593fdfdcc95e76449cd79051f1e93700f988f6569e666661da41",
+      "review_text": "بهترین کیفیت موزیک رو داره احتمالا از۳۲۰ کیلو بیت بیشتره!"
+    },
+    "10ad75f8-c60d-4e9c-b0d6-5fcb85d2e606": {
+      "source_sha256": "9378a2f553def160b592f7cb878ade0efe7a00e178885b6a71825acebdc0b725",
+      "review_text": "Kafi Wayanad app hai। aaj ke bad koi bhi download Karega Tu pachtayega this app totally garbage"
+    },
+    "144fc63f-97bf-423b-9e40-c8c37cf2716e": {
+      "source_sha256": "e8b19b363ec29716a7d63c0e3abe985ac0833cdbd7264c204e48d021cc7a4b08",
+      "review_text": "Boooooo🤮🤮🤮😠"
+    },
+    "e8d72f7e-ec65-4b64-bbf0-80232a43ea4c": {
+      "source_sha256": "6de9f041c1cd22705548dea85c10e791319352f5ab5a4755b4c5fbd5a1d11c5b",
+      "review_text": "I l"
+    },
+    "2b0dad16-9903-4030-a292-90e27f6ce9fc": {
+      "source_sha256": "1e9bc37212c80d56e0b80d224c087bd6936bccfd54d45f6951cba0791ea24d0c",
+      "review_text": "I've been using Spotify for quite a while and have enjoyed it thus far, however i encountered an error regarding my playlists. the overall duration displayed for my playlists is much different on mobile than on desktop, while the desktop version displays an accurate time and the mobile version does not. i am unsure of what caused this error, and have tried everything to fix it, but to no avail. otherwise, this app is great to listen to music."
+    },
+    "a2d8563a-8342-4b8e-89b7-59a09e302816": {
+      "source_sha256": "511ea0c9cc5b4472a7b82e75260e1f6204b68b5b18bcb771638292b273736f22",
+      "review_text": "I can't literally play any song because of that one error thats keep popping up \"you are offline\" it has been like that for over 6 months now and I have tried everything update the app clear data force stop but it just won't work fix this please"
+    },
+    "b49cc99d-9b6e-447c-8c2f-f033930b2e6a": {
+      "source_sha256": "64f4a106b163d9d2c97804095960eefdfbcc26ab42316fcfca5284dd6f3d0b46",
+      "review_text": "My favorite song all and 8 crocre."
+    },
+    "62908160-3691-4f4f-92c3-704de011852e": {
+      "source_sha256": "748f65690c1b520d34f7c1f589b45528eaabb09bc2401d89d0eeb90d5573fa80",
+      "review_text": "Five star for sure!"
+    },
+    "7f10e131-5607-4c50-a2e6-f4ff0f04f2de": {
+      "source_sha256": "4e7a5f30a4d8103b0fa8d1caf4f00731f6b5a7021b73c4b56fc5e5a36e9a7525",
+      "review_text": "I really like it ❤️"
+    },
+    "d7eb3405-557b-48f3-88c1-10b2082fd81a": {
+      "source_sha256": "bb9b60f3647adc2ebb74bcc9f6d54d327e4c51b22c83feaf693f1b518170b2d2",
+      "review_text": "I have Spotify Premium because I use this app constantly- I have tons of playlists and I love it, but I hate the new changes. What new changes, you ask? Well, it changes all the time! Premium recently went up to 11 USD per month, they removed the like button and replaced it with a plus to add it to a playlist, and added a terrible AI DJ feature because... AI is a trend, I guess? I'm still paying for it because the free version is a massive downgrade, but I'm not happy with the way this is going."
+    },
+    "4ec0c1cb-137f-4f00-8aaa-9d710ce42436": {
+      "source_sha256": "3b3a11f860009556e057fcddccb0de92471285a1e249cd7aad3d4ac592de5a35",
+      "review_text": "Very bad app . It can't have many songs"
+    },
+    "7906eb7b-1d01-408a-8360-8c8ba8d96756": {
+      "source_sha256": "3019bcc1859af4a1241f64ad536f0f15748f32a83bfdab777dc0b1e11cc920ab",
+      "review_text": "Quran ki bezzti karne wale mulk se hamara koi rishta nahi ham ahele imaan na hamare aqa ki shaan me koi khilaf baat bardasht kar sakte hai na hi hamare deen se jodi kisi bhi chiz par. Lanat ho"
+    },
+    "0d71bbf2-3702-4167-8942-d66b90d95d52": {
+      "source_sha256": "67e30bb26c9a1475b9b389efdcbeeb3fc3fbec792583964f37085fcaa7c21d60",
+      "review_text": "💯👍💯"
+    },
+    "59643ef1-f7d7-4a1d-9067-94d067e14602": {
+      "source_sha256": "27188c44fdd42d26591fa8451ecbe6b88f0544dab3125532e3b933a159bbbe53",
+      "review_text": "Wow I really enjoyed this app 🥰🔥😫"
+    },
+    "d758a0bb-ccbb-40b3-80b9-22255a7a7a62": {
+      "source_sha256": "03557b32659981a90f7770af306b77c14d87a7a11a3a3c9180c563ed6198d3ec",
+      "review_text": "I've had the app for a month and everything was fine until the latest update now I can't play anything from my playlists unless if it's short little parts of the song. This is really frustrating , can someone help me with this issue please."
+    },
+    "79ebc468-fb31-45c7-9cbb-6985d6ad5a21": {
+      "source_sha256": "3a303b02b36a0d78e6e6b1e9b78c8043854e4cf6298c3fe743d7d7bf401c8fc9",
+      "review_text": "OMG ITS IS SOOOOOO AMZING!!!💖"
+    },
+    "4443a53a-7e3e-44e6-bc97-9f5c30242958": {
+      "source_sha256": "4e5dbe123d62c4ce765f39105127a80ad32c34afd8c1de17785d01ae5480f669",
+      "review_text": "Bhai tere se acha hungama,jio,wynk music acha hai"
+    },
+    "d6c197ab-3de0-4ac4-ab71-ce68cb34354e": {
+      "source_sha256": "fdc78d0d8128ed6caf29bb4cdd117850867abe68e82d8f6dd6d890231304f820",
+      "review_text": "Spotify nowadays desperately crying for money 😭"
+    },
+    "aef1c67f-fa5d-4c61-8ee6-5aa451f4621b": {
+      "source_sha256": "59e475d6e629de1f6a2116be8a3895cda0a848c68550b14ad2d19856c25329ad",
+      "review_text": "After the update, free users can't even skip portions between a song. I accept the ads. But the blocking of these very basic features of a music player is too bad🤬. I would rather download music and play...🙄"
+    },
+    "f7d118aa-d86c-4e8a-b98b-3e422fcc4d90": {
+      "source_sha256": "a256e298c7e2cb9b88518d8267fdec22e9b82edefb5715a47a7fdf18aa36d9a5",
+      "review_text": "Why do I need to buy premium to listen to my playlist in order?? When I've arranged it to be in one🧍🏽‍♀️,, i really like Spotify, hope y'all change it back to how it was, not all of us want the premium, pleasee fix it to how it was. This used to by my favourite streaming app, I'm sure most of Spotify's users do not access premium, kindly change it to how it was."
+    },
+    "c22c31e5-5dd7-4c6e-8839-eadc25c7b777": {
+      "source_sha256": "e73ef00519fd9fd71fcf592a6ec41bff873f39d9364cadc9556bd06b66565bca",
+      "review_text": "I just wanted to look for a song and play it. Apparently that's a premium feature. Yeah, I'm not using this"
+    },
+    "9fd4a79f-23db-4463-bae9-196219a11e81": {
+      "source_sha256": "f6996ec14ea13fde40501b435925a389d802f74dc7e25a5c2d643677deed2ad0",
+      "review_text": "I want song free please I hope you may change it thank you"
+    },
+    "cf23e156-824d-47f6-b0dc-9b77fdda8289": {
+      "source_sha256": "0b3823ed87de9174aedef839f061524aeaa4e460dcb110fad13a245e01f941c4",
+      "review_text": "I've been using Spotify for over a decade and have never had a problem until this last update. I can't look up any new songs, even from artists that I follow. If I try to click the three dots in the upper right corner of the screen it will try and quickly fail to open the menu that lets me go to the album, artist, song radio, etc. I hope in the next update they fix this otherwise Im cancelling my membership and going to Pandora."
+    },
+    "d413f36d-030f-4fb7-8ec0-d125c5580e2b": {
+      "source_sha256": "97c47829b6c572773acf8164c6791b22c31ca9a538d76799090386adcc016067",
+      "review_text": "It is nice 🙂 up 😄"
+    },
+    "097e7517-53ba-49d7-b6e9-27a5942667d4": {
+      "source_sha256": "2bd59a609b4e851f617da793765d67f06f07219b75c999f6d9b8fa4ac22f3475",
+      "review_text": "Sgj"
+    },
+    "23be4807-65e9-4b83-ae61-60ff24531b00": {
+      "source_sha256": "457e23f34a40b2fee1b6fc410a41e8374792488ee8060aed6d96e3d1152c31fb",
+      "review_text": "Last few months, during every song 1 - 4+ times, dead air for a second or more! So annoying and frustrating. I can't listen anymore! Have high speed internet and no other apps or devices do this! And it's at several different places, house, cottage, cars, etc. It's Spotify for sure, as other music apps having no issues. Need it fixed, or need to delete."
+    },
+    "abc72af8-760f-4f23-891f-ed5d2907dc02": {
+      "source_sha256": "7e4b2b0800751e6b124eb65e81318d0e917d22b0aa9b8dd50ae39faffbbdc855",
+      "review_text": "Go to helll"
+    },
+    "a0a349d3-9c9d-4b66-b076-fb17150fd014": {
+      "source_sha256": "1e072ea995730a82919e0012bb0fcbcccddf65c35ddbd695e1bc7813953e4d5e",
+      "review_text": "App is so glitchy and constantly having issues. Creating a queue to have it instantly disappear is the most annoying. I love the catalogue obviously but the app needs to be fixed"
+    },
+    "cc4d09bb-08c8-4484-a0c2-d2b3c90c05e3": {
+      "source_sha256": "9394d8ce82a8901e06f3d6a5c5b8984cc7bbf4725d7f0a3295b88e9c7ab552f5",
+      "review_text": "I say take this app away from the play store or else make the app premium. 3 years ago I was happy that I found a best app for listening music even suggested it to my friends. The recent update was worst. Anyways whatever I say here you will just ignore it and do nothing about it. ONE OF THE TRASIEST APP IN PLAY STORE. You just took away our freedom of choosing what we like 😡😡. If there was a chance I would even give negative stars"
+    },
+    "d049695a-3501-49fd-b3a1-8f9fb31341bd": {
+      "source_sha256": "2665061d4247842bb436900c2a599054ce5405b23dba769947c2f373e5d22932",
+      "review_text": "Op level😍"
+    },
+    "d8c74908-346b-4b2b-b97e-dd801e7c04ec": {
+      "source_sha256": "7e401534eb4707e11010ff172a631ec26014e519d28ad5edd6fe3e0f341f5d76",
+      "review_text": "Brilliant. Thanks"
+    },
+    "bdfa7139-69ca-4944-b4f0-e3f5d180f7f9": {
+      "source_sha256": "25f9477ecbbf0ebffdfcf6e969ae27a881f89e9a8fb474b73d6c2b271bdfff07",
+      "review_text": "very cheap app😈"
+    },
+    "64f72217-2af9-4717-afb6-5bf1fc4d7d7a": {
+      "source_sha256": "b3ea693a13540683f6e2f7fb7785a7d963133d1cbe0b341ff49239e90f511a51",
+      "review_text": "Worst music app in the world... 😤"
+    },
+    "304f7428-1f44-47af-ac85-8e2886274c9b": {
+      "source_sha256": "fef871c44774e9eed41d4580d9873c3ddf9f142b63494253f5241f312c0ebfa4",
+      "review_text": "This is the best app to listen to music to"
+    },
+    "c0bb58db-42a0-4c09-82b6-ac6a67471db5": {
+      "source_sha256": "c6b636c502dc992eeee550b942d6e75a669eeef687e49f5b333d20d2cc918fe9",
+      "review_text": "I'm going to call mom but pretty good better than most"
+    },
+    "e2046033-6c40-4bb7-bd7a-e73d398f9682": {
+      "source_sha256": "87b05ba4b556edf9ec4c2a1600763144d26ccf63b43d6d030601cb58738ed1d9",
+      "review_text": "Beycott"
+    },
+    "4812c1b8-62d1-4b57-8579-99585aac3a95": {
+      "source_sha256": "6a8c51660836c296110cfb1f95cfbbb26e81e304fddccb87de20162a059cda72",
+      "review_text": "Can't listen 2 what I WANT!!! KEEPS GOIN 2 THIS SPANISH SHYT!!!"
+    },
+    "0bfcfbee-b77b-4906-b2d5-52d30ef3b10e": {
+      "source_sha256": "be008ee07f74999be5108da46db81646af8c96bc839230dbbfe0ded2d56175c5",
+      "review_text": "The app is good, but in past 2-3 days I can see that some songs (which I didn't use to play a lot) are disappearing from the playlists"
+    },
+    "5bc07716-dc83-42c9-8459-a5b01ae6f0d7": {
+      "source_sha256": "717912faf7ed40d4ae6c58634d2dd83dafcd77b23e5d75ded9b61126b7673c36",
+      "review_text": "Awsm"
+    },
+    "90672998-e93e-4984-8d6d-65dc57127aa1": {
+      "source_sha256": "5a137ed86c9a3c7c8c3672d2546ca4f7c6a929cc2a7c0ff6e83de4babadaecdf",
+      "review_text": "Super excited"
+    },
+    "c4cd55e4-baa8-4fee-967d-32e1fa0fefc0": {
+      "source_sha256": "c31d822c034768647e8918a35812ac83213afa3d1577a17c394c935ee0b27ddd",
+      "review_text": "It's a pretty good app so far so good just one thing I hate it takes it takes like 10 seconds to play like soon as you hit play especially on the songs you like and you got it on shuffle it takes a minute to play it want play on the spot please fix it thank you and Itd the perfect app I really like it and it has goood quality on it you can explore good music"
+    },
+    "46bf98aa-f3c0-4987-9893-b25d352f9998": {
+      "source_sha256": "380a5c57780802590b745ebb0219c74f88983349742fbd9db510e24ad51adbdf",
+      "review_text": "Everything works the way it should,there have been no glitches in the music and it sounds great! So far so 👍."
+    },
+    "f865c4b1-4492-4df1-bea6-92785b25726a": {
+      "source_sha256": "0da127ee3f7887cba2f7d44d7e1f8fa2ca28aa77b97df4099ab42cd5ff3f8a7a",
+      "review_text": "This app just became worst.. now we have to pay for playing song what we like and u can't skip to Certain parts of song that you want to listen."
+    },
+    "cf9642fa-054a-4388-bcad-eaf1cfd9231a": {
+      "source_sha256": "3496efcf6adb784c96dd0fc1f50e7e15b37306e540b7c5dcf30d9a897039fd59",
+      "review_text": "Enjoyed your new podcast!"
+    },
+    "d8842dfd-71bd-47ba-851c-75dfab2700e3": {
+      "source_sha256": "914ef24f4dfec17b258f1522f11b3766d22fbd963136d7f54c813ed6271eb83e",
+      "review_text": "Spotify is the best app I've used for music and podcasts. I travel internationally and it works everywhere without a VPN, unlike other apps."
+    },
+    "116f5ddd-b63e-42fe-8d9b-8b6846724a5b": {
+      "source_sha256": "75310e4f617202b43fe19f962d2d6fd235ec9f6884035a589d259aea72862ce9",
+      "review_text": "It is very easy to use and convenient"
+    },
+    "cfbd731a-f191-41c2-9dcd-23639705115f": {
+      "source_sha256": "991f69b5c4aa76fc29a8b6cd62d53fe100dc1692e1367c281a404a103bc41ebe",
+      "review_text": "Spotify is the best music app but until it's latest updates which got it worse the premium section is like a enemy for me I can't do many favourite thing like playing songs in any sequence and playing songs from anywhere it didn't matter from middle or else but this premium has got the app worse pls remove all that"
+    },
+    "1c1ac645-bc77-4583-81a2-3486b6d8af4b": {
+      "source_sha256": "bfc937369ca009f14d645b318ce2d2f2d491f57d855bd575005f0048f09420e3",
+      "review_text": "Fantastic and inspirational"
+    },
+    "3d536bb4-6388-4478-bee4-b7347f4a1dbc": {
+      "source_sha256": "a0cd5e9a452bf21df65c7873963861864ed77f753c512156e1a586f7b11f74b5",
+      "review_text": "THEY RUINED THE HOME PAGE, they made it look so bad and now it's so difficult to discover new music quickly because they only show you like two songs at a time they take up the whole screen. It was perfect the way it was before"
+    },
+    "6b54efe7-c1ba-4feb-80c8-634ea3a2b8ff": {
+      "source_sha256": "2f01ddeedaf1695e2719603924f62156bc8d16e11f767379b6aad545acec9e8c",
+      "review_text": "Best app(Never)"
+    },
+    "a8af1910-4d0d-4f32-b57d-a6ef5c9fdf27": {
+      "source_sha256": "8628b268d827761cd3f2d8458305b9cb59010e4f57aee324c181453364a00d22",
+      "review_text": "I used this app for more than 1 year.... It was working perfectly even without premium... I got everything a music lover would want... Free songs and lyrics... Until they made lyrics premium!!?... Now I hate it pls change it back"
+    },
+    "657de8bf-022d-4827-a461-593eb92925eb": {
+      "source_sha256": "7100e41e600afd0c79fbf1c73fb6c1db3473b9440fd9917b33bc1250adc7f15f",
+      "review_text": "Sooooo Cool on samsung"
+    },
+    "1a4cb6a7-ef19-4839-893e-c8cb9a9753b9": {
+      "source_sha256": "0d3dfb9a83b2d69472621fe2b99988e090c4fb105cbae5b23502aea23332240d",
+      "review_text": "As with nearly all apps these days: it's gone from simple and effective to an effigy to madness - you can't listen to downloaded tracks without an Internet connection - they have added a \"recommended artist\" shuffle which you cannot disable, so enjoy some random garbage in a playlist you made - app is so bloated it runs far less well now, regularly crashes, loses track of playtime - they're selling audio-books now, so enjoy paying for something with the service you already pay for"
+    },
+    "45f6c9de-dd63-4dec-8f82-7037c6c7783b": {
+      "source_sha256": "d4a6c421058ea4b1ee02a55080905d94646af292078e6886c8a95d10a3b508fa",
+      "review_text": "Love it. Sad about tye oppositions from the music industry. They should embrace this platform"
+    },
+    "a621bb2e-bd15-4b9c-98cf-ed5d9d2f50d5": {
+      "source_sha256": "a886bb4f928881a897ebb8386019f5bea1b44275a8bc3bf3b29f226890123419",
+      "review_text": "Recent update was useless"
+    },
+    "9240a807-3955-4a32-a347-0c2858300e14": {
+      "source_sha256": "b7dd0ff0dd49e8db5379eb351357e717ae2e8e469afd71abaefff3234a1ebde2",
+      "review_text": "Very bad music quality without premium and too much ads"
+    },
+    "0ca3f876-a977-45eb-996f-c901f7e7426e": {
+      "source_sha256": "b7005526eb3d9ed7a96731275cbc51dddfee992ca94b323efcb8567df37d8feb",
+      "review_text": "If I could leave less than 1 star I would. Sadly this app has everything I wanted! All the music I love and all the podcast too! So what's the problem? It (the Spotify app) wants to tell me what I should listen to. I want to hit my playlist and listen to \"MY PLAYLIST,\" but 3 or 4 songs later it plays it's suggested music. I DON'T want Spotify's RECOMMENDATIONS! If there is a way to stop this tell me. I'm not going to pay for an app that is no different than a free radio station."
+    },
+    "d2eda6d9-52c5-450e-838d-d7fb76255174": {
+      "source_sha256": "e5dd2785f1a88e94981dda74f60cb8c95f6108ad08005558ce6c30e46f95a04f",
+      "review_text": "This app has gotten so much worse lately. Constantly tells me I have no connection even tho I do and all my other apps connect just fine. And lately it will play a track but not actually bring it up for me to see and seek through. I don't know what happened to this once great app but it's trash now."
+    },
+    "896a00f8-f602-4472-bf8f-8b7bad456c53": {
+      "source_sha256": "e7658c1a76a1695e95cc7b6ad534e77cd90a7f9cc1e13b848c99c61e3c016904",
+      "review_text": "Good od"
+    },
+    "d053db9f-99e1-4d1b-9cb1-4bbc7e1193f9": {
+      "source_sha256": "eec7b313f8a79c39c0c3c7c2e1f0a8e4e91ea9c31adea2442326692ed9633172",
+      "review_text": "I love Spotify it's soooo cool and nice the music and like that the letter's is sometimes wrong but it's OK"
+    },
+    "c338e369-89a4-425c-b44c-508262501dff": {
+      "source_sha256": "8f0e616e151a344fff13db5c4bb29f8f669d614a66426ed977f45c5bb06a9e7e",
+      "review_text": "Yha song download karke nahin rakh sakte resso app ki tarah lekin search karne par jo gaane aate he usse me bahut jyada attract hua hoon"
+    },
+    "d2df6ed5-81ad-45f8-a4ea-8ff7618a9b4a": {
+      "source_sha256": "f20c152c2aadb643007124d836830408143a9682bd3b64f3abed7eb4268f4b55",
+      "review_text": "It's very easy to operate and lovely quality"
+    },
+    "3d4a980a-e1ed-4563-9bf5-8a12ee497c1f": {
+      "source_sha256": "98963e8ec1ee74965cab19b6e6a6ad89a6f534e53330d22c7624d5bda8650800",
+      "review_text": "Adverts are too many and annoying"
+    },
+    "dbc77ea0-30bb-47f7-87c5-61ccc0a81ffd": {
+      "source_sha256": "424d845a33d80f916cafbc3cb6da8f213e3df1ee3d82776424e6af773842c875",
+      "review_text": "Seriously makes you pay to listen to your playlists, actual bs. If you want to listen to music it has to be on shuffle and it's not even your playlist that shuffles, it's any song in the world will play"
+    },
+    "90a765bc-d5f5-448d-8545-c2a627466bae": {
+      "source_sha256": "7aee0e32ac34ef313ef927951d3db2088474c6ec15c05bceca23caa03869f9ef",
+      "review_text": "I like to give 5 Star but due to some synario i don't feel the app is not applicable for 5 Star i can provide this app rating for 3, why I'm not given 5 rating I'll tell u the truth part i don't want to ignore, 1 St one unable to download the songs only the feature who have premium for that, 2st reason Songs are repeating it's getting more irreating, 3 st advertising apartfrom the app is Everything is good personality what i felt.. please update the feature then definitely user will provide 5⭐."
+    },
+    "6b1d22f5-8c5e-4fe6-89e6-7f2bbfaabf61": {
+      "source_sha256": "9f972aad29c2de0dfa7adca4ea1e9cfc177ab76e6bfa09ee42979e5310e91de5",
+      "review_text": "Good apple"
+    },
+    "af996fe2-8cb9-4c7c-a2e1-cd6d5ece21b6": {
+      "source_sha256": "3d6b6c4e929b18b376db006de27756da5e18a7f79dd5ae84e79c282f008454eb",
+      "review_text": "Uninstalled it cause it took 900mb of space... I don't even downloaded anything just streamed songs.. i mean why.. and 900mb occupied what for"
+    },
+    "23494925-2e15-41d1-aa70-f5149fb3bd7b": {
+      "source_sha256": "9af14e13fd42aa334b412318577542f2bcdf29942790832947eac47fbea69ba1",
+      "review_text": "Bar bar premium mang rha h music sun ne ke liye.. 😡😡"
+    },
+    "4e298d00-7f65-4819-be63-85b2e49cdbea": {
+      "source_sha256": "eabddaa32fe80ff670fcfab21cc7fdedfb6037403a3682324a2e938a8a4832a6",
+      "review_text": "I can't login with my phone no. Please fix these issue"
+    },
+    "b2fb824e-983e-4ce2-a3dc-b52a744c7406": {
+      "source_sha256": "b85e1cdfe3f93429d045cf488a4e26f395df339893d7a4fb4fe00a4bab2bf5cc",
+      "review_text": "Lyrics don't load, nothing can be done without taking premium, almost nothing...."
+    },
+    "d690dde8-a569-4670-b014-143f27693fee": {
+      "source_sha256": "e9ae3fbdd8cf56f9ad3fe8c53a9d51abade5b75bbfb1d9c6459ba07b8ccf39d3",
+      "review_text": "It is worth it Good wondrous"
+    },
+    "d0db1854-17da-4df3-bea9-949f274ea6cc": {
+      "source_sha256": "dcf0c7d8a9308b6b3b7d765fb3dd7f28817bb1dee3578a40cbbb7545856bf406",
+      "review_text": "Spotify autostarts whenever you connect to certain bluetooth devices. It doesnt matter if you have it cleared. It doesnt matter if you force stop it. Even if you're listening to something else. It's infuriating and unnecessary. Also they dont let u use any functionality on the website even if u pay. Ur forced to use the app to do anything."
+    },
+    "2094f515-9d03-4075-8532-556a2334d621": {
+      "source_sha256": "a3eff430d5cf44d6f8b86977f0c90ba44707c928c0a47deba87a1566d2d2e05b",
+      "review_text": "Great app , part of My daily routine"
+    },
+    "2960e835-b78b-4b22-9c5f-076940412a1c": {
+      "source_sha256": "bb44f71b6bc442efd3979417f3d5596db91f1de29e38782700c3fd9f8e1f5f76",
+      "review_text": "So desperate for others to buy premium? There's other music apps that we can use for free too and I'm switching to them ,Sad that Spotify was once my favorite app"
+    },
+    "f0466fbf-8b9c-498b-b713-0b255eec5c64": {
+      "source_sha256": "e8cce64558db420c3f5e68c005b2cd6a2c1fdc0b6ab27e4572d391173ca68452",
+      "review_text": "Hm ok"
+    },
+    "e1cab019-dcca-412e-a9c0-002c45556296": {
+      "source_sha256": "226fd078d91b174aa54a6d73069bc3981273b6ef5833707bd23637ff4747f9c1",
+      "review_text": "K I LUV IT IM INLOVE WITH IT ARGJH"
+    },
+    "d9910994-81be-417a-9e8d-efe1b67dbaab": {
+      "source_sha256": "3e4f73d1922addf72e37a53939aae5b56a516047da0a97780529311170354b07",
+      "review_text": "Horribel new home screen! Now you have to watch videos to find your music. A bad TitTok copy. Bring back the old home screen please."
+    },
+    "ebda5928-e538-4bac-9e15-40a060a8b8bb": {
+      "source_sha256": "ad4263b0ab74b297fabc0a8e3ccc54ce7fedb5ed8975e1ef2445d928fd58e80c",
+      "review_text": "BAKVAS APP 🤮"
+    },
+    "03505e8d-ad41-440e-a00f-6afc0dadc82a": {
+      "source_sha256": "f1352df69a6c6119822fd46a8499aa90aba6ffca9cd822e73848b69a4e64065c",
+      "review_text": "🥂"
+    },
+    "29ffa615-8129-47da-b812-1a7b65872993": {
+      "source_sha256": "8781fb4222d8dd136124ab016a5f3aefcd5e7280af2b06f4368118f5a54e4af4",
+      "review_text": "Poor app .... Very bad experience to be honest.... Not working properly"
+    },
+    "d43bf0f5-9143-4442-ba89-13cba0c8546e": {
+      "source_sha256": "a274ff348ade818b486bc8382a2c7c1d7902776ce6f610ea6f068e6fb72bb5c3",
+      "review_text": "Need to fix the stupid app, it's so annoying to have to listen to 3 ads then only get to listen to 2 songs before u get more ads"
+    },
+    "0e6ee2b7-53d0-43e3-8913-6d4b9d966957": {
+      "source_sha256": "606f39e81ead77909cc7ef662ad520bc984ce2913fafcf7e9dc04b14dd2bdb79",
+      "review_text": "Spotify is the ultimate music provider! It organizes my playlist and what I like most with Spotify, is they provide you recommended songs for the same genre you are frequently listening to. Plus, its your one-stop shop for your favorite music or artist, gives you the lyrics and background about the artist."
+    },
+    "06c5f2d7-416c-47f1-b1e8-55fda72f4110": {
+      "source_sha256": "21e06f19f5f958a915fcc2fd8c0a9e5d27eb268b820d0fccd9138a0f09da61d2",
+      "review_text": "رامي"
+    },
+    "c1016c5c-9971-422c-a0b4-d05e1b93aa32": {
+      "source_sha256": "b1f3b9d45b1bf6d9618617898776a30f3ba0fc2bd77808f3b3e38b08f439f333",
+      "review_text": "Honestly I don't even think this app is worth downloading, it doesn't let you play any song of your choice, it doesn't allow more than 6 skips per hour every thing is part of premium plan, I'd rather not listen to music anymore"
+    },
+    "db9f3c6e-d953-4be5-9672-508606047fa3": {
+      "source_sha256": "41be7aba34282a51b661b433d17897a104892d9e63dc0e7f4b5e7ec1bce1b5a4",
+      "review_text": "Better than iTunes more personal and dynamic 😀"
+    },
+    "48cfb024-ac9f-4d7b-8f77-3ad62b187adf": {
+      "source_sha256": "8c416a1622f98055e81d4d95cd08ab1712c2bb87023e8e2d805c37c5c64ba248",
+      "review_text": "Superb for म्यूजिक lover"
+    },
+    "26c3c2da-6db9-4a32-8ee1-f9f0099ff083": {
+      "source_sha256": "cab55cd357c85b4ee88777bc4818a07806b5f0a0acb1098416b01dd666b82d26",
+      "review_text": "Very nice i like it so much💚😀"
+    },
+    "5c07dc06-ccce-4cd3-88e8-8972fa86e93d": {
+      "source_sha256": "05d70a9d6026d7a84ec86f8e482262457dfe4e894234ee16d6fb97caf918a4c2",
+      "review_text": "literally the best music app, but only if u are premium!!"
+    },
+    "e5499730-bce6-4c84-b448-12fb7876c7cd": {
+      "source_sha256": "37fa5a0f194af12eb02fd6cc18af76f0ec425e26dd7025a2d5a9837c4c2faeca",
+      "review_text": "THE BEST OF ALL MUSIC APPS"
+    },
+    "94b8bef5-62dd-4753-820f-e3811cf62629": {
+      "source_sha256": "7c8b4f4bea3388bb9046586be39156b691fe84d10ce60ea62c6b1ac3249d6b3c",
+      "review_text": "Totally disappointed with the recent updates. Wish I could give zero stars."
+    },
+    "302d66a5-40f0-4609-a0e4-ab864c039b6a": {
+      "source_sha256": "1c59d30b7129e87751990004efde82ff3925c37c805060c0dd5de2e527123b80",
+      "review_text": "Just 👍👍👍👍👍"
+    },
+    "caa9fa0a-4600-4cc6-8b9c-f0b8da870e4d": {
+      "source_sha256": "8e1f9a37ab34bf4d377854911e2136faa759cbcf136ed19dae4e571102e3323b",
+      "review_text": "Lucy's"
+    },
+    "a8210fac-2eeb-44ab-8650-49fe69eec98c": {
+      "source_sha256": "2326945181833845c4105f22e4fa13a4e73513b5f4e4973e6c31d46a05d326bd",
+      "review_text": "Wth is wrong with this app. You can't even use basic features like you can't listen specific part of any song, adding songs in queue and what not My god 🥴 I regret making so many playlist here. Never even gonna buy premium ever. There are many other applications available where you can use basic without premium without getting irritated and frustrated"
+    },
+    "a6304b04-db1a-4cf7-a143-8d03ceabe7d9": {
+      "source_sha256": "8b4406e79113c4b891ad32a76f729f4bbb2c98fc751410d811ca1ba46043be8b",
+      "review_text": "Unlimited ads very bad experience. Hadh hoti h yr advertising ki har song change krne pr ads de rahe ho. Limit me to do yr kitna rulaoge.😭"
+    },
+    "78fd2016-189d-4c16-a71a-1228579677ca": {
+      "source_sha256": "24003ec55db445f7eea7df0e7a14ed6db85c16416e1b2e72cf6e1f9e32f009fc",
+      "review_text": "Total trash"
+    },
+    "c80bdf24-f82e-4abd-a2bd-d4aeb10cf2b0": {
+      "source_sha256": "59a6bb09ef849185bda1352ae372ca9ce7f04e9040933fb4a7573ad71d3a1c84",
+      "review_text": "Awesome an the quality of the music is insane"
+    },
+    "1bc2ecf4-2c19-4259-852f-d1725d6b9a27": {
+      "source_sha256": "305ddf7ad66f5580cd017c3721a496b886135b21fa2b800d7c368ea6a22bfd40",
+      "review_text": "I'm loving the new features added to the app"
+    },
+    "40aa37ef-8913-4127-8b30-68b7ff283014": {
+      "source_sha256": "beb280a4c94d51318452dbc20614543b0f24aaa63ed96322502f93ac6cce58b8",
+      "review_text": "This is now too bad I mean please allow us to skip to any specific songs and shuffling"
+    },
+    "6e2deb87-ea88-4798-9b31-7209bf6766b5": {
+      "source_sha256": "de5cc2f65523d2e8073c02ee3caae3548dd9c9fcc5dc9a5fb7d9768babdbf384",
+      "review_text": "Login with phone number problem"
+    },
+    "bbb8875b-4a88-481f-a10d-5ac44aa7f576": {
+      "source_sha256": "aa550d55e8006c23d2afc5e13c1fd668e9335208c441ee7dcc4ffed4f939d211",
+      "review_text": "Have discovered wonderful unknown music and performers and the joy of listening all my favourites. ❤"
+    },
+    "dba1a83f-76a8-4756-b7ef-8a545ee9d69a": {
+      "source_sha256": "da4102e46d09571e03062cb2bb0e1ca50b47697b7a8baa0985ddf3891334f216",
+      "review_text": "It's just perfecto 🤩🤩"
+    },
+    "9d49ab35-29e7-44b4-bb5e-20ba67f3704e": {
+      "source_sha256": "9ccdd2f8b411e9e540294b5002615d2563cb61cac417cafc42a74da7b406c5f8",
+      "review_text": "i get to listen to 3oh!3 and pretend it's 2009. pretty sweet deal"
+    },
+    "e6e7cc13-6974-4e62-be06-8c9b90487d4d": {
+      "source_sha256": "2e5c550f4c4d62e21d3e17919199d96f096fab22b31719979592c7f6687f3b15",
+      "review_text": "After update made it one of the most disgusting app 🤢🤢🤢 removed all basic features"
+    },
+    "eccb7365-f3a5-4733-b3d8-42190f8787d9": {
+      "source_sha256": "b9068246f394d1b7155cd109f8c5cb25ee134177751f2702fe50a8d6ade3c40c",
+      "review_text": "No issues so far."
+    },
+    "fb41d93d-2da0-44b0-aa0e-33da57902fe8": {
+      "source_sha256": "07211f5990cbcacaa5ec5437c9fcde3479f2334118f0268c33b9881e05136144",
+      "review_text": "Fantastic Good"
+    },
+    "eb151d07-b044-4e85-a531-f5dc080361c9": {
+      "source_sha256": "555a2d7d53062bdf33cfdf8f7a704314fac0422aca634f61fb881fa4076c1cc3",
+      "review_text": "I love Spotify, because of Spotify I'm a sane person and it helps me get through a lot."
+    },
+    "a219b2a3-a07c-4dae-b97a-c2a59c887559": {
+      "source_sha256": "9171e18cb1e5aa2d69cbe60d7950eb2ff2c9c798d7dc7eec3c66de8450eea749",
+      "review_text": "Songs randomly stop playing which makes for interruptions which I pay you not to have so why are you interrupting my listening when I'm paying you for uninterrupted listening. (Reached out to customer service as suggested by the developer their solution was to tell me I need to make a new account)"
+    },
+    "5a9fe391-2164-4509-b688-55bd53ff4e39": {
+      "source_sha256": "136001e59665bf37037e5c3c01cee910a2c4eb24e7165e80edc4f2ff3c676464",
+      "review_text": "Naic"
+    },
+    "9af668c7-9e0e-41f5-9ea0-ce004f2e8466": {
+      "source_sha256": "ec29949085b3e7dc93e75a58d76fad07b91a52063ff5d4aa594cabcb81e433c9",
+      "review_text": "Something is wrong with the 'rewards' section. It keeps crashing or telling me \"Something went wrong. Please have another go.\" Ive been trying for weeks. I cant see my progress or subscribe to premium from the that section anymore."
+    },
+    "dd907cec-5852-4ea5-b39c-db6c60d63bb7": {
+      "source_sha256": "250c4c0c1d104c7317a4d1a5bf8ff46ccf0f983f4a3cd8af1e9d4df5b073b987",
+      "review_text": "Great app ! I love it"
+    },
+    "a2f688d3-beff-41cb-b7a9-1317129dd7db": {
+      "source_sha256": "678a6d228c8ddbdbb7947c7e9da534669c6932ff5dd0a912ea2da72c3ee3caeb",
+      "review_text": "O so good."
+    },
+    "e0fa9ac0-73d9-4c1b-9a22-4b1b2d585bf1": {
+      "source_sha256": "b65ed994de6293ef5b4ee080680d424b1cab8ad2faea959f4c3e021aa7aedf30",
+      "review_text": "I hate the last update!! It's annoying !! Can you please cancel the last update??? ( free version)"
+    },
+    "d827d467-18e8-48f1-89d2-de0ddb8d390c": {
+      "source_sha256": "f84506aef59777d5e956d49a62011ca3aed3866c4bedb6e094106e5f9d6d8a0b",
+      "review_text": "Form 5 to 0 star's I wish I could do that but I still have to give this one star I don't know what is worng with all this updates for premium now we even have to pay to see the song lyrics and also to go back to the previous song or to skip the song too- I mean whyy it was all so good before all this useless updates now all it want/need is money,so disappointed!"
+    },
+    "6225e3b5-4f7f-4973-8a5d-e78215f2da22": {
+      "source_sha256": "d3df7a74ab690c9dd2c6cafaafbba5f42d9cdf57e209655231ea640b8e98cc52",
+      "review_text": "Problemas pra mostrar o que está sendo reproduzido. Não há como pausar, passar a frente e outras funções."
+    },
+    "801448fd-2b98-48dd-bca3-0aa0f8a7c81a": {
+      "source_sha256": "26374458e35485289de36a3cbf52ed1ceeaf957f8644b30b0c20c45432b0025b",
+      "review_text": "Why are the ads for every 10 ... Once ad come nd they tell to enjoy NXT 30min but again after 10min one more ad will be played....."
+    },
+    "5b068117-79b6-4903-b4da-075b9411c8b3": {
+      "source_sha256": "0550983fdf3b543fdba0c17334ca310565fb64a9bab01eaa3957c9090e198213",
+      "review_text": "What kind of update is this? without premium it feels like a crime to listen to songs! No skipping,no song choice, can't even change a paragraph of a song...it's so worse...everyone can't afford the premium pack..that doesn't at all specify all these new rules..wish I wouldn't have updated this app... uninstalling this.. everything's got a limit..it seems like there's no importance of normal users! Such a shame on software engineers."
+    },
+    "142a9674-ac29-438e-bb66-581b8b0b0868": {
+      "source_sha256": "02130a8a1e7082ac664946cc3539b63421a073e5d2dbcfe5f32c6d1fe881db7c",
+      "review_text": "I love Spotify, but recently it crashes when I try to share music to other apps."
+    },
+    "9b1a5168-e14f-4e92-ab49-b73376fb9e1c": {
+      "source_sha256": "b0fc1bd67b622be9b55600ab0edf46aba0e50396f0e4a0881d7712fd4738fe92",
+      "review_text": "play a different music i did not put on"
+    },
+    "87a8d8e5-67fe-4267-b86e-89f63b029bdc": {
+      "source_sha256": "38fe7a44f9ba275cec65320266b69e2f5f384d01713bd75ea281dc5d550e9c40",
+      "review_text": "After update i'm uninstalling this app Càuse of Not going previous song & not seeking"
+    },
+    "4d53c28c-6b65-44cd-8e24-b1da524692d9": {
+      "source_sha256": "a2f65d2dff0035bf1fef6f89d69772b4b574b5d19011b4bae4157d65b55a9db7",
+      "review_text": "@Team, why can't give the feature google voice assitance to pick the songs like you tube. It will be really useful for everyone."
+    },
+    "2246524e-56a4-4197-a61f-c3ebbab25620": {
+      "source_sha256": "4246d67cd4af2b6eaaa751bc90783fa3d6428b84ea0d5643daaf7f2f4b50c89d",
+      "review_text": "I really wanna give like zero stars, but can't do that here!! Like seriously, the ads were fine, but removing lyrics and the option to skip to the parts you like??? Like can they stoop any lower?? 🫠🫠🫠 I think I'll just delete the app Maybe if you're not rich, then better not waste data on this!!"
+    },
+    "3b0ab322-560e-463c-a7a0-2f9108d7c023": {
+      "source_sha256": "b8216758aedcd69b9cd192b84cb850817de0ed0f1783d1310fee1d09e43e7a34",
+      "review_text": "Grape"
+    },
+    "dfc06570-bf6f-484e-8260-d766a53a96c6": {
+      "source_sha256": "4913e563ad2423658b453ce006edfca49877f925cecad0b0b119ba440cc6c3d3",
+      "review_text": "Added Spotify so l could listen to the Exorcist Files by Fr Carlos Martens. I have not been disappointed. I always hear clear and audible sounds. I'm glad l chose Spotify!"
+    },
+    "623bc616-e200-4533-a624-36dca3161802": {
+      "source_sha256": "7cc06f36d56de1878a4325e9eb7d2dae2f5320e384a48936486902d1dc56e09e",
+      "review_text": "Mashaallha kya aap hai"
+    },
+    "f9a26306-fedf-411f-9d27-f9c6b47a2d51": {
+      "source_sha256": "5f6b9b553e35e091735e3731e06e1a56d57be53eb5f8ba0dd389c25f5d2b305e",
+      "review_text": "Music per copy right clame aaa ga"
+    },
+    "61af3a2f-f543-4af1-9566-8f890e0b480f": {
+      "source_sha256": "71e5f4965f77fb69904af12d249e3ec395da6a0dcb6e95ea3967116c52a7d06d",
+      "review_text": "IND. Musalim"
+    },
+    "3af8ffc9-66bb-4ad6-8f4b-8b6bec45324d": {
+      "source_sha256": "372998832d71cb5d51ad230a20aad338ef3db2c57d85e6d4ddad9cef4c9bbca3",
+      "review_text": "Still love Spotify!"
+    },
+    "1191101e-9360-4233-be53-326187b444ac": {
+      "source_sha256": "dccb1f686b7d5be2a226540f168ced53624863ea73bbb3026db2d7ac7d1a888a",
+      "review_text": "the newest update is just trash"
+    },
+    "3cfb2153-69c7-42d2-9907-eecc8b225e82": {
+      "source_sha256": "f6786b911680c64471a7b02a4f56bc3a64c0ca208ba39148f36d071b6eebe4e4",
+      "review_text": "Pls solve the issue of volume suddenly tearing up when kept in equaliser mode and switching to the sound of other apps eg: when my song is playing in Spotify with equaliser on and then I clicked on WhatsApp to check a video status once the video is finished and the sound transfers to the background music on Spotify it suddenly tears up my ear giving a sudden massive loud sound on my ears for 2 sec which is too uncomfortable same happens when I pick up any call and come back to Spotify pls solve"
+    },
+    "ff629160-3567-4915-9b94-a2eb05a6983e": {
+      "source_sha256": "9ff8a3ce8d1d7c1c05ec88f84f4ff4f0536f5268c9cddfeeb8d9c24b700fe279",
+      "review_text": "Attempts to collect information way too times in a given session via at least three trackers. If Apple Music was on par with playlist features and had some albums and songs I'm missing, I wouldn't use this at all."
+    },
+    "cd9a7079-9c8a-464a-838f-cf7c7cd6b96d": {
+      "source_sha256": "135a38b301c5f61e0a63f69bbe3a45379c1b1d468b7f2fcca83c6c378c0f1d13",
+      "review_text": "Hate is app"
+    },
+    "8b2b4662-8e2c-4ce4-a90a-667e2b63b372": {
+      "source_sha256": "5943f26438dbf853e3b5ca1e57a0d2efa7c7818f7ddc1de4f9e0cfeb530f3cdf",
+      "review_text": "I didn't wanted to 1 star also like come on you just removed the basic Features of the music app in the new update and if you think people are this stupid that they will give money to you for this they would better download a mod version"
+    },
+    "c97171ad-3ef2-41bb-b811-f95a395311b7": {
+      "source_sha256": "6933d9ac4efcd4572e320b401c63e36dc3abd58aa1f73dd367ab40c1eab67245",
+      "review_text": "Enjoying ~"
+    },
+    "d62b7c39-fe8a-4ff6-aba2-0ac0dd4c7644": {
+      "source_sha256": "87633af533b530f5ef977161e617a829e1802f212250e7829a7f79fad36d980a",
+      "review_text": "Worst app too many adds .... Wasting of time"
+    },
+    "04cb1057-1719-4315-8623-28baf505f97f": {
+      "source_sha256": "ac28c865d2deaa59e9eb4c3ee9452101f8c77af6884516e85e983f135d8bb412",
+      "review_text": "It's kinda slow sometimes but then again it might be my phone but so far it has been nothing but amazing"
+    },
+    "76646f02-4bf3-4667-ac47-9211317ceac2": {
+      "source_sha256": "08de1fc5ce082c15f0cc8d728ab4d2b29d4a83f6134954b62561adfb189d0bc2",
+      "review_text": "Straight 🍑"
+    },
+    "d1c54d68-13ad-4112-ae14-15f2ad8bdd5c": {
+      "source_sha256": "ef9f2a5ea64f2cfde608bd3a1a57b3601083992641b98a79718139143070f3d0",
+      "review_text": "Everything is great except one thing, we need the section that shows what do the people we follow listen to, the one we have on computer version but we don't have it on mobile app, please please please please please add that section to our mobile apps too, we need to know what other people are listening to while we are using our phones"
+    },
+    "247da783-cfa1-4cf1-b80a-84dc5af10fd8": {
+      "source_sha256": "e1835136fa6e425a457de528d9208f9a3b0a1c947c20b8f0bb516950740b34ed",
+      "review_text": "ARE YOU SERIOUS WITH THE NEW UPDAT!? IF I COULD GIVE YOU A ZERO I WOULD. I CANT EVEN CHOOSE WHAT I WANT TO LISTEN LET ALONE REWINDE."
+    },
+    "7d1211a9-d6e4-4763-a526-84c8d91ddae5": {
+      "source_sha256": "a1eaea48b94b1a21abcbead1d37312a8a16221e0b4691250828ac6ec94fbb8b7",
+      "review_text": "I LUV MY MUZIK 💯😎🥰🌞"
+    },
+    "6d190bef-d73c-4da9-920e-f20ca107735d": {
+      "source_sha256": "7eaacf93a52b640dbb7681baee4b2da54826c3902b9103864fc6e6e445a8cc44",
+      "review_text": "The best without any competitor"
+    },
+    "7c32422b-d6ea-4c36-ab0a-a78689868fb7": {
+      "source_sha256": "3ef227a25835f1968b95de5e8bbed29deb07eb0c5571fb88af7eab97e476b265",
+      "review_text": "I have over 2000 songs on my Liked songs playlist.. shuffling doesnt exist. No matter how many times i reshuffle my playlist, it still plays the same handful of songs. Absolutely ridiculous"
+    },
+    "bbc175d7-726e-4570-a411-0ca89c29a127": {
+      "source_sha256": "6661c9f9a730d68220ce73cd084f3db3c2de17e50b27dfe1c2150b7da7582e0a",
+      "review_text": "Harm full block this app"
+    },
+    "156d86e2-7f60-445f-9d07-0a6047b97182": {
+      "source_sha256": "4f3c996460c579789fb0ea5bc36a7680de44f7c785ee912fa2fd15bcd1b38bef",
+      "review_text": "the app ao stupid"
+    },
+    "f3c76359-9a3b-4a3a-b5b6-b24ef0537ac8": {
+      "source_sha256": "eb33088bda2309ab1145cf30444d6a71ca5681acc6227322c772c88164f6d43a",
+      "review_text": "Not good very all premium yy yy yu"
+    },
+    "ad6b4878-58ae-4d12-ba17-fec4fbe11e5a": {
+      "source_sha256": "7d77113366a318660a4f9e282764b420259564be9213c35b136a4ec9612a1686",
+      "review_text": "Exceptional great"
+    },
+    "41e15ed0-2ee4-4f3a-9a60-c4eb45de3fbe": {
+      "source_sha256": "b2f0dea0574183dedf35a2fd31000599d23b3e1d22c88103ae387f6436f23ad7",
+      "review_text": "this app is good for playing music 🎶"
+    },
+    "b5208278-9055-4f7e-a70c-64f850a451ee": {
+      "source_sha256": "7f7eb2c66a2875647b199d304cccc7d582d0d7c73146e9c4034dda1bf9426e68",
+      "review_text": "Spotify is really helpful to listen songs"
+    },
+    "ab16c503-6d06-47b4-a549-7870ab951008": {
+      "source_sha256": "39ffca99e51321ee1e33e5da6ab09568840be996f4c03594b4a9a708a2c4d126",
+      "review_text": "Super massive"
+    },
+    "e752caab-a525-4458-906f-8d2e06b039cc": {
+      "source_sha256": "e84ebe82b1454cfe1b5937e87c1aba2297113aeb725f42f2bd4c0afd3223e86e",
+      "review_text": "Wonderful! Awesome! Spectacular!"
+    },
+    "0c9af1d6-b0c6-43ab-91ea-278b9763dea6": {
+      "source_sha256": "946ef02d228997aee2eb5b9a82d2c9fc29840ed67345f1d528b30a4d4d2b38d3",
+      "review_text": "I don't really use it on my phone, but on my PC all the time. Truly a great app to listen to music on. I've been using this app for 6 years now and still always use it! :)"
+    },
+    "329fc846-f918-4da1-a1fb-8c00579e7837": {
+      "source_sha256": "f9cbbc1e64db42f0fe3701cb735a3a3b223e69665eec021c676bb08c661e5459",
+      "review_text": "Good yrr"
+    },
+    "cbb353ef-83ce-419d-9bf8-36d8fc3b6976": {
+      "source_sha256": "69f9972e42e9bd339a46bd9542e6dfd87686123cde6b6fef499593c99272c24a",
+      "review_text": "It has a lot of songs and i love the song"
+    },
+    "5431d75f-9321-40e4-820b-654e3a97ce7a": {
+      "source_sha256": "3c01db4ce2b617ea2d708f0dc269a3f8cf4240e7215a1503a046b0271d6a7298",
+      "review_text": "Cool app with a good algorithm and features"
+    },
+    "efd65909-b6e8-4ffc-aeab-1b901d0f703a": {
+      "source_sha256": "ff8ea82bf79c2cdb10322c968dc4cc0fe6178d62473cbf87ad028052d2b73bf7",
+      "review_text": "Plz do some thing I can't find the lyrics of the song anymore after updating"
+    },
+    "5edb0a23-5256-4b37-af98-ff5dd7996191": {
+      "source_sha256": "67c7c32eb103cfee2f108aa26e86ec6186c83c37a9c658733640edf722638b91",
+      "review_text": "Terrible i dont know what they changed but it wont play my music anymore. It will be in the middle of a song and change to something in a completely different language. Sucks dont waste your time. Ill be looking for something different"
+    },
+    "89684866-eeae-4d18-92b1-8e89bac5302e": {
+      "source_sha256": "542bf17cb83ed3c21ad2bc5a74785429390ae2af10cd721982c79d270b548493",
+      "review_text": "I love this app and have only been using it for a few days but I don't have the full experience yet"
+    },
+    "ee0136e7-09ca-4905-bb72-c5bdff9b6698": {
+      "source_sha256": "1f717c109bcaafb44ca4f90fb4a7268654bc572943a70141e6fbcb27b478c287",
+      "review_text": "Boucoot 🇸🇪 aap🖕🖕🖕🖕🖕"
+    },
+    "f936937a-8b6b-4b59-9534-6c2896de1bcf": {
+      "source_sha256": "0da8cf66774cf72d1585bfff2fefc065feb2dd79e70555efcc3307feaa958b9a",
+      "review_text": "I hate the new update 😒 😑 🙄"
+    },
+    "c26f92a2-3524-4a76-95be-67b18c1969e9": {
+      "source_sha256": "d7dd2a78726c83f7bc67b00d74583e56dbed65e7ea17eab37859b905a7ce01a1",
+      "review_text": "Love this the various songs are wonderful every language songs are there"
+    },
+    "059f7c61-2b30-49b1-9a26-056138526a40": {
+      "source_sha256": "8109ea4f3d84493ffe470d300fe56935ca940f2527301125b61a6900293f1846",
+      "review_text": "Stop playing"
+    },
+    "192c4eef-c529-4350-a6bb-ebf1192eb958": {
+      "source_sha256": "e87c24014d13bfd9b272df77aeb4a0bfaffe5ac6d827091117c04fe700c50a04",
+      "review_text": "Hora una buena app pero después después la actualización ya no me gusto porque reproducía una música y no se reproducía la que yo quería y reproducía una aletoria que no me gustaba asique mejor borre la app y mejor descarge una que se llama eSound"
+    },
+    "dd54bbd6-44fc-4326-96f3-47cc1b337433": {
+      "source_sha256": "56a1945a5b63904d184094373b6e3e92929b387f4625e2294dccd97d87a56463",
+      "review_text": "정말 멋진 근데 광고가 많이 나오네요"
+    },
+    "3534568b-fef4-40bf-9be2-836d9337435b": {
+      "source_sha256": "c4d8ec5bf96c27768fe69c082947195e19f3034b1cc478b207c940c37579c406",
+      "review_text": "Recent update was a trash just removed all of basic features to premium"
+    },
+    "0dafe877-0640-4f11-a92c-fa320a1b424c": {
+      "source_sha256": "ea8ec53282c58a8eb3026324a6302095d1272be0207a056fb974e2660f21ebb2",
+      "review_text": "There is lot of ads between song.We can't forward or backward the song.We can't repeat song.We need to pay the money to stop all these.Worst experience."
+    },
+    "3407af63-fc4c-4158-a624-72c5ba5f03ee": {
+      "source_sha256": "3126b76eddd846039dc309dccc388a051b7c29ec2823ed74f17be4c8e466473e",
+      "review_text": "POS service. I honestly don't care about half a second of latency, just build a stable app that just works instead of giving up the minute your connection has some slight disruption, or constantly restarts podcasts from the beginning EVERY TIME... The number of times Spotify tells me \"no internet\" and I went to play the song on YouTube instantly... \"The playlist\" tells the story of a CEO obsessed with shaving milliseconds off latency. Somewhere along the way he forgot to also make it robust."
+    },
+    "6ba3cf95-dfd3-4567-a385-4c655663bacf": {
+      "source_sha256": "73685eb92da843dfe16039e8c2b8f95f766fac67951887dd55414ace6df71b75",
+      "review_text": "Pros: Premium let's you make all these cool lists and offline listening. Cons: They got rid of the heart to like a song feature :("
+    },
+    "06761872-6c70-4fa5-9d02-3132c14d2cb4": {
+      "source_sha256": "33bc329836cf1c901acd1f9d4ed356b074c938f4da0ad0a023425d98b8629038",
+      "review_text": "worst experince as a non premium user. Felt like using a demo app without any user freedom. Uninstalling since its been occuying space on my phone without any use. Thankyou spotify we wont meet again."
+    },
+    "6251f299-202e-4e03-81cf-333b857880a1": {
+      "source_sha256": "37f7d42489607251c6da2e6fc5e7fe41148b8a825eabb5e3c8597c5d8085c8e8",
+      "review_text": "All swedish apps should be banned...🙄"
+    },
+    "7ce43ee8-f227-4e37-94ef-2d0c24cfaf0c": {
+      "source_sha256": "ae9fcb27fa2ff32f50039c95a292c649494e5cd270054ed018e430756dfb6601",
+      "review_text": "Add an unlike song confirmation every time you tap on it. I accidentally unlike songs sometimes and it's a little annoying"
+    },
+    "94d080be-d058-411f-998a-9d6acd6bcce6": {
+      "source_sha256": "0c9e5539d2aa7e6bc583ce26519ba5412a943615a438e870b1c43c9c19309d28",
+      "review_text": "Please isme sudhar kre... Please application ko khud bhi istemal kre taki iski kamiya pata chale... Your AI is not good for music playlists."
+    },
+    "6fd7af91-e2da-43a2-8fb1-470df91d8ac4": {
+      "source_sha256": "b92e965a27a0c2bc79a17797c6b8bb3357fe7e28e74ba93b5620d0807953bbed",
+      "review_text": "It is nice to use the app"
+    },
+    "eb4c5d60-cd79-4de1-9678-a079f4a2dd90": {
+      "source_sha256": "79f16b6e1840bd21334222886f109b7b6c3a48c74c1d941b34fc05ff92c9a187",
+      "review_text": "It's very useful and I can get to heard music that I like."
+    },
+    "73793b08-16c3-46e0-a73d-70adee34e762": {
+      "source_sha256": "1dc7f02f135939ef54d9e291300f41b9c140bb8054281628bbe4efb36c0dd296",
+      "review_text": "This use to be a good music app, but lately I cant get through one song without it cutting in and out 40 times per song. REALLY ANNOYING BAD SPOTIFY 🤬"
+    },
+    "90c930a1-87a8-4003-a1d6-9fe632eedf2b": {
+      "source_sha256": "38c3ad7715ee2eb7feb455aff2326aa6a360e4f598d6691c23acbb38a0df6246",
+      "review_text": "Id I could give you guys 6 stars I would."
+    },
+    "727181c9-7b82-4579-864b-7de5bdecd12d": {
+      "source_sha256": "8f528b535a626885abb30dc563d22dc3f757eb4a66fe014b46b31276fe28f993",
+      "review_text": "Why I have to paid for everything in this app?? Why there's nothing for free???"
+    },
+    "e52e1792-ee2b-43a2-81dc-1a832451372f": {
+      "source_sha256": "5e3954cb9ea8c756d53a5ec84cbe0f237b15b56e54c0bc8cb2acdbab94893897",
+      "review_text": "30 mins of uninterrupted music but get adverts after every other song."
+    },
+    "d68292d4-3076-4339-ad73-d4411d91cb79": {
+      "source_sha256": "797865989043e467f7dd0f0f07b01e40bfc42b2873709c6e3a49fbf7f32c3546",
+      "review_text": "Constantly closes randomly, changed phones and tried to uninstall and reinstall and still nothing."
+    },
+    "81ac53b8-041e-4418-898f-f27a454c2a21": {
+      "source_sha256": "310bb5b5038cb26bf7ec714d2d8ec17ec51c8d06c001e484f6b6cd045b488306",
+      "review_text": "Love it easy to use...great selection of songs"
+    },
+    "c0f660e0-fe1e-4c81-84cc-22790224154b": {
+      "source_sha256": "b68f5ecf101caec3e67d3681c54172da32ae1c1720e7aa43a8196b01e4c45b47",
+      "review_text": "Spotify chooses to side with misinformation so I'm choosing a different service."
+    },
+    "7b2ae512-938b-4151-84f6-9df6af8263e1": {
+      "source_sha256": "225058ce10e5e2310667a410251034c202aad6310c477a92809c9a1fd43e582f",
+      "review_text": "Well if you're free user want to listen to some good ol music, bangers etc then this app ain't for you. Yep! 2-3 adds after every 1-2 songs, can't skip at all. But if you're privileged enough then yes, this app is such a great platform for music streaming."
+    },
+    "c74eb877-4c3f-4b3a-974d-af7e19f52e6e": {
+      "source_sha256": "5cb0170fe6b8c1f08e3fe3ea3350f6a6df1af71e87541636c58f762e33b4b73d",
+      "review_text": "Would be great to have a sleep timer option for \"end of queue\" instead of by time or end of track."
+    },
+    "dc680f42-de8b-4326-bbc4-79dbe958f1f1": {
+      "source_sha256": "079d99af45324cbb8d2ce049a0c443264930325b941920ac74ff1aa99fb5288f",
+      "review_text": "Very few glitches Works 99% of the time Too expensive but best option"
+    },
+    "2f682c51-4393-483f-97ce-80b696fd523e": {
+      "source_sha256": "c5cbc0b06e01502ecfa3bcb43beb0c6d94fa7fe07454c9c536d4c91d2db33880",
+      "review_text": "This app is to good but whenever I open app it always discard my profile.Other then that this app is good."
+    },
+    "ee1c751a-ddee-4bbe-8734-89dfba44794a": {
+      "source_sha256": "f9a4956a57ef844d0fb70940c3a99efc1b43c97b9a86e0694c7c235dcea3d299",
+      "review_text": "All is well"
+    },
+    "8113fa21-13cd-439e-bd3e-364744fb2ec7": {
+      "source_sha256": "643c52b7ec696b7e76134456bed90d2df73f319068cb284bbca7fbc3d91e6ac1",
+      "review_text": "Black"
+    },
+    "dae358fa-47f3-4400-b117-023a2caecbd3": {
+      "source_sha256": "d54eb42cb9f50d6f7142f68b4382648836465c56648d8d0271f0743a0e27d8b2",
+      "review_text": "The worst update is here!!... You can not do anything skip,rewind,etc you have to listen song according to them..whhyy?? 😡 It's just horrible..."
+    },
+    "e388145a-2d07-4bbc-ba94-75b20065ea1c": {
+      "source_sha256": "14612f84019705d4ad535582a1aa3d2815679263b885023dde6611fdb914166f",
+      "review_text": "Doesn't accept log in nor my accounts and if it does plays ads after every single song, payed for nothing going back to tidal"
+    },
+    "402ab8b0-3653-4709-8266-b97ea2c054af": {
+      "source_sha256": "f0e253be5316c21cd25c85025418eb4df8eada1209e625800606db90503a063c",
+      "review_text": "It's good and all but for some reason I can't get Dj and some ppl do have it and some don't."
+    },
+    "32500fd1-103c-4421-9c65-219d8c16075f": {
+      "source_sha256": "47f36e2e94a2555cbf960c9ba1a4a89d099b141d600707204d72825871a37531",
+      "review_text": "Not able to login don't know what's wrong with your backend"
+    },
+    "b7ff6ed5-d7f1-4d50-b6d7-97edaeb96ec9": {
+      "source_sha256": "76698c637d9c415e790872ce3a7dad97f0c76cc3c3811d55514aff4974920e6d",
+      "review_text": "Ah they removed a basic feature like seek and made it exclusive for Premium users. Pathetic app"
+    },
+    "9175263f-5d60-455e-bff5-841a98602b07": {
+      "source_sha256": "7d0cc27862b1a851303c0bfce3bd70381b4a6b83e19a161eb5b128b619704fac",
+      "review_text": "Fine as far as catalog and quality, but those things are not any better or worse than what else is out there. UX leaves a lot to be desired, even as a paying customer. There's usually an intrusive full-screen pop-up every time I open the app. The queue is horrendous - you can't see what's been played recently and what's upcoming is limited. Clearing individual songs is clunky and you're unable to clear the entire queue"
+    },
+    "1f53e976-7e1f-426c-be10-b3d32e450a11": {
+      "source_sha256": "ac785b18dc99f66a03b353d8db361cfb49cddbb0298205581fd6696bb8044f92",
+      "review_text": "Shame on you After update you did really bad"
+    },
+    "9eda897e-812c-4458-a8ef-e044f642821a": {
+      "source_sha256": "1f1ce2bafef4c9d1b55d9c7e017dbe80b172a53a7009ac6dc86ab5ddf9511bad",
+      "review_text": "It's quite fun using this app for listening to music I enjoy a lot how this app suggests perfect album according to your mood"
+    },
+    "628c1256-31a0-4591-aeb0-bbebf40bdcba": {
+      "source_sha256": "b3be05a260a20fb7ccc63b56b406f242a0dd28149b4c8d7c0ddfc8e2dd672862",
+      "review_text": "i love it i can connect it tomy speaker and jam out all day!!!"
+    },
+    "d87bd7be-e597-4967-a28e-1ffe26e3aff5": {
+      "source_sha256": "74282904b6e16fb43b776e6c61ffec3d2b46587b55339f9e0810282c3434ee98",
+      "review_text": "very nice for me"
+    },
+    "f891797e-8e43-40e9-b53c-4b70eedf0ef0": {
+      "source_sha256": "672b96e49c86b97132b73958f9d52f27ae9a70121dd60342bdd8d2318e3f1770",
+      "review_text": "Ads are coming after 1 song..."
+    },
+    "45641b8c-c645-4f9b-b916-a05eddc3bf55": {
+      "source_sha256": "cd309db9fb90340ab53ff4105609ce09680a02adee3af2af378c7a6061b3c724",
+      "review_text": "They ruined it in all the ways possible.. Apart from all the bad decisions they make, for me, the worst one is that u can't evn listen to songs after sometimes.."
+    },
+    "4c80147c-9336-4657-9aee-c6b449df0808": {
+      "source_sha256": "d6d470b5ee33e1e62b28470e83c3291911da92f0a8a772e4592d6e946afdec15",
+      "review_text": "Was working fine but it stopped improving b4 it acheived greatness. The content is there but the intetface is ambiguos and tricky. Whats this... I made some mixes and now am sharing them with randoms? No I did not and its not giving me premiem anymore. Sucks this was one of my last uses for the net. Sort it out it can be better."
+    },
+    "a93fd210-8a1d-40a0-943a-fbea30d51b30": {
+      "source_sha256": "c3747f7aa1c0d9d79405f845d032e43c79c82d3a3608d932ed0b74393d9f7ab7",
+      "review_text": "I bycot all sweeden app"
+    },
+    "4c6d60e1-7e74-4e4a-8a1f-2682e101da94": {
+      "source_sha256": "b6399128ca38b104daf4b104c5d30eda83ce37003dab81906c8e0ea8899c5720",
+      "review_text": "I love this app it's amazing for music you want to listen to if your ever bored then you could listen to music with this app it i never have any problems wit this app"
+    },
+    "1c4c6794-86ca-4308-b97c-45809952519b": {
+      "source_sha256": "92c68c80bd654700716eb2c7db8859a07aa8059e6e56c39af456990c882d2f5a",
+      "review_text": "Niec Music app ❤❤❤❤❤❤❤❤❤❤❤❤❤"
+    },
+    "c6ed93fa-4035-4249-9347-e67c151c616d": {
+      "source_sha256": "c02af8b88c98144fde253e723ab7cadc511984b4eba2cac1184b5592b95d038c",
+      "review_text": "Even if there are songs in my playlist,some random songs start playing after the current song,which is so mood spoiling. Also not able to see queue"
+    },
+    "56c138cd-b3b7-4644-897c-be2093ec6722": {
+      "source_sha256": "fc2842f0a181698d94589033ad0640cea5460c706badd4b8b53ea56052910efa",
+      "review_text": "You removed many songs. Why am I keeping you in my phone!?"
+    },
+    "982d04ec-cbad-470f-9933-ee4c95cf2c43": {
+      "source_sha256": "4a159bbdfda57c80c51f84432c34baf59590ac28ba91acf7dea26a5e7473a93b",
+      "review_text": "I rate it five star because is well organized and arranged depending on your choice. And no ads. Easy to navigate"
+    },
+    "f3a6ab0e-9385-450c-b0a0-b05ed93a2a4d": {
+      "source_sha256": "1389b0b94c985b59d97a431e7c6fbb55823a152e746a94655beff643c3e6186e",
+      "review_text": "will I've Just like premium for no adds also no different songs for this im just like my own plalist to lisens to"
+    },
+    "09ed5cce-ff5f-42c3-9363-1273aa48cc8b": {
+      "source_sha256": "d22e61f7740a21f82dff503a9b1d6f2d57dad7d40f9d256f9ea3e81b8e71fd22",
+      "review_text": "I bacott this app"
+    },
+    "c7b87271-ae51-40de-bad7-12dbc3295f0d": {
+      "source_sha256": "d65951e5466af8d65663a0ff382b878326429e110dfccdad0249ba46781daf30",
+      "review_text": "Wayyy to many adds, there are 4 in a row every 2 songs so tgat you have to buy premium, so flipping ANNOYING"
+    }
+  }
+}

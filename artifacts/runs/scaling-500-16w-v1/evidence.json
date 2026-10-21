@@ -1,0 +1,92 @@
+[
+  {
+    "evidence_quote": "ARE YOU SERIOUS WITH THE NEW UPDAT!? IF I COULD GIVE YOU A ZERO I WOULD. I CANT EVEN CHOOSE WHAT I WANT TO LISTEN LET ALONE REWINDE.",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "247da783-cfa1-4cf1-b80a-84dc5af10fd8",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "Does the touch of my hand work? I can't change the song? An annoying app.",
+    "issue_id": "ISSUE-USABILITY",
+    "review_id": "71398d37-ca2d-4d4b-96cf-53a434e79361",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "app doesn't open, crashes constantly. Can't update",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "00bc5c2d-c9fc-44e8-a9eb-8a7ca83019a8",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "This is probably just a personal experience, but I've reinstalled the app three times, restarted my phone, and cleared the cache twice but the app won't work. It will open and just show me the logo. I'm not even given the option to sign in.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "review_id": "1bb59c39-7da4-4516-828c-e381546f5621",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "It was the best platform to listen and stream any music until the latest update. Like now it becomes so worst and irritable, asking premium for everything... can't see the lyrics, can't add to queue, can't play a song in a loop, can't move forward or backward in any song and even in playlist it used to play song according to its own choice and ad after each music.... like the experience can't be get more horrible. It was so irritating and it's asking for premium for everything.",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "6991cd17-7395-4383-9f2b-d52c40fc0e06",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "This app just became worst.. now we have to pay for playing song what we like and u can't skip to Certain parts of song that you want to listen.",
+    "issue_id": "ISSUE-BILLING",
+    "review_id": "f865c4b1-4492-4df1-bea6-92785b25726a",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "This app is good but after update it is useless 😑",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "4712703c-88a4-4db9-b930-c6f6be54d126",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I genuinely love spotofy and the platform they provide but I'm not being able to see my spotify wrapped inspite of having all the requirements.",
+    "issue_id": "ISSUE-OTHER",
+    "review_id": "0d2eae62-a245-4dac-9ffe-39ec9073e39c",
+    "severity": 3
+  },
+  {
+    "evidence_quote": "Can't listen 2 what I WANT!!! KEEPS GOIN 2 THIS SPANISH SHYT!!!",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "4812c1b8-62d1-4b57-8579-99585aac3a95",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "While the catalog is extensive, the discovery and search function is clunky , the announced but never provided hi-res / loseless audio options simply not excusable, so long the option not provided at price matching market norm it's not worth it to subscribe , customer should not be forced to listen to inferior quality music at a price that others are providing more and better",
+    "issue_id": "ISSUE-CATALOG",
+    "review_id": "0291a081-1a84-4ddf-b496-1fdc1b3b2ce6",
+    "severity": 3
+  },
+  {
+    "evidence_quote": "I forgot my password to my account and when I try to reset it it doesn't work. Or when I try to change my email.",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "0aa54de1-6a89-4fc2-80f7-3824fe4ff1e2",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "I can't login nor create account for over a month now",
+    "issue_id": "ISSUE-ACCESS",
+    "review_id": "2026640a-99d6-447e-ad10-39ff2d8256b2",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "As with nearly all apps these days: it's gone from simple and effective to an effigy to madness - you can't listen to downloaded tracks without an Internet connection - they have added a \"recommended artist\" shuffle which you cannot disable, so enjoy some random garbage in a playlist you made - app is so bloated it runs far less well now, regularly crashes, loses track of playtime - they're selling audio-books now, so enjoy paying for something with the service you already pay for",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "1a4cb6a7-ef19-4839-893e-c8cb9a9753b9",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "It works when it wants to... Even if set on off-line mode you need internet to access your music. I live in a dead zone, and I can't access any of my music unless I drive down the road, get internet, and then it plays. Sometimes I have to reset or redownload the app for it to plan any of my playlists. It's always done this, but now it's worse.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "review_id": "dbfb50c1-55ed-4b17-8fd0-427998bd39e6",
+    "severity": 4
+  },
+  {
+    "evidence_quote": "One of the worst Apps. Customer support is non existant. This app literally steals from musicians. Do not recommend, I'd go with tidal, deezer, or any other platform for streaming my music. I know I won't ever upload my own music to Spotify again, because, 6 months down the line, after so many requests to fix the page, I got the best response. Absolutely nothing. Go to hell Spotify",
+    "issue_id": "ISSUE-SUPPORT",
+    "review_id": "068e956a-d551-4a91-ac9c-558f2c670f31",
+    "severity": 3
+  }
+]

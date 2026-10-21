@@ -1,0 +1,131 @@
+test_incremental_projection_uses_new_work_and_source_row_verification (test_pipeline.CalculatorTests.test_incremental_projection_uses_new_work_and_source_row_verification) ... ok
+test_input_not_double_counted_reasoning_not_added (test_pipeline.CalculatorTests.test_input_not_double_counted_reasoning_not_added) ... ok
+test_rates_double_volume_independence (test_pipeline.CalculatorTests.test_rates_double_volume_independence) ... ok
+test_unknown_usage_not_free_and_synthetic_excluded (test_pipeline.CalculatorTests.test_unknown_usage_not_free_and_synthetic_excluded) ... ok
+test_500_extension_reuses_originals_and_historical_evidence (test_pipeline.PipelineTests.test_500_extension_reuses_originals_and_historical_evidence) ... Saved enrichment: 10/100 completed
+Saved enrichment: 20/100 completed
+Saved enrichment: 30/100 completed
+Saved enrichment: 40/100 completed
+Saved enrichment: 50/100 completed
+Saved enrichment: 60/100 completed
+Saved enrichment: 70/100 completed
+Saved enrichment: 80/100 completed
+Saved enrichment: 90/100 completed
+Saved enrichment: 100/100 completed
+Saved enrichment: 131/500 completed
+Saved enrichment: 141/500 completed
+Saved enrichment: 151/500 completed
+Saved enrichment: 161/500 completed
+Saved enrichment: 171/500 completed
+Saved enrichment: 181/500 completed
+Saved enrichment: 191/500 completed
+Saved enrichment: 201/500 completed
+Saved enrichment: 211/500 completed
+Saved enrichment: 221/500 completed
+Saved enrichment: 231/500 completed
+Saved enrichment: 241/500 completed
+Saved enrichment: 251/500 completed
+Saved enrichment: 261/500 completed
+Saved enrichment: 271/500 completed
+Saved enrichment: 281/500 completed
+Saved enrichment: 291/500 completed
+Saved enrichment: 301/500 completed
+Saved enrichment: 311/500 completed
+Saved enrichment: 321/500 completed
+Saved enrichment: 331/500 completed
+Saved enrichment: 341/500 completed
+Saved enrichment: 351/500 completed
+Saved enrichment: 361/500 completed
+Saved enrichment: 371/500 completed
+Saved enrichment: 381/500 completed
+Saved enrichment: 391/500 completed
+Saved enrichment: 401/500 completed
+Saved enrichment: 411/500 completed
+Saved enrichment: 421/500 completed
+Saved enrichment: 431/500 completed
+Saved enrichment: 441/500 completed
+Saved enrichment: 451/500 completed
+Saved enrichment: 461/500 completed
+Saved enrichment: 471/500 completed
+Saved enrichment: 481/500 completed
+Saved enrichment: 491/500 completed
+Saved enrichment: 500/500 completed
+Saved verification: 10/100 independently checked
+Saved verification: 20/100 independently checked
+Saved verification: 30/100 independently checked
+Saved verification: 40/100 independently checked
+Saved verification: 50/100 independently checked
+Saved verification: 60/100 independently checked
+Saved verification: 70/100 independently checked
+Saved verification: 80/100 independently checked
+Saved verification: 90/100 independently checked
+Saved verification: 100/100 independently checked
+Saved verification: 10/100 independently checked
+Saved verification: 20/100 independently checked
+Saved verification: 30/100 independently checked
+Saved verification: 40/100 independently checked
+Saved verification: 50/100 independently checked
+Saved verification: 60/100 independently checked
+Saved verification: 70/100 independently checked
+Saved verification: 80/100 independently checked
+Saved verification: 90/100 independently checked
+Saved verification: 100/100 independently checked
+ok
+test_budget_exhaustion_no_dispatch (test_pipeline.PipelineTests.test_budget_exhaustion_no_dispatch) ... ok
+test_checkpoint_ceiling_and_changed_inheritance_config (test_pipeline.PipelineTests.test_checkpoint_ceiling_and_changed_inheritance_config) ... ok
+test_code_grounding_preserves_literal_source_and_rejects_foreign_ids (test_pipeline.PipelineTests.test_code_grounding_preserves_literal_source_and_rejects_foreign_ids) ... ok
+test_empty_text_quarantine_and_direct_exact_reuse (test_pipeline.PipelineTests.test_empty_text_quarantine_and_direct_exact_reuse) ... Saved enrichment: 2/4 completed
+Saved enrichment: 3/4 completed
+ok
+test_global_ledger_applies_across_experiments (test_pipeline.PipelineTests.test_global_ledger_applies_across_experiments) ... Saved enrichment: 1/1 completed
+ok
+test_golden_cannot_enter_development_run (test_pipeline.PipelineTests.test_golden_cannot_enter_development_run) ... ok
+test_hash_and_multiline_preservation (test_pipeline.PipelineTests.test_hash_and_multiline_preservation) ... ok
+test_id_enum_and_final_recovery_attempt_are_bounded (test_pipeline.PipelineTests.test_id_enum_and_final_recovery_attempt_are_bounded) ... Saved enrichment: 0/1 completed
+ok
+test_memo_unknown_claim_rejected (test_pipeline.PipelineTests.test_memo_unknown_claim_rejected) ... ok
+test_nested_checkpoint_keeps_all_historical_calls_without_rebilling (test_pipeline.PipelineTests.test_nested_checkpoint_keeps_all_historical_calls_without_rebilling) ... Saved enrichment: 10/20 completed
+Saved enrichment: 20/20 completed
+Saved enrichment: 30/40 completed
+Saved enrichment: 40/40 completed
+Saved enrichment: 50/60 completed
+Saved enrichment: 60/60 completed
+ok
+test_one_invalid_retry_then_quarantine (test_pipeline.PipelineTests.test_one_invalid_retry_then_quarantine) ... Saved enrichment: 0/1 completed
+ok
+test_pilot_size_and_changed_config_guard (test_pipeline.PipelineTests.test_pilot_size_and_changed_config_guard) ... ok
+test_quota_error_is_not_transient (test_pipeline.PipelineTests.test_quota_error_is_not_transient) ... ok
+test_ranking_ties_and_rounding (test_pipeline.PipelineTests.test_ranking_ties_and_rounding) ... ok
+test_repair_window_retains_successful_task_cache (test_pipeline.PipelineTests.test_repair_window_retains_successful_task_cache) ... ok
+test_resume_then_warm_and_checker (test_pipeline.PipelineTests.test_resume_then_warm_and_checker) ... Saved enrichment: 10/30 completed
+Saved enrichment: 20/30 completed
+Saved enrichment: 30/30 completed
+Saved verification: 6/6 independently checked
+Saved verification: 6/6 independently checked
+ok
+test_retry_after_header_is_respected (test_pipeline.PipelineTests.test_retry_after_header_is_respected) ... ok
+test_retry_then_success_and_unknown_charge_reservation (test_pipeline.PipelineTests.test_retry_then_success_and_unknown_charge_reservation) ... Saved enrichment: 1/1 completed
+ok
+test_saved_valid_response_recovers_before_record_commit (test_pipeline.PipelineTests.test_saved_valid_response_recovers_before_record_commit) ... Saved enrichment: 1/1 completed
+ok
+test_schema_quotes_entities_and_ids (test_pipeline.PipelineTests.test_schema_quotes_entities_and_ids) ... ok
+test_superseded_checkpoint_cannot_rebill_legacy_work (test_pipeline.PipelineTests.test_superseded_checkpoint_cannot_rebill_legacy_work) ... ok
+test_task_attempt_limit_survives_restart (test_pipeline.PipelineTests.test_task_attempt_limit_survives_restart) ... ok
+test_time_cap_no_dispatch (test_pipeline.PipelineTests.test_time_cap_no_dispatch) ... ok
+test_deduplicate_checkpoint_resume_and_blind_five_percent (test_production.ProductionTests.test_deduplicate_checkpoint_resume_and_blind_five_percent) ... ok
+test_partial_refusal_is_explicit_and_does_not_relax_id_coverage (test_production.ProductionTests.test_partial_refusal_is_explicit_and_does_not_relax_id_coverage) ... ok
+test_concurrent_reservations_enforce_both_caps (test_scaling.ScalingTests.test_concurrent_reservations_enforce_both_caps) ... ok
+test_decisions_batch10_is_bounded_and_preserves_original_ids (test_scaling.ScalingTests.test_decisions_batch10_is_bounded_and_preserves_original_ids) ... ok
+test_decisions_contract_and_input_only_billing (test_scaling.ScalingTests.test_decisions_contract_and_input_only_billing) ... ok
+test_decisions_verification_is_independent_and_persisted (test_scaling.ScalingTests.test_decisions_verification_is_independent_and_persisted) ... ok
+test_eight_workers_claim_once_and_resume_cached_success (test_scaling.ScalingTests.test_eight_workers_claim_once_and_resume_cached_success) ... ok
+test_forecast_respects_sustained_token_limits (test_scaling.ScalingTests.test_forecast_respects_sustained_token_limits) ... ok
+test_future_verification_fraction_changes_only_projected_verification (test_scaling.ScalingTests.test_future_verification_fraction_changes_only_projected_verification) ... ok
+test_limiter_capacity_uses_only_observed_limits (test_scaling.ScalingTests.test_limiter_capacity_uses_only_observed_limits) ... ok
+test_sixteen_workers_batch20_unique_claims_and_versioned_cache (test_scaling.ScalingTests.test_sixteen_workers_batch20_unique_claims_and_versioned_cache) ... ok
+test_uncertain_inflight_task_is_not_redispatched (test_scaling.ScalingTests.test_uncertain_inflight_task_is_not_redispatched) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 1.126s
+
+OK

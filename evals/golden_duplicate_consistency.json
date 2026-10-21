@@ -1,0 +1,12 @@
+{
+  "duplicate_groups": [
+    {
+      "review_ids": [
+        "1d15724a-98ff-400a-8083-0d9afc801098",
+        "8fd3dd72-5535-40f6-8779-1bd60892131e"
+      ],
+      "different_human_fields": []
+    }
+  ],
+  "labels_not_changed": true
+}

@@ -1,0 +1,239 @@
+{
+  "scope": "Superseded by offline profiling of a proposed 100k input sample; original corpus-ratio forecasts retained",
+  "baseline": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "6.250661346",
+      "estimated_hours": 1.79945883653675,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": true,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3494.1478777413245,
+            "sustained_token_limit": 1309.0454988,
+            "sustained_request_limit": 366.47
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "6.8755849596",
+      "estimated_hours": 2.9652316477956,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3494.1478777413245,
+            "sustained_token_limit": 1309.0454988,
+            "sustained_request_limit": 366.47
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "7.448265210",
+      "estimated_hours": 2.153113346770117,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "8.1929492100",
+      "estimated_hours": 3.5487615896806557,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 1295.567575003952,
+            "sustained_token_limit": 2962.44,
+            "sustained_request_limit": 1000.0000000000001
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    }
+  ],
+  "candidate": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "5.706661346",
+      "estimated_hours": 1.648347725425639,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": true,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3494.1478777413245,
+            "sustained_token_limit": 1309.0454988,
+            "sustained_request_limit": 366.47
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 665.4528583982028,
+            "sustained_token_limit": 2418.44,
+            "sustained_request_limit": 200.0
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "6.2771849596",
+      "estimated_hours": 2.7158983144622675,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 3494.1478777413245,
+            "sustained_token_limit": 1309.0454988,
+            "sustained_request_limit": 366.47
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 665.4528583982028,
+            "sustained_token_limit": 2418.44,
+            "sustained_request_limit": 200.0
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "6.904265210",
+      "estimated_hours": 2.0020022356590057,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 665.4528583982028,
+            "sustained_token_limit": 2418.44,
+            "sustained_request_limit": 200.0
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "7.5945492100",
+      "estimated_hours": 3.2994282563473223,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 16,
+      "estimate_not_execution": true,
+      "under_two_hour_target": false,
+      "throughput_constraints": {
+        "enrich": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 4767.304114581445,
+            "sustained_token_limit": 1786.02,
+            "sustained_request_limit": 500.00000000000006
+          },
+          "binding_constraint": "measured_throughput"
+        },
+        "verify": {
+          "seconds_before_conservative_factor": {
+            "measured_throughput": 665.4528583982028,
+            "sustained_token_limit": 2418.44,
+            "sustained_request_limit": 200.0
+          },
+          "binding_constraint": "sustained_token_limit"
+        }
+      }
+    }
+  ]
+}

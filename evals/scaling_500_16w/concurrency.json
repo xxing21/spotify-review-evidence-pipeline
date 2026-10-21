@@ -1,0 +1,18 @@
+{
+  "measure": "Overlap of recorded request start timestamps and monotonic durations",
+  "phases": [
+    {
+      "phase": "enrich-probe",
+      "peak_overlapping_attempts": 1
+    },
+    {
+      "phase": "enrich-16",
+      "peak_overlapping_attempts": 16
+    },
+    {
+      "phase": "verify-8",
+      "peak_overlapping_attempts": 4
+    }
+  ],
+  "note": "Verifier pool limit eight; actual overlap can be lower for fast requests and limiter pacing."
+}

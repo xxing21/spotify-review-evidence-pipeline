@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Controls are difficult or unavailable for choosing songs, changing tracks, seeking within a song, and managing playback.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "Playback controls and navigation"
+  },
+  {
+    "description": "The app fails to launch or crashes, and audio playback is interrupted by silence or other reliability problems.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "App and streaming reliability"
+  },
+  {
+    "description": "Free-tier restrictions and premium prompts limit song choice, queueing, lyrics, looping, skipping, and other features.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Premium restrictions and free-tier limits"
+  },
+  {
+    "description": "General dissatisfaction or isolated problems that do not fit the other issue areas, including update complaints, Wrapped access, and podcast progress.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "General and miscellaneous complaints"
+  },
+  {
+    "description": "Listeners report difficulty finding or choosing desired music, concerns about discovery and search, and dissatisfaction with available audio quality.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Music selection, discovery, and catalog"
+  },
+  {
+    "description": "Users cannot log in, create an account, reset passwords, change account details, or retain their profiles.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Account access and sign-in"
+  },
+  {
+    "description": "Downloaded music and playlists are unavailable or unreliable offline, and tracks may disappear from playlists.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Offline listening and downloads"
+  },
+  {
+    "description": "Users report inadequate customer support and unresolved problems with artist pages or other service concerns.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Customer support and issue resolution"
+  }
+]

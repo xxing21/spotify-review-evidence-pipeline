@@ -1,0 +1,49 @@
+{
+  "run_id": "pilot-100-v2",
+  "scope": "pilot_only",
+  "review_id": "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+  "source_sha256": "f84ca949889d90597732f573c8b031805f95a1e20ad62d1fe4f29b3162579878",
+  "enrichment": {
+    "entities": [],
+    "evidence_quote": "App is stuck on loading/logo screen",
+    "intent": "complaint",
+    "label_config": "gpt-6-luna:cd2a0784dfc7d34dc083a289aada06e76b1524c8a9d15961199e68252797985f",
+    "needs_review": false,
+    "review_id": "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+    "sentiment": -0.7,
+    "severity": 4,
+    "source_sha256": "f84ca949889d90597732f573c8b031805f95a1e20ad62d1fe4f29b3162579878",
+    "status": "completed",
+    "topic": "playback"
+  },
+  "independent_verification": {
+    "entities": [],
+    "evidence_quote": "App is stuck on loading/logo screen",
+    "intent": "complaint",
+    "needs_review": false,
+    "review_id": "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+    "sentiment": -0.7,
+    "severity": 4,
+    "topic": "playback"
+  },
+  "membership": "ISSUE-PLAYBACK",
+  "memo_claim_ids": [
+    "ISSUE-PLAYBACK-complaint_count",
+    "ISSUE-PLAYBACK-severity_sum",
+    "ISSUE-PLAYBACK-priority_score"
+  ],
+  "ambiguous_or_failed_case": {
+    "entities": [],
+    "evidence_quote": "Worst app",
+    "intent": "complaint",
+    "label_config": "gpt-6-luna:cd2a0784dfc7d34dc083a289aada06e76b1524c8a9d15961199e68252797985f",
+    "needs_review": true,
+    "review_id": "06a45bd5-3ed9-43af-b7f2-8b9487e2ffff",
+    "sentiment": -0.8,
+    "severity": 2,
+    "source_sha256": "8a9a7dba61eacf44f1a55829f9459fd5253eabc149f8094719339531a311c0d4",
+    "status": "completed",
+    "topic": "other"
+  },
+  "human_inspection_status": "pending"
+}

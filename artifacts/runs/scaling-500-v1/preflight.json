@@ -1,0 +1,18 @@
+{
+  "saved_at": "2026-10-20T21:48:02.977713+00:00",
+  "input_sha256": "48b24e48ac0b68e4f405ba1e9c2d07b64c8dad8998b180b6d2a68037dd2775c4",
+  "input_count": 500,
+  "distinct_nonempty_texts": 500,
+  "sample_method": "seeded smallest hash over unseen unique texts; canonical source occurrence; excludes golden texts",
+  "experiment_cache_initially_empty": true,
+  "protected_artifacts": {
+    "cost/checkpoint_10000/calculator.json": "545803a00d9f67133d685bf20c314ba5edc69fdaa746fc9e104f5c0c4ae5ab24",
+    "cost/pilot_summary.json": "d80764ef564dc605f952af16ee35636ea440c78b3b6fec8623d4e8c0ff7ec353",
+    "cost/checkpoint_500/pilot_summary.json": "b2f36e0969ddee48c644adfbe5a99f84801a7148efdcf4a37b081c166591f331",
+    "evals/golden_labels.json": "4800864ae69dfb28d90a1b4f4abe7bc5d040e8e4b8e560103ef28b9ad54c1d86",
+    "evals/golden_report.json": "e0017436503bf7f550d172c155f51a1f482f03a40d936e3795ead24aa68efd17"
+  },
+  "pilot_cap_usd": ".25",
+  "shared_total_cap_usd": "10",
+  "prior_ledger_usd": "0.579747040"
+}

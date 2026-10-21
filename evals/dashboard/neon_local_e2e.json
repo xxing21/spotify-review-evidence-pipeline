@@ -1,0 +1,16 @@
+{
+  "saved_at": "2026-10-21T00:16:10.931Z",
+  "passed": true,
+  "actual_review_snapshot": 200,
+  "database_branch": "dashboard-schema-validation",
+  "health": true,
+  "unauthorized_import_rejected": true,
+  "invalid_topic_rejected": true,
+  "idempotent_import": true,
+  "rankings_equal_offline": true,
+  "pagination_unique": true,
+  "source_hashes_valid": true,
+  "negative_intent_filter": true,
+  "sql_injection_literal": true,
+  "model_calls": 0
+}

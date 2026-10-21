@@ -1,0 +1,457 @@
+{
+  "source": "human_adjudication",
+  "original_human_labels_sha256": "4800864ae69dfb28d90a1b4f4abe7bc5d040e8e4b8e560103ef28b9ad54c1d86",
+  "original_model_report_sha256": "e0017436503bf7f550d172c155f51a1f482f03a40d936e3795ead24aa68efd17",
+  "scope": [
+    "topic",
+    "intent",
+    "severity"
+  ],
+  "cases": [
+    {
+      "review_id": "292ce26a-815d-4bce-a3b6-93cb6c9e7e2c",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "ai_labels": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T20:50:39.840460+00:00"
+    },
+    {
+      "review_id": "991b6b3a-f511-458a-a5b7-234f78048fb5",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T20:54:18.237520+00:00"
+    },
+    {
+      "review_id": "0c6ca545-3f89-4da6-b3db-1a352371fb6e",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T20:54:52.150951+00:00"
+    },
+    {
+      "review_id": "723f07de-9881-4049-8680-1a9e25652914",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "support",
+        "intent": "praise",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "support",
+        "intent": "praise",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:01:33.371400+00:00"
+    },
+    {
+      "review_id": "47428620-ec21-424d-a515-0b0b0012a5cf",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:05:24.624759+00:00"
+    },
+    {
+      "review_id": "46842184-32f8-4088-ac15-2a700a7e94ed",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:06:14.681028+00:00"
+    },
+    {
+      "review_id": "657f1b77-0183-4b06-bf48-5e6d9ab08f9a",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:06:46.307223+00:00"
+    },
+    {
+      "review_id": "372d4e67-59cc-4c54-879f-3e8a202ee554",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:07:17.329843+00:00"
+    },
+    {
+      "review_id": "47f1406d-4918-4d60-9647-5ca8e610caca",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "original_human_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "ai_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:07:39.325387+00:00"
+    },
+    {
+      "review_id": "3ddb3f4e-f7b9-430b-b335-eadc6d321f46",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "cancellation",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:14:17.825446+00:00",
+      "rubric_review_required": true,
+      "assistant_review_note": "The text explicitly says the reviewer is deleting the app; the shared intent precedence assigns explicit leaving/uninstalling to cancellation. The user-selected complaint label is preserved."
+    },
+    {
+      "review_id": "16d640e9-b281-4746-9562-c7dbcf7126b6",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "ai_labels": {
+        "topic": "billing",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:16:27.626747+00:00",
+      "rubric_review_required": true,
+      "assistant_review_note": "The shared topic rubric assigns explicit Premium/paywall restrictions to billing. The user-selected other topic and severity 2 are preserved."
+    },
+    {
+      "review_id": "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "unclear",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:18:27.269887+00:00"
+    },
+    {
+      "review_id": "b58dd6f0-ad88-4319-b6db-58afb60c37c1",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "request",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "request",
+        "severity": 1
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:19:12.452438+00:00"
+    },
+    {
+      "review_id": "1a41c7e1-a655-4c63-b4db-c22bdff18003",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:19:32.817278+00:00"
+    },
+    {
+      "review_id": "ac4e860a-c042-49cc-90f3-189591c336ac",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "original_human_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "ai_labels": {
+        "topic": "downloads",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:20:04.151616+00:00"
+    },
+    {
+      "review_id": "9034d675-9582-49b6-a1c1-c4ddabf8baf1",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:20:35.005094+00:00"
+    },
+    {
+      "review_id": "d2f3874f-d15d-4a2f-bb97-4f1213defa46",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 2
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:22:06.247296+00:00"
+    },
+    {
+      "review_id": "2aa566c6-b98d-4513-b900-83702a8db8eb",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "usability",
+        "intent": "praise",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "praise",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "praise",
+        "severity": 1
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:25:39.157486+00:00"
+    },
+    {
+      "review_id": "8c0546b0-ce43-4a36-9d33-9f979e98d522",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "original_human_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "ai_labels": {
+        "topic": "catalog",
+        "intent": "complaint",
+        "severity": 3
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:26:06.479501+00:00"
+    },
+    {
+      "review_id": "dceb14e7-2df0-422f-bb2b-73d7c373159a",
+      "choice": "ai",
+      "selected_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "original_human_labels": {
+        "topic": "usability",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "ai_labels": {
+        "topic": "playback",
+        "intent": "complaint",
+        "severity": 4
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:27:07.094401+00:00"
+    },
+    {
+      "review_id": "99b93e31-9f15-4daa-88ac-349ab0419c48",
+      "choice": "human",
+      "selected_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "original_human_labels": {
+        "topic": "other",
+        "intent": "complaint",
+        "severity": 1
+      },
+      "ai_labels": {
+        "topic": "usability",
+        "intent": "request",
+        "severity": 1
+      },
+      "decision_source": "explicit_user_choice",
+      "decided_at": "2026-10-20T21:27:52.882718+00:00"
+    }
+  ]
+}

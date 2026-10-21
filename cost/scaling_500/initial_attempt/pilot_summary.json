@@ -1,0 +1,98 @@
+{
+  "status": "incomplete",
+  "run_id": "scaling-500-v1",
+  "scope": "500 fresh unique review texts; development experiment only",
+  "input_count": 500,
+  "completed": 500,
+  "pending": 0,
+  "verification_sample_count": 0,
+  "cold_seconds": 99.10563483300211,
+  "known_api_usd": "0.025007125",
+  "unknown_usage_calls": 8,
+  "unresolved_reservations_usd": "0.04533560",
+  "pilot_cap_usd": ".25",
+  "shared_cap_usd": "10",
+  "shared_committed_usd": "0.650089765",
+  "phase_measurements": [
+    {
+      "completed": true,
+      "elapsed_seconds": 22.60786662499595,
+      "new_calls": 4,
+      "phase": "enrich-1",
+      "records": 40,
+      "saved_at": "2026-10-20T21:48:25.592080+00:00",
+      "source_utf8_bytes": 3845,
+      "workers": 1
+    },
+    {
+      "completed": true,
+      "elapsed_seconds": 14.542461250006454,
+      "new_calls": 6,
+      "phase": "enrich-2",
+      "records": 60,
+      "saved_at": "2026-10-20T21:48:40.139510+00:00",
+      "source_utf8_bytes": 5746,
+      "workers": 2
+    },
+    {
+      "completed": true,
+      "elapsed_seconds": 13.390889750007773,
+      "new_calls": 8,
+      "phase": "enrich-4",
+      "records": 80,
+      "saved_at": "2026-10-20T21:48:53.531268+00:00",
+      "source_utf8_bytes": 6669,
+      "workers": 4
+    },
+    {
+      "completed": true,
+      "elapsed_seconds": 47.6596429170022,
+      "new_calls": 32,
+      "phase": "enrich-8",
+      "records": 320,
+      "saved_at": "2026-10-20T21:49:41.196426+00:00",
+      "source_utf8_bytes": 34053,
+      "workers": 8
+    },
+    {
+      "completed": false,
+      "elapsed_seconds": 0.8848887909989571,
+      "new_calls": 8,
+      "phase": "verify-8",
+      "records": 100,
+      "saved_at": "2026-10-20T21:49:42.085254+00:00",
+      "source_utf8_bytes": 8279,
+      "workers": 8
+    }
+  ],
+  "error": "Worker stopped; saved queue retained: OpenAI HTTP 400: array_above_max_length; check account/model access; no automatic model substitution",
+  "calls": 58,
+  "failed_calls": 8,
+  "original_artifacts_unchanged": true,
+  "verification_method": "Independent GPT Decisions with original text/rubric only; same-model repeatability, not human accuracy",
+  "config": {
+    "model": "gpt-6-luna",
+    "effort": "none",
+    "schema_version": "spotify-label-v3-id-enum",
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3"
+    },
+    "batch_size": 10,
+    "workers": 8,
+    "max_output_tokens": 4096,
+    "verification_fraction": 0.2,
+    "verification_seed": "spotify-pilot-verify-v1",
+    "fallback_fraction": 0,
+    "service_tier": "default",
+    "max_attempts": 3,
+    "routing_schema": "review-id-enum-v1",
+    "execution_mode": "scaling-pilot-v1",
+    "verification_endpoint": "decisions",
+    "verification_schema_version": "decisions-verifier-v1",
+    "verification_sentiment_mapping": "index_0_20_to_minus1_plus1",
+    "verification_predicate_threshold": 0.5
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-20T22:58:15.350923+00:00",
+  "target_nonempty_classified_ids": 100000,
+  "runtime_target_seconds": 7200,
+  "runtime_target_is_best_effort": true,
+  "shared_api_cap_usd": "10",
+  "verification_fraction": 0.2,
+  "measured_eight_worker_enrichment_reviews_per_second": 6.714276071209139,
+  "required_enrichment_reviews_per_second_at_current_verifier_rate": 12.373477089115212,
+  "required_speedup_over_measured_eight_workers": 1.8428609365904338,
+  "idealized_sixteen_worker_hours_with_current_verifier_speed": 1.8707208972668867,
+  "idealized_estimate_is_not_measured": true,
+  "subset_duplicate_fraction_not_yet_profiled": true,
+  "next_benchmark_candidates": {
+    "workers": 16,
+    "responses_reviews_per_request": 20,
+    "responses_max_output_tokens": 4096
+  },
+  "paid_work_started_by_this_update": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "description": "The app can take over audio or start playing unexpectedly, while controls, permissions, and basic playback options feel difficult to manage or restricted.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "Unwanted playback and difficult controls"
+  },
+  {
+    "description": "Songs fail to start or keep loading, including after app updates, leaving users unable to play music.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "Songs fail to play"
+  },
+  {
+    "description": "Reports of personal information being difficult to delete, unavailable features in certain regions, and other problems that do not fit the supplied issue categories.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "Privacy, regional availability, and other concerns"
+  },
+  {
+    "description": "Users report unexpected charges, continued billing after cancellation, and difficulty receiving refunds or credits for service problems.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Unexpected charges and refund disputes"
+  },
+  {
+    "description": "Playlists, library content, search, lyrics, or other music content and features are missing or unavailable, with some users objecting to restrictions on free access.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Missing content and restricted music features"
+  },
+  {
+    "description": "Users have trouble logging in, staying logged in, retaining liked songs, or accessing Spotify in particular locations.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Login and account access problems"
+  },
+  {
+    "description": "Offline listening, downloaded music, storage changes, and device connections or integrations are unreliable or unavailable.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Offline listening and downloads fail"
+  },
+  {
+    "description": "Users describe slow, unhelpful, or rude customer service, as well as limited support for particular features or regions.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Unhelpful customer support"
+  }
+]

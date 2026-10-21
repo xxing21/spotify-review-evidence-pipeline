@@ -1,0 +1,105 @@
+{
+  "status": "completed",
+  "run_id": "production-100k-v1",
+  "completed": 100000,
+  "pending": 0,
+  "input_count": 100000,
+  "unique_texts": 78288,
+  "exact_text_reuses": 21712,
+  "active_seconds": 3341.2552049580554,
+  "verification_count": 5000,
+  "verification_fraction": 0.05,
+  "verification_complete_prediction_count": 4998,
+  "verification_refusal_count": 2,
+  "calls": 4474,
+  "known_api_usd": "4.083881615",
+  "unknown_usage_calls": 48,
+  "unresolved_reserved_usd": "0.174263125",
+  "global_committed_usd": "4.975266680",
+  "shared_cap_usd": 10,
+  "error": null,
+  "phase_measurements": [
+    {
+      "phase": "enrich-probe",
+      "queue": {
+        "completed": 1
+      },
+      "saved_at": "2026-10-20T23:34:27.431925+00:00",
+      "seconds": 11.571242624981096,
+      "workers": 1
+    },
+    {
+      "phase": "enrich-16",
+      "queue": {
+        "completed": 3914
+      },
+      "saved_at": "2026-10-21T00:23:54.478228+00:00",
+      "seconds": 2836.008662541979,
+      "workers": 16
+    },
+    {
+      "phase": "verify-8",
+      "queue": {
+        "completed": 128,
+        "failed": 1,
+        "pending": 371
+      },
+      "saved_at": "2026-10-21T00:25:37.873149+00:00",
+      "seconds": 99.71960220800247,
+      "workers": 8
+    },
+    {
+      "phase": "verify-8",
+      "queue": {
+        "completed": 464,
+        "failed": 1,
+        "pending": 34,
+        "resolved_partial": 1
+      },
+      "saved_at": "2026-10-21T00:41:49.445639+00:00",
+      "seconds": 349.9780566660047,
+      "workers": 8
+    },
+    {
+      "phase": "verify-8",
+      "queue": {
+        "completed": 498,
+        "resolved_partial": 2
+      },
+      "saved_at": "2026-10-21T00:50:56.530736+00:00",
+      "seconds": 5.217466792004416,
+      "workers": 8
+    }
+  ],
+  "config": {
+    "batch_size": 20,
+    "effort": "none",
+    "execution_mode": "production-100k-v1",
+    "fallback_fraction": 0,
+    "initial_phase": "enrich-probe",
+    "label_batch_identity": "batch-context-v1",
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+    },
+    "routing_schema": "review-id-enum-v1",
+    "schema_version": "spotify-label-v4-batch20",
+    "service_tier": "default",
+    "verification_batch_size": 10,
+    "verification_endpoint": "decisions",
+    "verification_fraction": 0.05,
+    "verification_predicate_threshold": 0.5,
+    "verification_schema_version": "decisions-verifier-v3-batch10-five-levels",
+    "verification_seed": "spotify-100k-verification-v2-5pct",
+    "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+    "workers": 16,
+    "pilot_run_cap_usd": 10
+  },
+  "warm_seconds": 15.612409999972442,
+  "warm_new_calls": 0
+}

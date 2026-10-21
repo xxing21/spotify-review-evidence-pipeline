@@ -1,0 +1,56 @@
+{
+  "note": "Literal keyword screening only; these are inspection candidates, not confirmed errors or human labels.",
+  "candidate_count": 208,
+  "examples": [
+    {
+      "review_id": "00f5a05c-5e68-44ee-b33c-39fb75ee84ba",
+      "topic": "usability",
+      "text": "It works, but if you don't have premium, then the app is basically unusable, plays songs you didn't add to the playlist, picks these random songs and to many ads, got an ad about 30 mins of uninterrupted listening, than not even 5 mins later another ad. Basically not a free app, but it can still be a good app."
+    },
+    {
+      "review_id": "0195d699-61d1-4fbb-a51b-508fc00c04db",
+      "topic": "usability",
+      "text": "The upgraded version is so bad that one can't even repeat a song or play it from where they want! How greedy this people are.... they want us to pay FOR basic functionality of a music app. I am extremely disappointed and disgusted right now never ever using this AGAIN. Make the app just as before or else just see your users go down faster than Apple dropping from a tree. It was my comfort app but now I just purely hate it. I WILL NOT TAKE PREMIUM DO WHATEVER YOU WANT!!! It's a less than 1!"
+    },
+    {
+      "review_id": "035213ba-b1b9-411c-b028-70296e5f0e73",
+      "topic": "usability",
+      "text": "I m using this app from 5 to 6 year but now m uninstald this app cz his premium adds are everywhere now ."
+    },
+    {
+      "review_id": "04dd1f93-ae0b-4741-8217-83e80dbae68c",
+      "topic": "usability",
+      "text": "This application is to much poor I can't believe how someone can create such a stupid app with everything like Explore Premium what nonsense app I wish this app is removed from play store soon"
+    },
+    {
+      "review_id": "0857f150-02b4-416c-80d6-03feb0cc2249",
+      "topic": "usability",
+      "text": "Worthless without premium, probably by design. I could tolerate the ads, but I can't even see a full tracklist for saved albums."
+    },
+    {
+      "review_id": "09ef28d8-35db-499a-abd4-329c0b8a3aa7",
+      "topic": "usability",
+      "text": "If you don't have money for premium, don't bother. They play two songs then 4 commercials. GARBAGE"
+    },
+    {
+      "review_id": "0d468068-117d-4dd2-ab4e-87af8852639e",
+      "topic": "usability",
+      "text": "Its a decent app for songs but there is ads, and they add songs to your playlist you dont want, and you only get 6 skips an hour for free, and it should be a 1 time purchase for premium. Not a subscription."
+    },
+    {
+      "review_id": "0f747f83-ca8a-40ca-a402-217c6a0af5b5",
+      "topic": "usability",
+      "text": "It's ok overall, great song selection , obviously for the premium version but, the free version isn't godd, still too much restriction to the point its almost unusable."
+    },
+    {
+      "review_id": "11ad400f-4487-4dfa-a9da-c8d624f4f107",
+      "topic": "usability",
+      "text": "This app is very very frustrating, you only get 6 skips a day, you can't pick the song you want from your playlist, you can't skip forward it's absolutely ridiculous getting premium is the only way you could actually enjoy this app it's absolutely garbage and whenever I try and search for a song I click on it I get 5 ads then after the ads I don't even get the song I wanted."
+    },
+    {
+      "review_id": "13430132-0bce-463e-929a-2970c218c3b1",
+      "topic": "usability",
+      "text": "a good app to listen to. premium student can be extended to more age groups, maybe more bundles for premium added like for the squad, without need for same address. group sessions are buggy and slow, wld be nice to remove the limit of joining 2 premium plans within a span of a year EDIT 2023: bring back the swiping to queue thing on android... it's not working on my phone"
+    }
+  ]
+}

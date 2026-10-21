@@ -1,0 +1,213 @@
+{
+  "measured": {
+    "status": "incomplete",
+    "run_id": "pilot-10000-v2",
+    "input_count": 10000,
+    "measurement_kind": "incremental_checkpoint",
+    "completed": 9620,
+    "quarantined": 80,
+    "pending": 300,
+    "cold_seconds": null,
+    "warm_seconds": null,
+    "incremental_seconds": 5455.981839583008,
+    "reason": "See saved attempts; incomplete checkpoint is not a successful run",
+    "known_api_usd": "0.360432320",
+    "usage_complete": false,
+    "unresolved_calls": [
+      {
+        "local_call_id": "77b600fb-fab7-4ec0-831f-0d7a0c37f8bc",
+        "reservation_usd": "0.003234625",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "83a013e9-aea0-4e93-95e6-1e35f297510c",
+        "reservation_usd": "0.003315750",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "1f1c2e6a-9661-4193-bc35-48ded1a00a69",
+        "reservation_usd": "0.003309000",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "4bfd5cd7-62d7-4527-bb02-5e1216c7d2d7",
+        "reservation_usd": "0.003291875",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "c8f2b185-acce-44d8-babb-45b28bb0db0b",
+        "reservation_usd": "0.003292125",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5df1ed38-f825-408f-95c9-60b433dabeca",
+        "reservation_usd": "0.003386750",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5c5d63f0-1b09-4a71-b6a3-58cd7781ced1",
+        "reservation_usd": "0.003269250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5acef9c2-8863-4ab2-90a7-42b784096d54",
+        "reservation_usd": "0.003288375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "4402528a-85b6-4df9-a30a-b63151edcbe8",
+        "reservation_usd": "0.003327250",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "717018c3-dadb-40c0-9100-c70afc1e3bab",
+        "reservation_usd": "0.003321375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "e08dd0ba-ee2c-433c-9d1d-726d3bea4908",
+        "reservation_usd": "0.003311625",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "5c2da46a-4961-4265-96d9-dfa07356ba5c",
+        "reservation_usd": "0.003278375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "707b01e0-c600-4a0d-9bdd-e445c9b90e82",
+        "reservation_usd": "0.003272375",
+        "reason": "usage unavailable; not assumed zero"
+      },
+      {
+        "local_call_id": "a8792e44-fd22-4bbf-993a-b93d80a7061f",
+        "reservation_usd": "0.003346250",
+        "reason": "usage unavailable; not assumed zero"
+      }
+    ],
+    "cost_per_1000_input_usd": "0.036043232",
+    "cost_per_completed_usd": "0.00003746697713097713097713097713",
+    "local_compute_usd": null,
+    "local_compute_note": "Not measured; hardware/electricity are unknown, not zero"
+  },
+  "stages": {
+    "enrich": {
+      "attempts": 793,
+      "failed_attempts": 34,
+      "input_tokens": 1022868,
+      "output_tokens": 472771,
+      "known_api_usd": "0.360432320",
+      "call_seconds": 5302.80333012114,
+      "unknown_usage_attempts": 14,
+      "completed_records": 7590,
+      "unresolved_failed_record_ids": [
+        "01abda48-1223-4a4f-9857-9861a2f0591e",
+        "0de6cac6-7e68-4bc6-a3b8-56aec327f833",
+        "155166ca-bea2-4f76-8fc6-7faa88ee994f",
+        "163a31cd-465d-4f30-98e7-4461d336b86a",
+        "1703bc6a-c342-4839-8603-f3ba55c47d8f",
+        "1750fd45-f797-4b7d-b25d-74f037b6c387",
+        "1a3ffd26-6046-4387-800a-74a918d73b7b",
+        "1b0bb83c-0c29-47c7-b329-b77ff77b4c45",
+        "1c549305-6b1a-4069-9450-95eb893a9b51",
+        "1da9a081-e612-4330-a22a-3c0dc0f65a52",
+        "1efcdc09-0db7-4d3c-a606-be10c1c15d9e",
+        "22407b28-7034-42d5-b50b-41f1832ccaf7",
+        "24b3dc19-6134-4b4a-a48d-807c79bfde08",
+        "280dd826-acd9-4693-8181-c8c9a60f53bd",
+        "2970f52e-5df0-454a-85a5-bfd24b7ae830",
+        "2a521212-8f44-467c-bb6f-8751d1bf6f53",
+        "2ea716b0-f612-4e84-acae-036285b9096d",
+        "3678610a-1291-4e88-88e3-488ccf6cefec",
+        "373f21aa-cf67-48a2-b47d-f2d468aa09fd",
+        "37a7e614-da2b-4bdd-9cfd-79462795483d",
+        "38e82bd8-ca3c-4edd-b366-087d0e9f6d7a",
+        "3e7016b6-3d08-48d1-aba6-86f1243330af",
+        "3ec38288-cce3-45d1-8938-6e258bee8971",
+        "3f3e6d46-79bb-4ee1-ad73-6e92bbf3e5b8",
+        "4040fe73-aefb-4771-ae7f-a8c677a788fe",
+        "40ddeafd-a71d-4757-8103-a86b47ba18ea",
+        "41c0c736-6617-466a-8e4d-3a2b551185e5",
+        "42c6e11e-c7d1-4b5f-8e6b-36254aed278a",
+        "4a861146-44d4-44d7-ad3c-dd5eb25b76b9",
+        "4ff40938-6d7a-4f71-8c76-c3021e934858",
+        "558f0188-3875-425d-9ac8-f16327a765e3",
+        "586021eb-7380-49e7-92df-4175134296b0",
+        "596672e0-98f8-4005-bf31-e947ff313838",
+        "5a7a0f95-dcf9-4e31-8c14-809c9b0d5e33",
+        "5b7b12f0-3410-44dc-a92b-8cd8e2e7ebad",
+        "5d7d8547-24cc-4c9f-b105-45738bd04435",
+        "60d716c1-9e38-4609-acf7-34a67d54e806",
+        "6626456c-1973-4824-a9be-5982593408a8",
+        "692e4151-ebde-4210-8534-fe4177d9d8e4",
+        "6a7df406-d66a-4492-9b03-5a1ddb650380",
+        "6a84e8ea-1bd1-4d84-8125-d76586688218",
+        "6bfe1405-24ab-46b4-a3ad-78218af1752e",
+        "730d333b-e11d-4467-bb69-33ac63194f83",
+        "768ce48d-9486-4f26-93a6-ab03703dd6d0",
+        "77bf3f84-c4ab-483c-bf7c-d6259c3aab88",
+        "78ad389a-3bff-4717-b006-507cb396aa18",
+        "7c89106f-1cf3-478e-a9cd-9533b8aad0ac",
+        "7dfe3265-67e5-4dc6-b840-3c8a7ea9e7c7",
+        "81868e09-57b4-42c2-8fe1-ae3b53d4d088",
+        "850f326f-dc20-49b9-ba7e-28617af2abe3",
+        "8745b7ce-3811-40b2-849c-41dec62ed73a",
+        "8eaa8836-7737-410d-8846-028e250b2c0a",
+        "8ee5e181-21d4-41f6-a4d9-b00764e46100",
+        "90db79eb-baf2-4064-b086-5772d5d3eb18",
+        "97e2d236-6f20-4854-b94d-09bd5abd7450",
+        "990a108a-f936-4a22-bd3b-f5c7ed18cb53",
+        "9b66b4e7-cb3c-40ce-8f39-2cb788957a3a",
+        "a0f3b13c-1b19-47bf-a9bc-878c3d88b6a9",
+        "a6aec8ae-d4e9-40c4-9d1f-d7353e894ad0",
+        "a8ba4099-2786-44e0-b3d3-136e9d2d7199",
+        "ae8b8562-09f4-429f-b625-433e831b1a68",
+        "b373ef64-1194-4073-b6a0-563c159ef222",
+        "b3b6102c-101c-49ab-9528-2f586cbcb002",
+        "b895eb46-ecf2-4ff7-a1c9-efd308a292eb",
+        "ba55a565-60d9-40b7-96e3-80995c6e7cef",
+        "ba8bb6e0-35a8-4f1f-9076-3fd11d7e23c1",
+        "c28abc2f-5c30-4bcb-b149-cae0b05f562d",
+        "c5b596a8-b419-438b-b264-7e64c7f36640",
+        "c7b0d708-1415-431c-9aa3-ae9a48f9a9e9",
+        "c8ff8961-f881-47e0-a1f5-78a81ea03f4b",
+        "cf1076f8-af1e-401f-bb68-b01dd72a6d96",
+        "d370e58b-26db-4d7f-9a03-69f4f5cd84f4",
+        "d40b15cf-c795-45fe-8b55-addd2da2305f",
+        "d48a4890-5eae-4c99-8658-36a87059137f",
+        "d4fcf3ee-8e5b-431e-ac05-6c6e80812b47",
+        "d6953062-8dbe-480f-9e23-1d29c025217d",
+        "dbf64622-d2d9-41ab-a294-cbed0577544b",
+        "df7bc762-fb68-4966-bf29-164e06a20ed6",
+        "e3a604c9-7016-4c0b-9811-cd5a5657e537",
+        "eb0d585e-01bd-4389-9d8b-81e2c373a223",
+        "eb5852f2-a9d2-4c12-bc2e-807c7a1b0244",
+        "ed87f9dc-7043-4903-b66b-436f5c454952",
+        "eea7a582-f65e-45f5-9be6-bd64f6ca8ebe",
+        "f1dd9a86-9ee6-4200-858e-05a36e7d6d2d",
+        "f3ca7106-a058-408a-89a7-cc581367c049",
+        "f477cf0b-a243-4ed4-a262-da43130a19ff",
+        "f5d95008-fc9a-44a3-83f4-72172c8afe42",
+        "fa5eba46-75b8-4aba-8efd-a0e47c186906",
+        "fedb5365-da3e-446c-a8e9-b147e15f71d1",
+        "ff66083b-1136-403c-953a-8d4a7ed01480"
+      ],
+      "model": "gpt-6-luna",
+      "effort": "none",
+      "prompt_hash": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1"
+    }
+  },
+  "projections": [],
+  "controls": {
+    "budget_usd": 2.0,
+    "max_output_tokens": 4096,
+    "max_workers": 1,
+    "max_fallback_fraction": 0
+  },
+  "projection_notes": [
+    "Estimates, not executions; recalibrate after 500 and 10,000 reviews.",
+    "The summary declares the verification sampling frame. Exact reuse preserves all original IDs in business counts.",
+    "Grouping and memo are bounded fixed overhead once each; no provider Batch discounts are assumed.",
+    "Single-worker projection uses observed stage durations; sustained throughput and local ingestion costs remain uncertain."
+  ]
+}

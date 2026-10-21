@@ -1,0 +1,89 @@
+{
+  "scope": "Assistant inspection, not human golden labels",
+  "examples": [
+    {
+      "review_id": "91132204-877d-4ac1-9d08-20d03f1414f6",
+      "topic": "usability",
+      "severity": 5,
+      "intent": "cancellation",
+      "text": "I had to delete and uninstall this app more than one time and I still have the same problem with it it's somehow decides to automatically start playing. Even over other media audio applications plus they keep changing the location of where you can shut off the permissions for that. It's absolutely trash and I would suggest that no one use it because it takes takes over too many permissions on your phone and it really really does spy on your privacy"
+    },
+    {
+      "review_id": "013d0737-24f8-481e-b3bc-b3aad1996acf",
+      "topic": "usability",
+      "severity": 4,
+      "intent": "cancellation",
+      "text": "Very invasive app, couldn't figure out how to turn it off in the background (or turn it off in general). Went through all the settings and nothing helped. Ended up unistalling as the app would take over the audio in my car every time I connected my phone."
+    },
+    {
+      "review_id": "0195d699-61d1-4fbb-a51b-508fc00c04db",
+      "topic": "usability",
+      "severity": 4,
+      "intent": "cancellation",
+      "text": "The upgraded version is so bad that one can't even repeat a song or play it from where they want! How greedy this people are.... they want us to pay FOR basic functionality of a music app. I am extremely disappointed and disgusted right now never ever using this AGAIN. Make the app just as before or else just see your users go down faster than Apple dropping from a tree. It was my comfort app but now I just purely hate it. I WILL NOT TAKE PREMIUM DO WHATEVER YOU WANT!!! It's a less than 1!"
+    },
+    {
+      "review_id": "004d1c8a-a8c8-4746-b975-cd2f31c2a730",
+      "topic": "playback",
+      "severity": 4,
+      "intent": "complaint",
+      "text": "Until a few days ago the app was great but now it's not even playing songs. It just keeps loading even when there's active internet and all other apps are able to work..songs just don't play. I've restarting my phone updated the app done literally everything the songs just don't play. Horrible experience."
+    },
+    {
+      "review_id": "0148ad58-a4de-4f28-b81b-073ce9a24a68",
+      "topic": "playback",
+      "severity": 4,
+      "intent": "complaint",
+      "text": "Not working on my phone now after updating the damn app"
+    },
+    {
+      "review_id": "022dcbce-b629-4b22-8dbf-900f748a3097",
+      "topic": "playback",
+      "severity": 4,
+      "intent": "complaint",
+      "text": "I can't play song pls fix the bug"
+    },
+    {
+      "review_id": "41c0c736-6617-466a-8e4d-3a2b551185e5",
+      "topic": "billing",
+      "severity": 5,
+      "intent": "complaint",
+      "text": "I had unsubscribed, and Spotify stole My money!!!"
+    },
+    {
+      "review_id": "5782aeec-f1e0-4730-a0c4-51ba54303b27",
+      "topic": "billing",
+      "severity": 5,
+      "intent": "complaint",
+      "text": "Rough experience with Duo plan technical issues. Customer support has no power to credit users for lost service. We paid for duo for a month before we managed to get it working with tech support. No credit. No discount. No refund (even partial) I entreat Spotify to make it right. I'll likely change my opinion if they do."
+    },
+    {
+      "review_id": "6985febf-75fa-47e9-9a86-c62f47a18554",
+      "topic": "billing",
+      "severity": 5,
+      "intent": "complaint",
+      "text": "ME ENCANTA SPOTIFY, EL ÚNICO PROBLEMA ES QUE NUEVAMENTE LE COBRARON A JAIME ROSALES, QUE ES GRATIS SUPUESTAMENTE Y ÉL NO LO USA. SOY YO LA QUE LO QUIERO."
+    },
+    {
+      "review_id": "9ec6712e-a862-4605-ae0e-e6998105f921",
+      "topic": "other",
+      "severity": 5,
+      "intent": "cancellation",
+      "text": "Developer's, You collect to much of my personal info, then it states I can delete all of my personal info. I can't delete mine! I just turned phone on. Spotify was playing a show when I didn't turn Spotify on. I uninstalled the application. I want my personal information Deleted! Please fix this. I don't know what Android wear is, but that's the 1st question."
+    },
+    {
+      "review_id": "263885b2-8240-437d-8ba6-c09471c052fc",
+      "topic": "other",
+      "severity": 4,
+      "intent": "complaint",
+      "text": "Can't even use it now"
+    },
+    {
+      "review_id": "2d065b1d-6f0c-43e5-9955-e4a7c7c0d172",
+      "topic": "other",
+      "severity": 4,
+      "intent": "complaint",
+      "text": "Spotify wrapped is no longer available in Bangladesh."
+    }
+  ]
+}

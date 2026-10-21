@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Users say updates have made the app harder to use, especially by limiting control over songs and personal playlists or removing familiar features.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "App usability and feature changes"
+  },
+  {
+    "description": "Users report songs playing unexpectedly or not playing at all, and playback stopping when they switch to other apps.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "Unreliable music playback"
+  },
+  {
+    "description": "Users object to unexpected charges and to core features becoming unavailable after a premium subscription ends or without paying.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Charges and premium restrictions"
+  },
+  {
+    "description": "General dissatisfaction with the app or its updates without a specific problem identified.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "General dissatisfaction"
+  },
+  {
+    "description": "Users have difficulty searching for music, browsing genres, and discovering or revisiting content through the interface.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Finding and discovering music"
+  },
+  {
+    "description": "Users cannot log in or access their accounts, sometimes after an error or app loading failure.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Account access and login problems"
+  },
+  {
+    "description": "Users report lost downloads and playlists, problems playing music offline, and downloaded or local files disappearing or becoming inaccessible.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Downloads and offline listening problems"
+  },
+  {
+    "description": "Users are disappointed with customer service responses and the handling of questions or eligibility concerns.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Customer support concerns"
+  }
+]

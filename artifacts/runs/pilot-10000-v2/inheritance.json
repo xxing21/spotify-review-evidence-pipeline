@@ -1,0 +1,11 @@
+{
+  "checkpoint_lineage": "Original 20-ID interruption snapshot is retained; extension snapshots record this run's new interruption and restart.",
+  "historical_calls_excluded_from_incremental_spend": true,
+  "historical_enrichment_calls": 48,
+  "imported_at": "2026-10-20T07:15:01.217082+00:00",
+  "new_api_calls_for_inheritance": 0,
+  "original_phase_and_request_ids_preserved": true,
+  "record_count": 500,
+  "source_input_sha256": "a94e31663ee7b7eaa77e23b7a8425b530cc0c866ed5e714953172a0afef6a12f",
+  "source_run": "pilot-500-v2"
+}

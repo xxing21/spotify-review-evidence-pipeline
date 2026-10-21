@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "spotify-label-v2-code-grounding",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "review_id": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string",
+          "enum": [
+            "access",
+            "usability",
+            "playback",
+            "downloads",
+            "catalog",
+            "billing",
+            "support",
+            "other"
+          ]
+        },
+        "intent": {
+          "type": "string",
+          "enum": [
+            "complaint",
+            "request",
+            "praise",
+            "cancellation",
+            "unclear"
+          ]
+        },
+        "sentiment": {
+          "type": "number",
+          "minimum": -1,
+          "maximum": 1
+        },
+        "severity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_quote": {
+          "type": "string"
+        },
+        "needs_review": {
+          "type": "boolean"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "status": {
+          "const": "completed"
+        },
+        "label_config": {
+          "type": "string"
+        },
+        "cache_source_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "review_id",
+        "topic",
+        "intent",
+        "sentiment",
+        "severity",
+        "entities",
+        "evidence_quote",
+        "needs_review",
+        "source_sha256",
+        "status",
+        "label_config"
+      ],
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "properties": {
+        "review_id": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        },
+        "status": {
+          "const": "quarantined"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "review_id",
+        "source_sha256",
+        "status",
+        "reason"
+      ],
+      "additionalProperties": true
+    }
+  ],
+  "description": "Final grading records. Development exports additionally retain pending IDs explicitly; pending is not a completed classification."
+}

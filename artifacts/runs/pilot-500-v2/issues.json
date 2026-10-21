@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Complaints that free listening is constrained by ads and limits on choosing, skipping, or playing songs in a preferred order, making the app frustrating to use.",
+    "issue_id": "ISSUE-USABILITY",
+    "name": "Listening controls and free-tier restrictions"
+  },
+  {
+    "description": "Reports of the app showing a black screen, shutting down during playback, or falsely reporting no internet connection while playing music.",
+    "issue_id": "ISSUE-PLAYBACK",
+    "name": "Playback and app stability"
+  },
+  {
+    "description": "Complaints about premium requirements, subscription access problems, and features or listening options being moved behind a paid plan.",
+    "issue_id": "ISSUE-BILLING",
+    "name": "Premium access and subscription concerns"
+  },
+  {
+    "description": "General negative reactions to the app or an update without a specific problem described.",
+    "issue_id": "ISSUE-OTHER",
+    "name": "General dissatisfaction"
+  },
+  {
+    "description": "Complaints about unavailable songs, limited previews, or trouble accessing Spotify Wrapped.",
+    "issue_id": "ISSUE-CATALOG",
+    "name": "Music catalog and content availability"
+  },
+  {
+    "description": "Reports of being unable to log in or access an account, including errors that persist despite working internet access elsewhere.",
+    "issue_id": "ISSUE-ACCESS",
+    "name": "Account login and access problems"
+  },
+  {
+    "description": "Problems with offline listening, downloads, storage changes, lost playlists, and related app integrations or settings.",
+    "issue_id": "ISSUE-DOWNLOADS",
+    "name": "Offline listening and saved music"
+  },
+  {
+    "description": "Negative feedback about Spotify customer support or its perceived stance on social issues.",
+    "issue_id": "ISSUE-SUPPORT",
+    "name": "Support and company stance"
+  }
+]

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotify-insight-pilot"
+version = "0.1.0"
+description = "Auditable, bounded Spotify review pilot"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+spotify-pipeline = "spotify_pipeline.cli:main"
+
+[tool.setuptools]
+packages = ["spotify_pipeline"]
+py-modules = ["check_submission"]
+
+[tool.setuptools.package-data]
+spotify_pipeline = ["prompts/*.md"]

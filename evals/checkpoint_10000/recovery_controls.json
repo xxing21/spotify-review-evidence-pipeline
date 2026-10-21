@@ -1,0 +1,12 @@
+{
+  "all_enrichment_ids_within_three_attempts": true,
+  "authorized_final_attempts": 80,
+  "each_repair_used_exactly_three_attempts": true,
+  "all_repaired_ids_completed": true,
+  "active_seconds": 6947.179664084004,
+  "active_limit_seconds": 10800,
+  "active_limit_respected": true,
+  "actual_attempts": 1034,
+  "actual_attempts_unique": true,
+  "synthetic_calls_in_business_measurement": 0
+}

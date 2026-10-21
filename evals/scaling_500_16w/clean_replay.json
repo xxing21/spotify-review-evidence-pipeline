@@ -1,0 +1,11 @@
+{
+  "saved_at": "2026-10-20T23:24:28.310360+00:00",
+  "passed": true,
+  "working_directory_outside_project": true,
+  "api_key_not_supplied": true,
+  "empty_local_state": true,
+  "portable_measurements_and_projections_identical": true,
+  "includes_batch10_candidate": true,
+  "includes_profiled_target_counts": true,
+  "real_model_calls": 0
+}

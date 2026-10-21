@@ -1,0 +1,13 @@
+{"height":30,"timestamp":1792477748,"title":"Actual pipeline subprocess output: interruption and resume","version":2,"width":110}
+[6.204984,"o","Saved enrichment: 10/100 completed\r\n"]
+[11.954982,"o","Saved enrichment: 20/100 completed\r\n"]
+[11.978689,"o","CHECKPOINT saved: 20 IDs; sending SIGINT to this worker\r\n"]
+[11.996645,"o","Interrupted after saved progress. Resume with the same explicit command.\r\n"]
+[18.153046,"o","Saved enrichment: 30/100 completed\r\n"]
+[24.189811,"o","Saved enrichment: 40/100 completed\r\n"]
+[30.352427,"o","Saved enrichment: 50/100 completed\r\n"]
+[36.241765,"o","Saved enrichment: 60/100 completed\r\n"]
+[42.506774,"o","Saved enrichment: 70/100 completed\r\n"]
+[48.933983,"o","Saved enrichment: 80/100 completed\r\n"]
+[55.422818,"o","Saved enrichment: 90/100 completed\r\n"]
+[61.248304,"o","Saved enrichment: 100/100 completed\r\n"]

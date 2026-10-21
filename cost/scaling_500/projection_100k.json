@@ -1,0 +1,51 @@
+{
+  "status": "estimated",
+  "projections": [
+    {
+      "scenario": "base_exact_reuse",
+      "estimated_api_usd": "6.61212090450",
+      "estimated_hours": 3.3868438627234325,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 8,
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "conservative_exact_reuse",
+      "estimated_api_usd": "6.978695348450",
+      "estimated_hours": 5.5327803530265856,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 73294,
+      "verification_source_ids": 20000,
+      "workers": 8,
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "base_no_reuse",
+      "estimated_api_usd": "7.94780146500",
+      "estimated_hours": 4.491703605554561,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 8,
+      "estimate_not_execution": true
+    },
+    {
+      "scenario": "conservative_no_reuse",
+      "estimated_api_usd": "8.447943965000",
+      "estimated_hours": 7.355798928697948,
+      "target_classified_nonempty_ids": 100000,
+      "estimated_distinct_texts": 100000,
+      "verification_source_ids": 20000,
+      "workers": 8,
+      "estimate_not_execution": true
+    }
+  ],
+  "notes": [
+    "Extrapolates the measured eight-worker phase, not divided single-worker time.",
+    "Exact reuse fraction is corpus-level; actual 100k subset distinct count is not yet measured.",
+    "Unknown charges, hosting/local compute and unused historical caches are not included in these forecast subtotals.",
+    "Short fresh-input phases may overstate sustained throughput; conservative case adds 50% time and at least 10% retries."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "saved_at": "2026-10-21T00:58:13.256880+00:00",
+  "completed_original_ids": 100000,
+  "source_values_hashes_and_quote_entities_valid": true,
+  "scoped_checker_status": "review_required",
+  "scoped_checker_issue_counts": {
+    "invalid_usage": 96
+  },
+  "full_file_checker_status": "review_required",
+  "full_file_checker_issue_counts": {
+    "invalid_usage": 96,
+    "unfinished_classification": 1
+  },
+  "full_file_count": 660622,
+  "classified_nonempty": 100000,
+  "empty_quarantines": 13,
+  "outside_sample_scope": 560609,
+  "verification_random_source_sample_exact": true,
+  "model_inputs_source_only": true,
+  "max_label_attempts_per_source_id": 3,
+  "ranking_identical_offline": true,
+  "doubled_rates_double_spend": true,
+  "doubled_rates_preserve_measured_time": true,
+  "changed_volume_preserves_measurements": true,
+  "warm_new_calls": 0,
+  "global_committed_usd": "4.975266680",
+  "under_shared_10_usd_cap": true,
+  "fully_reconciled_checker_pass": false,
+  "passed": true
+}

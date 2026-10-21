@@ -1,0 +1,31 @@
+{
+  "alternative_issue_ids": [
+    "ISSUE-PLAYBACK",
+    "ISSUE-BILLING",
+    "ISSUE-ACCESS"
+  ],
+  "claim_ids": [
+    "ISSUE-USABILITY-complaint_count",
+    "ISSUE-USABILITY-severity_sum",
+    "ISSUE-USABILITY-mean_severity",
+    "ISSUE-PLAYBACK-complaint_count",
+    "ISSUE-PLAYBACK-severity_sum",
+    "ISSUE-PLAYBACK-mean_severity",
+    "ISSUE-BILLING-complaint_count",
+    "ISSUE-BILLING-severity_sum",
+    "ISSUE-BILLING-mean_severity",
+    "ISSUE-ACCESS-complaint_count",
+    "ISSUE-ACCESS-severity_sum",
+    "ISSUE-ACCESS-mean_severity"
+  ],
+  "limitations": "This is a development pilot, not a full-corpus finding. Reviewers self-select, the evidence reflects a bounded historical window, and the pilot is limited in size. Issue labels can be uncertain or combine distinct concerns; the supplied examples are illustrative and may not represent all complaints. Cancellation statements express intent or reported action only, not observed churn or its cause.",
+  "priority_issue_id": "ISSUE-USABILITY",
+  "rationale": "Prioritize unwanted playback and difficult controls: this issue has the largest reported complaint volume and severity sum among the supplied alternatives. Playback failures are a credible alternative because their average severity is higher, while billing disputes and account-access problems include serious examples but rank lower on aggregate volume and severity. This supports triage for further investigation, not a conclusion about prevalence across Spotify users or causal impact.",
+  "review_ids": [
+    "91132204-877d-4ac1-9d08-20d03f1414f6",
+    "013d0737-24f8-481e-b3bc-b3aad1996acf",
+    "004d1c8a-a8c8-4746-b975-cd2f31c2a730",
+    "41c0c736-6617-466a-8e4d-3a2b551185e5",
+    "55123d02-711d-4e41-b644-06e2c3c4db18"
+  ]
+}

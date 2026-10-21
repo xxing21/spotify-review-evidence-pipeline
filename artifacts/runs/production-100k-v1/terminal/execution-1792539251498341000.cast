@@ -1,0 +1,5 @@
+{"version": 2, "width": 110, "height": 30, "timestamp": 1792539251, "title": "Spotify scaling pilot: actual process output"}
+[4.362572374986485, "o", "START enrich-probe: 1 workers; {'pending': 1}"]
+[4.362621957989177, "o", "\n"]
+[19.610276708001038, "o", "{\n  \"status\": \"checkpoint_saved\",\n  \"run_id\": \"production-100k-v1\",\n  \"completed\": 532,\n  \"pending\": 99468,\n  \"input_count\": 100000,\n  \"unique_texts\": 78288,\n  \"exact_text_reuses\": 512,\n  \"active_seconds\": 11.574398833006853,\n  \"verification_count\": 0,\n  \"verification_fraction\": 0.05,\n  \"calls\": 1,\n  \"known_api_usd\": \"0.000884675\",\n  \"unknown_usage_calls\": 0,\n  \"unresolved_reserved_usd\": \"0\",\n  \"global_committed_usd\": \"0.718006615\",\n  \"shared_cap_usd\": 10,\n  \"error\": null,\n  \"phase_measurements\": [\n    {\n      \"phase\": \"enrich-probe\",\n      \"queue\": {\n        \"completed\": 1\n      },\n      \"saved_at\": \"2026-10-20T23:34:27.431925+00:00\",\n      \"seconds\": 11.571242624981096,\n      \"workers\": 1\n    }\n  ]\n}"]
+[19.610451915999874, "o", "\n"]

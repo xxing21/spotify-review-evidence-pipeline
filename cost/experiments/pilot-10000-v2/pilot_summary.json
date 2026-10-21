@@ -1,0 +1,13 @@
+{
+  "status": "incomplete",
+  "run_id": "pilot-10000-v2",
+  "input_count": 10000,
+  "measurement_kind": "incremental_checkpoint",
+  "completed": 9620,
+  "quarantined": 80,
+  "pending": 300,
+  "cold_seconds": null,
+  "warm_seconds": null,
+  "incremental_seconds": 5455.981839583008,
+  "reason": "See saved attempts; incomplete checkpoint is not a successful run"
+}

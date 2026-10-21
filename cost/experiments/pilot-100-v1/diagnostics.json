@@ -1,0 +1,5 @@
+{
+  "status": "pending_model_access",
+  "real_diagnostic_calls": 0,
+  "note": "Real injection and planted-error model checks have not run; unit tests are separately identified as synthetic."
+}
