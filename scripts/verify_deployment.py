@@ -1,5 +1,6 @@
 """Read-only, signed-out verification of the submitted Vercel/Neon deployment."""
 import json
+import argparse
 import sys
 import urllib.error
 import urllib.parse
@@ -22,6 +23,13 @@ def request(path, method="GET", body=None):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--reviewed',action='store_true')
+    args=parser.parse_args()
+    root=Path('artifacts/runs/production-100k-v1')
+    revision=root/'revisions/submission-review-v1'
+    verification=read_json(revision/'verification_reviewed.json') if args.reviewed and (revision/'verification_reviewed.json').exists() else read_json(root/'verification.json')
+    complete=len(verification['predictions']);partial=len(verification.get('refusals',[]))
     health_status, health = request("/api/health")
     assert health_status == 200 and health["database"] == "connected"
     status, summary = request("/api/summary")
@@ -29,13 +37,18 @@ def main():
     assert status == 200 and summary["status"] == "completed"
     assert summary["completed"] == saved["completed"] == 100000
     assert summary["verified"] == 5000
-    assert summary["quality"]["complete_prediction_count"] == 4998
-    assert summary["quality"]["refusal_count"] == 2
+    assert summary["quality"]["complete_prediction_count"] == complete
+    assert summary["quality"]["refusal_count"] == partial
+    if args.reviewed:
+        assert summary['reviewed_memo'] is True and summary['reviewed_verification'] is True
+        golden=read_json('evals/production_golden/acceptance.json')
+        assert summary['quality']['production_golden']['agreement']==golden['agreement']
+        assert summary['quality']['production_golden']['original_human_labels_sha256']==golden['original_human_labels_sha256']
     local_ranking = list(csv_rows("artifacts/runs/production-100k-v1/ranking.csv"))
     for remote, local in zip(summary["ranking"], local_ranking, strict=True):
         for key in local:
             assert str(remote[key]) == local[key], (key, remote, local)
-    local_memo = read_json("artifacts/runs/production-100k-v1/memo.json")
+    local_memo = read_json(revision/'memo.json' if args.reviewed else root/'memo.json')
     assert summary["memo"] == local_memo
     local_claims = list(csv_rows("artifacts/runs/production-100k-v1/claims.csv"))
     assert summary["claims"] == local_claims
@@ -59,12 +72,14 @@ def main():
     report = {"saved_at": now(), "url": BASE, "passed": True,
         "signed_out_public_access": True, "database_connected": True,
         "completed_reviews": 100000, "verification_outcomes": 5000,
-        "complete_verifier_predictions": 4998, "partial_refusals": 2,
+        "complete_verifier_predictions": complete, "partial_refusals": partial,"reviewed_memo":args.reviewed,
         "rankings_memo_claims_equal_saved_files": True,
         "pagination_unique": True, "source_hashes_and_quotes_valid": True,
         "filters_valid": True, "invalid_filter_rejected": True,
         "literal_sql_injection_search": True, "unauthorized_import_rejected": True,
         "model_calls": 0}
+    if args.reviewed:
+        report['final_configuration_human_agreement']=summary['quality']['production_golden']['agreement']
     write_json("evals/dashboard/vercel_live_e2e.json", report)
     print(json.dumps(report, indent=2))
 

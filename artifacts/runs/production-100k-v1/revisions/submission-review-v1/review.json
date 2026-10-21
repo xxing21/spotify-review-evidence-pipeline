@@ -1,0 +1,16 @@
+{
+  "prepared_at": "2026-10-21T01:54:02.588746+00:00",
+  "status": "published",
+  "original_memo_sha256": "99edbf80f96a5fc62260634f75defc63cb10ac5c040d5e6d95ab2da1080c7687",
+  "reviewed_memo_sha256": "7e5f903f1ddc9e623d6c116e7e479b530c4acdb3342fdab35a05889831c46336",
+  "reviewed_memo_path": "artifacts/runs/production-100k-v1/revisions/submission-review-v1/memo.json",
+  "records_sha256": "9588611d3902d66e74e6096b44e82ec32904f69832cf68be2150c96da8ee69ee",
+  "ranking_sha256": "8de773b8333ce216e4aad9758bd8aa109babd96a2cc416ec670b1a8cdc27af62",
+  "claims_sha256": "f373b947d8bb11ba0c3850eb5bf2824ea602e2f447e57d12de968353b320d202",
+  "source_reviews_unchanged": true,
+  "classification_changes": 0,
+  "claims_unchanged": true,
+  "new_model_calls": 0,
+  "original_memo_preserved": true,
+  "published_at": "2026-10-21T02:57:04.299469+00:00"
+}

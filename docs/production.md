@@ -16,14 +16,20 @@ Prompts are versioned by content hashes. Models have no tools or credentials.
 Enrichment uses Responses, batches of 20. Independent GPT Decisions uses batches
 of ten, up to eight workers and seed `spotify-100k-verification-v2-5pct`.
 Every question names its original ID; the verifier sees text and rubric only.
-Its five sentiment levels map to -1, -0.5, 0, 0.5, 1. Exact sentiment agreement
-with a continuous enrichment score is not a useful standalone quality measure.
+Its five sentiment levels define a score index from 0 to 4; fractional answers
+are allowed. Code maps the score with index / 2 - 1 into the continuous -1 to +1
+range. Sentiment MAE is reported; exact floating-score equality is not a useful
+standalone quality measure.
 
 Two batches exhausted their permitted invalid-output retry because one field
 was refused on both attempts. Offline recovery requires exact question names,
 order and answer types; it preserves nine complete rows per batch and two
 partial rows separately. No replacement labels or extra attempts are inferred.
-Queue status is `resolved_partial`. Complete-prediction metrics use 4,998 rows.
+The original queue status remains `resolved_partial`, preserving the baseline.
+A later explicitly authorized final attempt for those same two source IDs completed
+both in one request. The reviewed verification artifact has all 5,000 complete
+predictions and links to its supplemental run. Original failed calls and reports
+remain unchanged; no fourth attempt or replacement source ID was allowed.
 
 ## Served application
 
@@ -44,12 +50,13 @@ there is no endpoint that starts paid inference. Source reviews render as text.
 Searches bind parameters and escape wildcard characters. Reads are public for
 grading; writes require the import token.
 
-The deployed version displays 5,000 verification outcomes. The public summary
-also returns `quality.complete_prediction_count=4998`, `quality.refusal_count=2`
-and cost reservation metadata. Later local UI edits place these caveats beside
-the metric tiles. Their redeploy was declined, so the existing deployment was
-preserved. README and saved reports explicitly disclose both caveats. This
-source/deployment difference does not change saved results, ranking or memo.
+The current deployment displays 5,000 complete verification predictions, zero
+remaining partial answers, and the reserves for missing usage. The Method page
+also displays the separate final-configuration human agreement of 74% topic,
+86% intent and 72% severity. The served memo is the saved assistant-reviewed
+revision; it acknowledges that the historical crash example was later fixed.
+The original generated memo and original 4,998-complete baseline remain in the
+public evidence. Live API verification checks the reviewed artifacts explicitly.
 
 ## Local dashboard
 

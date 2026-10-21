@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-10-21T01:38:23.007765+00:00",
+  "scope": "100000 original nonempty classifications; entire source ingestion",
+  "paid_model_calls": 0,
+  "criteria": {
+    "1_ingestion": {
+      "status": "met",
+      "full_rows": 660622,
+      "all_stored_source_values_and_hashes_match": true,
+      "profile_recomputed_matches": true
+    },
+    "2_classifications": {
+      "status": "met_for_100k_option",
+      "counts": {
+        "full_rows": 660622,
+        "outside_100k_scope": 560609,
+        "selected_completed": 100000,
+        "empty_quarantined": 13
+      },
+      "classification_pending_or_quarantined_in_selected_sample": 0,
+      "calls": 4474,
+      "missing_usage_calls": 48,
+      "scoped_checker_status": "review_required",
+      "checker_issues": {
+        "invalid_usage": 96
+      },
+      "all_work_spent_plus_reserves_usd": "4.975266680"
+    },
+    "3_roles": {
+      "status": "met",
+      "separately_prompted_roles": {
+        "enrich": 3970,
+        "verify": 502,
+        "group": 1,
+        "memo": 1
+      },
+      "all_attempt_handoffs_inspected": true,
+      "classification_inputs_only_original_text_and_id": true
+    },
+    "4_evaluations": {
+      "status": "met_with_quality_limitations",
+      "human_cases": 50,
+      "saved_system_tests": 40,
+      "original_pilot_checkpoint": 20,
+      "resumed_to": 100,
+      "pilot_calculator_saved_measurements_unchanged": true,
+      "additional_derived_fields": [
+        "unresolved_reservation_usd"
+      ],
+      "human_evaluation_configuration": "earlier batch10; not independent production batch20 accuracy"
+    },
+    "5_ranking": {
+      "status": "met",
+      "scores_and_order_identical_without_model": true
+    },
+    "6_memo_and_deployment": {
+      "status": "met_with_semantic_caveat",
+      "priority": "ISSUE-USABILITY",
+      "claim_and_source_references_valid": true,
+      "public_frontend_backend_database_verified": true,
+      "dashboard": "https://spotify-review-evidence-100k.vercel.app",
+      "caveat": "One historical playback quote explicitly says the problem was fixed; it does not prove a current unresolved defect. See memo_review.md."
+    }
+  },
+  "limitations": [
+    "Meets the at-least-100000 option; 560609 additional nonempty source rows are outside scope and remain unclassified.",
+    "The scoped checker remains review_required for 96 missing usage fields across 48 failed requests; reserves remain visible. This is not a clean billing reconciliation.",
+    "Two partial verifier refusals are retained; 4998 complete-prediction metric denominator. All selected enrichment records are complete.",
+    "Human evaluation used the earlier batch10 configuration; same-family verification does not establish human accuracy for production.",
+    "A playback evidence quote contains a resolved update. Historical claims must not be represented as current defects.",
+    "The public dashboard has all required views; newer local metric-tile caveat text has not been redeployed after the declined publish command."
+  ],
+  "overall": "Meets the supplied definitions for the at-least-100000 scope, with the disclosed checker, verification and semantic limitations; not a full-corpus or clean-checker completion claim."
+}

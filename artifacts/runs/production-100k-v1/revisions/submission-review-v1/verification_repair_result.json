@@ -1,0 +1,45 @@
+{
+  "prepared_at": "2026-10-21T02:41:02.262736+00:00",
+  "run_id": "verification-final-repair-v1",
+  "source_run": "production-100k-v1",
+  "review_ids": [
+    "a3480188-eba3-4f97-bcf5-280691f7ed43",
+    "537ae160-c12d-45c5-bc6a-f157c094e626"
+  ],
+  "prior_attempts_per_review": 2,
+  "maximum_additional_attempts_per_review": 1,
+  "original_verification_sha256": "ce1e2a0a15d3c5833db017353542aa6777539ba46119311cee5670cb779bf96a",
+  "repair_cap_usd": ".01",
+  "shared_cap_usd": "10",
+  "new_calls": 1,
+  "status": "completed",
+  "sample_unchanged": true,
+  "enrichment_predictions_sent": false,
+  "predictions": [
+    {
+      "review_id": "a3480188-eba3-4f97-bcf5-280691f7ed43",
+      "entities": [],
+      "evidence_quote": "enak banged inimah",
+      "topic": "other",
+      "intent": "praise",
+      "severity": 1,
+      "sentiment": 0.83,
+      "needs_review": true
+    },
+    {
+      "review_id": "537ae160-c12d-45c5-bc6a-f157c094e626",
+      "entities": [],
+      "evidence_quote": "Otha add punda ya varuthu enna da 2 song tha da mathuna Ella time um add punda",
+      "topic": "usability",
+      "intent": "complaint",
+      "severity": 1,
+      "sentiment": -0.635,
+      "needs_review": true
+    }
+  ],
+  "saved_at": "2026-10-21T02:41:04.286726+00:00",
+  "attempt_call_ids": [
+    "5609fb9f-28bc-4206-9b8a-0b53473bbbc7"
+  ],
+  "all_work_spent_plus_reserved_usd": "4.977749605"
+}

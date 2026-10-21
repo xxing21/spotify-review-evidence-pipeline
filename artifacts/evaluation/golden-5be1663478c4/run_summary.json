@@ -1,0 +1,45 @@
+{
+  "run_id": "golden-5be1663478c4",
+  "scope": "development_only",
+  "input_count": 50,
+  "statuses": {
+    "completed": 50
+  },
+  "exact_text_reuses": 1,
+  "model_attempts": 3,
+  "failed_attempts": 0,
+  "inherited_record_count": 0,
+  "inherited_model_attempts": 0,
+  "active_seconds": 0,
+  "spent_plus_unresolved_reservations_global_usd": "4.977458705",
+  "account_repair_windows": [],
+  "config": {
+    "batch_size": 20,
+    "effort": "none",
+    "execution_mode": "production-100k-v1",
+    "fallback_fraction": 0,
+    "initial_phase": "enrich-probe",
+    "label_batch_identity": "batch-context-v1",
+    "max_attempts": 3,
+    "max_output_tokens": 4096,
+    "model": "gpt-6-luna",
+    "pilot_run_cap_usd": 10,
+    "prompt_hashes": {
+      "enrich": "ab9c554709eaee5cd29723b3da6cac136486fb9303530c0307b8f9a43f174fb1",
+      "group": "019cf9046eee6104c99caad4a2abab58af5a7362771cfab04a8f69b3727d418e",
+      "memo": "7bc1100ce63aab999edf4fce853be0dd34b574cf93348b1ff89ea1161807c6e3",
+      "verify": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56"
+    },
+    "routing_schema": "review-id-enum-v1",
+    "schema_version": "spotify-label-v4-batch20",
+    "service_tier": "default",
+    "verification_batch_size": 10,
+    "verification_endpoint": "decisions",
+    "verification_fraction": 0.05,
+    "verification_predicate_threshold": 0.5,
+    "verification_schema_version": "decisions-verifier-v3-batch10-five-levels",
+    "verification_seed": "spotify-100k-verification-v2-5pct",
+    "verification_sentiment_mapping": "index_0_4_to_minus1_plus1",
+    "workers": 16
+  }
+}

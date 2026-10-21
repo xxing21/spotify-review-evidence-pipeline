@@ -14,7 +14,8 @@ from decimal import Decimal
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from spotify_pipeline.common import LABEL_FIELDS, now, read_json, write_json
+from spotify_pipeline.common import LABEL_FIELDS, csv_rows, now, read_json, sha, write_json
+from spotify_pipeline.pipeline import validate_memo
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -26,6 +27,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--url',required=True)
     parser.add_argument('--partial',action='store_true',help='Publish actual saved progress while the run is incomplete')
+    parser.add_argument('--reviewed',action='store_true',help='Explicitly publish the validated reviewed memo and any accepted supplemental verification')
     args=parser.parse_args()
     origin=args.url.rstrip('/')
     if origin not in {'https://spotify-review-evidence-100k.vercel.app','https://spotify-review-evidence-100k.black-jelly-1742.chatgpt.site'}:
@@ -49,13 +51,32 @@ def main():
             rows.append(record|{'review_text':original['review_text'],'source':original})
     calls=[json.loads(row[0]) for row in connection.execute('SELECT event FROM calls WHERE run_id=? ORDER BY rowid',(run,))]
     saved={name:json.loads(value) for name,value in connection.execute('SELECT name,value FROM artifacts WHERE run_id=?',(run,))}
+    global_committed=sum((Decimal(actual if actual is not None else reserved) for actual,reserved in connection.execute('SELECT actual,reservation FROM calls')),Decimal(0))
     connection.close()
+    revised_verification=False
+    if args.reviewed:
+        root=Path('artifacts/runs')/run;revised=root/'revisions/submission-review-v1'
+        review=read_json(revised/'review.json')
+        for key,name in [('original_memo_sha256','memo.json'),('records_sha256','records.jsonl'),('ranking_sha256','ranking.csv'),('claims_sha256','claims.csv')]:
+            if sha(root/name)!=review[key]:raise ValueError('Reviewed memo provenance changed; prepare and inspect it again')
+        memo=read_json(revised/'memo.json')
+        if sha(revised/'memo.json')!=review['reviewed_memo_sha256']:raise ValueError('Reviewed memo differs from its approved draft')
+        validate_memo(memo,list(csv_rows(root/'ranking.csv')),list(csv_rows(root/'claims.csv')),saved['evidence'])
+        saved['memo']=memo
+        if (revised/'verification_reviewed.json').exists():
+            repair=read_json(revised/'verification_repair_result.json')
+            candidate=read_json(revised/'verification_reviewed.json')
+            if repair['status']!='completed' or candidate['sample_ids']!=saved['verification']['sample_ids']:
+                raise ValueError('Supplemental verification is incomplete or changes the declared sample')
+            combined=candidate['predictions']+candidate.get('refusals',[])
+            if len(combined)!=5000 or {r['review_id'] for r in combined}!=set(candidate['sample_ids']):raise ValueError('Invalid reviewed verification coverage')
+            saved['verification']=candidate;revised_verification=True
     known=sum((Decimal(c['calculated_api_usd']) for c in calls if c.get('calculated_api_usd') is not None),Decimal(0))
     progress=read_json('artifacts/runs/production-100k-v1/progress.json')
     metadata={'known_api_usd':str(known),'cost_as_of':now(),'full_source_rows':660622,'full_source_empty_texts':13,
         'expected_distinct_texts':78288,'verification_fraction':.05,'snapshot_records':len(rows),
         'snapshot_note':'Actual saved SQLite results, not a new model execution',
-        'global_committed_usd':progress.get('global_committed_usd',progress.get('global_spent_plus_reserved_usd'))}
+        'global_committed_usd':str(global_committed),'reviewed_memo':args.reviewed,'reviewed_verification':revised_verification}
     unknown=[c for c in calls if c.get('calculated_api_usd') is None]
     metadata.update(unknown_usage_calls=len(unknown),unresolved_reserved_usd=str(sum((Decimal(c['reservation_usd']) for c in unknown),Decimal(0))))
     def post(payload):
@@ -112,6 +133,12 @@ def main():
             'agreement':{field:sum(p[field]==indexed[p['review_id']][field] for p in predictions)/n for field in LABEL_FIELDS},
             'severity_mae':sum(abs(p['severity']-indexed[p['review_id']]['severity']) for p in predictions)/n,
             'sentiment_mae':sum(abs(p['sentiment']-indexed[p['review_id']]['sentiment']) for p in predictions)/n}
+        golden_path=Path('evals/production_golden/acceptance.json')
+        if args.reviewed and golden_path.exists():
+            golden=read_json(golden_path)
+            if golden.get('status')=='completed':
+                quality['production_golden']={k:golden[k] for k in ('status','target_run_id','sample_count','valid_predictions',
+                    'batch_size','label_config','original_human_labels_sha256','agreement','severity_mae','sentiment_mae')}
         artifacts.append({'name':'quality','value':quality})
     post({'type':'artifacts','rows':artifacts})
     final=None
@@ -120,6 +147,7 @@ def main():
     report={'saved_at':now(),'origin':origin,'source_run':run,'uploaded_reviews':len(rows),'uploaded_checks':len(outcomes),
         'complete_verifier_predictions':len(saved.get('verification',{}).get('predictions',[])),'verifier_refusal_count':len(saved.get('verification',{}).get('refusals',[])),
         'uploaded_attempts':len(calls),'partial':args.partial,'finalization':final,'model_calls':0}
+    report.update(reviewed_memo=args.reviewed,reviewed_verification=revised_verification)
     write_json('evals/dashboard/upload_report.json',report)
     print(json.dumps(report,indent=2),flush=True)
 

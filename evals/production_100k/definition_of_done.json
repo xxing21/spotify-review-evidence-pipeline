@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-10-21T02:59:15.111141+00:00",
+  "scope": "100000 original nonempty classifications; entire source ingestion",
+  "paid_model_calls": 0,
+  "criteria": {
+    "1_ingestion": {
+      "status": "met",
+      "full_rows": 660622,
+      "all_stored_source_values_and_hashes_match": true,
+      "profile_recomputed_matches": true
+    },
+    "2_classifications": {
+      "status": "met_for_100k_option",
+      "counts": {
+        "full_rows": 660622,
+        "outside_100k_scope": 560609,
+        "selected_completed": 100000,
+        "empty_quarantined": 13
+      },
+      "classification_pending_or_quarantined_in_selected_sample": 0,
+      "calls": 4474,
+      "missing_usage_calls": 48,
+      "scoped_checker_status": "review_required",
+      "checker_issues": {
+        "invalid_usage": 96
+      },
+      "all_work_spent_plus_reserves_usd": "4.977749605"
+    },
+    "3_roles": {
+      "status": "met",
+      "separately_prompted_roles": {
+        "enrich": 3970,
+        "verify": 502,
+        "group": 1,
+        "memo": 1
+      },
+      "all_attempt_handoffs_inspected": true,
+      "classification_inputs_only_original_text_and_id": true
+    },
+    "4_evaluations": {
+      "status": "met_with_quality_limitations",
+      "human_cases": 50,
+      "saved_system_tests": 42,
+      "original_pilot_checkpoint": 20,
+      "resumed_to": 100,
+      "pilot_calculator_saved_measurements_unchanged": true,
+      "additional_derived_fields": [
+        "unresolved_reservation_usd"
+      ],
+      "human_evaluation_configuration": "original batch10 preserved; separate final batch20 comparison saved",
+      "final_configuration_human_evaluation": {
+        "saved_at": "2026-10-21T02:36:36.936786+00:00",
+        "target_run_id": "production-100k-v1",
+        "golden_run_id": "golden-5be1663478c4",
+        "label_config": "gpt-6-luna:5be1663478c40c393b9803ed8adbc2776070f3b86aa909269b9cb332f695fc94",
+        "source_sha256": "1a125c3e509f58b0246ba16d0ea332675a53ffadb1928be4338a0bd7053a11c7",
+        "original_human_labels_sha256": "4800864ae69dfb28d90a1b4f4abe7bc5d040e8e4b8e560103ef28b9ad54c1d86",
+        "sample_count": 50,
+        "batch_size": 20,
+        "schema_version": "spotify-label-v4-batch20",
+        "evaluation_cap_usd": "0.04",
+        "shared_cap_usd": "10",
+        "original_evaluation_preserved": true,
+        "adjudicated_reference_used": false,
+        "model_inputs": "original routing ID and text only; human answers never sent",
+        "status": "completed",
+        "paid_calls_dispatched": 3,
+        "valid_predictions": 50,
+        "known_api_usd": "0.002192025",
+        "missing_usage_calls": 0,
+        "new_calls": 3,
+        "all_work_spent_plus_reserved_usd": "4.977458705",
+        "human_labels_unchanged": true,
+        "earlier_evaluation_unchanged": true,
+        "agreement": {
+          "topic": 0.74,
+          "intent": 0.86,
+          "sentiment": 0.44,
+          "severity": 0.72,
+          "entities": 0.6,
+          "evidence_quote": 0.2,
+          "needs_review": 0.88
+        },
+        "severity_mae": 0.32,
+        "sentiment_mae": 0.198
+      }
+    },
+    "5_ranking": {
+      "status": "met",
+      "scores_and_order_identical_without_model": true
+    },
+    "6_memo_and_deployment": {
+      "status": "met_with_semantic_caveat",
+      "priority": "ISSUE-USABILITY",
+      "claim_and_source_references_valid": true,
+      "public_frontend_backend_database_verified": true,
+      "dashboard": "https://spotify-review-evidence-100k.vercel.app",
+      "caveat": "The reviewed memo explicitly qualifies the resolved crash report as historical evidence; no current unresolved defect is inferred."
+    }
+  },
+  "limitations": [
+    "Meets the at-least-100000 option; 560609 additional nonempty source rows are outside scope and remain unclassified.",
+    "The scoped checker remains review_required for 96 missing usage fields across 48 failed requests; reserves remain visible. This is not a clean billing reconciliation.",
+    "Original partial refusals and failed attempts are preserved; a separately authorized final repair completed both original cases. Reviewed verification has 5000 complete predictions.",
+    "The separate final batch20 human comparison is saved (74% topic, 86% intent, 72% severity); fifty cases with limited topic coverage do not establish population accuracy.",
+    "The reviewed memo and deployed dashboard explicitly identify the resolved playback report as historical evidence.",
+    "The public dashboard displays the reviewed evidence, complete verification count, missing-usage reserve and separate final human comparison."
+  ],
+  "overall": "Meets the supplied definitions for the at-least-100000 scope, with the disclosed checker, verification and semantic limitations; not a full-corpus or clean-checker completion claim."
+}

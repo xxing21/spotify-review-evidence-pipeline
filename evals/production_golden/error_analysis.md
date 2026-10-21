@@ -1,0 +1,49 @@
+# Golden diagnostic failures
+
+Human inspection of quote support, entities, ambiguous cases and causes remains required.
+
+- `292ce26a-815d-4bce-a3b6-93cb6c9e7e2c`: topic, sentiment, severity, entities, evidence_quote
+- `a70e8d3e-3f84-46bc-b008-67f476c67963`: sentiment, evidence_quote
+- `0d4f8b48-74c1-4e2a-89b5-11eaa737027e`: entities, evidence_quote
+- `991b6b3a-f511-458a-a5b7-234f78048fb5`: topic, sentiment, severity, evidence_quote
+- `599a0d41-989a-40ef-8ed2-e92db76eea46`: evidence_quote
+- `0c6ca545-3f89-4da6-b3db-1a352371fb6e`: severity, evidence_quote
+- `b567f70c-edba-4922-ac2a-e945e5eb3472`: sentiment, evidence_quote
+- `b5ee7834-a0eb-4c15-9c7b-935831021922`: sentiment, entities, evidence_quote
+- `1fc8b08f-7d6a-472f-b317-8ceb28d00f22`: topic, sentiment, evidence_quote
+- `947821dc-b356-45dc-a0bc-1903728fad40`: sentiment, entities, evidence_quote
+- `723f07de-9881-4049-8680-1a9e25652914`: topic, intent, sentiment, severity, entities, evidence_quote
+- `47428620-ec21-424d-a515-0b0b0012a5cf`: sentiment, severity, evidence_quote, needs_review
+- `fc344263-308d-48a1-9715-c380d063b6de`: sentiment, evidence_quote
+- `6112667b-3d71-475c-b1a4-159b87f73d2b`: sentiment
+- `01d453b0-dca3-42e9-8aa4-5fc167b08070`: sentiment, evidence_quote
+- `ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1`: entities, evidence_quote
+- `46842184-32f8-4088-ac15-2a700a7e94ed`: topic, intent, sentiment, severity
+- `657f1b77-0183-4b06-bf48-5e6d9ab08f9a`: severity, evidence_quote
+- `5de7f95b-ccad-41b2-9f63-a13f7c1d9f09`: sentiment, evidence_quote, needs_review
+- `de48c99b-46fe-4837-8634-e63dbc72a5ea`: entities, evidence_quote
+- `aa573851-0b86-4b1b-adf6-210268c08d2a`: entities, evidence_quote
+- `372d4e67-59cc-4c54-879f-3e8a202ee554`: intent, sentiment, entities, evidence_quote, needs_review
+- `47f1406d-4918-4d60-9647-5ca8e610caca`: sentiment, severity, entities, evidence_quote
+- `82780cbe-6435-4efb-84f6-8e5fa47ffc3a`: evidence_quote
+- `f4c8146a-d5c8-4168-b00e-21af666afc6a`: intent, sentiment
+- `3ddb3f4e-f7b9-430b-b335-eadc6d321f46`: intent, sentiment, entities, evidence_quote
+- `16d640e9-b281-4746-9562-c7dbcf7126b6`: topic, sentiment, severity, evidence_quote, needs_review
+- `8cc4fad4-26ec-47b7-96e8-49c7da714eca`: sentiment, evidence_quote
+- `215463ae-95b7-4481-8747-1754b68f31fa`: sentiment, entities, evidence_quote
+- `46c0b49f-83a1-427e-8f0b-cef62e3c94b5`: topic, entities, evidence_quote
+- `283b5843-a992-464f-b1dc-9dc7281ff390`: topic, sentiment, evidence_quote, needs_review
+- `1d15724a-98ff-400a-8083-0d9afc801098`: sentiment
+- `89ea724c-358f-48ab-9516-cd130d21c471`: sentiment, evidence_quote
+- `2aa566c6-b98d-4513-b900-83702a8db8eb`: topic, sentiment, evidence_quote
+- `8c0546b0-ce43-4a36-9d33-9f979e98d522`: topic, sentiment, entities, evidence_quote
+- `8fd3dd72-5535-40f6-8779-1bd60892131e`: sentiment
+- `b58dd6f0-ad88-4319-b6db-58afb60c37c1`: intent, sentiment, severity, entities, evidence_quote
+- `1a41c7e1-a655-4c63-b4db-c22bdff18003`: severity, evidence_quote
+- `dceb14e7-2df0-422f-bb2b-73d7c373159a`: topic, entities, evidence_quote
+- `5fba12ea-4980-4f25-a129-f830a3974fd2`: entities, evidence_quote
+- `ac4e860a-c042-49cc-90f3-189591c336ac`: topic, severity, entities, evidence_quote
+- `9034d675-9582-49b6-a1c1-c4ddabf8baf1`: severity, evidence_quote
+- `d2f3874f-d15d-4a2f-bb97-4f1213defa46`: severity, entities, evidence_quote
+- `99b93e31-9f15-4daa-88ac-349ab0419c48`: topic, intent, entities, evidence_quote, needs_review
+- `ca63dfbe-7120-4e18-af6e-8ea786cd157d`: evidence_quote

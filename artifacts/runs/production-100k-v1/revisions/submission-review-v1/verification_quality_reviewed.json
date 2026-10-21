@@ -1,0 +1,22 @@
+{
+  "sample_count": 5000,
+  "complete_prediction_count": 5000,
+  "refusal_count": 0,
+  "metric_denominator": 5000,
+  "method": "Original seeded same-model-family independent checks plus separately authorized final repair of the original two refused cases; not human accuracy.",
+  "core_label_disagreements": 1681,
+  "agreement": {
+    "topic": 0.883,
+    "intent": 0.93,
+    "severity": 0.7942,
+    "sentiment": 0.0326,
+    "entities": 1.0,
+    "evidence_quote": 1.0,
+    "needs_review": 0.8968
+  },
+  "severity_mae": 0.2176,
+  "sentiment_mae": 0.11634899999999998,
+  "original_partial_refusals_preserved": true,
+  "sample_unchanged": true,
+  "business_classifications_unchanged": true
+}

@@ -1,3 +1,5 @@
+test_final_verifier_attempt_respects_original_two_attempts_across_resume (test_evaluation.EvaluationTests.test_final_verifier_attempt_respects_original_two_attempts_across_resume) ... ok
+test_separate_final_report_preserves_original_reference_and_report (test_evaluation.EvaluationTests.test_separate_final_report_preserves_original_reference_and_report) ... ok
 test_incremental_projection_uses_new_work_and_source_row_verification (test_pipeline.CalculatorTests.test_incremental_projection_uses_new_work_and_source_row_verification) ... ok
 test_input_not_double_counted_reasoning_not_added (test_pipeline.CalculatorTests.test_input_not_double_counted_reasoning_not_added) ... ok
 test_rates_double_volume_independence (test_pipeline.CalculatorTests.test_rates_double_volume_independence) ... ok
@@ -126,6 +128,6 @@ test_sixteen_workers_batch20_unique_claims_and_versioned_cache (test_scaling.Sca
 test_uncertain_inflight_task_is_not_redispatched (test_scaling.ScalingTests.test_uncertain_inflight_task_is_not_redispatched) ... ok
 
 ----------------------------------------------------------------------
-Ran 40 tests in 1.126s
+Ran 42 tests in 1.132s
 
 OK

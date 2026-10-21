@@ -1,0 +1,79 @@
+[
+  {
+    "attempt": 3,
+    "attempt_window": 0,
+    "batch_size": 2,
+    "calculated_api_usd": "0.00029090",
+    "code_version": "0.1.0",
+    "duration_seconds": 0.30267395899863914,
+    "effort": "none",
+    "ended_at": "2026-10-21T02:41:03.260117+00:00",
+    "endpoint": "decisions",
+    "input_tokens": 2909,
+    "label_config": "",
+    "local_call_id": "5609fb9f-28bc-4206-9b8a-0b53473bbbc7",
+    "model": "gpt-6-luna",
+    "outcome": "succeeded",
+    "output_tokens": 0,
+    "payload_sha256": "bf4c213baf44f37c588dc9f6d68097453087b2113c1d9d183291c82f3c22bc12",
+    "phase": "final_authorized_repair",
+    "prior_enrichment_attempts": 2,
+    "prompt_hash": "d6d50625ed6e93b2d392707a51202eb6b11188097ad17be221d80a8bb205fe56",
+    "provider_request_id": "req_a56c0c5cf1f04a4c997d1a911cc4fc98",
+    "queue_task_key": null,
+    "rate_limit_headers": {
+      "x-ratelimit-limit-requests": "5000",
+      "x-ratelimit-limit-tokens": "2000000",
+      "x-ratelimit-remaining-requests": "4999",
+      "x-ratelimit-remaining-tokens": "1997090",
+      "x-ratelimit-reset-requests": "12ms",
+      "x-ratelimit-reset-tokens": "87ms"
+    },
+    "rate_snapshot_usd_per_token": {
+      "cache_write": "0",
+      "cached_input": "0",
+      "input": "1.0E-7",
+      "output": "0"
+    },
+    "request_id": "5609fb9f-28bc-4206-9b8a-0b53473bbbc7",
+    "requested_max_output_tokens": null,
+    "requested_model": "gpt-6-luna",
+    "requested_reasoning_effort": null,
+    "reservation_usd": "0.00142170",
+    "response_id": null,
+    "returned_model": "gpt-6-luna",
+    "review_ids": [
+      "a3480188-eba3-4f97-bcf5-280691f7ed43",
+      "537ae160-c12d-45c5-bc6a-f157c094e626"
+    ],
+    "role": "verify",
+    "routing_schema": "review-id-enum-v1",
+    "run_id": "verification-final-repair-v1",
+    "schema_version": "spotify-label-v4-batch20",
+    "service_tier": "default",
+    "started_at": "2026-10-21T02:41:02.280781+00:00",
+    "synthetic": false,
+    "task_attempt": 1,
+    "task_key": "bf4c213baf44f37c588dc9f6d68097453087b2113c1d9d183291c82f3c22bc12",
+    "usage": {
+      "input_tokens": 2909,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2909
+    },
+    "verification_config": {
+      "verification_batch_size": 10,
+      "verification_predicate_threshold": 0.5,
+      "verification_schema_version": "decisions-verifier-v3-batch10-five-levels",
+      "verification_sentiment_mapping": "index_0_4_to_minus1_plus1"
+    },
+    "worker_count": 16,
+    "worker_id": null
+  }
+]

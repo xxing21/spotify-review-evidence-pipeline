@@ -1,6 +1,6 @@
 # Spotify Review Evidence — 100,000-review submission
 
-[Live dashboard](https://spotify-review-evidence-100k.vercel.app) · [Recommendation](artifacts/runs/production-100k-v1/memo.md) · [Measured cost and time](cost/production_100k/report.md)
+[Live dashboard](https://spotify-review-evidence-100k.vercel.app) · [Reviewed recommendation](artifacts/runs/production-100k-v1/revisions/submission-review-v1/memo.md) · [Measured cost and time](cost/production_100k/report.md)
 
 The **100,000-review run is complete**, with original source IDs and hashes, four separately prompted roles, saved attempts/usage, recovery recordings, human evaluation, and a Vercel frontend/API backed by Neon Postgres. Browsing the app reads saved results and makes no model calls.
 
@@ -13,16 +13,16 @@ The **100,000-review run is complete**, with original source IDs and hashes, fou
 | Completed original review IDs | **100,000 / 100,000** |
 | Distinct texts / exact-text reuses | 78,288 / 21,712 |
 | Independent source-ID sample | 5,000 (5%) |
-| Complete independent predictions / partial refusals | 4,998 / 2 |
+| Complete independent predictions / remaining partial answers | **5,000 / 0** after the authorized final repair |
 | Active pipeline time, including retries | **55.69 minutes** |
 | First paid dispatch to last response, including recovery gaps | **76.94 minutes** |
 | Warm replay | 15.61 seconds, **zero new model calls** |
 | This run's usage-based API estimate | **US$4.083881615** |
 | This run's unresolved reserves | US$0.174263125 across 48 failed requests |
-| All pilots + production + all unresolved reserves | **US$4.975266680 / US$10** |
-| Offline control tests | 40 passed; simulated providers, separate from business records |
+| All pilots + production + all unresolved reserves | **US$4.977749605 / US$10** |
+| Offline control tests | 42 passed; simulated providers, separate from business records |
 
-Times exclude website development/deployment and final upload. API estimates use recorded usage and editable dated rates; they are not a reconciled invoice. Missing usage is visible, never treated as free. Hosting, hardware and electricity are separate and unmeasured. [Run summary](cost/production_100k/run_summary.json) · [Attempts](cost/production_100k/calls.jsonl) · [Global ledger](cost/budget_ledger.json).
+Times describe the original 100k execution and exclude later quality checks, website development/deployment and upload. The supplemental final checks made four calls costing US$0.002482925, within their separately authorized US$0.05 cap. API estimates use recorded usage and editable dated rates; they are not a reconciled invoice. Missing usage is visible, never treated as free. Hosting, hardware and electricity are separate and unmeasured. [Run summary](cost/production_100k/run_summary.json) · [Attempts](cost/production_100k/calls.jsonl) · [Global ledger](cost/budget_ledger.json).
 
 **Investigate usability first:** 12,575 complaint/cancellation reviews, severity sum 32,625, mean severity 2.594433. Playback is second by score (23,392), with higher mean severity (3.269779). Other is third (22,188), but is a broad catch-all requiring investigation before it becomes a concrete product task. Billing is fourth (17,132). These historical, self-selected reviews do not establish current defect rates, causation or measured churn. [Ranking](artifacts/runs/production-100k-v1/ranking.csv) · [Memo inspection](evals/production_100k/memo_review.md).
 
@@ -67,9 +67,11 @@ Code assigns each complaint/cancellation to exactly one topic issue. Priority is
 
 ## Quality and checker status
 
-The 5,000-ID sample contains 4,998 complete independent predictions and two partial refusals (one topic and one sentiment). Complete rows from those responses were recovered offline; refused fields remain unavailable. Both original failed attempts and charges remain recorded. Agreement denominator is 4,998: topic **88.30%**, intent **93.00%**, severity **79.43%**, severity MAE **0.2173**, sentiment MAE **0.1163**. This is **same-model-family consistency, not human accuracy**. [Quality](evals/production_100k/verification_quality.json) · [Disagreements](evals/production_100k/error_analysis.md) · [Refusal recovery](artifacts/runs/production-100k-v1/verification_refusal_recovery.json).
+The original seeded 5,000-ID sample now has **5,000 complete independent predictions and zero remaining partial answers**. The user authorized one final attempt for each of the original two refused IDs, with an absolute three-attempt maximum. Both completed in one two-review request. All original refusals, failed attempts and baseline reports remain preserved. No source ID was substituted and no business classification was changed. Final agreement: topic **88.30%**, intent **93.00%**, severity **79.42%**, severity MAE **0.2176**, sentiment MAE **0.116349**. This is **same-model-family consistency, not human accuracy**. [Reviewed verification and provenance](artifacts/runs/production-100k-v1/revisions/submission-review-v1/) · [Original baseline quality](evals/production_100k/verification_quality.json).
 
-All 50 original blind human labels are complete. Their original evaluation gave topic 82%, intent 88%, severity 66%, severity MAE 0.40 and sentiment MAE 0.238. It used the earlier batch-ten configuration, so it does not certify production's batch-twenty accuracy. All 21 topic/intent/severity disagreements were reviewed: 12 original human choices retained, 9 AI choices accepted. Original labels/predictions remain unchanged; the separate reviewed reference is **not a new blind accuracy result**. Category coverage is limited: access, billing and downloads have no human reference cases.
+The **final batch-twenty configuration** was evaluated separately against all 50 original human labels: topic **74%**, intent **86%**, severity **72%**, severity MAE **0.32**, sentiment MAE **0.198**. All 50 predictions are valid, using three new requests and one exact-text alias. [Final results and concrete failures](evals/production_golden/results.md) · [Complete comparison](evals/production_golden/golden_report.json) · [Acceptance and settings](evals/production_golden/acceptance.json).
+
+The earlier batch-ten human comparison remains topic 82%, intent 88%, severity 66%, severity MAE 0.40 and sentiment MAE 0.238. Final topic/intent agreement is lower while severity agreement is higher; this is a descriptive comparison, not proof of a population-wide change. The original labels, original predictions and all 21 later adjudications remain separate. No post-AI adjudicated answers were substituted in the final evaluation. Human category coverage remains limited: access, billing and downloads have no reference cases. These small evaluations do not establish general production accuracy.
 
 The scoped checker validates 100,000 IDs, hashes, quotes, cache provenance, membership, claims and ranking. Status remains **`review_required`** because 48 failed requests lack input/output usage (96 fields). The full-file adapter additionally reports 560,609 unclassified nonempty reviews. Neither is presented as a clean checker pass or a full-corpus run. [Acceptance](evals/production_100k/acceptance.json) separates successful processing controls from a fully reconciled checker pass, which remains false.
 
@@ -84,7 +86,7 @@ python3 -m unittest discover -s tests
 python3 -m spotify_pipeline production-replay
 python3 -m spotify_pipeline rank --run-id production-100k-v1
 python3 -m spotify_pipeline cost replay
-python3 scripts/verify_deployment.py
+python3 scripts/verify_deployment.py --reviewed
 ```
 
 Ranking falls back to saved artifacts when SQLite is absent. Rate edits recompute API costs; changing projected volume preserves measured results. The acceptance audit verifies doubled rates double API spend without changing measured time. Full-corpus projections are estimates, not further authorized execution. Raw production handoffs are archived as `handoffs.tar.gz` in the public package; unpack inside the run directory for inspection.
@@ -110,13 +112,19 @@ Paid commands require `--execute-paid` and a locally configured `OPENAI_API_KEY`
 | Real interruption and resume | [100-review recording](artifacts/runs/pilot-100-v2/recovery.cast), [before](artifacts/runs/pilot-100-v2/grading/checkpoint_before.json), [after](artifacts/runs/pilot-100-v2/grading/checkpoint_after.json), [100k recordings](artifacts/runs/production-100k-v1/terminal/) |
 | Batching, cache, parallel queues and budget | [Production](spotify_pipeline/production.py), [queue](spotify_pipeline/scaling.py), [summary](cost/production_100k/run_summary.json), [ledger](cost/budget_ledger.json) |
 | Offline cost/time calculator | [100k report, rates and arithmetic](cost/production_100k/), [invariant checks](evals/production_100k/acceptance.json) |
-| Fifty human labels and disagreements | [Original labels](evals/golden_labels.json), [blind results](evals/golden_results.md), [reviewed choices](evals/golden_adjudication_results.md) |
-| Independent verification | [Quality](evals/production_100k/verification_quality.json), [comparisons](artifacts/runs/production-100k-v1/verification.json), [error analysis](evals/production_100k/error_analysis.md) |
+| Fifty human labels and disagreements | [Original labels](evals/golden_labels.json), [final-configuration results](evals/production_golden/results.md), [earlier results](evals/golden_results.md), [reviewed choices](evals/golden_adjudication_results.md) |
+| Independent verification | [Final quality](artifacts/runs/production-100k-v1/revisions/submission-review-v1/verification_quality_reviewed.json), [final comparisons](artifacts/runs/production-100k-v1/revisions/submission-review-v1/verification_reviewed.json), [original comparisons](artifacts/runs/production-100k-v1/verification.json), [error analysis](evals/production_100k/error_analysis.md) |
 | Injection, planted errors and recovery tests | [Diagnostics](cost/diagnostics.json), [test outcomes](evals/system_checks.json), [tests](tests/) |
-| Deterministic ranking and recommendation | [Membership](artifacts/runs/production-100k-v1/membership.csv), [ranking](artifacts/runs/production-100k-v1/ranking.csv), [claims](artifacts/runs/production-100k-v1/claims.csv), [memo](artifacts/runs/production-100k-v1/memo.md), [inspection](evals/production_100k/memo_review.md) |
+| Deterministic ranking and recommendation | [Membership](artifacts/runs/production-100k-v1/membership.csv), [ranking](artifacts/runs/production-100k-v1/ranking.csv), [claims](artifacts/runs/production-100k-v1/claims.csv), [reviewed memo](artifacts/runs/production-100k-v1/revisions/submission-review-v1/memo.md), [original memo](artifacts/runs/production-100k-v1/memo.md), [inspection](evals/production_100k/memo_review.md) |
 | Checker and honest scope accounting | [Scoped checker](artifacts/runs/production-100k-v1/self-check.json), [full checker](evals/production_100k/full_file_self_check.json), public `grading/` export |
 | Deployed frontend/API/database | [Vercel dashboard](https://spotify-review-evidence-100k.vercel.app), [source](dashboard-vercel/), [Neon schema](dashboard-vercel/db/001_schema.sql), [signed-out checks](evals/dashboard/vercel_live_e2e.json) |
 
 The repository is the submission entry point. No course-portal submission has been made on the student's behalf. The private Sites prototype is superseded by Vercel. No further paid calls are needed for this 100k milestone.
 
 Dataset: supplied extract from [BwandoWando version 2](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews), publisher-listed CC0. Full-source SHA-256: `1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6`.
+
+## Published submission corrections
+
+The reviewed memo explicitly identifies the resolved crash report as historical. The deployed dashboard displays complete verification counts, the reserved cost for 48 requests with unavailable usage, and the final-configuration human comparison. Original 100k records, ranking and claims are byte-for-byte unchanged. Original generated memo, measurement files and partial-refusal evidence remain available as the baseline.
+
+The approved additional checks cost **US$0.002482925 / US$0.05**. All recorded API work plus unresolved reserves totals **US$4.977749605 / US$10**. [Final definition-of-done checklist](evals/production_100k/definition_of_done.md) · [Correction acceptance](evals/production_100k/corrections_acceptance.json) · [Usage reconciliation inventory](evals/production_100k/usage_reconciliation.json). Missing historical request usage remains unavailable; aggregate billing is not substituted for exact per-request token counts. This is the remaining checker exception.

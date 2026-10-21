@@ -70,12 +70,13 @@ def check_human_labels(path):
     return cases
 
 
-def evaluate(store, run_id, human_path="evals/golden_labels.json", predictions=None):
+def evaluate(store, run_id, human_path="evals/golden_labels.json", predictions=None, directory="evals"):
+    directory = Path(directory)
     cases = check_human_labels(human_path)
     if cases is None:
         result = {"status": "pending_human_labels", "required": 50,
                   "note": "No golden evaluation was performed; complete human labels before viewing predictions."}
-        write_json("evals/golden_report.json", result)
+        write_json(directory / "golden_report.json", result)
         return result
     predicted = predictions if predictions is not None else store.records(run_id)
     by_id = {r["review_id"]: r for r in predicted if r.get("status") == "completed"}
@@ -116,10 +117,10 @@ def evaluate(store, run_id, human_path="evals/golden_labels.json", predictions=N
         "per_topic_counts": dict(counts), "topic_confusion": {k: dict(v) for k, v in confusion.items()},
         "note": "Small diagnostic sample, not a population accuracy estimate. Missing predictions count as incorrect agreement.",
         "golden_influenced_tuning": False, "cases": details}
-    write_json("evals/golden_report.json", result)
-    write_jsonl("evals/golden_predictions.jsonl", [by_id[r["review_id"]] for r in cases if r["review_id"] in by_id])
+    write_json(directory / "golden_report.json", result)
+    write_jsonl(directory / "golden_predictions.jsonl", [by_id[r["review_id"]] for r in cases if r["review_id"] in by_id])
     disagreements = [r for r in details if not all(r["per_field_exact"].values())]
-    atomic_text("evals/error_analysis.md", "# Golden diagnostic failures\n\n" +
+    atomic_text(directory / "error_analysis.md", "# Golden diagnostic failures\n\n" +
         "Human inspection of quote support, entities, ambiguous cases and causes remains required.\n\n" +
         "\n".join(f"- `{r['review_id']}`: " + ", ".join(k for k,v in r['per_field_exact'].items() if not v) for r in disagreements) + "\n")
     return result

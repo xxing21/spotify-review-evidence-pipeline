@@ -1,3 +1,5 @@
+> Current submission: [production_100k/report.md](production_100k/report.md) records the actual 100k run. [budget_ledger.json](budget_ledger.json) includes all work and unknown-cost reserves under the shared US$10 cap. Original pilot measurements below retain their original scope and limits.
+
 # Offline calculator and explicit paid pilot
 
 From the project root, replay saved measurements without credentials or network:

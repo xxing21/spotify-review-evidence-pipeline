@@ -1,3 +1,5 @@
+> Historical 100/500-review architecture notes. The completed 100k implementation and deployed Vercel/Neon architecture are documented in [production.md](production.md).
+
 # Architecture and role boundaries
 
 ```mermaid

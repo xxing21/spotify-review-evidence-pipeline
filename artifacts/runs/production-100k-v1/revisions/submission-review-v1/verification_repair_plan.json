@@ -1,0 +1,18 @@
+{
+  "prepared_at": "2026-10-21T01:56:15.431488+00:00",
+  "run_id": "verification-final-repair-v1",
+  "source_run": "production-100k-v1",
+  "review_ids": [
+    "a3480188-eba3-4f97-bcf5-280691f7ed43",
+    "537ae160-c12d-45c5-bc6a-f157c094e626"
+  ],
+  "prior_attempts_per_review": 2,
+  "maximum_additional_attempts_per_review": 1,
+  "original_verification_sha256": "ce1e2a0a15d3c5833db017353542aa6777539ba46119311cee5670cb779bf96a",
+  "repair_cap_usd": ".01",
+  "shared_cap_usd": "10",
+  "new_calls": 0,
+  "status": "prepared",
+  "sample_unchanged": true,
+  "enrichment_predictions_sent": false
+}

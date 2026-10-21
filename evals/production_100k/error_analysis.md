@@ -1,6 +1,6 @@
 # Production verification: concrete disagreements
 
-5,000 original IDs were sampled independently; 4,998 have complete predictions, two have explicit partial refusals. There are 1,680 complete cases with at least one topic/intent/severity disagreement. Topic agreement is 88.30%, intent 93.00%, severity 79.43%; severity MAE 0.2173, sentiment MAE 0.1163. This measures same-model-family consistency, not human accuracy. The five-level verifier sentiment scale differs from enrichment's continuous score; MAE is more meaningful than exact equality.
+5,000 original IDs were sampled independently; 4,998 have complete predictions, two have explicit partial refusals. There are 1,680 complete cases with at least one topic/intent/severity disagreement. Topic agreement is 88.30%, intent 93.00%, severity 79.43%; severity MAE 0.2173, sentiment MAE 0.1163. This measures same-model-family consistency, not human accuracy. Decisions defines five sentiment anchors but may return a fractional score from 0 to 4; code maps it continuously into -1 to +1. MAE is reported instead of relying on exact floating-score equality.
 
 The following are saved comparisons, not new ground-truth judgments. No production labels were automatically replaced.
 

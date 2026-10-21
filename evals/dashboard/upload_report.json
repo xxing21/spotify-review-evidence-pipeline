@@ -1,11 +1,11 @@
 {
-  "saved_at": "2026-10-21T00:57:56.661115+00:00",
+  "saved_at": "2026-10-21T02:55:55.582470+00:00",
   "origin": "https://spotify-review-evidence-100k.vercel.app",
   "source_run": "production-100k-v1",
   "uploaded_reviews": 100000,
   "uploaded_checks": 5000,
-  "complete_verifier_predictions": 4998,
-  "verifier_refusal_count": 2,
+  "complete_verifier_predictions": 5000,
+  "verifier_refusal_count": 0,
   "uploaded_attempts": 4474,
   "partial": false,
   "finalization": {
@@ -13,5 +13,7 @@
     "reviews": 100000,
     "checks": 5000
   },
-  "model_calls": 0
+  "model_calls": 0,
+  "reviewed_memo": true,
+  "reviewed_verification": true
 }
